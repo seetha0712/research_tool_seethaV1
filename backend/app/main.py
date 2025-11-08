@@ -1,12 +1,13 @@
 from fastapi import FastAPI
-from app.api.endpoints import (auth, users, sources, articles, files, sync,paid_search, 
+from app.api.endpoints import (auth, users, sources, articles, files, sync,paid_search,
     dashboard, slidesgpt_proxy,deck_builder)
 
 from app.database import init_db
 from fastapi.middleware.cors import CORSMiddleware
 from app.logging_config import setup_logging
-from fastapi.staticfiles import StaticFiles  # NEW
-import os  
+from fastapi.staticfiles import StaticFiles
+from app.core.config import CORS_ORIGINS_LIST, ENVIRONMENT
+import os
 
 setup_logging()
 
@@ -15,13 +16,15 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="GenAI Research Tool API",
-    description="API backend for GenAI Research Tool"
+    description="API backend for GenAI Research Tool",
+    version="1.0.0"
 )
-origins = [
-    "http://localhost:3000",  # React dev server
-    "http://127.0.0.1:3000",
-    # Add your production domain here when deploying
-]
+
+# Load CORS origins from config (environment-aware)
+origins = CORS_ORIGINS_LIST
+
+logger.info(f"Starting application in {ENVIRONMENT} mode")
+logger.info(f"CORS origins: {origins}")
 
 app.add_middleware(
     CORSMiddleware,

@@ -1,11 +1,27 @@
-SECRET_KEY = "your-very-secure-secret"
-ALGORITHM = "HS256"
-OPENAI_API_KEY ="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"
-TAVILY_API_KEY="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"
-LOG_LEVEL = "INFO"  # Or "DEBUG", "WARNING", "ERROR"
-SERP_API_KEY="d6f6a4f80c651e3591ea4428d8dad377230145bbe98dcace058792341b757604"
-SLIDESGPT_API_KEY="3f1btmvs2a7h9trszhw1qv4xogivbqos"
-BACKEND_BASE = "http://localhost:8000"
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Security Configuration
+SECRET_KEY = os.getenv("SECRET_KEY", "your-very-secure-secret-change-this")
+ALGORITHM = os.getenv("ALGORITHM", "HS256")
+
+# API Keys - Load from environment variables
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "")
+SERP_API_KEY = os.getenv("SERP_API_KEY", "")
+SLIDESGPT_API_KEY = os.getenv("SLIDESGPT_API_KEY", "")
+
+# Application Configuration
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+BACKEND_BASE = os.getenv("BACKEND_BASE", "http://localhost:8000")
+ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
+
+# CORS Origins - Can be comma-separated list
+CORS_ORIGINS_STR = os.getenv("CORS_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000")
+CORS_ORIGINS_LIST = [origin.strip() for origin in CORS_ORIGINS_STR.split(",")]
 
 # --------- Category options (backend default display names) ----------
 CATEGORY_OPTIONS = [

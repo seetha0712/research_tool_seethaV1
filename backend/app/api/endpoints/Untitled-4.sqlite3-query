@@ -1,0 +1,20 @@
+-- database: /Users/seetha/llmprojects/research_tool/my-research-tool/backend/genai.db
+
+SELECT * FROM paid_articles;
+
+CREATE TABLE paid_articles (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER,
+    title TEXT,
+    summary TEXT,
+    content TEXT,
+    link TEXT,
+    source TEXT,
+    score REAL,
+    meta_data TEXT,
+    saved_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    query TEXT
+);
+
+ALTER TABLE paid_articles ADD COLUMN status VARCHAR DEFAULT 'new';
+ALTER TABLE paid_articles ADD COLUMN category VARCHAR DEFAULT '';

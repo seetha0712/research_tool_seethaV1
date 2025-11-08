@@ -1,0 +1,92 @@
+<svg width="1450" height="760" viewBox="0 0 1450 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- BROWSER & FRONTEND -->
+  <rect x="20" y="30" width="360" height="700" rx="26" fill="#FAFAFA" stroke="#aaa" stroke-width="2"/>
+  <text x="50" y="65" font-family="Arial" font-size="28" font-weight="bold" fill="#222">Browser</text>
+  <rect x="70" y="100" width="260" height="140" rx="12" fill="#fff" stroke="#0066cc" stroke-width="2"/>
+  <text x="95" y="135" font-family="Arial" font-size="20" font-weight="bold" fill="#0066cc">A1: React UI</text>
+  <text x="95" y="160" font-family="Arial" font-size="15" fill="#333">App.js + Components</text>
+  <text x="95" y="185" font-family="Arial" font-size="15" fill="#666">User clicks / input</text>
+
+  <!-- api.js Axios REST -->
+  <rect x="70" y="270" width="260" height="90" rx="12" fill="#fff" stroke="#0066cc" stroke-width="2"/>
+  <text x="95" y="300" font-family="Arial" font-size="17" font-weight="bold" fill="#0066cc">A2: api.js (Axios)</text>
+  <text x="95" y="325" font-family="Arial" font-size="15" fill="#333">JWT token REST API calls</text>
+
+  <!-- Arrow: Browser -> api.js -->
+  <line x1="200" y1="240" x2="200" y2="270" stroke="#999" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#888"/>
+    </marker>
+  </defs>
+
+  <!-- Arrow: api.js -> Backend -->
+  <line x1="330" y1="315" x2="520" y2="315" stroke="#999" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="355" y="305" font-family="Arial" font-size="13" fill="#555">REST API call (JWT)</text>
+  <text x="375" y="325" font-family="Arial" font-size="13" fill="#555">JSON Response</text>
+
+  <!-- BACKEND -->
+  <rect x="500" y="30" width="620" height="700" rx="26" fill="#FAFAFA" stroke="#aaa" stroke-width="2"/>
+  <text x="530" y="65" font-family="Arial" font-size="28" font-weight="bold" fill="#222">Backend</text>
+
+  <!-- FastAPI main.py -->
+  <rect x="550" y="100" width="150" height="80" rx="12" fill="#fff" stroke="#33c" stroke-width="2"/>
+  <text x="580" y="128" font-family="Arial" font-size="16" font-weight="bold" fill="#33c">B1: main.py</text>
+  <text x="563" y="153" font-family="Arial" font-size="14" fill="#333">FastAPI app + routes</text>
+
+  <!-- dependencies.py -->
+  <rect x="750" y="100" width="150" height="80" rx="12" fill="#fff" stroke="#33c" stroke-width="2"/>
+  <text x="780" y="128" font-family="Arial" font-size="16" font-weight="bold" fill="#33c">B2: dependencies.py</text>
+  <text x="755" y="153" font-family="Arial" font-size="14" fill="#333">Auth, DB session, JWT</text>
+
+  <!-- api/endpoints/*.py -->
+  <rect x="550" y="240" width="150" height="90" rx="12" fill="#fff" stroke="#33c" stroke-width="2"/>
+  <text x="562" y="268" font-family="Arial" font-size="16" font-weight="bold" fill="#33c">B3: api/endpoints/</text>
+  <text x="565" y="293" font-family="Arial" font-size="14" fill="#333">articles.py, etc</text>
+
+  <!-- database.py -->
+  <rect x="550" y="370" width="150" height="90" rx="12" fill="#fff" stroke="#33c" stroke-width="2"/>
+  <text x="573" y="398" font-family="Arial" font-size="16" font-weight="bold" fill="#33c">B6: database.py</text>
+  <text x="565" y="423" font-family="Arial" font-size="14" fill="#333">Session, Engine, ORM</text>
+
+  <!-- models.py/schemas.py -->
+  <rect x="750" y="240" width="150" height="90" rx="12" fill="#fff" stroke="#33c" stroke-width="2"/>
+  <text x="772" y="268" font-family="Arial" font-size="16" font-weight="bold" fill="#33c">models.py / schemas.py</text>
+  <text x="765" y="293" font-family="Arial" font-size="14" fill="#333">DB models, Pydantic</text>
+
+  <!-- services/ -->
+  <rect x="950" y="100" width="150" height="110" rx="12" fill="#fff" stroke="#33c" stroke-width="2"/>
+  <text x="972" y="128" font-family="Arial" font-size="16" font-weight="bold" fill="#33c">services/</text>
+  <text x="962" y="153" font-family="Arial" font-size="14" fill="#333">rss_service.py, chroma_service.py,</text>
+  <text x="962" y="172" font-family="Arial" font-size="14" fill="#333">llm_service.py, etc</text>
+
+  <!-- core/config.py + logging_config.py -->
+  <rect x="950" y="240" width="150" height="90" rx="12" fill="#fff" stroke="#33c" stroke-width="2"/>
+  <text x="972" y="268" font-family="Arial" font-size="16" font-weight="bold" fill="#33c">core/config.py</text>
+  <text x="962" y="293" font-family="Arial" font-size="14" fill="#333">logging_config.py</text>
+
+  <!-- Arrows inside Backend -->
+  <line x1="700" y1="140" x2="750" y2="140" stroke="#999" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="625" y1="180" x2="625" y2="240" stroke="#999" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="700" y1="285" x2="750" y2="285" stroke="#999" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="625" y1="330" x2="625" y2="370" stroke="#999" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="700" y1="185" x2="950" y2="155" stroke="#999" stroke-dasharray="4,4" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="625" y1="460" x2="1120" y2="610" stroke="#999" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="1100" y1="190" x2="1100" y2="285" stroke="#999" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="1100" y1="285" x2="625" y2="415" stroke="#999" stroke-dasharray="2,6" stroke-width="2"/>
+  <line x1="700" y1="415" x2="950" y2="285" stroke="#999" stroke-dasharray="2,6" stroke-width="2"/>
+
+  <!-- DATABASES -->
+  <ellipse cx="625" cy="570" rx="105" ry="45" fill="#fff" stroke="#009688" stroke-width="2"/>
+  <text x="565" y="574" font-family="Arial" font-size="18" font-weight="bold" fill="#009688">C1: SQL DB</text>
+  <ellipse cx="1125" cy="640" rx="105" ry="45" fill="#fff" stroke="#009688" stroke-width="2"/>
+  <text x="1070" y="644" font-family="Arial" font-size="18" font-weight="bold" fill="#009688">C2: ChromaDB</text>
+
+  <!-- Arrows: services <-> DBs -->
+  <line x1="625" y1="460" x2="625" y2="525" stroke="#009688" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="1100" y1="330" x2="1125" y2="595" stroke="#009688" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="1125" y1="595" x2="1100" y2="330" stroke="#009688" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="625" y1="615" x2="625" y2="665" stroke="#009688" stroke-dasharray="4,4" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="645" y="700" font-family="Arial" font-size="13" fill="#555">SQLAlchemy</text>
+  <text x="1150" y="700" font-family="Arial" font-size="13" fill="#555">vector store</text>
+</svg>

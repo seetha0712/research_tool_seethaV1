@@ -1,0 +1,482 @@
+[
+  {
+    "title": "Announcing the General Availability of SAP Business Data Cloud Connect to Databricks",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Announcing the General Availability of SAP Business Data Cloud Connect to Databricks"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/announcing-general-availability-sap-business-data-cloud-connect-databricks"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/announcing-general-availability-sap-business-data-cloud-connect-databricks",
+    "id": "https://www.databricks.com/blog/announcing-general-availability-sap-business-data-cloud-connect-databricks",
+    "guidislink": false,
+    "published": "Mon, 06 Oct 2025 13:45:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      6,
+      13,
+      45,
+      0,
+      0,
+      279,
+      0
+    ],
+    "summary": "Today, SAP Business Data Cloud Connect is generally available for Databricks customers....",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Today, SAP Business Data Cloud Connect is generally available for Databricks customers...."
+    },
+    "tags": [
+      {
+        "term": "Company",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Accelerating Loan Processing with AI on Databricks: How Vantage Bank Texas Transformed Lending Workflows",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Accelerating Loan Processing with AI on Databricks: How Vantage Bank Texas Transformed Lending Workflows"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/accelerating-loan-processing-ai-databricks-how-vantage-bank-texas-transformed-lending"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/accelerating-loan-processing-ai-databricks-how-vantage-bank-texas-transformed-lending",
+    "id": "https://www.databricks.com/blog/accelerating-loan-processing-ai-databricks-how-vantage-bank-texas-transformed-lending",
+    "guidislink": false,
+    "published": "Fri, 03 Oct 2025 21:00:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      3,
+      21,
+      0,
+      0,
+      4,
+      276,
+      0
+    ],
+    "summary": "Special thanks to Shawn Main, Chief Business Architect at Vantage Bank, for his vision...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Special thanks to Shawn Main, Chief Business Architect at Vantage Bank, for his vision..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Financial Services",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Smarter Supply Chains With Data and AI: Why It\u2019s Time to Rethink Inventory Management",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Smarter Supply Chains With Data and AI: Why It\u2019s Time to Rethink Inventory Management"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/smarter-supply-chains-data-and-ai-why-its-time-rethink-inventory-management"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/smarter-supply-chains-data-and-ai-why-its-time-rethink-inventory-management",
+    "id": "https://www.databricks.com/blog/smarter-supply-chains-data-and-ai-why-its-time-rethink-inventory-management",
+    "guidislink": false,
+    "published": "Wed, 01 Oct 2025 20:00:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      1,
+      20,
+      0,
+      0,
+      2,
+      274,
+      0
+    ],
+    "summary": "Supply chains have never been more complex or more critical to business success....",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Supply chains have never been more complex or more critical to business success...."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Magnite and Databricks Announce New Partnership to Transform Ad Data Activation",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Magnite and Databricks Announce New Partnership to Transform Ad Data Activation"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/magnite-and-databricks-announce-new-partnership-transform-ad-data-activation"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/magnite-and-databricks-announce-new-partnership-transform-ad-data-activation",
+    "id": "https://www.databricks.com/blog/magnite-and-databricks-announce-new-partnership-transform-ad-data-activation",
+    "guidislink": false,
+    "published": "Wed, 01 Oct 2025 15:40:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      1,
+      15,
+      40,
+      0,
+      2,
+      274,
+      0
+    ],
+    "summary": "Marketers have long struggled to connect their rich audience data with ad platforms quickly and securely...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Marketers have long struggled to connect their rich audience data with ad platforms quickly and securely..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Partners",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Mooncake Labs joins Databricks to accelerate the vision of Lakebase",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Mooncake Labs joins Databricks to accelerate the vision of Lakebase"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/mooncake-labs-joins-databricks-accelerate-vision-lakebase"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/mooncake-labs-joins-databricks-accelerate-vision-lakebase",
+    "id": "https://www.databricks.com/blog/mooncake-labs-joins-databricks-accelerate-vision-lakebase",
+    "guidislink": false,
+    "published": "Wed, 01 Oct 2025 07:00:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      1,
+      7,
+      0,
+      0,
+      2,
+      274,
+      0
+    ],
+    "summary": "We\u2019re excited to announce that Mooncake Labs is joining Databricks. Mooncake accelerates...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "We\u2019re excited to announce that Mooncake Labs is joining Databricks. Mooncake accelerates..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Announcements",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Intelligent Kubernetes Load Balancing at Databricks",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Intelligent Kubernetes Load Balancing at Databricks"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/intelligent-kubernetes-load-balancing-databricks"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/intelligent-kubernetes-load-balancing-databricks",
+    "id": "https://www.databricks.com/blog/intelligent-kubernetes-load-balancing-databricks",
+    "guidislink": false,
+    "published": "Wed, 01 Oct 2025 00:00:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      1,
+      0,
+      0,
+      0,
+      2,
+      274,
+      0
+    ],
+    "summary": "IntroductionAt Databricks, Kubernetes is at the heart of our internal systems. Within...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "IntroductionAt Databricks, Kubernetes is at the heart of our internal systems. Within..."
+    },
+    "tags": [
+      {
+        "term": "Engineering",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Setting the Stage: AI Governance for Insurance in 2025",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Setting the Stage: AI Governance for Insurance in 2025"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/setting-stage-ai-governance-insurance-2025"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/setting-stage-ai-governance-insurance-2025",
+    "id": "https://www.databricks.com/blog/setting-stage-ai-governance-insurance-2025",
+    "guidislink": false,
+    "published": "Tue, 30 Sep 2025 19:40:00 GMT",
+    "published_parsed": [
+      2025,
+      9,
+      30,
+      19,
+      40,
+      0,
+      1,
+      273,
+      0
+    ],
+    "summary": "As insurers accelerate adoption of artificial intelligence, regulatory scrutiny and...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "As insurers accelerate adoption of artificial intelligence, regulatory scrutiny and..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Transforming Supply Chain Management with AI Agents",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Transforming Supply Chain Management with AI Agents"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/transforming-supply-chain-management-ai-agents"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/transforming-supply-chain-management-ai-agents",
+    "id": "https://www.databricks.com/blog/transforming-supply-chain-management-ai-agents",
+    "guidislink": false,
+    "published": "Tue, 30 Sep 2025 19:40:00 GMT",
+    "published_parsed": [
+      2025,
+      9,
+      30,
+      19,
+      40,
+      0,
+      1,
+      273,
+      0
+    ],
+    "summary": "Efficiently managing supply chains has long been a top priority for many industries...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Efficiently managing supply chains has long been a top priority for many industries..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Retail & Consumer Goods",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Announcing Data Intelligence for Cybersecurity",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Announcing Data Intelligence for Cybersecurity"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/transforming-cybersecurity-data-intelligence"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/transforming-cybersecurity-data-intelligence",
+    "id": "https://www.databricks.com/blog/transforming-cybersecurity-data-intelligence",
+    "guidislink": false,
+    "published": "Tue, 30 Sep 2025 13:00:00 GMT",
+    "published_parsed": [
+      2025,
+      9,
+      30,
+      13,
+      0,
+      0,
+      1,
+      273,
+      0
+    ],
+    "summary": "Today, we\u2019re thrilled to announce the launch of Data Intelligence for Cybersecurity\u2014...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Today, we\u2019re thrilled to announce the launch of Data Intelligence for Cybersecurity\u2014..."
+    },
+    "tags": [
+      {
+        "term": "Company",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "News",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Revolutionizing Car Measurement Data Storage and Analysis: Mercedes-Benz's Petabyte-Scale Solution on the Databricks Intelligence Platform",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Revolutionizing Car Measurement Data Storage and Analysis: Mercedes-Benz's Petabyte-Scale Solution on the Databricks Intelligence Platform"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/revolutionizing-car-measurement-data-storage-and-analysis-mercedes-benzs-petabyte-scale"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/revolutionizing-car-measurement-data-storage-and-analysis-mercedes-benzs-petabyte-scale",
+    "id": "https://www.databricks.com/blog/revolutionizing-car-measurement-data-storage-and-analysis-mercedes-benzs-petabyte-scale",
+    "guidislink": false,
+    "published": "Tue, 30 Sep 2025 07:50:00 GMT",
+    "published_parsed": [
+      2025,
+      9,
+      30,
+      7,
+      50,
+      0,
+      1,
+      273,
+      0
+    ],
+    "summary": "AbstractWith the rise of connected vehicles, the automotive industry is experiencing...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "AbstractWith the rise of connected vehicles, the automotive industry is experiencing..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Manufacturing",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  }
+]

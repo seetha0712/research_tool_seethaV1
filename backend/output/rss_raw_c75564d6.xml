@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
+xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
+>
+
+<channel>
+	<title>Generative AI - Forrester</title>
+	<atom:link href="https://www.forrester.com/blogs/category/generative-ai/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	<description></description>
+	<lastBuildDate>Fri, 22 Aug 2025 21:25:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.2</generator>
+
+<image>
+	<url>https://go.forrester.com/wp-content/uploads/2021/10/cropped-icon_512.c2nfSw_xZ0-150x150.png</url>
+	<title>Generative AI - Forrester</title>
+	<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+	<itunes:summary></itunes:summary>
+	<itunes:author>Forrester</itunes:author>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:image href="https://go.forrester.com/wp-content/uploads/2022/01/WIM-Id-@3000px-2.jpg" />
+	<itunes:owner>
+		<itunes:name>Forrester</itunes:name>
+	</itunes:owner>
+	<podcast:medium>podcast</podcast:medium>
+	<itunes:subtitle></itunes:subtitle>
+	<image>
+		<title>Generative AI - Forrester</title>
+		<url>https://go.forrester.com/wp-content/uploads/2022/01/WIM-Id-@3000px-2.jpg</url>
+		<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	</image>
+	<itunes:category text="News">
+		<itunes:category text="Business News" />
+	</itunes:category>
+	<podcast:podping usesPodping="true" />
+	<rawvoice:subscribe feed="https://www.forrester.com/blogs/category/generative-ai/feed/" blubrry="https://blubrry.com/forrester_what_it_means/"></rawvoice:subscribe>
+	<item>
+		<title>“Velocity IS The ****ing Strategy”: What Citizen Development Means For AI-Enhanced Businesses</title>
+		<link>https://www.forrester.com/blogs/velocity-is-the-ing-strategy-what-citizen-development-means-for-ai-enhanced-businesses/</link>
+		
+		<dc:creator><![CDATA[John Bratincevic]]></dc:creator>
+		<pubDate>Fri, 22 Aug 2025 17:49:16 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Application Development & Delivery]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[low-code platforms]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=272643</guid>
+
+					<description><![CDATA[Making software development easier is only part of the AI-plus-citizen development story. The movement now has another raison d'être. Find out what it is and how it could impact your ability to scale AI.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Are We Ready To Talk AGI Yet? Yes. Maybe. No. All Of The Above.</title>
+		<link>https://www.forrester.com/blogs/are-we-ready-to-talk-agi-yet-yes-maybe-no-all-of-the-above/</link>
+		
+		<dc:creator><![CDATA[Brian Hopkins]]></dc:creator>
+		<pubDate>Thu, 21 Aug 2025 13:50:52 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Emerging Technology]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Innovation]]></category>
+		<category><![CDATA[promoted]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=272453</guid>
+
+					<description><![CDATA[Artificial general intelligence is inevitable, progressing in stages toward autonomous, goal-driven software across domains. Learn how to focus on practical, observable criteria to plan for its impact.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Learnings From Knowledge Summit Dublin 2025</title>
+		<link>https://www.forrester.com/blogs/learnings-from-knowledge-summit-dublin-2025/</link>
+		
+		<dc:creator><![CDATA[Julie Mohr]]></dc:creator>
+		<pubDate>Tue, 19 Aug 2025 18:00:07 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Knowledge management]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=270636</guid>
+
+					<description><![CDATA[After being in the shadows for years, knowledge management has suddenly taken on a much more prominent role as a key strategic function.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI As Tool Creator: The Next Frontier In Knowledge Work</title>
+		<link>https://www.forrester.com/blogs/ai-as-tool-creator-the-next-frontier-in-knowledge-work/</link>
+		
+		<dc:creator><![CDATA[Charles Betz]]></dc:creator>
+		<pubDate>Wed, 13 Aug 2025 18:24:56 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Emerging Technology]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=270135</guid>
+
+					<description><![CDATA[As I move into my second six months of using AI daily, I’m convinced that its most overlooked role isn’t writing content (or even code) but creating tools. We all know how generative AI has shaken up software development, writing code at scale and collapsing cycle times. But AI isn’t just a writer — it’s a toolsmith.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AWS Makes Agentic Push At AWS Summit New York City 2025</title>
+		<link>https://www.forrester.com/blogs/aws-makes-agentic-push-at-aws-summit-new-york-city-2025/</link>
+		
+		<dc:creator><![CDATA[Bill Martorelli]]></dc:creator>
+		<pubDate>Wed, 13 Aug 2025 17:53:54 +0000</pubDate>
+				<category><![CDATA[Application Development & Delivery]]></category>
+		<category><![CDATA[Architecture & Technology Strategy]]></category>
+		<category><![CDATA[Cloud Computing Trends]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Partner Ecosystems]]></category>
+		<category><![CDATA[public cloud]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271606</guid>
+
+					<description><![CDATA[AWS Summit New York City is a smaller cousin to the re:Invent mega-conference set for the late fall in Las Vegas, so most big announcements tend to wait until that event, but agentic AI won’t wait, despite its relatively modest take-up to date.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Black Hat 2025: Troop Forrester Goes To Hacker Summer Camp</title>
+		<link>https://www.forrester.com/blogs/black-hat-2025-troop-forrester-goes-to-hacker-summer-camp/</link>
+		
+		<dc:creator><![CDATA[James Plouffe]]></dc:creator>
+		<pubDate>Wed, 13 Aug 2025 17:25:58 +0000</pubDate>
+				<category><![CDATA[Application Security]]></category>
+		<category><![CDATA[CISO Trends]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Cybersecurity Trends]]></category>
+		<category><![CDATA[Endpoint Security]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[IoT security]]></category>
+		<category><![CDATA[security risk management]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271811</guid>
+
+					<description><![CDATA[2025 marks the 28th year of Black Hat, and although it remains on the edgier side of corporate-focused cybersecurity conferences, it sometimes feels like the event is considering completely ditching its hoodie in favor of a collared shirt.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Infrastructure As Platform: Conquering Chaos In The Agentic Era Requires A New Foundation</title>
+		<link>https://www.forrester.com/blogs/infrastructure-as-platform-conquering-chaos-in-the-agentic-era-requires-a-new-foundation/</link>
+		
+		<dc:creator><![CDATA[Brent Ellis]]></dc:creator>
+		<pubDate>Tue, 12 Aug 2025 13:29:45 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[Architecture & Technology Strategy]]></category>
+		<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Business & IT Alignment]]></category>
+		<category><![CDATA[Business Technology (BT)]]></category>
+		<category><![CDATA[CIO insights]]></category>
+		<category><![CDATA[Core Tech Strategy]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Information Technology]]></category>
+		<category><![CDATA[infrastructure & operations]]></category>
+		<category><![CDATA[Technologie]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271358</guid>
+
+					<description><![CDATA[Enterprises must transform traditional infrastructure into strategic platforms that drive innovation, resilience, and adaptability to address the agentic era. Learn why well-aligned, future-proof infrastructure is key to enabling intelligent business ecosystems and achieving enterprise goals in this preview of our upcoming Technology &#038; Innovation Summit.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Early Adopters Share AI-Centric Service Desk Results</title>
+		<link>https://www.forrester.com/blogs/early-adopters-share-ai-centric-service-desk-results/</link>
+		
+		<dc:creator><![CDATA[Julie Mohr]]></dc:creator>
+		<pubDate>Tue, 12 Aug 2025 12:00:41 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[infrastructure & operations]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271558</guid>
+
+					<description><![CDATA[The promise of AI-centric service desks has moved from theoretical blueprint to operational reality. After extensive research with early adopters across multiple industries, the results reveal a complex landscape where gains are marred with implementation challenges that many organizations didn’t anticipate.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Skip The Hype Reel — GPT-5’s Real Story Is In The System Card</title>
+		<link>https://www.forrester.com/blogs/skip-the-hype-reel-gpt-5s-real-story-is-in-the-system-card/</link>
+		
+		<dc:creator><![CDATA[Brian Hopkins]]></dc:creator>
+		<pubDate>Fri, 08 Aug 2025 17:08:26 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Business Value]]></category>
+		<category><![CDATA[CIO insights]]></category>
+		<category><![CDATA[Core Tech Strategy]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[promoted]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271499</guid>
+
+					<description><![CDATA[Chat GPT-5 doesn’t have crowd-pleasing upgrades, but they do directly address operational pain points that enterprises face today with generative AI applications.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Six Gaps Hold Feedback Management And CX Measurement Programs Back</title>
+		<link>https://www.forrester.com/blogs/feedback-and-cx-measurement-programs-must-boost-their-impact-according-to-forresters-2025-survey/</link>
+		
+		<dc:creator><![CDATA[Colleen Fazio]]></dc:creator>
+		<pubDate>Fri, 08 Aug 2025 15:19:09 +0000</pubDate>
+				<category><![CDATA[customer experience]]></category>
+		<category><![CDATA[customer experience management]]></category>
+		<category><![CDATA[Customer Experience Measurement]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[voice of the customer (VOC)]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=270238</guid>
+
+					<description><![CDATA[Most CX teams still fall short in getting stakeholders to act on insights, Forrester’s 2025 global survey shows. Learn about the problem areas and how to move past them.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

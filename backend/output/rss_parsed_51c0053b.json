@@ -1,0 +1,537 @@
+[
+  {
+    "title": "Multi-Agent Supervisor Architecture: Orchestrating Enterprise AI at Scale",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Multi-Agent Supervisor Architecture: Orchestrating Enterprise AI at Scale"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/multi-agent-supervisor-architecture-orchestrating-enterprise-ai-scale"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/multi-agent-supervisor-architecture-orchestrating-enterprise-ai-scale",
+    "id": "https://www.databricks.com/blog/multi-agent-supervisor-architecture-orchestrating-enterprise-ai-scale",
+    "guidislink": false,
+    "published": "Thu, 23 Oct 2025 18:40:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      23,
+      18,
+      40,
+      0,
+      3,
+      296,
+      0
+    ],
+    "summary": "BASF is a German multinational and one of the world\u2019s largest chemical companies, ...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "BASF is a German multinational and one of the world\u2019s largest chemical companies, ..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Manufacturing",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Upgrade Your Lakehouse: Your How-To Guide for Converting to Unity Catalog Managed Tables",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Upgrade Your Lakehouse: Your How-To Guide for Converting to Unity Catalog Managed Tables"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/upgrade-your-lakehouse-your-how-guide-converting-unity-catalog-managed-tables"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/upgrade-your-lakehouse-your-how-guide-converting-unity-catalog-managed-tables",
+    "id": "https://www.databricks.com/blog/upgrade-your-lakehouse-your-how-guide-converting-unity-catalog-managed-tables",
+    "guidislink": false,
+    "published": "Thu, 23 Oct 2025 14:41:02 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      23,
+      14,
+      41,
+      2,
+      3,
+      296,
+      0
+    ],
+    "summary": "The new SET MANAGED command provides a seamless mechanism to&nbsp;convert&nbsp;UC external...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "The new SET MANAGED command provides a seamless mechanism to&nbsp;convert&nbsp;UC external..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Engineering",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Tutorials",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "AI Agents In Advertising for Contextual Content Placement",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "AI Agents In Advertising for Contextual Content Placement"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/ai-agents-advertising-contextual-content-placement"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/ai-agents-advertising-contextual-content-placement",
+    "id": "https://www.databricks.com/blog/ai-agents-advertising-contextual-content-placement",
+    "guidislink": false,
+    "published": "Wed, 22 Oct 2025 22:39:54 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      22,
+      22,
+      39,
+      54,
+      2,
+      295,
+      0
+    ],
+    "summary": "IntroductionFinding the right place to put an ad is a huge challenge, as traditional,...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "IntroductionFinding the right place to put an ad is a huge challenge, as traditional,..."
+    },
+    "tags": [
+      {
+        "term": "Solutions",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Enabling Business Users on Databricks",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Enabling Business Users on Databricks"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/enabling-business-users-databricks"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/enabling-business-users-databricks",
+    "id": "https://www.databricks.com/blog/enabling-business-users-databricks",
+    "guidislink": false,
+    "published": "Wed, 22 Oct 2025 19:50:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      22,
+      19,
+      50,
+      0,
+      2,
+      295,
+      0
+    ],
+    "summary": "It's Thursday, 2:47 PM. Lisa Chen, Regional Sales Manager for a growing SaaS company,...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "It's Thursday, 2:47 PM. Lisa Chen, Regional Sales Manager for a growing SaaS company,..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Solutions",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Agentic AI and the Future of Advertising: Why the Next Frontier Runs on Unified Data",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Agentic AI and the Future of Advertising: Why the Next Frontier Runs on Unified Data"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/agentic-ai-and-future-advertising-why-next-frontier-runs-unified-data"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/agentic-ai-and-future-advertising-why-next-frontier-runs-unified-data",
+    "id": "https://www.databricks.com/blog/agentic-ai-and-future-advertising-why-next-frontier-runs-unified-data",
+    "guidislink": false,
+    "published": "Wed, 22 Oct 2025 15:30:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      22,
+      15,
+      30,
+      0,
+      2,
+      295,
+      0
+    ],
+    "summary": "The advertising world is changing at breakneck speed. Traditional marketing funnels...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "The advertising world is changing at breakneck speed. Traditional marketing funnels..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Fast PEFT Serving at Scale",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Fast PEFT Serving at Scale"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/fast-peft-serving-scale"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/fast-peft-serving-scale",
+    "id": "https://www.databricks.com/blog/fast-peft-serving-scale",
+    "guidislink": false,
+    "published": "Tue, 21 Oct 2025 17:09:15 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      21,
+      17,
+      9,
+      15,
+      1,
+      294,
+      0
+    ],
+    "summary": "Building a lightning-fast inference runtime isn't just about raw speed\u2014it's about...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Building a lightning-fast inference runtime isn't just about raw speed\u2014it's about..."
+    },
+    "tags": [
+      {
+        "term": "Mosaic Research",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Redefining Customer Support: Swiggy\u2019s Enterprise-Scale AI Agent Built with Databricks",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Redefining Customer Support: Swiggy\u2019s Enterprise-Scale AI Agent Built with Databricks"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/redefining-customer-support-swiggys-enterprise-scale-ai-agent-built-databricks"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/redefining-customer-support-swiggys-enterprise-scale-ai-agent-built-databricks",
+    "id": "https://www.databricks.com/blog/redefining-customer-support-swiggys-enterprise-scale-ai-agent-built-databricks",
+    "guidislink": false,
+    "published": "Tue, 21 Oct 2025 05:44:38 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      21,
+      5,
+      44,
+      38,
+      1,
+      294,
+      0
+    ],
+    "summary": "Raising the Bar: Swiggy\u2019s Vision for Scalable, Intelligent Customer SupportSwiggy,...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Raising the Bar: Swiggy\u2019s Vision for Scalable, Intelligent Customer SupportSwiggy,..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Engineering",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Science and ML",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Retail & Consumer Goods",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Strategy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Company",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Customers",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Announcing table update triggers in Lakeflow Jobs",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Announcing table update triggers in Lakeflow Jobs"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/announcing-table-update-triggers-lakeflow-jobs"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/announcing-table-update-triggers-lakeflow-jobs",
+    "id": "https://www.databricks.com/blog/announcing-table-update-triggers-lakeflow-jobs",
+    "guidislink": false,
+    "published": "Mon, 20 Oct 2025 15:30:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      20,
+      15,
+      30,
+      0,
+      0,
+      293,
+      0
+    ],
+    "summary": "Note: Some of the capabilities described in this post are being rolled out progressively...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Note: Some of the capabilities described in this post are being rolled out progressively..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Announcements",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "The Future of Risk Management: 5 Key Insights from the 2025 Gartner\u00ae  Risk Report",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "The Future of Risk Management: 5 Key Insights from the 2025 Gartner\u00ae  Risk Report"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/future-risk-management-5-key-insights-2025-gartner-risk-report"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/future-risk-management-5-key-insights-2025-gartner-risk-report",
+    "id": "https://www.databricks.com/blog/future-risk-management-5-key-insights-2025-gartner-risk-report",
+    "guidislink": false,
+    "published": "Sat, 18 Oct 2025 06:30:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      18,
+      6,
+      30,
+      0,
+      5,
+      291,
+      0
+    ],
+    "summary": "Risk management has always been about anticipating the unexpected. But we feel the...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Risk management has always been about anticipating the unexpected. But we feel the..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "The AI Agent Paradigm: What It Means for the Future of Advertising",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "The AI Agent Paradigm: What It Means for the Future of Advertising"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/ai-agent-paradigm-what-it-means-future-advertising"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/ai-agent-paradigm-what-it-means-future-advertising",
+    "id": "https://www.databricks.com/blog/ai-agent-paradigm-what-it-means-future-advertising",
+    "guidislink": false,
+    "published": "Fri, 17 Oct 2025 22:35:00 GMT",
+    "published_parsed": [
+      2025,
+      10,
+      17,
+      22,
+      35,
+      0,
+      4,
+      290,
+      0
+    ],
+    "summary": "AI Agents are beginning to influence nearly every part of the advertising industry...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "AI Agents are beginning to influence nearly every part of the advertising industry..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Media & Entertainment",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  }
+]

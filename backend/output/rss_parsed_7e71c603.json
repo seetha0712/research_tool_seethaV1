@@ -1,0 +1,1878 @@
+[
+  {
+    "title": "The All-Female Hacker House Trying to Break A.I.\u2019s Glass Ceiling",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The All-Female Hacker House Trying to Break A.I.\u2019s Glass Ceiling"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/23/business/ai-female-hackers-foundher-house.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/23/business/ai-female-hackers-foundher-house.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/23/business/ai-female-hackers-foundher-house.html",
+    "id": "https://www.nytimes.com/2025/08/23/business/ai-female-hackers-foundher-house.html",
+    "guidislink": false,
+    "summary": "FoundHer House, a home in San Francisco\u2019s Glen Park neighborhood, is the rare all-female hacker house where residents are creating a supportive community to build their start-ups.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "FoundHer House, a home in San Francisco\u2019s Glen Park neighborhood, is the rare all-female hacker house where residents are creating a supportive community to build their start-ups."
+    },
+    "authors": [
+      {
+        "name": "Natallie Rocha and Christie Hemm Klok"
+      }
+    ],
+    "author": "Natallie Rocha and Christie Hemm Klok",
+    "author_detail": {
+      "name": "Natallie Rocha and Christie Hemm Klok"
+    },
+    "published": "Sat, 23 Aug 2025 21:21:13 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      23,
+      21,
+      21,
+      13,
+      5,
+      235,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Women and Girls",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Entrepreneurship",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Cohousing Communities",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "San Francisco (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Content Type: Personal Profile",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Big Tech\u2019s A.I. Data Centers Are Driving Up Electricity Bills for Everyone",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Big Tech\u2019s A.I. Data Centers Are Driving Up Electricity Bills for Everyone"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html",
+    "id": "https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html",
+    "guidislink": false,
+    "summary": "Electricity rates for individuals and small businesses could rise sharply as Amazon, Google, Microsoft and other technology companies build data centers and expand into the energy business.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Electricity rates for individuals and small businesses could rise sharply as Amazon, Google, Microsoft and other technology companies build data centers and expand into the energy business."
+    },
+    "authors": [
+      {
+        "name": "Ivan Penn and Karen Weise"
+      }
+    ],
+    "author": "Ivan Penn and Karen Weise",
+    "author_detail": {
+      "name": "Ivan Penn and Karen Weise"
+    },
+    "published": "Thu, 14 Aug 2025 15:13:37 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      14,
+      15,
+      13,
+      37,
+      3,
+      226,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Electric Light and Power",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Data Centers",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Prices (Fares, Fees and Rates)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Regulation and Deregulation of Industry",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Infrastructure (Public Works)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Real Estate (Commercial)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Building (Construction)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "United States Politics and Government",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Amazon.com Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "American Electric Power Co Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Dominion Energy",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Google Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Microsoft Corp",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Meta Platforms Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "United States",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Companies Are Pouring Billions Into A.I. It Has Yet to Pay Off.",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Companies Are Pouring Billions Into A.I. It Has Yet to Pay Off."
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/13/business/ai-business-payoff-lags.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/13/business/ai-business-payoff-lags.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/13/business/ai-business-payoff-lags.html",
+    "id": "https://www.nytimes.com/2025/08/13/business/ai-business-payoff-lags.html",
+    "guidislink": false,
+    "summary": "Corporate spending on artificial intelligence is surging as executives bank on major efficiency gains. So far, they report little effect to the bottom line.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Corporate spending on artificial intelligence is surging as executives bank on major efficiency gains. So far, they report little effect to the bottom line."
+    },
+    "authors": [
+      {
+        "name": "Steve Lohr"
+      }
+    ],
+    "author": "Steve Lohr",
+    "author_detail": {
+      "name": "Steve Lohr"
+    },
+    "published": "Wed, 13 Aug 2025 09:01:01 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      13,
+      9,
+      1,
+      1,
+      2,
+      225,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Innovation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Research",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "ChatGPT",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Labor and Jobs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Why A.I. Should Make Parents Rethink Posting Photos of Their Children Online",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Why A.I. Should Make Parents Rethink Posting Photos of Their Children Online"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/11/technology/personaltech/ai-kids-photos.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/11/technology/personaltech/ai-kids-photos.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/11/technology/personaltech/ai-kids-photos.html",
+    "id": "https://www.nytimes.com/2025/08/11/technology/personaltech/ai-kids-photos.html",
+    "guidislink": false,
+    "summary": "Artificial intelligence apps generating fake nudes, amid other privacy concerns, make \u201csharenting\u201d far riskier than it was just a few years ago.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Artificial intelligence apps generating fake nudes, amid other privacy concerns, make \u201csharenting\u201d far riskier than it was just a few years ago."
+    },
+    "authors": [
+      {
+        "name": "Brian X. Chen"
+      }
+    ],
+    "author": "Brian X. Chen",
+    "author_detail": {
+      "name": "Brian X. Chen"
+    },
+    "published": "Mon, 11 Aug 2025 09:01:21 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      11,
+      9,
+      1,
+      21,
+      0,
+      223,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Parenting",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Social Media",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Child Abuse and Neglect",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Sex Crimes",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Pornography",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Privacy",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Children and Childhood",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "21 Ways People Are Using A.I. at Work",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "21 Ways People Are Using A.I. at Work"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/interactive/2025/08/11/upshot/ai-jobs.html"
+      },
+      {
+        "href": "https://www.nytimes.com/interactive/2025/08/11/upshot/ai-jobs.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/interactive/2025/08/11/upshot/ai-jobs.html",
+    "id": "https://www.nytimes.com/interactive/2025/08/11/upshot/ai-jobs.html",
+    "guidislink": false,
+    "summary": "Yes, it still makes plenty of mistakes, but it has become part of the job for many.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Yes, it still makes plenty of mistakes, but it has become part of the job for many."
+    },
+    "authors": [
+      {
+        "name": "Larry Buchanan and Francesca Paris"
+      }
+    ],
+    "author": "Larry Buchanan and Francesca Paris",
+    "author_detail": {
+      "name": "Larry Buchanan and Francesca Paris"
+    },
+    "published": "Sun, 31 Aug 2025 01:47:34 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      31,
+      1,
+      47,
+      34,
+      6,
+      243,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Workplace Environment",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Teachers and School Employees",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Missouri Botanical Garden",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Philadelphia Baroque Orchestra",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Research",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Legal Profession",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Pets",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Design",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Chatbots Can Go Into a Delusional Spiral. Here\u2019s How It Happens.",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Chatbots Can Go Into a Delusional Spiral. Here\u2019s How It Happens."
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html",
+    "id": "https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html",
+    "guidislink": false,
+    "summary": "Over 21 days of talking with ChatGPT, an otherwise perfectly sane man became convinced that he was a real-life superhero. We analyzed the conversation.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Over 21 days of talking with ChatGPT, an otherwise perfectly sane man became convinced that he was a real-life superhero. We analyzed the conversation."
+    },
+    "authors": [
+      {
+        "name": "Kashmir Hill and Dylan Freedman"
+      }
+    ],
+    "author": "Kashmir Hill and Dylan Freedman",
+    "author_detail": {
+      "name": "Kashmir Hill and Dylan Freedman"
+    },
+    "published": "Tue, 12 Aug 2025 23:29:26 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      12,
+      23,
+      29,
+      26,
+      1,
+      224,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "ChatGPT",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Mental Health and Disorders",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Content Type: Personal Profile",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "vis-design",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Swarming to San Francisco\u2019s A.I. Boom: a New Crop of 20-Something CEOs",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Swarming to San Francisco\u2019s A.I. Boom: a New Crop of 20-Something CEOs"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html",
+    "id": "https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html",
+    "guidislink": false,
+    "summary": "Some dropped out of M.I.T., Georgetown and Stanford. Others decided not to go to college. They all say they could not afford to wait to build their own artificial intelligence start-ups.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Some dropped out of M.I.T., Georgetown and Stanford. Others decided not to go to college. They all say they could not afford to wait to build their own artificial intelligence start-ups."
+    },
+    "authors": [
+      {
+        "name": "Natallie Rocha"
+      }
+    ],
+    "author": "Natallie Rocha",
+    "author_detail": {
+      "name": "Natallie Rocha"
+    },
+    "published": "Mon, 04 Aug 2025 20:57:57 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      20,
+      57,
+      57,
+      0,
+      216,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Venture Capital",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Entrepreneurship",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Colleges and Universities",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Youth",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Cognition AI",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Scale AI Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Y Combinator",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Founders Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "San Francisco (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Foody, Brendan (2003- )",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Kaushik, Karun (2004- )",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Mercor.io Corp (Mercor)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Delve Technologies Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Artisan AI Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "A.I. Has Ushered in Silicon Valley\u2019s \u2018Hard Tech\u2019 Era",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "A.I. Has Ushered in Silicon Valley\u2019s \u2018Hard Tech\u2019 Era"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html",
+    "id": "https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html",
+    "guidislink": false,
+    "summary": "Goodbye to the age of consumer websites and mobile apps. Artificial intelligence has ushered in an era of what insiders in the nation\u2019s innovation capital call \u201chard tech.\u201d",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Goodbye to the age of consumer websites and mobile apps. Artificial intelligence has ushered in an era of what insiders in the nation\u2019s innovation capital call \u201chard tech.\u201d"
+    },
+    "authors": [
+      {
+        "name": "Mike Isaac"
+      }
+    ],
+    "author": "Mike Isaac",
+    "author_detail": {
+      "name": "Mike Isaac"
+    },
+    "published": "Mon, 04 Aug 2025 20:48:19 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      20,
+      48,
+      19,
+      0,
+      216,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "San Francisco Bay Area (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Silicon Valley (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Anthropic AI LLC",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Facebook Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Google Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Meta Platforms Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Workplace Environment",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Entrepreneurship",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "The Rise of Silicon Valley\u2019s Techno-Religion",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The Rise of Silicon Valley\u2019s Techno-Religion"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html",
+    "id": "https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html",
+    "guidislink": false,
+    "summary": "The Rationalists, a community focused on the risks of artificial intelligence, regularly gather with tech figures and other like-minded people in a complex that covers much of a city block.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The Rationalists, a community focused on the risks of artificial intelligence, regularly gather with tech figures and other like-minded people in a complex that covers much of a city block."
+    },
+    "authors": [
+      {
+        "name": "Cade Metz"
+      }
+    ],
+    "author": "Cade Metz",
+    "author_detail": {
+      "name": "Cade Metz"
+    },
+    "published": "Thu, 07 Aug 2025 00:03:14 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      7,
+      0,
+      3,
+      14,
+      3,
+      219,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Buildings (Structures)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Religion and Belief",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Altruism",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Rationalists (Philosophical Movement)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Bankman-Fried, Sam",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Yudkowsky, Eliezer",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Musk, Elon",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "audio-neutral-informative",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Recruiters Use A.I. to Scan R\u00e9sum\u00e9s. Applicants Are Trying to Trick It.",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Recruiters Use A.I. to Scan R\u00e9sum\u00e9s. Applicants Are Trying to Trick It."
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/10/07/business/ai-chatbot-prompts-resumes.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/10/07/business/ai-chatbot-prompts-resumes.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/10/07/business/ai-chatbot-prompts-resumes.html",
+    "id": "https://www.nytimes.com/2025/10/07/business/ai-chatbot-prompts-resumes.html",
+    "guidislink": false,
+    "summary": "In an escalating cat-and-mouse game, job hunters are trying to fool A.I. into moving their applications to the top of the pile with embedded instructions.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "In an escalating cat-and-mouse game, job hunters are trying to fool A.I. into moving their applications to the top of the pile with embedded instructions."
+    },
+    "authors": [
+      {
+        "name": "Evan Gorelick"
+      }
+    ],
+    "author": "Evan Gorelick",
+    "author_detail": {
+      "name": "Evan Gorelick"
+    },
+    "published": "Tue, 07 Oct 2025 09:00:32 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      7,
+      9,
+      0,
+      32,
+      1,
+      280,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Hiring and Promotion",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Careers and Professions",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Labor and Jobs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "ChatGPT",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Manpower Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Indeed.com",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Are Your Energy Costs Rising?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Are Your Energy Costs Rising?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/10/06/opinion/contributors/energy-cost-ai.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/10/06/opinion/contributors/energy-cost-ai.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/10/06/opinion/contributors/energy-cost-ai.html",
+    "id": "https://www.nytimes.com/2025/10/06/opinion/contributors/energy-cost-ai.html",
+    "guidislink": false,
+    "summary": "Share your energy bills for a forthcoming project about the demand of A.I. on the grid.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Share your energy bills for a forthcoming project about the demand of A.I. on the grid."
+    },
+    "authors": [
+      {
+        "name": "Eliza Barclay"
+      }
+    ],
+    "author": "Eliza Barclay",
+    "author_detail": {
+      "name": "Eliza Barclay"
+    },
+    "published": "Mon, 06 Oct 2025 22:36:08 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      6,
+      22,
+      36,
+      8,
+      0,
+      279,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Data Centers",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Electric Light and Power",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Elon Musk Gambles on Sexy A.I. Companions",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Elon Musk Gambles on Sexy A.I. Companions"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/10/06/technology/elon-musk-grok-sexy-chatbot.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/10/06/technology/elon-musk-grok-sexy-chatbot.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/10/06/technology/elon-musk-grok-sexy-chatbot.html",
+    "id": "https://www.nytimes.com/2025/10/06/technology/elon-musk-grok-sexy-chatbot.html",
+    "guidislink": false,
+    "summary": "In July, the billionaire\u2019s A.I. company introduced two sexually explicit chatbots, pushing a new version of intimacy.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "In July, the billionaire\u2019s A.I. company introduced two sexually explicit chatbots, pushing a new version of intimacy."
+    },
+    "authors": [
+      {
+        "name": "Kate Conger"
+      }
+    ],
+    "author": "Kate Conger",
+    "author_detail": {
+      "name": "Kate Conger"
+    },
+    "published": "Mon, 06 Oct 2025 20:57:11 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      6,
+      20,
+      57,
+      11,
+      0,
+      279,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Social Media",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Innovation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Mobile Applications",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Dating and Relationships",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "X (Formerly Twitter)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "X.ai Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Musk, Elon",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Grok",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "audio-neutral-immersive",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "audio-neutral-informative",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "OpenAI\u2019s Team of Rivals Now Includes AMD and Nvidia",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "OpenAI\u2019s Team of Rivals Now Includes AMD and Nvidia"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/10/06/business/dealbook/openai-amd-nvidia.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/10/06/business/dealbook/openai-amd-nvidia.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/10/06/business/dealbook/openai-amd-nvidia.html",
+    "id": "https://www.nytimes.com/2025/10/06/business/dealbook/openai-amd-nvidia.html",
+    "guidislink": false,
+    "summary": "The artificial intelligence giant just announced a major partnership with AMD \u2014 weeks after striking a big deal with the chipmaker\u2019s competitor, Nvidia.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The artificial intelligence giant just announced a major partnership with AMD \u2014 weeks after striking a big deal with the chipmaker\u2019s competitor, Nvidia."
+    },
+    "authors": [
+      {
+        "name": "Andrew Ross Sorkin, Bernhard Warner, Sarah Kessler, Michael J. de la Merced, Niko Gallogly, Vivienne Walt and Ian Mount"
+      }
+    ],
+    "author": "Andrew Ross Sorkin, Bernhard Warner, Sarah Kessler, Michael J. de la Merced, Niko Gallogly, Vivienne Walt and Ian Mount",
+    "author_detail": {
+      "name": "Andrew Ross Sorkin, Bernhard Warner, Sarah Kessler, Michael J. de la Merced, Niko Gallogly, Vivienne Walt and Ian Mount"
+    },
+    "published": "Mon, 06 Oct 2025 12:20:36 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      6,
+      12,
+      20,
+      36,
+      0,
+      279,
+      0
+    ],
+    "tags": [
+      {
+        "term": "internal-storyline-no",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Advanced Micro Devices Inc.",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "NVIDIA Corporation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Data Centers",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "OpenAI Agrees to Use Computer Chips From AMD",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "OpenAI Agrees to Use Computer Chips From AMD"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/10/06/technology/openai-amd-chips.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/10/06/technology/openai-amd-chips.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/10/06/technology/openai-amd-chips.html",
+    "id": "https://www.nytimes.com/2025/10/06/technology/openai-amd-chips.html",
+    "guidislink": false,
+    "summary": "Weeks after a $100 billion agreement to use computer chips from Nvidia, OpenAI has signed a similar deal with a rival chipmaker.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Weeks after a $100 billion agreement to use computer chips from Nvidia, OpenAI has signed a similar deal with a rival chipmaker."
+    },
+    "authors": [
+      {
+        "name": "Cade Metz"
+      }
+    ],
+    "author": "Cade Metz",
+    "author_detail": {
+      "name": "Cade Metz"
+    },
+    "published": "Mon, 06 Oct 2025 18:33:39 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      6,
+      18,
+      33,
+      39,
+      0,
+      279,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Computer Chips",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Data Centers",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Stocks and Bonds",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Advanced Micro Devices Inc.",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "NVIDIA Corporation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "internal-open-access-from-nl",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "The A.I. Boom Is Masking Trump\u2019s Policy Blunders",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The A.I. Boom Is Masking Trump\u2019s Policy Blunders"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/10/06/opinion/ai-growth-economy-jobs-tariffs.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/10/06/opinion/ai-growth-economy-jobs-tariffs.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/10/06/opinion/ai-growth-economy-jobs-tariffs.html",
+    "id": "https://www.nytimes.com/2025/10/06/opinion/ai-growth-economy-jobs-tariffs.html",
+    "guidislink": false,
+    "summary": "This is worse than putting all your eggs in one basket.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "This is worse than putting all your eggs in one basket."
+    },
+    "authors": [
+      {
+        "name": "Natasha Sarin"
+      }
+    ],
+    "author": "Natasha Sarin",
+    "author_detail": {
+      "name": "Natasha Sarin"
+    },
+    "published": "Mon, 06 Oct 2025 17:26:20 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      6,
+      17,
+      26,
+      20,
+      0,
+      279,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "United States Economy",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "International Trade and World Market",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Customs (Tariff)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Immigration and Emigration",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Stocks and Bonds",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Gross Domestic Product",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Trump, Donald J",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Cows Wear High-Tech Collars Now",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Cows Wear High-Tech Collars Now"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/10/05/technology/cows-ai-collars.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/10/05/technology/cows-ai-collars.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/10/05/technology/cows-ai-collars.html",
+    "id": "https://www.nytimes.com/2025/10/05/technology/cows-ai-collars.html",
+    "guidislink": false,
+    "summary": "The wearables help dairy farmers gather more data so their animals are happier and produce more milk.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The wearables help dairy farmers gather more data so their animals are happier and produce more milk."
+    },
+    "authors": [
+      {
+        "name": "Eli Tan"
+      }
+    ],
+    "author": "Eli Tan",
+    "author_detail": {
+      "name": "Eli Tan"
+    },
+    "published": "Sun, 05 Oct 2025 09:00:21 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      5,
+      9,
+      0,
+      21,
+      6,
+      278,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Agriculture and Farming",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Sensors",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Livestock",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Dairy Products",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Innovation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Milk",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Cattle",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Central Valley (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Merced (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "internal-open-access-from-nl",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "When A.I. Came for Hollywood",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "When A.I. Came for Hollywood"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/10/04/opinion/ai-hollywood-tilly-norwood-actress.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/10/04/opinion/ai-hollywood-tilly-norwood-actress.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/10/04/opinion/ai-hollywood-tilly-norwood-actress.html",
+    "id": "https://www.nytimes.com/2025/10/04/opinion/ai-hollywood-tilly-norwood-actress.html",
+    "guidislink": false,
+    "summary": "The Dream Factory is going full fantasy, human factor be damned.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The Dream Factory is going full fantasy, human factor be damned."
+    },
+    "authors": [
+      {
+        "name": "Maureen Dowd"
+      }
+    ],
+    "author": "Maureen Dowd",
+    "author_detail": {
+      "name": "Maureen Dowd"
+    },
+    "published": "Sat, 04 Oct 2025 11:00:23 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      4,
+      11,
+      0,
+      23,
+      5,
+      277,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Video Recordings, Downloads and Streaming",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Rumors and Misinformation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Movies",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "I\u2019m a Screenwriter. Is It All Right if I Use A.I.?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "I\u2019m a Screenwriter. Is It All Right if I Use A.I.?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/10/04/magazine/magazine-email/screenwriter-ai-ethics.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/10/04/magazine/magazine-email/screenwriter-ai-ethics.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/10/04/magazine/magazine-email/screenwriter-ai-ethics.html",
+    "id": "https://www.nytimes.com/2025/10/04/magazine/magazine-email/screenwriter-ai-ethics.html",
+    "guidislink": false,
+    "summary": "This new tool has been a game changer.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "This new tool has been a game changer."
+    },
+    "authors": [
+      {
+        "name": "Kwame Anthony Appiah"
+      }
+    ],
+    "author": "Kwame Anthony Appiah",
+    "author_detail": {
+      "name": "Kwame Anthony Appiah"
+    },
+    "published": "Mon, 06 Oct 2025 14:14:20 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      6,
+      14,
+      14,
+      20,
+      0,
+      279,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Movies",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Television",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Ethics (Personal)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Writing and Writers",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "ChatGPT",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Are You Playing the Technology or Is the Technology Playing You?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Are You Playing the Technology or Is the Technology Playing You?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/video/opinion/100000010416836/are-you-playing-the-technology-or-is-the-technology-playing-you.html"
+      },
+      {
+        "href": "https://www.nytimes.com/video/opinion/100000010416836/are-you-playing-the-technology-or-is-the-technology-playing-you.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/video/opinion/100000010416836/are-you-playing-the-technology-or-is-the-technology-playing-you.html",
+    "id": "https://www.nytimes.com/video/opinion/100000010416836/are-you-playing-the-technology-or-is-the-technology-playing-you.html",
+    "guidislink": false,
+    "summary": "Are you playing the technology or is the technology playing you? In a recent episode of \u201cThe Ezra Klein Show,\u201d the musician Brian Eno and the Opinion columnist Ezra Klein discuss how generative A.I. changes our relationship with agency.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Are you playing the technology or is the technology playing you? In a recent episode of \u201cThe Ezra Klein Show,\u201d the musician Brian Eno and the Opinion columnist Ezra Klein discuss how generative A.I. changes our relationship with agency."
+    },
+    "authors": [
+      {
+        "name": "\u2018The Ezra Klein Show\u2019"
+      }
+    ],
+    "author": "\u2018The Ezra Klein Show\u2019",
+    "author_detail": {
+      "name": "\u2018The Ezra Klein Show\u2019"
+    },
+    "published": "Fri, 03 Oct 2025 20:58:17 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      3,
+      20,
+      58,
+      17,
+      4,
+      276,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Pop and Rock Music",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  }
+]

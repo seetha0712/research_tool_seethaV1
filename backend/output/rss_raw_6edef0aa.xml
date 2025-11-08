@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Artificial Intelligence (AI) | TechCrunch</title>
+	<atom:link href="https://techcrunch.com/tag/artificial-intelligence/feed/" rel="self" type="application/rss+xml" />
+	<link>https://techcrunch.com/tag/artificial-intelligence/</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Tue, 26 Aug 2025 17:08:01 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.4</generator>
+
+<image>
+	<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
+	<title>Artificial Intelligence (AI) | TechCrunch</title>
+	<link>https://techcrunch.com/tag/artificial-intelligence/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How one AI startup is helping rice farmers battle climate change</title>
+		<link>https://techcrunch.com/2025/08/26/how-one-ai-startup-is-helping-rice-farmers-battle-climate-change/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Tue, 26 Aug 2025 15:21:19 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[agriculture]]></category>
+		<category><![CDATA[methane]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[rice]]></category>
+		<category><![CDATA[Mitti Labs]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3039857</guid>
+
+					<description><![CDATA[Mitti Labs is working with The Nature Conservancy to expand the use of climate-friendly rice farming practices in India. The startup uses its AI to verify reductions in methane emissions.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Harvard dropouts to launch &#8216;always on&#8217; AI smart glasses that listen and record every conversation</title>
+		<link>https://techcrunch.com/2025/08/20/harvard-dropouts-to-launch-always-on-ai-smart-glasses-that-listen-and-record-every-conversation/</link>
+		
+		<dc:creator><![CDATA[Lorenzo Franceschi-Bicchierai, Rebecca Bellan]]></dc:creator>
+		<pubDate>Wed, 20 Aug 2025 16:00:00 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[facial recognition]]></category>
+		<category><![CDATA[SMART Glasses]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3037667</guid>
+
+					<description><![CDATA[After developing a facial-recognition app for Meta’s Ray-Ban glasses and doxing random people, two former Harvard students are now launching a startup that makes smart glasses with an always-on microphone.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Meta to add 100MW of solar power from US gear</title>
+		<link>https://techcrunch.com/2025/08/20/meta-to-add-100-mw-of-solar-power-from-u-s-gear/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Wed, 20 Aug 2025 15:56:53 +0000</pubDate>
+				<category><![CDATA[Social]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Solar Power]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[renewable power]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3038328</guid>
+
+					<description><![CDATA[The social media company is adding another tranche of solar to power a new AI data center in South Carolina. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Perplexity accused of scraping websites that explicitly blocked AI scraping</title>
+		<link>https://techcrunch.com/2025/08/04/perplexity-accused-of-scraping-websites-that-explicitly-blocked-ai-scraping/</link>
+		
+		<dc:creator><![CDATA[Lorenzo Franceschi-Bicchierai]]></dc:creator>
+		<pubDate>Mon, 04 Aug 2025 15:41:39 +0000</pubDate>
+				<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[bots]]></category>
+		<category><![CDATA[cloudflare]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[scraping]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[Perplexity]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3033735</guid>
+
+					<description><![CDATA[Internet giant Cloudflare says it detected Perplexity crawling and scraping websites, even after customers had added technical blocks telling Perplexity not to scrape their pages.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Obvio’s stop sign cameras use AI to root out unsafe drivers</title>
+		<link>https://techcrunch.com/2025/06/04/obvios-stop-sign-cameras-use-ai-to-root-out-unsafe-drivers/</link>
+		
+		<dc:creator><![CDATA[Sean O'Kane]]></dc:creator>
+		<pubDate>Wed, 04 Jun 2025 14:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[bain capital ventures]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[fundraises]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3015072</guid>
+
+					<description><![CDATA[American streets are incredibly dangerous for pedestrians. A San Carlos, California-based startup called Obvio thinks it can change that by installing cameras at stop signs -- a solution the founders also say won’t create a panopticon. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Breakneck data center growth challenges Microsoft’s sustainability goals</title>
+		<link>https://techcrunch.com/2025/06/02/breakneck-data-center-growth-challenges-microsofts-sustainability-goals/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Mon, 02 Jun 2025 18:07:05 +0000</pubDate>
+				<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[renewable power]]></category>
+		<category><![CDATA[carbon footprint]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[sustainability]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[carbon emissions]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3014093</guid>
+
+					<description><![CDATA[Microsoft's sustainability goals are imperiled by its push into AI and cloud services.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Gridcare thinks more than 100 GW of data center capacity is hiding in the grid</title>
+		<link>https://techcrunch.com/2025/05/27/gridcare-thinks-more-than-100-gw-of-data-center-capacity-is-hiding-in-the-grid/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Tue, 27 May 2025 12:00:00 +0000</pubDate>
+				<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[electricity]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[temasek]]></category>
+		<category><![CDATA[electrical grid]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3011622</guid>
+
+					<description><![CDATA[Gridcare raised $13.3 million for its data platform that finds underutilized capacity on the electrical grid.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Meta adds another 650 MW of solar power to its AI push</title>
+		<link>https://techcrunch.com/2025/05/22/meta-adds-another-650-mw-of-solar-power-to-its-ai-push/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Thu, 22 May 2025 16:49:53 +0000</pubDate>
+				<category><![CDATA[Climate]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[renewable power]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Solar Power]]></category>
+		<category><![CDATA[aes]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3010971</guid>
+
+					<description><![CDATA[The company already has more than 12 gigawatts of capacity in its renewable power portfolio.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Who are climate-conscious consumers? Not who you’d expect, says Northwind Climate</title>
+		<link>https://techcrunch.com/2025/04/01/who-are-climate-conscious-consumers-not-who-youd-expect-says-northwind-climate/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Tue, 01 Apr 2025 19:52:59 +0000</pubDate>
+				<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Northwind Climate]]></category>
+		<category><![CDATA[consumers]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[Surveys]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[Marketing]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2988020</guid>
+
+					<description><![CDATA[Rather than divide people into demographic buckets, Northwind Climate analyzes survey responses for behavioral clues.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Data centers love solar: Here&#8217;s a comprehensive guide to deals over 100 megawatts</title>
+		<link>https://techcrunch.com/2025/03/30/data-centers-love-solar-heres-a-comprehensive-guide-to-deals-over-100-megawatts/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Sun, 30 Mar 2025 14:00:00 +0000</pubDate>
+				<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Solar Power]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[evergreens]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2986758</guid>
+
+					<description><![CDATA[New and expanded data centers are expected to double the sector’s power demand by 2029 as tech companies rush to capitalize on AI.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Nvidia thinks AI can solve electrical grid problems caused by AI</title>
+		<link>https://techcrunch.com/2025/03/20/nvidia-thinks-ai-can-solve-electrical-grid-problems-caused-by-ai/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Thu, 20 Mar 2025 16:41:12 +0000</pubDate>
+				<category><![CDATA[Climate]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[nvidia]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[electrical grid]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2984175</guid>
+
+					<description><![CDATA[The Open Power AI Consortium says it will use domain-specific AI models to tackle problems in the power industry.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Solar notches another win as Microsoft adds 475 MW to power its AI data centers</title>
+		<link>https://techcrunch.com/2025/03/20/solar-notches-another-win-as-microsoft-adds-475-mw-to-power-its-ai-data-centers/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Thu, 20 Mar 2025 14:57:11 +0000</pubDate>
+				<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[Solar Power]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[battery storage]]></category>
+		<category><![CDATA[renewable power]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2984092</guid>
+
+					<description><![CDATA[The company recently signed a deal with energy provider AES for three solar projects across the Midwest.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Geothermal could power nearly all new data centers through 2030</title>
+		<link>https://techcrunch.com/2025/03/11/geothermal-could-power-nearly-all-new-data-centers-through-2030/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Tue, 11 Mar 2025 17:43:52 +0000</pubDate>
+				<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[geothermal]]></category>
+		<category><![CDATA[Rhodium]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[Bedrock Energy]]></category>
+		<category><![CDATA[Quaise Energy]]></category>
+		<category><![CDATA[Fervo Energy]]></category>
+		<category><![CDATA[Sage Geosystems]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2978738</guid>
+
+					<description><![CDATA[Geothermal resources have enormous potential to provide the sort of consistent power that data centers crave.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>ElevenLabs now lets authors create and publish audiobooks on its own platform</title>
+		<link>https://techcrunch.com/2025/02/25/elevenlabs-is-now-letting-authors-create-and-publish-audiobooks-on-its-own-platform/</link>
+		
+		<dc:creator><![CDATA[Ivan Mehta]]></dc:creator>
+		<pubDate>Wed, 26 Feb 2025 03:45:45 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Audible]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[audiobooks]]></category>
+		<category><![CDATA[ElevenLabs]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2970708</guid>
+
+					<description><![CDATA[Voice AI company ElevenLabs is now letting authors publish AI-generated audiobooks on its own Reader app, TechCrunch has learned and the company confirmed. The announcement comes days after the company partnered with Spotify for AI-narrated audiobooks. ElevenLabs, which raised a $180 million mega-round last month, started inviting authors to try out their publishing program through [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Data center tweaks could unlock 76 GW of new power capacity in the US</title>
+		<link>https://techcrunch.com/2025/02/13/data-center-tweaks-could-unlock-76-gw-of-new-power-capacity-in-the-u-s/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Thu, 13 Feb 2025 14:00:00 +0000</pubDate>
+				<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[power grid]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[electricity]]></category>
+		<category><![CDATA[data centers]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2965367</guid>
+
+					<description><![CDATA[A new study argues that data centers could be ideal demand-response participants because they have the potential to be flexible.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>YouTube AI updates include auto dubbing expansion, age ID tech, and more</title>
+		<link>https://techcrunch.com/2025/02/11/youtube-ai-updates-to-include-expansion-of-auto-dubbing-age-identifying-tech-and-more/</link>
+		
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+		<pubDate>Tue, 11 Feb 2025 14:57:22 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Media & Entertainment]]></category>
+		<category><![CDATA[YouTube]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[Creators]]></category>
+		<category><![CDATA[Google]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2963676</guid>
+
+					<description><![CDATA[In his annual letter, YouTube CEO Neal Mohan dubbed AI one of the company&#8217;s four &#8220;big bets&#8221; for 2025. The executive pointed to the company&#8217;s investments in AI tools for creators, including ones for video ideas, thumbnails, and language translation. The latter feature will roll out to all creators in YouTube&#8217;s Partner Program this month, [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Self Inspection raises $3M for its AI-powered vehicle inspections</title>
+		<link>https://techcrunch.com/2025/02/07/self-inspection-raises-3m-for-its-ai-powered-vehicle-inspections/</link>
+		
+		<dc:creator><![CDATA[Sean O'Kane]]></dc:creator>
+		<pubDate>Fri, 07 Feb 2025 18:00:44 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[Costanoa Ventures]]></category>
+		<category><![CDATA[DVx Ventures]]></category>
+		<category><![CDATA[self inspection]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2961386</guid>
+
+					<description><![CDATA[A number of startups are racing to make vehicle inspections faster, easier, and cheaper. Self Inspection, a startup based in San Diego, thinks it has them all beat with its AI-powered service &#8212; and now it has convinced outside investors. Self Inspection, founded in 2021, is set to announce Thursday it&#8217;s raised $3 million in [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Meta turns to solar — again — in its data center-building boom</title>
+		<link>https://techcrunch.com/2025/01/31/meta-turns-to-solar-again-in-its-data-center-building-boom/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Fri, 31 Jan 2025 19:38:51 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Enterprise]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Solar Power]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[renewable power]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2957746</guid>
+
+					<description><![CDATA[The announcement comes as Meta CEO Mark Zuckerberg maintains the company’s ambitious AI strategy, which will require hefty capital investments in data centers.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How to switch off Apple Intelligence on your iPhone, iPad, and Mac</title>
+		<link>https://techcrunch.com/2025/01/27/how-to-switch-off-apple-intelligence-on-your-iphone-ipad-and-mac/</link>
+		
+		<dc:creator><![CDATA[Lorenzo Franceschi-Bicchierai]]></dc:creator>
+		<pubDate>Mon, 27 Jan 2025 22:34:04 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[mac]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[macbook]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<category><![CDATA[genAI]]></category>
+		<category><![CDATA[evergreens]]></category>
+		<category><![CDATA[Apple Intelligence]]></category>
+		<category><![CDATA[artificial intelligence]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2954125</guid>
+
+					<description><![CDATA[Here's a step-by-step guide on how to turn off and disable Apple Intelligence from your devices.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Gridware’s boxes literally listen to power lines to find outages</title>
+		<link>https://techcrunch.com/2025/01/08/gridwares-boxes-literally-listen-to-power-lines-to-find-outages/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Wed, 08 Jan 2025 19:00:00 +0000</pubDate>
+				<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Power Lines]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[electrical grid]]></category>
+		<category><![CDATA[Sequoia Partners]]></category>
+		<category><![CDATA[Gridware]]></category>
+		<category><![CDATA[Artificial Intelligence (AI)]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=2942279</guid>
+
+					<description><![CDATA[Gridware's sensors listen for sounds that the company’s software has been trained to identify as different hazards to the grid.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

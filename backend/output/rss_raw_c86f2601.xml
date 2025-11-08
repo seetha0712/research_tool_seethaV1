@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
+xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
+>
+
+<channel>
+	<title>Generative AI - Forrester</title>
+	<atom:link href="https://www.forrester.com/blogs/category/generative-ai/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Aug 2025 17:08:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.1</generator>
+
+<image>
+	<url>https://go.forrester.com/wp-content/uploads/2021/10/cropped-icon_512.c2nfSw_xZ0-150x150.png</url>
+	<title>Generative AI - Forrester</title>
+	<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+	<itunes:summary></itunes:summary>
+	<itunes:author>Forrester</itunes:author>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:image href="https://go.forrester.com/wp-content/uploads/2022/01/WIM-Id-@3000px-2.jpg" />
+	<itunes:owner>
+		<itunes:name>Forrester</itunes:name>
+	</itunes:owner>
+	<podcast:medium>podcast</podcast:medium>
+	<itunes:subtitle></itunes:subtitle>
+	<image>
+		<title>Generative AI - Forrester</title>
+		<url>https://go.forrester.com/wp-content/uploads/2022/01/WIM-Id-@3000px-2.jpg</url>
+		<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	</image>
+	<itunes:category text="News">
+		<itunes:category text="Business News" />
+	</itunes:category>
+	<podcast:podping usesPodping="true" />
+	<rawvoice:subscribe feed="https://www.forrester.com/blogs/category/generative-ai/feed/" blubrry="https://blubrry.com/forrester_what_it_means/"></rawvoice:subscribe>
+	<item>
+		<title>Infrastructure As Platform: Conquering Chaos In The Agentic Era Requires A New Foundation</title>
+		<link>https://www.forrester.com/blogs/infrastructure-as-platform-conquering-chaos-in-the-agentic-era-requires-a-new-foundation/</link>
+		
+		<dc:creator><![CDATA[Brent Ellis]]></dc:creator>
+		<pubDate>Tue, 12 Aug 2025 13:29:45 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[Architecture & Technology Strategy]]></category>
+		<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Business & IT Alignment]]></category>
+		<category><![CDATA[Business Technology (BT)]]></category>
+		<category><![CDATA[CIO insights]]></category>
+		<category><![CDATA[Core Tech Strategy]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Information Technology]]></category>
+		<category><![CDATA[infrastructure & operations]]></category>
+		<category><![CDATA[Technologie]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271358</guid>
+
+					<description><![CDATA[Enterprises must transform traditional infrastructure into strategic platforms that drive innovation, resilience, and adaptability to address the agentic era. Learn why well-aligned, future-proof infrastructure is key to enabling intelligent business ecosystems and achieving enterprise goals in this preview of our upcoming Technology &#038; Innovation Summit.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Early Adopters Share AI-Centric Service Desk Results</title>
+		<link>https://www.forrester.com/blogs/early-adopters-share-ai-centric-service-desk-results/</link>
+		
+		<dc:creator><![CDATA[Julie Mohr]]></dc:creator>
+		<pubDate>Tue, 12 Aug 2025 12:00:41 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[infrastructure & operations]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271558</guid>
+
+					<description><![CDATA[The promise of AI-centric service desks has moved from theoretical blueprint to operational reality. After extensive research with early adopters across multiple industries, the results reveal a complex landscape where gains are marred with implementation challenges that many organizations didn’t anticipate. While the AI revolution may promise immediate and dramatic results, early adopters paint a [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Skip The Hype Reel — GPT-5’s Real Story Is In The System Card</title>
+		<link>https://www.forrester.com/blogs/skip-the-hype-reel-gpt-5s-real-story-is-in-the-system-card/</link>
+		
+		<dc:creator><![CDATA[Brian Hopkins]]></dc:creator>
+		<pubDate>Fri, 08 Aug 2025 17:08:26 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Business Value]]></category>
+		<category><![CDATA[CIO insights]]></category>
+		<category><![CDATA[Core Tech Strategy]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[promoted]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271499</guid>
+
+					<description><![CDATA[Chat GPT-5 doesn’t have crowd-pleasing upgrades, but they do directly address operational pain points that enterprises face today with generative AI applications.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Feedback And CX Measurement Programs Must Boost Their Impact</title>
+		<link>https://www.forrester.com/blogs/feedback-and-cx-measurement-programs-must-boost-their-impact-according-to-forresters-2025-survey/</link>
+		
+		<dc:creator><![CDATA[Colleen Fazio]]></dc:creator>
+		<pubDate>Fri, 08 Aug 2025 15:19:09 +0000</pubDate>
+				<category><![CDATA[customer experience]]></category>
+		<category><![CDATA[customer experience management]]></category>
+		<category><![CDATA[Customer Experience Measurement]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[voice of the customer (VOC)]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=270238</guid>
+
+					<description><![CDATA[Most CX teams still fall short in getting stakeholders to act on insights, Forrester’s 2025 global survey shows. Learn about the problem areas and how to move past them.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The Dawn Of A New B2B Sales Supercycle</title>
+		<link>https://www.forrester.com/blogs/the-dawn-of-a-new-b2b-sales-supercycle/</link>
+		
+		<dc:creator><![CDATA[Rick Bradberry]]></dc:creator>
+		<pubDate>Thu, 07 Aug 2025 13:27:34 +0000</pubDate>
+				<category><![CDATA[B2B Sales]]></category>
+		<category><![CDATA[Chief Sales Officer]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[marketing strategy]]></category>
+		<category><![CDATA[Revenue Operations]]></category>
+		<category><![CDATA[Sales Enablement]]></category>
+		<category><![CDATA[Sales Strategy]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271216</guid>
+
+					<description><![CDATA[A new era in B2B sales is unfolding, driven by generative and agentic AI. As seller roles merge and AI agents become co-sellers, organizations must rethink how they structure teams, engage buyers, and compete in increasingly networked ecosystems. Learn how AI is reshaping the future of sales.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The Autonomous Testing Platforms Landscape, Q3 2025, Is Out!</title>
+		<link>https://www.forrester.com/blogs/the-autonomous-testing-platform-vendor-landscape-q2-2025-is-out/</link>
+		
+		<dc:creator><![CDATA[Diego Lo Giudice]]></dc:creator>
+		<pubDate>Tue, 05 Aug 2025 15:29:30 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[Architecture & Technology Strategy]]></category>
+		<category><![CDATA[development & operations (DevOps)]]></category>
+		<category><![CDATA[Emerging Technology]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Information Technology]]></category>
+		<category><![CDATA[low-code platforms]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=271093</guid>
+
+					<description><![CDATA[As software development accelerates through AI and generative technologies developer teams need to rethink how they approach testing. Learn some of the benefits of autonomous testing platforms in this preview of a new market landscape report. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The Clock Didn’t Stop: The EU AI Act Will Reshape Your AI Strategy — Now</title>
+		<link>https://www.forrester.com/blogs/the-clock-didnt-stop-the-eu-ai-act-will-reshape-your-ai-strategy-now/</link>
+		
+		<dc:creator><![CDATA[Enza Iannopollo]]></dc:creator>
+		<pubDate>Tue, 05 Aug 2025 11:49:20 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Data Governance]]></category>
+		<category><![CDATA[EMEA]]></category>
+		<category><![CDATA[Emerging Technology]]></category>
+		<category><![CDATA[Europe]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[promoted]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=270450</guid>
+
+					<description><![CDATA[After rejecting lobbying efforts from the tech industry, the EU is moving forward with the next phase of the EU AI Act. Find out what this means for organizations leveraging AI in the EU and beyond.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>GenAI Offers The Digital Employee Experience Opportunity Of A Lifetime</title>
+		<link>https://www.forrester.com/blogs/genai-offers-the-digital-employee-experience-opportunity-of-a-lifetime/</link>
+		
+		<dc:creator><![CDATA[David Johnson]]></dc:creator>
+		<pubDate>Mon, 04 Aug 2025 20:49:37 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[CIO insights]]></category>
+		<category><![CDATA[employee experience]]></category>
+		<category><![CDATA[Future of Work]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Information Technology]]></category>
+		<category><![CDATA[infrastructure & operations]]></category>
+		<category><![CDATA[technology-driven innovation]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=270716</guid>
+
+					<description><![CDATA[Demand for new AI-driven capabilities is surging, creating unique problems for technology leaders. Find out how an AI-enabled digital employee experience strategy can help in this preview of Forrester’s upcoming Technology &#038; Innovation Summit North America.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Introducing AEGIS — The Guardrails That CISOs Need For The Agentic Enterprise</title>
+		<link>https://www.forrester.com/blogs/introducing-aegis-the-guardrails-cisos-need-for-the-agentic-enterprise/</link>
+		
+		<dc:creator><![CDATA[Jeff Pollard]]></dc:creator>
+		<pubDate>Mon, 04 Aug 2025 14:12:18 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Application Security]]></category>
+		<category><![CDATA[CISO Trends]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Cybersecurity Trends]]></category>
+		<category><![CDATA[data security]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Responsible AI]]></category>
+		<category><![CDATA[security architecture]]></category>
+		<category><![CDATA[security risk management]]></category>
+		<category><![CDATA[Security Services]]></category>
+		<category><![CDATA[Zero Trust]]></category>
+		<category><![CDATA[promoted]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=270765</guid>
+
+					<description><![CDATA[AI agents aren’t coming — they’re already here. And they’re not waiting for your security architecture to catch up. Learn how Forrester's new AEGIS framework can help CISOs secure, govern, and manage AI agents and agentic infrastructure.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>New Research: Top Emerging Technologies In Healthcare</title>
+		<link>https://www.forrester.com/blogs/new-research-top-emerging-technologies-in-healthcare/</link>
+		
+		<dc:creator><![CDATA[Shannon Germain Farraher]]></dc:creator>
+		<pubDate>Mon, 04 Aug 2025 13:25:35 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[customer experience]]></category>
+		<category><![CDATA[Emerging Technology]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[healthcare trends]]></category>
+		<category><![CDATA[technology-driven innovation]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=270810</guid>
+
+					<description><![CDATA[Healthcare organizations face constant pressure to improve clinical outcomes and workforce retention amid budget constraints and market volatility. Our new research aims to help them prioritize the technologies that will have the most impact today.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

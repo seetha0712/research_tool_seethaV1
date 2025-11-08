@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
+xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
+>
+
+<channel>
+	<title>Generative AI - Forrester</title>
+	<atom:link href="https://www.forrester.com/blogs/category/generative-ai/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	<description></description>
+	<lastBuildDate>Fri, 24 Oct 2025 20:31:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.3</generator>
+
+<image>
+	<url>https://go.forrester.com/wp-content/uploads/2021/10/cropped-icon_512.c2nfSw_xZ0-150x150.png</url>
+	<title>Generative AI - Forrester</title>
+	<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+	<itunes:summary></itunes:summary>
+	<itunes:author>Forrester</itunes:author>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:image href="https://go.forrester.com/wp-content/uploads/2022/01/WIM-Id-@3000px-2.jpg" />
+	<itunes:owner>
+		<itunes:name>Forrester</itunes:name>
+	</itunes:owner>
+	<podcast:medium>podcast</podcast:medium>
+	<itunes:subtitle></itunes:subtitle>
+	<image>
+		<title>Generative AI - Forrester</title>
+		<url>https://go.forrester.com/wp-content/uploads/2022/01/WIM-Id-@3000px-2.jpg</url>
+		<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	</image>
+	<itunes:category text="News">
+		<itunes:category text="Business News" />
+	</itunes:category>
+	<podcast:podping usesPodping="true" />
+	<rawvoice:subscribe feed="https://www.forrester.com/blogs/category/generative-ai/feed/" blubrry="https://blubrry.com/forrester_what_it_means/"></rawvoice:subscribe>
+	<item>
+		<title>From Veto To Victory: California’s New AI Act Revives The National (And International) Conversation On AI Regulations</title>
+		<link>https://www.forrester.com/blogs/from-veto-to-victory-californias-new-ai-act-revives-the-national-and-international-conversation-on-ai-regulations/</link>
+		
+		<dc:creator><![CDATA[Alla Valente]]></dc:creator>
+		<pubDate>Fri, 24 Oct 2025 16:45:23 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Responsible AI]]></category>
+		<category><![CDATA[risk management]]></category>
+		<category><![CDATA[security risk management]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=279732</guid>
+
+					<description><![CDATA[At its core, California's TFAIA requires safety protocols, best practices, and key compliance policies, but it stops short of prescribing risk frameworks and imposing legal liabilities. Here’s a closer look at what’s in the new AI law.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Forrester’s AEGIS Framework: The New Standard For AI Governance</title>
+		<link>https://www.forrester.com/blogs/forrester-aegis-the-new-standard-for-ai-governance/</link>
+		
+		<dc:creator><![CDATA[Jeff Pollard]]></dc:creator>
+		<pubDate>Wed, 22 Oct 2025 18:43:55 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Cybersecurity Trends]]></category>
+		<category><![CDATA[Data Governance]]></category>
+		<category><![CDATA[Europe]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[GRC - Governance, Risk, And Compliance]]></category>
+		<category><![CDATA[MITRE ATT&CK]]></category>
+		<category><![CDATA[risk management]]></category>
+		<category><![CDATA[security risk management]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=279495</guid>
+
+					<description><![CDATA[AEGIS is not just another acronym — it’s now a fully cross-referenced, regulation-aware blueprint for building trust in AI systems.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Don’t Call It A Browser War: OpenAI Launches ChatGPT Atlas</title>
+		<link>https://www.forrester.com/blogs/dont-call-it-a-browser-war-openai-launches-chatgpt-atlas/</link>
+		
+		<dc:creator><![CDATA[Stephanie Liu]]></dc:creator>
+		<pubDate>Wed, 22 Oct 2025 14:43:02 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[consumer]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[promoted]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=279476</guid>
+
+					<description><![CDATA[OpenAI's launch of ChatGPT Atlas marks a new milestone in the arms race of AI browsers. Yet it has high hurdles to clear in a competitive market.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Retail’s Holiday 2025: More Sales, Profits, And AI-Driven Commerce</title>
+		<link>https://www.forrester.com/blogs/retails-holiday-2025-more-sales-profits-and-ai-driven-commerce/</link>
+		
+		<dc:creator><![CDATA[Brendan Witcher]]></dc:creator>
+		<pubDate>Tue, 21 Oct 2025 17:38:28 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[consumer]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[holiday]]></category>
+		<category><![CDATA[Retail Trends]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=279369</guid>
+
+					<description><![CDATA[Time to pull out the holiday decorations and start building that gift list — Q4 2025 is upon us! For retail and other business leaders, this means daily meetings to raise, review, revise, and rip apart their inventory, promotion, commerce, and marketing strategies.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Recorded Future Predict 2025: Intelligence To Operations &#8230; And Now To Action</title>
+		<link>https://www.forrester.com/blogs/recorded-future-predict-2025-intelligence-to-operations-and-now-to-action/</link>
+		
+		<dc:creator><![CDATA[Jitin Shabadu]]></dc:creator>
+		<pubDate>Tue, 21 Oct 2025 16:44:49 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Automation]]></category>
+		<category><![CDATA[Cybersecurity Trends]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[security architecture]]></category>
+		<category><![CDATA[Security Services]]></category>
+		<category><![CDATA[threat intelligence]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=279242</guid>
+
+					<description><![CDATA[Recorded Future held its Predict Global 2025 conference in New York City recently. Get some key highlights from the conference as well as a look ahead to the vendor’s Predict Europe 2025 event. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Field Marketing In 2025: Time To Break The Cycle Of Misalignment</title>
+		<link>https://www.forrester.com/blogs/field-marketing-in-2025-time-to-break-the-cycle-of-misalignment/</link>
+		
+		<dc:creator><![CDATA[Daryl Wright]]></dc:creator>
+		<pubDate>Tue, 21 Oct 2025 16:06:45 +0000</pubDate>
+				<category><![CDATA[Account-Based Marketing (ABM)]]></category>
+		<category><![CDATA[B2B Marketing]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[marketing strategy]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=278371</guid>
+
+					<description><![CDATA[Field marketing is undergoing a shift and not necessarily in the right direction. Strategic responsibilities are expanding, yet performance metrics remain stubbornly anchored in outdated demand generation models. Learn five key actions field marketing leaders can take now to avoid being trapped in a downward spiral of misalignment.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Stop Optimizing, Start Reinventing: Three Imperatives For Marketing Leaders In 2026</title>
+		<link>https://www.forrester.com/blogs/stop-optimizing-start-reinventing-three-imperatives-for-marketing-leaders-in-2026/</link>
+		
+		<dc:creator><![CDATA[Lisa Gately]]></dc:creator>
+		<pubDate>Tue, 21 Oct 2025 15:03:27 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[B2B Marketing]]></category>
+		<category><![CDATA[Content Strategy and Operations]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=279276</guid>
+
+					<description><![CDATA[Learn three imperatives coming out of MAICON 2025 for marketing leaders looking to reimagine how marketing creates growth.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>What Factors Are Driving B2B Marketing’s AI Adoption?</title>
+		<link>https://www.forrester.com/blogs/what-factors-are-driving-b2b-marketings-ai-adoption/</link>
+		
+		<dc:creator><![CDATA[Ian Bruce]]></dc:creator>
+		<pubDate>Mon, 20 Oct 2025 22:21:24 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[B2B Marketing]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Marketing Technology (martech)]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=279162</guid>
+
+					<description><![CDATA[Beneath all the sound and fury, what is driving AI adoption across B2B marketing? How are marketers using AI productively today, and what can early adopters teach us about using AI technologies successfully? Most organizations have advanced significantly beyond the initial stages of education and experimentation and are now actively implementing AI-powered technologies across various use cases.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Developer-Led Growth Meets Enterprise-Grade Security And Distributed Infrastructure At Cloudflare Connect 2025</title>
+		<link>https://www.forrester.com/blogs/developer-led-growth-meets-enterprise-grade-security-and-distributed-infrastructure-at-cloudflare-connect-2025/</link>
+		
+		<dc:creator><![CDATA[Devin Dickerson]]></dc:creator>
+		<pubDate>Mon, 20 Oct 2025 19:59:50 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Application Development & Delivery]]></category>
+		<category><![CDATA[Application Security]]></category>
+		<category><![CDATA[Architecture & Technology Strategy]]></category>
+		<category><![CDATA[CIO insights]]></category>
+		<category><![CDATA[CISO Trends]]></category>
+		<category><![CDATA[Cloud Computing Trends]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Cybersecurity Trends]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[infrastructure & operations]]></category>
+		<category><![CDATA[network security]]></category>
+		<category><![CDATA[networking]]></category>
+		<category><![CDATA[security architecture]]></category>
+		<category><![CDATA[Zero Trust]]></category>
+		<category><![CDATA[Zero Trust Model]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=279153</guid>
+
+					<description><![CDATA[Cloudflare Connect 2025 had a distinctly optimistic vibe as the vendor positions itself as the connective tissue for modern digital operations in the enterprise and showcases its AI security abilities. Learn more in this event review.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Celebrating Excellence: Bank Of America Wins Forrester’s 2025 Data &#038; AI Impact Award</title>
+		<link>https://www.forrester.com/blogs/celebrating-excellence-bank-of-america-wins-forresters-2025-data-ai-impact-award/</link>
+		
+		<dc:creator><![CDATA[Sudha Maheshwari]]></dc:creator>
+		<pubDate>Mon, 20 Oct 2025 13:30:11 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Data Insights]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Responsible AI]]></category>
+		<category><![CDATA[promoted]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=277390</guid>
+
+					<description><![CDATA[Get a detailed look at Bank of America’s winning strategy and find out who our finalists were in this post.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

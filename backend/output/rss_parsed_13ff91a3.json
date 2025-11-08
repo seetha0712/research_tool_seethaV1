@@ -1,0 +1,812 @@
+[
+  {
+    "title": "From Veto To Victory: California\u2019s New AI Act Revives The National (And International) Conversation On AI Regulations",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "From Veto To Victory: California\u2019s New AI Act Revives The National (And International) Conversation On AI Regulations"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/from-veto-to-victory-californias-new-ai-act-revives-the-national-and-international-conversation-on-ai-regulations/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/from-veto-to-victory-californias-new-ai-act-revives-the-national-and-international-conversation-on-ai-regulations/",
+    "authors": [
+      {
+        "name": "Alla Valente"
+      }
+    ],
+    "author": "Alla Valente",
+    "author_detail": {
+      "name": "Alla Valente"
+    },
+    "published": "Fri, 24 Oct 2025 16:45:23 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      24,
+      16,
+      45,
+      23,
+      4,
+      297,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Age of the Customer",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI Insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Responsible AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "risk management",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "security risk management",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=279732",
+    "guidislink": false,
+    "summary": "At its core, California's TFAIA requires safety protocols, best practices, and key compliance policies, but it stops short of prescribing risk frameworks and imposing legal liabilities. Here\u2019s a closer look at what\u2019s in the new AI law.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "At its core, California's TFAIA requires safety protocols, best practices, and key compliance policies, but it stops short of prescribing risk frameworks and imposing legal liabilities. Here\u2019s a closer look at what\u2019s in the new AI law."
+    }
+  },
+  {
+    "title": "Forrester\u2019s AEGIS Framework: The New Standard For AI Governance",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Forrester\u2019s AEGIS Framework: The New Standard For AI Governance"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/forrester-aegis-the-new-standard-for-ai-governance/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/forrester-aegis-the-new-standard-for-ai-governance/",
+    "authors": [
+      {
+        "name": "Jeff Pollard"
+      }
+    ],
+    "author": "Jeff Pollard",
+    "author_detail": {
+      "name": "Jeff Pollard"
+    },
+    "published": "Wed, 22 Oct 2025 18:43:55 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      22,
+      18,
+      43,
+      55,
+      2,
+      295,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI Insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Cybersecurity Trends",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Governance",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Europe",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "GRC - Governance, Risk, And Compliance",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "MITRE ATT&CK",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "risk management",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "security risk management",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=279495",
+    "guidislink": false,
+    "summary": "AEGIS is not just another acronym \u2014 it\u2019s now a fully cross-referenced, regulation-aware blueprint for building trust in AI systems.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "AEGIS is not just another acronym \u2014 it\u2019s now a fully cross-referenced, regulation-aware blueprint for building trust in AI systems."
+    }
+  },
+  {
+    "title": "Don\u2019t Call It A Browser War: OpenAI Launches ChatGPT Atlas",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Don\u2019t Call It A Browser War: OpenAI Launches ChatGPT Atlas"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/dont-call-it-a-browser-war-openai-launches-chatgpt-atlas/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/dont-call-it-a-browser-war-openai-launches-chatgpt-atlas/",
+    "authors": [
+      {
+        "name": "Stephanie Liu"
+      }
+    ],
+    "author": "Stephanie Liu",
+    "author_detail": {
+      "name": "Stephanie Liu"
+    },
+    "published": "Wed, 22 Oct 2025 14:43:02 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      22,
+      14,
+      43,
+      2,
+      2,
+      295,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI Insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "consumer",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "promoted",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=279476",
+    "guidislink": false,
+    "summary": "OpenAI's launch of ChatGPT Atlas marks a new milestone in the arms race of AI browsers. Yet it has high hurdles to clear in a competitive market.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "OpenAI's launch of ChatGPT Atlas marks a new milestone in the arms race of AI browsers. Yet it has high hurdles to clear in a competitive market."
+    }
+  },
+  {
+    "title": "Retail\u2019s Holiday 2025: More Sales, Profits, And AI-Driven Commerce",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Retail\u2019s Holiday 2025: More Sales, Profits, And AI-Driven Commerce"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/retails-holiday-2025-more-sales-profits-and-ai-driven-commerce/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/retails-holiday-2025-more-sales-profits-and-ai-driven-commerce/",
+    "authors": [
+      {
+        "name": "Brendan Witcher"
+      }
+    ],
+    "author": "Brendan Witcher",
+    "author_detail": {
+      "name": "Brendan Witcher"
+    },
+    "published": "Tue, 21 Oct 2025 17:38:28 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      21,
+      17,
+      38,
+      28,
+      1,
+      294,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Age of the Customer",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "consumer",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "holiday",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Retail Trends",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=279369",
+    "guidislink": false,
+    "summary": "Time to pull out the holiday decorations and start building that gift list \u2014 Q4 2025 is upon us! For retail and other business leaders, this means daily meetings to raise, review, revise, and rip apart their inventory, promotion, commerce, and marketing strategies.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Time to pull out the holiday decorations and start building that gift list \u2014 Q4 2025 is upon us! For retail and other business leaders, this means daily meetings to raise, review, revise, and rip apart their inventory, promotion, commerce, and marketing strategies."
+    }
+  },
+  {
+    "title": "Recorded Future Predict 2025: Intelligence To Operations \u2026 And Now To Action",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Recorded Future Predict 2025: Intelligence To Operations \u2026 And Now To Action"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/recorded-future-predict-2025-intelligence-to-operations-and-now-to-action/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/recorded-future-predict-2025-intelligence-to-operations-and-now-to-action/",
+    "authors": [
+      {
+        "name": "Jitin Shabadu"
+      }
+    ],
+    "author": "Jitin Shabadu",
+    "author_detail": {
+      "name": "Jitin Shabadu"
+    },
+    "published": "Tue, 21 Oct 2025 16:44:49 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      21,
+      16,
+      44,
+      49,
+      1,
+      294,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI Insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Automation",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Cybersecurity Trends",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "security architecture",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security Services",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "threat intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=279242",
+    "guidislink": false,
+    "summary": "Recorded Future held its Predict Global 2025 conference in New York City recently. Get some key highlights from the conference as well as a look ahead to the vendor\u2019s Predict Europe 2025 event.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Recorded Future held its Predict Global 2025 conference in New York City recently. Get some key highlights from the conference as well as a look ahead to the vendor\u2019s Predict Europe 2025 event."
+    }
+  },
+  {
+    "title": "Field Marketing In 2025: Time To Break The Cycle Of Misalignment",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Field Marketing In 2025: Time To Break The Cycle Of Misalignment"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/field-marketing-in-2025-time-to-break-the-cycle-of-misalignment/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/field-marketing-in-2025-time-to-break-the-cycle-of-misalignment/",
+    "authors": [
+      {
+        "name": "Daryl Wright"
+      }
+    ],
+    "author": "Daryl Wright",
+    "author_detail": {
+      "name": "Daryl Wright"
+    },
+    "published": "Tue, 21 Oct 2025 16:06:45 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      21,
+      16,
+      6,
+      45,
+      1,
+      294,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Account-Based Marketing (ABM)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "B2B Marketing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "marketing strategy",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=278371",
+    "guidislink": false,
+    "summary": "Field marketing is undergoing a shift and not necessarily in the right direction. Strategic responsibilities are expanding, yet performance metrics remain stubbornly anchored in outdated demand generation models. Learn five key actions field marketing leaders can take now to avoid being trapped in a downward spiral of misalignment.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Field marketing is undergoing a shift and not necessarily in the right direction. Strategic responsibilities are expanding, yet performance metrics remain stubbornly anchored in outdated demand generation models. Learn five key actions field marketing leaders can take now to avoid being trapped in a downward spiral of misalignment."
+    }
+  },
+  {
+    "title": "Stop Optimizing, Start Reinventing: Three Imperatives For Marketing Leaders In 2026",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Stop Optimizing, Start Reinventing: Three Imperatives For Marketing Leaders In 2026"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/stop-optimizing-start-reinventing-three-imperatives-for-marketing-leaders-in-2026/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/stop-optimizing-start-reinventing-three-imperatives-for-marketing-leaders-in-2026/",
+    "authors": [
+      {
+        "name": "Lisa Gately"
+      }
+    ],
+    "author": "Lisa Gately",
+    "author_detail": {
+      "name": "Lisa Gately"
+    },
+    "published": "Tue, 21 Oct 2025 15:03:27 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      21,
+      15,
+      3,
+      27,
+      1,
+      294,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Age of the Customer",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "B2B Marketing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Content Strategy and Operations",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=279276",
+    "guidislink": false,
+    "summary": "Learn three imperatives coming out of MAICON 2025 for marketing leaders looking to reimagine how marketing creates growth.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Learn three imperatives coming out of MAICON 2025 for marketing leaders looking to reimagine how marketing creates growth."
+    }
+  },
+  {
+    "title": "What Factors Are Driving B2B Marketing\u2019s AI Adoption?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "What Factors Are Driving B2B Marketing\u2019s AI Adoption?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/what-factors-are-driving-b2b-marketings-ai-adoption/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/what-factors-are-driving-b2b-marketings-ai-adoption/",
+    "authors": [
+      {
+        "name": "Ian Bruce"
+      }
+    ],
+    "author": "Ian Bruce",
+    "author_detail": {
+      "name": "Ian Bruce"
+    },
+    "published": "Mon, 20 Oct 2025 22:21:24 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      20,
+      22,
+      21,
+      24,
+      0,
+      293,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI Insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "B2B Marketing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Marketing Technology (martech)",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=279162",
+    "guidislink": false,
+    "summary": "Beneath all the sound and fury, what is driving AI adoption across B2B marketing? How are marketers using AI productively today, and what can early adopters teach us about using AI technologies successfully? Most organizations have advanced significantly beyond the initial stages of education and experimentation and are now actively implementing AI-powered technologies across various use cases.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Beneath all the sound and fury, what is driving AI adoption across B2B marketing? How are marketers using AI productively today, and what can early adopters teach us about using AI technologies successfully? Most organizations have advanced significantly beyond the initial stages of education and experimentation and are now actively implementing AI-powered technologies across various use cases."
+    }
+  },
+  {
+    "title": "Developer-Led Growth Meets Enterprise-Grade Security And Distributed Infrastructure At Cloudflare Connect 2025",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Developer-Led Growth Meets Enterprise-Grade Security And Distributed Infrastructure At Cloudflare Connect 2025"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/developer-led-growth-meets-enterprise-grade-security-and-distributed-infrastructure-at-cloudflare-connect-2025/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/developer-led-growth-meets-enterprise-grade-security-and-distributed-infrastructure-at-cloudflare-connect-2025/",
+    "authors": [
+      {
+        "name": "Devin Dickerson"
+      }
+    ],
+    "author": "Devin Dickerson",
+    "author_detail": {
+      "name": "Devin Dickerson"
+    },
+    "published": "Mon, 20 Oct 2025 19:59:50 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      20,
+      19,
+      59,
+      50,
+      0,
+      293,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI Insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Application Development & Delivery",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Application Security",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Architecture & Technology Strategy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "CIO insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "CISO Trends",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Cloud Computing Trends",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Cloud Security",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Cybersecurity Trends",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "infrastructure & operations",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "network security",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "networking",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "security architecture",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Zero Trust",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Zero Trust Model",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=279153",
+    "guidislink": false,
+    "summary": "Cloudflare Connect 2025 had a distinctly optimistic vibe as the vendor positions itself as the connective tissue for modern digital operations in the enterprise and showcases its AI security abilities. Learn more in this event review.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Cloudflare Connect 2025 had a distinctly optimistic vibe as the vendor positions itself as the connective tissue for modern digital operations in the enterprise and showcases its AI security abilities. Learn more in this event review."
+    }
+  },
+  {
+    "title": "Celebrating Excellence: Bank Of America Wins Forrester\u2019s 2025 Data & AI Impact Award",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Celebrating Excellence: Bank Of America Wins Forrester\u2019s 2025 Data & AI Impact Award"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.forrester.com/blogs/celebrating-excellence-bank-of-america-wins-forresters-2025-data-ai-impact-award/"
+      }
+    ],
+    "link": "https://www.forrester.com/blogs/celebrating-excellence-bank-of-america-wins-forresters-2025-data-ai-impact-award/",
+    "authors": [
+      {
+        "name": "Sudha Maheshwari"
+      }
+    ],
+    "author": "Sudha Maheshwari",
+    "author_detail": {
+      "name": "Sudha Maheshwari"
+    },
+    "published": "Mon, 20 Oct 2025 13:30:11 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      20,
+      13,
+      30,
+      11,
+      0,
+      293,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI Insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Insights",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Responsible AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "promoted",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.forrester.com/?p=277390",
+    "guidislink": false,
+    "summary": "Get a detailed look at Bank of America\u2019s winning strategy and find out who our finalists were in this post.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Get a detailed look at Bank of America\u2019s winning strategy and find out who our finalists were in this post."
+    }
+  }
+]

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
+xmlns:rawvoice="https://blubrry.com/developer/rawvoice-rss/"
+>
+
+<channel>
+	<title>Generative AI - Forrester</title>
+	<atom:link href="https://www.forrester.com/blogs/category/generative-ai/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	<description></description>
+	<lastBuildDate>Fri, 03 Oct 2025 15:55:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.3</generator>
+
+<image>
+	<url>https://go.forrester.com/wp-content/uploads/2021/10/cropped-icon_512.c2nfSw_xZ0-150x150.png</url>
+	<title>Generative AI - Forrester</title>
+	<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+	<itunes:summary></itunes:summary>
+	<itunes:author>Forrester</itunes:author>
+	<itunes:explicit>false</itunes:explicit>
+	<itunes:image href="https://go.forrester.com/wp-content/uploads/2022/01/WIM-Id-@3000px-2.jpg" />
+	<itunes:owner>
+		<itunes:name>Forrester</itunes:name>
+	</itunes:owner>
+	<podcast:medium>podcast</podcast:medium>
+	<itunes:subtitle></itunes:subtitle>
+	<image>
+		<title>Generative AI - Forrester</title>
+		<url>https://go.forrester.com/wp-content/uploads/2022/01/WIM-Id-@3000px-2.jpg</url>
+		<link>https://www.forrester.com/blogs/category/generative-ai/</link>
+	</image>
+	<itunes:category text="News">
+		<itunes:category text="Business News" />
+	</itunes:category>
+	<podcast:podping usesPodping="true" />
+	<rawvoice:subscribe feed="https://www.forrester.com/blogs/category/generative-ai/feed/" blubrry="https://blubrry.com/forrester_what_it_means/"></rawvoice:subscribe>
+	<item>
+		<title>B2B Sellers Need A Fight Song To Address Buying Mayhem</title>
+		<link>https://www.forrester.com/blogs/b2b-buying-mayhem-fight-song/</link>
+		
+		<dc:creator><![CDATA[Rick Bradberry]]></dc:creator>
+		<pubDate>Tue, 07 Oct 2025 08:00:23 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[B2B Sales]]></category>
+		<category><![CDATA[Channel Sales]]></category>
+		<category><![CDATA[Chief Marketing Officer]]></category>
+		<category><![CDATA[Chief Sales Officer]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Sales]]></category>
+		<category><![CDATA[Sales Enablement]]></category>
+		<category><![CDATA[Sales Operations]]></category>
+		<category><![CDATA[Sales Planning]]></category>
+		<category><![CDATA[Sales Strategy]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=276896</guid>
+
+					<description><![CDATA[To the sellers whose jobs have been complicated by buying shifts and, now, AI: This song is for you.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Zero-Click Search Comes For Checkout: Agentic Commerce Automates Retail’s Next Frontier</title>
+		<link>https://www.forrester.com/blogs/zero-click-search-comes-for-checkout-agentic-commerce-automates-retails-next-frontier/</link>
+		
+		<dc:creator><![CDATA[Nikhil Lai]]></dc:creator>
+		<pubDate>Thu, 02 Oct 2025 20:55:09 +0000</pubDate>
+				<category><![CDATA[Advertising]]></category>
+		<category><![CDATA[Advertising Agencies]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[B2B Marketing]]></category>
+		<category><![CDATA[B2C Marketing]]></category>
+		<category><![CDATA[Chief Marketing Officer]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Media Insights]]></category>
+		<category><![CDATA[Payments]]></category>
+		<category><![CDATA[Retail Trends]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=277045</guid>
+
+					<description><![CDATA[Agentic commerce is spreading as OpenAI launches Instant Checkout offering shoppers conversational shopping from curiosity to checkout without redirecting consumers to merchants’ sites. Find out what this means and how B2C marketers are responding in this post.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Build Your Foundation First: The Hard Truth About Successful AI Deployments</title>
+		<link>https://www.forrester.com/blogs/build-your-foundation-first-the-hard-truth-about-successful-ai-deployments/</link>
+		
+		<dc:creator><![CDATA[Katie Linford]]></dc:creator>
+		<pubDate>Thu, 02 Oct 2025 19:50:33 +0000</pubDate>
+				<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[B2B Marketing]]></category>
+		<category><![CDATA[B2B Research]]></category>
+		<category><![CDATA[Business Process Management (BPM)]]></category>
+		<category><![CDATA[Business Technology (BT)]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=277121</guid>
+
+					<description><![CDATA[AI can improve efficiency for go-to-market teams but only if core processes are in place. This blog explores how to identify and fix issues such as siloed workflows, disconnected systems, and inconsistent data so that AI can deliver real impact instead of amplifying inefficiencies.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>From Keywords To Context: Impact And Opportunity For AI-Powered Search In B2B Marketing</title>
+		<link>https://www.forrester.com/blogs/from-keywords-to-context-impact-and-opportunity-for-ai-powered-search-in-b2b-marketing/</link>
+		
+		<dc:creator><![CDATA[Jessie Johnson]]></dc:creator>
+		<pubDate>Thu, 02 Oct 2025 18:55:19 +0000</pubDate>
+				<category><![CDATA[Account Based Marketing]]></category>
+		<category><![CDATA[B2B Marketing]]></category>
+		<category><![CDATA[Content Strategy and Operations]]></category>
+		<category><![CDATA[Customer Engagement]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=277115</guid>
+
+					<description><![CDATA[AI-powered search is rapidly reshaping how B2B buyers discover, evaluate, and engage with providers during the purchasing process and postsale experience. Today’s buyers ask questions that require more than simple keyword matches. They expect modern search environments — from generative AI-based answer engines to AI agents — to understand their intent and deliver responses that [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How Accurate Were Our Predictions For 2025?</title>
+		<link>https://www.forrester.com/blogs/how-accurate-were-our-predictions-for-2025/</link>
+		
+		<dc:creator><![CDATA[Sharyn Leaver]]></dc:creator>
+		<pubDate>Wed, 01 Oct 2025 08:00:08 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[CIO insights]]></category>
+		<category><![CDATA[Data Insights]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[infrastructure & operations]]></category>
+		<category><![CDATA[predictions]]></category>
+		<category><![CDATA[social marketing]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[Sustainability]]></category>
+		<category><![CDATA[promoted]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=275390</guid>
+
+					<description><![CDATA[Predictions season is here, and our research teams have been hard at work formulating and fine-tuning their calls for 2026. But before we release our 2026 predictions, here’s a review of some of the “hits” and “misses” from our 2025 predictions.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>How To Build AI Red Teams That Actually Work</title>
+		<link>https://www.forrester.com/blogs/how-to-build-ai-red-teams-that-actually-work/</link>
+		
+		<dc:creator><![CDATA[Jeff Pollard]]></dc:creator>
+		<pubDate>Tue, 30 Sep 2025 19:51:04 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Application Security]]></category>
+		<category><![CDATA[Cloud Security]]></category>
+		<category><![CDATA[Cybersecurity Trends]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Responsible AI]]></category>
+		<category><![CDATA[security risk management]]></category>
+		<category><![CDATA[Security Services]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=276828</guid>
+
+					<description><![CDATA[AI red teaming blends offensive security tactics with safety evaluations for bias, toxicity, and reputational harm. It’s messy, fragmented and, most of all, necessary. Get six tips to get started on an AI red team that actually works in this preview of our upcoming Security &#038; Risk Summit.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI: Our Modern-Day Cyrano</title>
+		<link>https://www.forrester.com/blogs/ai-our-modern-day-cyrano/</link>
+		
+		<dc:creator><![CDATA[Brendan Witcher]]></dc:creator>
+		<pubDate>Tue, 30 Sep 2025 18:06:21 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[B2C Marketing]]></category>
+		<category><![CDATA[digital business]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Responsible AI]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=276794</guid>
+
+					<description><![CDATA[Like Cyrano, AI often acts as the unseen ghostwriter, strategist, or partner, offering insights or phrasing that feel more articulate and persuasive than our own. But, as in the play, this arrangement introduces social complexities, ethical dilemmas, and maybe even heartbreak.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Brand Manufacturers: Explore Dynamic Commerce Before Retailers Eat Your Lunch!</title>
+		<link>https://www.forrester.com/blogs/brand-manufacturers-explore-dynamic-commerce-before-retailers-eat-your-lunch/</link>
+		
+		<dc:creator><![CDATA[Chuck Gahun]]></dc:creator>
+		<pubDate>Fri, 26 Sep 2025 18:39:11 +0000</pubDate>
+				<category><![CDATA[consumer]]></category>
+		<category><![CDATA[Content Strategy and Operations]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<category><![CDATA[Loyalty]]></category>
+		<category><![CDATA[omnichannel customer experience]]></category>
+		<category><![CDATA[retail loyalty]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=276256</guid>
+
+					<description><![CDATA[For brand manufacturers, the contextualized interactions enabled by dynamic commerce are becoming a blueprint for growth. Learn how to leverage this now to maintain a competitive edge. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>JFrog SwampUp 2025: The Agentic Development Era Emerges From The Swamp</title>
+		<link>https://www.forrester.com/blogs/jfrog-swampup-2025-the-agentic-development-era-emerges-from-the-swamp/</link>
+		
+		<dc:creator><![CDATA[Janet Worthington]]></dc:creator>
+		<pubDate>Thu, 25 Sep 2025 15:02:46 +0000</pubDate>
+				<category><![CDATA[Application Development & Delivery]]></category>
+		<category><![CDATA[Application Security]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=276172</guid>
+
+					<description><![CDATA[Learn how JFrog’s announcements at its recent SwampUp user conference differed from those of its competitors by having an emphasis on application trust, supply chain integrity, and agentic development releases.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Breaking The AI Adoption Paradox In APAC</title>
+		<link>https://www.forrester.com/blogs/breaking-the-ai-adoption-paradox-in-apac/</link>
+		
+		<dc:creator><![CDATA[Frederic Giron]]></dc:creator>
+		<pubDate>Thu, 25 Sep 2025 02:02:16 +0000</pubDate>
+				<category><![CDATA[Age of the Customer]]></category>
+		<category><![CDATA[AI Insights]]></category>
+		<category><![CDATA[Digital Transformation]]></category>
+		<category><![CDATA[Generative AI]]></category>
+		<guid isPermaLink="false">https://www.forrester.com/?p=276144</guid>
+
+					<description><![CDATA[Despite widespread adoption of AI tools by individual employees, most organizations in APAC remain stuck in pilot purgatory. Our recent Technology &#038; Innovation Summit APAC event revealed how four leading companies are breaking through this paradox — lessons that CIOs and CTOs can apply in their companies.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

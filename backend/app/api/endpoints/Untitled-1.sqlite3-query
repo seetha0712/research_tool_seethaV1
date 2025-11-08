@@ -1,0 +1,7 @@
+-- database: /Users/seetha/llmprojects/research_tool/my-research-tool/backend/genai.db
+
+SELECT * FROM articles
+ORDER BY `status` ASC;
+
+SELECT * FROM articles WHERE status = 'final';
+DELETE FROM articles WHERE status <> 'final';

@@ -1,0 +1,1777 @@
+[
+  {
+    "title": "Perplexity accused of scraping websites that explicitly blocked AI scraping",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Perplexity accused of scraping websites that explicitly blocked AI scraping"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/08/04/perplexity-accused-of-scraping-websites-that-explicitly-blocked-ai-scraping/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/08/04/perplexity-accused-of-scraping-websites-that-explicitly-blocked-ai-scraping/",
+    "authors": [
+      {
+        "name": "Lorenzo Franceschi-Bicchierai"
+      }
+    ],
+    "author": "Lorenzo Franceschi-Bicchierai",
+    "author_detail": {
+      "name": "Lorenzo Franceschi-Bicchierai"
+    },
+    "published": "Mon, 04 Aug 2025 15:41:39 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      15,
+      41,
+      39,
+      0,
+      216,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "cloudflare",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "bots",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "scraping",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "LLMs",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Perplexity",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3033735",
+    "guidislink": false,
+    "summary": "Internet giant Cloudflare says it detected Perplexity crawling and scraping websites, even after customers had added technical blocks telling Perplexity not to scrape their pages.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Internet giant Cloudflare says it detected Perplexity crawling and scraping websites, even after customers had added technical blocks telling Perplexity not to scrape their pages."
+    }
+  },
+  {
+    "title": "Obvio\u2019s stop sign cameras use AI to root out unsafe drivers",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Obvio\u2019s stop sign cameras use AI to root out unsafe drivers"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/06/04/obvios-stop-sign-cameras-use-ai-to-root-out-unsafe-drivers/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/06/04/obvios-stop-sign-cameras-use-ai-to-root-out-unsafe-drivers/",
+    "authors": [
+      {
+        "name": "Sean O'Kane"
+      }
+    ],
+    "author": "Sean O'Kane",
+    "author_detail": {
+      "name": "Sean O'Kane"
+    },
+    "published": "Wed, 04 Jun 2025 14:00:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      4,
+      14,
+      0,
+      0,
+      2,
+      155,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Transportation",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Startups",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "bain capital ventures",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Exclusive",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "fundraises",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3015072",
+    "guidislink": false,
+    "summary": "American streets are incredibly dangerous for pedestrians. A San Carlos, California-based startup called Obvio thinks it can change that by installing cameras at stop signs -- a solution the founders also say won\u2019t create a panopticon.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "American streets are incredibly dangerous for pedestrians. A San Carlos, California-based startup called Obvio thinks it can change that by installing cameras at stop signs -- a solution the founders also say won\u2019t create a panopticon."
+    }
+  },
+  {
+    "title": "Breakneck data center growth challenges Microsoft\u2019s sustainability goals",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Breakneck data center growth challenges Microsoft\u2019s sustainability goals"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/06/02/breakneck-data-center-growth-challenges-microsofts-sustainability-goals/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/06/02/breakneck-data-center-growth-challenges-microsofts-sustainability-goals/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Mon, 02 Jun 2025 18:07:05 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      2,
+      18,
+      7,
+      5,
+      0,
+      153,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Microsoft",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "carbon emissions",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "data centers",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "carbon footprint",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "renewable power",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3014093",
+    "guidislink": false,
+    "summary": "Microsoft's sustainability goals are imperiled by its push into AI and cloud services.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Microsoft's sustainability goals are imperiled by its push into AI and cloud services."
+    }
+  },
+  {
+    "title": "Gridcare thinks more than 100 GW of data center capacity is hiding in the grid",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Gridcare thinks more than 100 GW of data center capacity is hiding in the grid"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/05/27/gridcare-thinks-more-than-100-gw-of-data-center-capacity-is-hiding-in-the-grid/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/05/27/gridcare-thinks-more-than-100-gw-of-data-center-capacity-is-hiding-in-the-grid/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Tue, 27 May 2025 12:00:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      27,
+      12,
+      0,
+      0,
+      1,
+      147,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Fundraising",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "data centers",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "electricity",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "temasek",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "electrical grid",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3011622",
+    "guidislink": false,
+    "summary": "Gridcare raised $13.3 million for its data platform that finds underutilized capacity on the electrical grid.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Gridcare raised $13.3 million for its data platform that finds underutilized capacity on the electrical grid."
+    }
+  },
+  {
+    "title": "Meta adds another 650 MW of solar power to its AI push",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Meta adds another 650 MW of solar power to its AI push"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/05/22/meta-adds-another-650-mw-of-solar-power-to-its-ai-push/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/05/22/meta-adds-another-650-mw-of-solar-power-to-its-ai-push/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Thu, 22 May 2025 16:49:53 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      22,
+      16,
+      49,
+      53,
+      3,
+      142,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "renewable power",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Meta",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "aes",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Solar Power",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "data centers",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3010971",
+    "guidislink": false,
+    "summary": "The company already has more than 12 gigawatts of capacity in its renewable power portfolio.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The company already has more than 12 gigawatts of capacity in its renewable power portfolio."
+    }
+  },
+  {
+    "title": "Who are climate-conscious consumers? Not who you\u2019d expect, says Northwind Climate",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Who are climate-conscious consumers? Not who you\u2019d expect, says Northwind Climate"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/04/01/who-are-climate-conscious-consumers-not-who-youd-expect-says-northwind-climate/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/04/01/who-are-climate-conscious-consumers-not-who-youd-expect-says-northwind-climate/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Tue, 01 Apr 2025 19:52:59 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      1,
+      19,
+      52,
+      59,
+      1,
+      91,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Fundraising",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Northwind Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "consumers",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Exclusive",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Surveys",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Marketing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2988020",
+    "guidislink": false,
+    "summary": "Rather than divide people into demographic buckets, Northwind Climate analyzes survey responses for behavioral clues.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Rather than divide people into demographic buckets, Northwind Climate analyzes survey responses for behavioral clues."
+    }
+  },
+  {
+    "title": "Data centers love solar: Here\u2019s a comprehensive guide to deals over 100 megawatts",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Data centers love solar: Here\u2019s a comprehensive guide to deals over 100 megawatts"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/03/30/data-centers-love-solar-heres-a-comprehensive-guide-to-deals-over-100-megawatts/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/03/30/data-centers-love-solar-heres-a-comprehensive-guide-to-deals-over-100-megawatts/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Sun, 30 Mar 2025 14:00:00 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      30,
+      14,
+      0,
+      0,
+      6,
+      89,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "data centers",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Amazon",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Cisco",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Google",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Microsoft",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Solar Power",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Meta",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "evergreens",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2986758",
+    "guidislink": false,
+    "summary": "New and expanded data centers are expected to double the sector\u2019s power demand by 2029 as tech companies rush to capitalize on AI.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "New and expanded data centers are expected to double the sector\u2019s power demand by 2029 as tech companies rush to capitalize on AI."
+    }
+  },
+  {
+    "title": "Nvidia thinks AI can solve electrical grid problems caused by AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Nvidia thinks AI can solve electrical grid problems caused by AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/03/20/nvidia-thinks-ai-can-solve-electrical-grid-problems-caused-by-ai/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/03/20/nvidia-thinks-ai-can-solve-electrical-grid-problems-caused-by-ai/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Thu, 20 Mar 2025 16:41:12 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      20,
+      16,
+      41,
+      12,
+      3,
+      79,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Microsoft",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "data centers",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "nvidia",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "electrical grid",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2984175",
+    "guidislink": false,
+    "summary": "The Open Power AI Consortium says it will use domain-specific AI models to tackle problems in the power industry.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The Open Power AI Consortium says it will use domain-specific AI models to tackle problems in the power industry."
+    }
+  },
+  {
+    "title": "Solar notches another win as Microsoft adds 475 MW to power its AI data centers",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Solar notches another win as Microsoft adds 475 MW to power its AI data centers"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/03/20/solar-notches-another-win-as-microsoft-adds-475-mw-to-power-its-ai-data-centers/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/03/20/solar-notches-another-win-as-microsoft-adds-475-mw-to-power-its-ai-data-centers/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Thu, 20 Mar 2025 14:57:11 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      20,
+      14,
+      57,
+      11,
+      3,
+      79,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Microsoft",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Solar Power",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "battery storage",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "renewable power",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2984092",
+    "guidislink": false,
+    "summary": "The company recently signed a deal with energy provider AES for three solar projects across the Midwest.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The company recently signed a deal with energy provider AES for three solar projects across the Midwest."
+    }
+  },
+  {
+    "title": "Geothermal could power nearly all new data centers through 2030",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Geothermal could power nearly all new data centers through 2030"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/03/11/geothermal-could-power-nearly-all-new-data-centers-through-2030/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/03/11/geothermal-could-power-nearly-all-new-data-centers-through-2030/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Tue, 11 Mar 2025 17:43:52 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      11,
+      17,
+      43,
+      52,
+      1,
+      70,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "data centers",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "geothermal",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Rhodium",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Bedrock Energy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Quaise Energy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Fervo Energy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Sage Geosystems",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2978738",
+    "guidislink": false,
+    "summary": "Geothermal resources have enormous potential to provide the sort of consistent power that data centers crave.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Geothermal resources have enormous potential to provide the sort of consistent power that data centers crave."
+    }
+  },
+  {
+    "title": "ElevenLabs now lets authors create and publish audiobooks on its own platform",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "ElevenLabs now lets authors create and publish audiobooks on its own platform"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/02/25/elevenlabs-is-now-letting-authors-create-and-publish-audiobooks-on-its-own-platform/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/02/25/elevenlabs-is-now-letting-authors-create-and-publish-audiobooks-on-its-own-platform/",
+    "authors": [
+      {
+        "name": "Ivan Mehta"
+      }
+    ],
+    "author": "Ivan Mehta",
+    "author_detail": {
+      "name": "Ivan Mehta"
+    },
+    "published": "Wed, 26 Feb 2025 03:45:45 +0000",
+    "published_parsed": [
+      2025,
+      2,
+      26,
+      3,
+      45,
+      45,
+      2,
+      57,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Apps",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Audible",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "audiobooks",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "ElevenLabs",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2970708",
+    "guidislink": false,
+    "summary": "Voice AI company ElevenLabs is now letting authors publish AI-generated audiobooks on its own Reader app, TechCrunch has learned and the company confirmed. The announcement comes days after the company partnered with Spotify for AI-narrated audiobooks. ElevenLabs, which raised a $180 million mega-round last month, started inviting authors to try out their publishing program through [&#8230;]",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Voice AI company ElevenLabs is now letting authors publish AI-generated audiobooks on its own Reader app, TechCrunch has learned and the company confirmed. The announcement comes days after the company partnered with Spotify for AI-narrated audiobooks. ElevenLabs, which raised a $180 million mega-round last month, started inviting authors to try out their publishing program through [&#8230;]"
+    }
+  },
+  {
+    "title": "Data center tweaks could unlock 76 GW of new power capacity in the US",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Data center tweaks could unlock 76 GW of new power capacity in the US"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/02/13/data-center-tweaks-could-unlock-76-gw-of-new-power-capacity-in-the-u-s/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/02/13/data-center-tweaks-could-unlock-76-gw-of-new-power-capacity-in-the-u-s/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Thu, 13 Feb 2025 14:00:00 +0000",
+    "published_parsed": [
+      2025,
+      2,
+      13,
+      14,
+      0,
+      0,
+      3,
+      44,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "power grid",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "electricity",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "data centers",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2965367",
+    "guidislink": false,
+    "summary": "A new study argues that data centers could be ideal demand-response participants because they have the potential to be flexible.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "A new study argues that data centers could be ideal demand-response participants because they have the potential to be flexible."
+    }
+  },
+  {
+    "title": "YouTube AI updates include auto dubbing expansion, age ID tech, and more",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "YouTube AI updates include auto dubbing expansion, age ID tech, and more"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/02/11/youtube-ai-updates-to-include-expansion-of-auto-dubbing-age-identifying-tech-and-more/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/02/11/youtube-ai-updates-to-include-expansion-of-auto-dubbing-age-identifying-tech-and-more/",
+    "authors": [
+      {
+        "name": "Sarah Perez"
+      }
+    ],
+    "author": "Sarah Perez",
+    "author_detail": {
+      "name": "Sarah Perez"
+    },
+    "published": "Tue, 11 Feb 2025 14:57:22 +0000",
+    "published_parsed": [
+      2025,
+      2,
+      11,
+      14,
+      57,
+      22,
+      1,
+      42,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Media & Entertainment",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Google",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "YouTube",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Creators",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2963676",
+    "guidislink": false,
+    "summary": "In his annual letter, YouTube CEO Neal Mohan dubbed AI one of the company&#8217;s four &#8220;big bets&#8221; for 2025. The executive pointed to the company&#8217;s investments in AI tools for creators, including ones for video ideas, thumbnails, and language translation. The latter feature will roll out to all creators in YouTube&#8217;s Partner Program this month, [&#8230;]",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "In his annual letter, YouTube CEO Neal Mohan dubbed AI one of the company&#8217;s four &#8220;big bets&#8221; for 2025. The executive pointed to the company&#8217;s investments in AI tools for creators, including ones for video ideas, thumbnails, and language translation. The latter feature will roll out to all creators in YouTube&#8217;s Partner Program this month, [&#8230;]"
+    }
+  },
+  {
+    "title": "Self Inspection raises $3M for its AI-powered vehicle inspections",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Self Inspection raises $3M for its AI-powered vehicle inspections"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/02/07/self-inspection-raises-3m-for-its-ai-powered-vehicle-inspections/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/02/07/self-inspection-raises-3m-for-its-ai-powered-vehicle-inspections/",
+    "authors": [
+      {
+        "name": "Sean O'Kane"
+      }
+    ],
+    "author": "Sean O'Kane",
+    "author_detail": {
+      "name": "Sean O'Kane"
+    },
+    "published": "Fri, 07 Feb 2025 18:00:44 +0000",
+    "published_parsed": [
+      2025,
+      2,
+      7,
+      18,
+      0,
+      44,
+      4,
+      38,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Transportation",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Startups",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Exclusive",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Costanoa Ventures",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "DVx Ventures",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "self inspection",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2961386",
+    "guidislink": false,
+    "summary": "A number of startups are racing to make vehicle inspections faster, easier, and cheaper. Self Inspection, a startup based in San Diego, thinks it has them all beat with its AI-powered service &#8212; and now it has convinced outside investors. Self Inspection, founded in 2021, is set to announce Thursday it&#8217;s raised $3 million in [&#8230;]",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "A number of startups are racing to make vehicle inspections faster, easier, and cheaper. Self Inspection, a startup based in San Diego, thinks it has them all beat with its AI-powered service &#8212; and now it has convinced outside investors. Self Inspection, founded in 2021, is set to announce Thursday it&#8217;s raised $3 million in [&#8230;]"
+    }
+  },
+  {
+    "title": "Meta turns to solar \u2014 again \u2014 in its data center-building boom",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Meta turns to solar \u2014 again \u2014 in its data center-building boom"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/01/31/meta-turns-to-solar-again-in-its-data-center-building-boom/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/01/31/meta-turns-to-solar-again-in-its-data-center-building-boom/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Fri, 31 Jan 2025 19:38:51 +0000",
+    "published_parsed": [
+      2025,
+      1,
+      31,
+      19,
+      38,
+      51,
+      4,
+      31,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "renewable power",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Meta",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Solar Power",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "data centers",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2957746",
+    "guidislink": false,
+    "summary": "The announcement comes as Meta CEO Mark Zuckerberg maintains the company\u2019s ambitious AI strategy, which will require hefty capital investments in data centers.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The announcement comes as Meta CEO Mark Zuckerberg maintains the company\u2019s ambitious AI strategy, which will require hefty capital investments in data centers."
+    }
+  },
+  {
+    "title": "How to switch off Apple Intelligence on your iPhone, iPad, and Mac",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "How to switch off Apple Intelligence on your iPhone, iPad, and Mac"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/01/27/how-to-switch-off-apple-intelligence-on-your-iphone-ipad-and-mac/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/01/27/how-to-switch-off-apple-intelligence-on-your-iphone-ipad-and-mac/",
+    "authors": [
+      {
+        "name": "Lorenzo Franceschi-Bicchierai"
+      }
+    ],
+    "author": "Lorenzo Franceschi-Bicchierai",
+    "author_detail": {
+      "name": "Lorenzo Franceschi-Bicchierai"
+    },
+    "published": "Mon, 27 Jan 2025 22:34:04 +0000",
+    "published_parsed": [
+      2025,
+      1,
+      27,
+      22,
+      34,
+      4,
+      0,
+      27,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Security",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "iPhone",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "mac",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "iOS",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "macbook",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "genAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "evergreens",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Apple Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2954125",
+    "guidislink": false,
+    "summary": "Here's a step-by-step guide on how to turn off and disable Apple Intelligence from your devices.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Here's a step-by-step guide on how to turn off and disable Apple Intelligence from your devices."
+    }
+  },
+  {
+    "title": "Gridware\u2019s boxes literally listen to power lines to find outages",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Gridware\u2019s boxes literally listen to power lines to find outages"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/01/08/gridwares-boxes-literally-listen-to-power-lines-to-find-outages/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/01/08/gridwares-boxes-literally-listen-to-power-lines-to-find-outages/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Wed, 08 Jan 2025 19:00:00 +0000",
+    "published_parsed": [
+      2025,
+      1,
+      8,
+      19,
+      0,
+      0,
+      2,
+      8,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Fundraising",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Gridware",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Sequoia Partners",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "electrical grid",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Exclusive",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Power Lines",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2942279",
+    "guidislink": false,
+    "summary": "Gridware's sensors listen for sounds that the company\u2019s software has been trained to identify as different hazards to the grid.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Gridware's sensors listen for sounds that the company\u2019s software has been trained to identify as different hazards to the grid."
+    }
+  },
+  {
+    "title": "2025 will be the year climate tech learns to love AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "2025 will be the year climate tech learns to love AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/01/02/2025-will-be-the-year-climate-tech-learns-to-love-ai/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/01/02/2025-will-be-the-year-climate-tech-learns-to-love-ai/",
+    "authors": [
+      {
+        "name": "Tim De Chant"
+      }
+    ],
+    "author": "Tim De Chant",
+    "author_detail": {
+      "name": "Tim De Chant"
+    },
+    "published": "Thu, 02 Jan 2025 13:59:08 +0000",
+    "published_parsed": [
+      2025,
+      1,
+      2,
+      13,
+      59,
+      8,
+      3,
+      2,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Startups",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "nuclear power",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "climate tech",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "fusion power",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Hydrogen",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2938470",
+    "guidislink": false,
+    "summary": "As 2025 dawns, it\u2019s a good time to look at the trends that are likely to define the coming 12 months.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "As 2025 dawns, it\u2019s a good time to look at the trends that are likely to define the coming 12 months."
+    }
+  },
+  {
+    "title": "Here\u2019s the full list of 49 US AI startups that have raised $100M or more in 2024",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Here\u2019s the full list of 49 US AI startups that have raised $100M or more in 2024"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2024/12/20/heres-the-full-list-of-49-us-ai-startups-that-have-raised-100m-or-more-in-2024/"
+      }
+    ],
+    "link": "https://techcrunch.com/2024/12/20/heres-the-full-list-of-49-us-ai-startups-that-have-raised-100m-or-more-in-2024/",
+    "authors": [
+      {
+        "name": "Rebecca Szkutak"
+      }
+    ],
+    "author": "Rebecca Szkutak",
+    "author_detail": {
+      "name": "Rebecca Szkutak"
+    },
+    "published": "Fri, 20 Dec 2024 18:12:45 +0000",
+    "published_parsed": [
+      2024,
+      12,
+      20,
+      18,
+      12,
+      45,
+      4,
+      355,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Startups",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Venture",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "venture capital",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI startups",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "evergreens",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "megarounds",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "fundraising",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2808121",
+    "guidislink": false,
+    "summary": "In the first half of 2024 alone, more than $35.5 billion was invested into AI startups globally.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "In the first half of 2024 alone, more than $35.5 billion was invested into AI startups globally."
+    }
+  },
+  {
+    "title": "What are AI \u2018world models,\u2019 and why do they matter?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "What are AI \u2018world models,\u2019 and why do they matter?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2024/12/14/what-are-ai-world-models-and-why-do-they-matter/"
+      }
+    ],
+    "link": "https://techcrunch.com/2024/12/14/what-are-ai-world-models-and-why-do-they-matter/",
+    "authors": [
+      {
+        "name": "Kyle Wiggers"
+      }
+    ],
+    "author": "Kyle Wiggers",
+    "author_detail": {
+      "name": "Kyle Wiggers"
+    },
+    "published": "Sat, 14 Dec 2024 18:01:19 +0000",
+    "published_parsed": [
+      2024,
+      12,
+      14,
+      18,
+      1,
+      19,
+      5,
+      349,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence (AI)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "evergreens",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "world models",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=2905901",
+    "guidislink": false,
+    "summary": "World models, also known as world simulators, are being touted by some as the next big thing in AI. AI pioneer Fei-Fei Li&#8217;s World Labs has raised $230 million to build &#8220;large world models,&#8221; and DeepMind hired one of the creators of OpenAI&#8217;s video generator, Sora, to work on &#8220;world simulators.&#8221; (Sora was released on [&#8230;]",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "World models, also known as world simulators, are being touted by some as the next big thing in AI. AI pioneer Fei-Fei Li&#8217;s World Labs has raised $230 million to build &#8220;large world models,&#8221; and DeepMind hired one of the creators of OpenAI&#8217;s video generator, Sora, to work on &#8220;world simulators.&#8221; (Sora was released on [&#8230;]"
+    }
+  }
+]

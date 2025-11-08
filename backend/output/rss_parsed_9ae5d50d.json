@@ -1,0 +1,1878 @@
+[
+  {
+    "title": "Chatbots Can Go Into a Delusional Spiral. Here\u2019s How It Happens.",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Chatbots Can Go Into a Delusional Spiral. Here\u2019s How It Happens."
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html",
+    "id": "https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html",
+    "guidislink": false,
+    "summary": "Over 21 days of talking with ChatGPT, an otherwise perfectly sane man became convinced that he was a real-life superhero. We analyzed the conversation.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Over 21 days of talking with ChatGPT, an otherwise perfectly sane man became convinced that he was a real-life superhero. We analyzed the conversation."
+    },
+    "authors": [
+      {
+        "name": "Kashmir Hill and Dylan Freedman"
+      }
+    ],
+    "author": "Kashmir Hill and Dylan Freedman",
+    "author_detail": {
+      "name": "Kashmir Hill and Dylan Freedman"
+    },
+    "published": "Fri, 08 Aug 2025 22:17:34 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      8,
+      22,
+      17,
+      34,
+      4,
+      220,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "ChatGPT",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Mental Health and Disorders",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "vis-design",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Swarming to San Francisco\u2019s A.I. Boom: a New Crop of 20-Something CEOs",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Swarming to San Francisco\u2019s A.I. Boom: a New Crop of 20-Something CEOs"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html",
+    "id": "https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html",
+    "guidislink": false,
+    "summary": "Some dropped out of M.I.T., Georgetown and Stanford. Others decided not to go to college. They all say they could not afford to wait to build their own artificial intelligence start-ups.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Some dropped out of M.I.T., Georgetown and Stanford. Others decided not to go to college. They all say they could not afford to wait to build their own artificial intelligence start-ups."
+    },
+    "authors": [
+      {
+        "name": "Natallie Rocha"
+      }
+    ],
+    "author": "Natallie Rocha",
+    "author_detail": {
+      "name": "Natallie Rocha"
+    },
+    "published": "Mon, 04 Aug 2025 20:57:57 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      20,
+      57,
+      57,
+      0,
+      216,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Venture Capital",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Entrepreneurship",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Colleges and Universities",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Youth",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Cognition AI",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Scale AI Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Y Combinator",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Founders Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "San Francisco (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Foody, Brendan (2003- )",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Kaushik, Karun (2004- )",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Mercor.io Corp (Mercor)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Delve Technologies Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Artisan AI Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "A.I. Has Ushered in Silicon Valley\u2019s \u2018Hard Tech\u2019 Era",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "A.I. Has Ushered in Silicon Valley\u2019s \u2018Hard Tech\u2019 Era"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html",
+    "id": "https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html",
+    "guidislink": false,
+    "summary": "Goodbye to the age of consumer websites and mobile apps. Artificial intelligence has ushered in an era of what insiders in the nation\u2019s innovation capital call \u201chard tech.\u201d",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Goodbye to the age of consumer websites and mobile apps. Artificial intelligence has ushered in an era of what insiders in the nation\u2019s innovation capital call \u201chard tech.\u201d"
+    },
+    "authors": [
+      {
+        "name": "Mike Isaac"
+      }
+    ],
+    "author": "Mike Isaac",
+    "author_detail": {
+      "name": "Mike Isaac"
+    },
+    "published": "Mon, 04 Aug 2025 20:48:19 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      20,
+      48,
+      19,
+      0,
+      216,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "San Francisco Bay Area (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Silicon Valley (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Anthropic AI LLC",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Facebook Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Google Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Meta Platforms Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Workplace Environment",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Entrepreneurship",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "The Rise of Silicon Valley\u2019s Techno-Religion",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The Rise of Silicon Valley\u2019s Techno-Religion"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html",
+    "id": "https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html",
+    "guidislink": false,
+    "summary": "The Rationalists, a community focused on the risks of artificial intelligence, regularly gather with tech figures and other like-minded people in a complex that covers much of a city block.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The Rationalists, a community focused on the risks of artificial intelligence, regularly gather with tech figures and other like-minded people in a complex that covers much of a city block."
+    },
+    "authors": [
+      {
+        "name": "Cade Metz"
+      }
+    ],
+    "author": "Cade Metz",
+    "author_detail": {
+      "name": "Cade Metz"
+    },
+    "published": "Thu, 07 Aug 2025 00:03:14 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      7,
+      0,
+      3,
+      14,
+      3,
+      219,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Buildings (Structures)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Religion and Belief",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Altruism",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Rationalists (Philosophical Movement)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Bankman-Fried, Sam",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Yudkowsky, Eliezer",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Musk, Elon",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "audio-neutral-informative",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Could Dementia Patients Benefit from an A.I. Companion?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Could Dementia Patients Benefit from an A.I. Companion?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/07/31/well/mind/dementia-ai-companions.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/07/31/well/mind/dementia-ai-companions.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/07/31/well/mind/dementia-ai-companions.html",
+    "id": "https://www.nytimes.com/2025/07/31/well/mind/dementia-ai-companions.html",
+    "guidislink": false,
+    "summary": "New products are being developed in an attempt to reduce loneliness and bolster cognition.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "New products are being developed in an attempt to reduce loneliness and bolster cognition."
+    },
+    "authors": [
+      {
+        "name": "Dana G. Smith"
+      }
+    ],
+    "author": "Dana G. Smith",
+    "author_detail": {
+      "name": "Dana G. Smith"
+    },
+    "published": "Thu, 31 Jul 2025 09:00:43 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      31,
+      9,
+      0,
+      43,
+      3,
+      212,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Loneliness",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Dementia",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Memory",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Alzheimer's Disease",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Conversation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Psychology and Psychologists",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Retirement Communities and Assisted Living",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "The Unnerving Future of A.I.-Fueled Video Games",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The Unnerving Future of A.I.-Fueled Video Games"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/07/28/arts/video-games-artificial-intelligence.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/07/28/arts/video-games-artificial-intelligence.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/07/28/arts/video-games-artificial-intelligence.html",
+    "id": "https://www.nytimes.com/2025/07/28/arts/video-games-artificial-intelligence.html",
+    "guidislink": false,
+    "summary": "Game designers have used artificial intelligence since the 1980s. But digital characters demonstrating self-awareness is a far cry from the ghosts chasing Pac-Man.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Game designers have used artificial intelligence since the 1980s. But digital characters demonstrating self-awareness is a far cry from the ghosts chasing Pac-Man."
+    },
+    "authors": [
+      {
+        "name": "Zachary Small"
+      }
+    ],
+    "author": "Zachary Small",
+    "author_detail": {
+      "name": "Zachary Small"
+    },
+    "published": "Tue, 29 Jul 2025 03:35:50 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      29,
+      3,
+      35,
+      50,
+      1,
+      210,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Computer and Video Games",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Game Developers Conference",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Layoffs and Job Reductions",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Microsoft Corp",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Amazon.com Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Google Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Nintendo Co Ltd",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Sony Corporation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "What Would a Real Friendship With A.I. Look Like? Maybe Like Hers.",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "What Would a Real Friendship With A.I. Look Like? Maybe Like Hers."
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/07/20/magazine/ai-chatbot-friendship-character.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/07/20/magazine/ai-chatbot-friendship-character.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/07/20/magazine/ai-chatbot-friendship-character.html",
+    "id": "https://www.nytimes.com/2025/07/20/magazine/ai-chatbot-friendship-character.html",
+    "guidislink": false,
+    "summary": "Chatbots can get scary if you suspend your disbelief. But MJ Cocking didn\u2019t \u2014 and wound up in a relationship that was strangely, helpfully real.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Chatbots can get scary if you suspend your disbelief. But MJ Cocking didn\u2019t \u2014 and wound up in a relationship that was strangely, helpfully real."
+    },
+    "authors": [
+      {
+        "name": "Erika Hayasaki"
+      }
+    ],
+    "author": "Erika Hayasaki",
+    "author_detail": {
+      "name": "Erika Hayasaki"
+    },
+    "published": "Sun, 20 Jul 2025 09:00:25 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      20,
+      9,
+      0,
+      25,
+      6,
+      201,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Friendship",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Anxiety and Stress",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Autism",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Therapy and Rehabilitation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Content Type: Personal Profile",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "internal-audio-rules",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "China Is Spending Billions to Become an A.I. Superpower",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "China Is Spending Billions to Become an A.I. Superpower"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/07/16/technology/china-ai.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/07/16/technology/china-ai.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/07/16/technology/china-ai.html",
+    "id": "https://www.nytimes.com/2025/07/16/technology/china-ai.html",
+    "guidislink": false,
+    "summary": "Beijing is taking an industrial policy approach to help its A.I. companies close the gap with those in the United States.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Beijing is taking an industrial policy approach to help its A.I. companies close the gap with those in the United States."
+    },
+    "authors": [
+      {
+        "name": "Meaghan Tobin"
+      }
+    ],
+    "author": "Meaghan Tobin",
+    "author_detail": {
+      "name": "Meaghan Tobin"
+    },
+    "published": "Fri, 18 Jul 2025 15:55:39 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      18,
+      15,
+      55,
+      39,
+      4,
+      199,
+      0
+    ],
+    "tags": [
+      {
+        "term": "China",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Politics and Government",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computer Chips",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "International Relations",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Regulation and Deregulation of Industry",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Data Centers",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Beijing Bytedance Technology Co Ltd",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "DeepSeek Artificial Intelligence Co Ltd",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "NVIDIA Corporation",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Hangzhou (China)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Is A.I. the Future of Web Browsing?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Is A.I. the Future of Web Browsing?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/07/11/technology/personaltech/ai-internet-browser-dia.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/07/11/technology/personaltech/ai-internet-browser-dia.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/07/11/technology/personaltech/ai-internet-browser-dia.html",
+    "id": "https://www.nytimes.com/2025/07/11/technology/personaltech/ai-internet-browser-dia.html",
+    "guidislink": false,
+    "summary": "A test of the app Dia illustrates that the humble web browser may be the path to making artificial intelligence more natural to use.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "A test of the app Dia illustrates that the humble web browser may be the path to making artificial intelligence more natural to use."
+    },
+    "authors": [
+      {
+        "name": "Brian X. Chen"
+      }
+    ],
+    "author": "Brian X. Chen",
+    "author_detail": {
+      "name": "Brian X. Chen"
+    },
+    "published": "Fri, 11 Jul 2025 18:13:21 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      11,
+      18,
+      13,
+      21,
+      4,
+      192,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Search Engines",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Web Browsers",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "dia (browser)",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Browser Co, The",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "GPT-5 Arrives, and We Try the New Alexa+",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "GPT-5 Arrives, and We Try the New Alexa+"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/08/podcasts/hardfork-gpt5-alexa.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/08/podcasts/hardfork-gpt5-alexa.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/08/podcasts/hardfork-gpt5-alexa.html",
+    "id": "https://www.nytimes.com/2025/08/08/podcasts/hardfork-gpt5-alexa.html",
+    "guidislink": false,
+    "summary": "\u201cSam Altman in his remarks said that this is a major upgrade,\u201d but he also said that \u201cwe\u2019re not at A.G.I. yet.\u201d",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "\u201cSam Altman in his remarks said that this is a major upgrade,\u201d but he also said that \u201cwe\u2019re not at A.G.I. yet.\u201d"
+    },
+    "authors": [
+      {
+        "name": "Kevin Roose, Casey Newton, Whitney Jones, Rachel Cohn, Jen Poyant, Chris Wood, Dan Powell, Marion Lozano, Rowan Niemisto and Diane Wong"
+      }
+    ],
+    "author": "Kevin Roose, Casey Newton, Whitney Jones, Rachel Cohn, Jen Poyant, Chris Wood, Dan Powell, Marion Lozano, Rowan Niemisto and Diane Wong",
+    "author_detail": {
+      "name": "Kevin Roose, Casey Newton, Whitney Jones, Rachel Cohn, Jen Poyant, Chris Wood, Dan Powell, Marion Lozano, Rowan Niemisto and Diane Wong"
+    },
+    "published": "Fri, 08 Aug 2025 12:19:59 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      8,
+      12,
+      19,
+      59,
+      4,
+      220,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Amazon.com Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Jassy, Andrew R",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Altman, Samuel H",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "ChatGPT",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "internal-open-access-audio",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "OpenAI Unveils GPT-5, New AI Model, to ChatGPT Users",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "OpenAI Unveils GPT-5, New AI Model, to ChatGPT Users"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/07/technology/openai-chatgpt-gpt-5.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/07/technology/openai-chatgpt-gpt-5.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/07/technology/openai-chatgpt-gpt-5.html",
+    "id": "https://www.nytimes.com/2025/08/07/technology/openai-chatgpt-gpt-5.html",
+    "guidislink": false,
+    "summary": "The A.I. start-up said its new flagship technology was faster, more accurate and less likely to make stuff up.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The A.I. start-up said its new flagship technology was faster, more accurate and less likely to make stuff up."
+    },
+    "authors": [
+      {
+        "name": "Cade Metz"
+      }
+    ],
+    "author": "Cade Metz",
+    "author_detail": {
+      "name": "Cade Metz"
+    },
+    "published": "Thu, 07 Aug 2025 17:00:06 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      7,
+      17,
+      0,
+      6,
+      3,
+      219,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "ChatGPT",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Open-Source Software",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Altman, Samuel H",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "China Turns to A.I. in Information Warfare",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "China Turns to A.I. in Information Warfare"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/06/us/politics/china-artificial-intelligence-information-warfare.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/06/us/politics/china-artificial-intelligence-information-warfare.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/06/us/politics/china-artificial-intelligence-information-warfare.html",
+    "id": "https://www.nytimes.com/2025/08/06/us/politics/china-artificial-intelligence-information-warfare.html",
+    "guidislink": false,
+    "summary": "Documents examined by researchers show how one company in China has collected data on members of Congress and other influential Americans.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Documents examined by researchers show how one company in China has collected data on members of Congress and other influential Americans."
+    },
+    "authors": [
+      {
+        "name": "Julian E. Barnes"
+      }
+    ],
+    "author": "Julian E. Barnes",
+    "author_detail": {
+      "name": "Julian E. Barnes"
+    },
+    "published": "Thu, 07 Aug 2025 05:59:36 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      7,
+      5,
+      59,
+      36,
+      3,
+      219,
+      0
+    ],
+    "tags": [
+      {
+        "term": "China",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "GoLaxy",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Propaganda",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Espionage and Intelligence Services",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Social Media",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Cyberwarfare and Defense",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "United States Politics and Government",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "United States Defense and Military Forces",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "United States International Relations",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Trump, Donald J",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      },
+      {
+        "term": "Vanderbilt University",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Research",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "These College Professors Will Not Bow Down to A.I.",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "These College Professors Will Not Bow Down to A.I."
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/06/opinion/humanities-college-ai.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/06/opinion/humanities-college-ai.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/06/opinion/humanities-college-ai.html",
+    "id": "https://www.nytimes.com/2025/08/06/opinion/humanities-college-ai.html",
+    "guidislink": false,
+    "summary": "Technology is making the old ways of teaching ineffective. A new way is starting to emerge.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Technology is making the old ways of teaching ineffective. A new way is starting to emerge."
+    },
+    "authors": [
+      {
+        "name": "Jessica Grose"
+      }
+    ],
+    "author": "Jessica Grose",
+    "author_detail": {
+      "name": "Jessica Grose"
+    },
+    "published": "Wed, 06 Aug 2025 19:44:54 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      6,
+      19,
+      44,
+      54,
+      2,
+      218,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Colleges and Universities",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Humanities",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "ChatGPT",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Cheating",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "OpenAI to Open-Source Some of the A.I. Systems Behind ChatGPT",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "OpenAI to Open-Source Some of the A.I. Systems Behind ChatGPT"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/05/technology/openai-artificial-intelligence-chatgpt.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/05/technology/openai-artificial-intelligence-chatgpt.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/05/technology/openai-artificial-intelligence-chatgpt.html",
+    "id": "https://www.nytimes.com/2025/08/05/technology/openai-artificial-intelligence-chatgpt.html",
+    "guidislink": false,
+    "summary": "In a major shift, the company is \u201copen sourcing\u201d two A.I. systems, freely sharing the technology with outside researchers and businesses.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "In a major shift, the company is \u201copen sourcing\u201d two A.I. systems, freely sharing the technology with outside researchers and businesses."
+    },
+    "authors": [
+      {
+        "name": "Cade Metz"
+      }
+    ],
+    "author": "Cade Metz",
+    "author_detail": {
+      "name": "Cade Metz"
+    },
+    "published": "Tue, 05 Aug 2025 19:27:50 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      5,
+      19,
+      27,
+      50,
+      1,
+      217,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "ChatGPT",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computer Chips",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Open-Source Software",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Brockman, Greg",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Clay, a Sales Tool for the A.I. Era, Raises $100 Million",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Clay, a Sales Tool for the A.I. Era, Raises $100 Million"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/05/business/dealbook/clay-ai-marketing-fundraise.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/05/business/dealbook/clay-ai-marketing-fundraise.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/05/business/dealbook/clay-ai-marketing-fundraise.html",
+    "id": "https://www.nytimes.com/2025/08/05/business/dealbook/clay-ai-marketing-fundraise.html",
+    "guidislink": false,
+    "summary": "Investors valued the company, which describes its core user as a kind of marketing engineer, at $3.1 billion.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Investors valued the company, which describes its core user as a kind of marketing engineer, at $3.1 billion."
+    },
+    "authors": [
+      {
+        "name": "Michael J. de la Merced"
+      }
+    ],
+    "author": "Michael J. de la Merced",
+    "author_detail": {
+      "name": "Michael J. de la Merced"
+    },
+    "published": "Tue, 05 Aug 2025 12:26:38 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      5,
+      12,
+      26,
+      38,
+      1,
+      217,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Advertising and Marketing",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Software",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Venture Capital",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Clay Labs Inc",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "The Era of A.I. Propaganda Has Arrived, and America Must Act",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The Era of A.I. Propaganda Has Arrived, and America Must Act"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/05/opinion/china-ai-propaganda.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/05/opinion/china-ai-propaganda.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/05/opinion/china-ai-propaganda.html",
+    "id": "https://www.nytimes.com/2025/08/05/opinion/china-ai-propaganda.html",
+    "guidislink": false,
+    "summary": "Documents show that GoLaxy has emerged as a leader in technologically advanced, state-aligned influence campaigns.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Documents show that GoLaxy has emerged as a leader in technologically advanced, state-aligned influence campaigns."
+    },
+    "authors": [
+      {
+        "name": "Brett J. Goldstein and Brett V. Benson"
+      }
+    ],
+    "author": "Brett J. Goldstein and Brett V. Benson",
+    "author_detail": {
+      "name": "Brett J. Goldstein and Brett V. Benson"
+    },
+    "published": "Wed, 06 Aug 2025 01:02:32 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      6,
+      1,
+      2,
+      32,
+      2,
+      218,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Propaganda",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "China",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Social Media",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Data-Mining and Database Marketing",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "DeepSeek Artificial Intelligence Co Ltd",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Hong Kong",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Taiwan",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "United States International Relations",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Fraudulent Scientific Papers Are Rapidly Increasing, Study Finds",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Fraudulent Scientific Papers Are Rapidly Increasing, Study Finds"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/04/science/04hs-science-papers-fraud-research-paper-mills.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/04/science/04hs-science-papers-fraud-research-paper-mills.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/04/science/04hs-science-papers-fraud-research-paper-mills.html",
+    "id": "https://www.nytimes.com/2025/08/04/science/04hs-science-papers-fraud-research-paper-mills.html",
+    "guidislink": false,
+    "summary": "A statistical analysis found that the number of fake journal articles being churned out by \u201cpaper mills\u201d is doubling every year and a half.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "A statistical analysis found that the number of fake journal articles being churned out by \u201cpaper mills\u201d is doubling every year and a half."
+    },
+    "authors": [
+      {
+        "name": "Carl Zimmer"
+      }
+    ],
+    "author": "Carl Zimmer",
+    "author_detail": {
+      "name": "Carl Zimmer"
+    },
+    "published": "Mon, 04 Aug 2025 19:21:16 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      19,
+      21,
+      16,
+      0,
+      216,
+      0
+    ],
+    "tags": [
+      {
+        "term": "your-feed-science",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Academic and Scientific Journals",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Research",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Ethics and Official Misconduct",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Plagiarism",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Frauds and Swindling",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Proceedings of the National Academy of Sciences",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "System Upgrade",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "System Upgrade"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/04/briefing/silicon-valley-culture.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/04/briefing/silicon-valley-culture.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/04/briefing/silicon-valley-culture.html",
+    "id": "https://www.nytimes.com/2025/08/04/briefing/silicon-valley-culture.html",
+    "guidislink": false,
+    "summary": "We explore the new vibe in Silicon Valley.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "We explore the new vibe in Silicon Valley."
+    },
+    "authors": [
+      {
+        "name": "Adam B. Kushner"
+      }
+    ],
+    "author": "Adam B. Kushner",
+    "author_detail": {
+      "name": "Adam B. Kushner"
+    },
+    "published": "Mon, 04 Aug 2025 11:03:23 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      11,
+      3,
+      23,
+      0,
+      216,
+      0
+    ],
+    "tags": [
+      {
+        "term": "internal-storyline-no",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Silicon Valley (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "The Insider\u2019s Guide to San Francisco\u2019s A.I. Boom",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The Insider\u2019s Guide to San Francisco\u2019s A.I. Boom"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-boom-san-francisco.html"
+      },
+      {
+        "href": "https://www.nytimes.com/2025/08/04/technology/ai-boom-san-francisco.html",
+        "rel": "standout",
+        "type": "text/html"
+      }
+    ],
+    "link": "https://www.nytimes.com/2025/08/04/technology/ai-boom-san-francisco.html",
+    "id": "https://www.nytimes.com/2025/08/04/technology/ai-boom-san-francisco.html",
+    "guidislink": false,
+    "summary": "The city is the tech industry\u2019s hub for artificial intelligence, 30 miles north of the home of companies like Meta and Google.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The city is the tech industry\u2019s hub for artificial intelligence, 30 miles north of the home of companies like Meta and Google."
+    },
+    "authors": [
+      {
+        "name": "Eli Tan and Loren Elliott"
+      }
+    ],
+    "author": "Eli Tan and Loren Elliott",
+    "author_detail": {
+      "name": "Eli Tan and Loren Elliott"
+    },
+    "published": "Mon, 04 Aug 2025 21:02:05 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      21,
+      2,
+      5,
+      0,
+      216,
+      0
+    ],
+    "tags": [
+      {
+        "term": "San Francisco (Calif)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+        "label": null
+      },
+      {
+        "term": "Start-ups",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Artificial Intelligence",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "vis-photo",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "vis-video",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "vis-multimedia",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "Computers and the Internet",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      },
+      {
+        "term": "OpenAI Labs",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Y Combinator",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+        "label": null
+      },
+      {
+        "term": "Real Estate (Commercial)",
+        "scheme": "http://www.nytimes.com/namespaces/keywords/des",
+        "label": null
+      }
+    ]
+  }
+]

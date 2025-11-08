@@ -1,0 +1,1607 @@
+[
+  {
+    "title": "Anthropic hires new CTO with focus on AI infrastructure",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic hires new CTO with focus on AI infrastructure"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/10/02/anthropic-hires-new-cto-with-focus-on-ai-infrastructure/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/10/02/anthropic-hires-new-cto-with-focus-on-ai-infrastructure/",
+    "authors": [
+      {
+        "name": "Russell Brandom"
+      }
+    ],
+    "author": "Russell Brandom",
+    "author_detail": {
+      "name": "Russell Brandom"
+    },
+    "published": "Thu, 02 Oct 2025 19:00:39 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      2,
+      19,
+      0,
+      39,
+      3,
+      275,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "stripe",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "inference",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "ai infrastructure",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3053689",
+    "guidislink": false,
+    "summary": "As part of the change, Anthropic is updating the structure of its core technical group, bringing the company's product-engineering team into closer contact with the infrastructure and inference teams.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "As part of the change, Anthropic is updating the structure of its core technical group, bringing the company's product-engineering team into closer contact with the infrastructure and inference teams."
+    }
+  },
+  {
+    "title": "Anthropic launches Claude Sonnet 4.5, its best AI model for coding",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic launches Claude Sonnet 4.5, its best AI model for coding"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/29/anthropic-launches-claude-sonnet-4-5-its-best-ai-model-for-coding/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/29/anthropic-launches-claude-sonnet-4-5-its-best-ai-model-for-coding/",
+    "authors": [
+      {
+        "name": "Maxwell Zeff"
+      }
+    ],
+    "author": "Maxwell Zeff",
+    "author_detail": {
+      "name": "Maxwell Zeff"
+    },
+    "published": "Mon, 29 Sep 2025 17:02:14 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      29,
+      17,
+      2,
+      14,
+      0,
+      272,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Claude",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI model",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "ai coding",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "vibe coding",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3051627",
+    "guidislink": false,
+    "summary": "Anthropic says its new AI model is robust enough to build production-ready applications, rather than just prototypes.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Anthropic says its new AI model is robust enough to build production-ready applications, rather than just prototypes."
+    }
+  },
+  {
+    "title": "It isn\u2019t your imagination: Google Cloud is flooding the zone",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "It isn\u2019t your imagination: Google Cloud is flooding the zone"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/24/it-isnt-your-imagination-google-cloud-is-flooding-the-zone/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/24/it-isnt-your-imagination-google-cloud-is-flooding-the-zone/",
+    "authors": [
+      {
+        "name": "Connie Loizos"
+      }
+    ],
+    "author": "Connie Loizos",
+    "author_detail": {
+      "name": "Connie Loizos"
+    },
+    "published": "Thu, 25 Sep 2025 04:41:36 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      25,
+      4,
+      41,
+      36,
+      3,
+      268,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "oracle",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "google cloud",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Francis deSouza",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3050220",
+    "guidislink": false,
+    "summary": "While the industry's biggest players cement ever-tighter partnerships, Google is hell-bent on capturing the next generation of AI companies before they become too big to court.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "While the industry's biggest players cement ever-tighter partnerships, Google is hell-bent on capturing the next generation of AI companies before they become too big to court."
+    }
+  },
+  {
+    "title": "Microsoft adds Anthropic\u2019s AI to Copilot",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Microsoft adds Anthropic\u2019s AI to Copilot"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/24/microsoft-adds-anthropics-ai-to-copilot/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/24/microsoft-adds-anthropics-ai-to-copilot/",
+    "authors": [
+      {
+        "name": "Rebecca Bellan"
+      }
+    ],
+    "author": "Rebecca Bellan",
+    "author_detail": {
+      "name": "Rebecca Bellan"
+    },
+    "published": "Wed, 24 Sep 2025 17:46:29 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      24,
+      17,
+      46,
+      29,
+      2,
+      267,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Microsoft",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Copilot",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "In Brief",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3049812",
+    "guidislink": false,
+    "summary": "Microsoft is integrating OpenAI rival Anthropic's AI into Copilot, marking another step toward the disentangling of Microsoft and OpenAI.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Microsoft is integrating OpenAI rival Anthropic's AI into Copilot, marking another step toward the disentangling of Microsoft and OpenAI."
+    }
+  },
+  {
+    "title": "Silicon Valley bets big on \u2018environments\u2019 to train AI agents",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Silicon Valley bets big on \u2018environments\u2019 to train AI agents"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/",
+    "authors": [
+      {
+        "name": "Maxwell Zeff"
+      }
+    ],
+    "author": "Maxwell Zeff",
+    "author_detail": {
+      "name": "Maxwell Zeff"
+    },
+    "published": "Sun, 21 Sep 2025 19:22:56 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      21,
+      19,
+      22,
+      56,
+      6,
+      264,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "reinforcement learning",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Scale AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI research",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "agents",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "RL",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3040939",
+    "guidislink": false,
+    "summary": "A wave of startups are creating RL environments to help AI labs train agents. It might be Silicon Valley\u2019s next craze in the making.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "A wave of startups are creating RL environments to help AI labs train agents. It might be Silicon Valley\u2019s next craze in the making."
+    }
+  },
+  {
+    "title": "Salesforce launches \u2018Missionforce,\u2019 a national security-focused business unit",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Salesforce launches \u2018Missionforce,\u2019 a national security-focused business unit"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/16/salesforce-launches-missionforce-a-national-security-focused-business-unit/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/16/salesforce-launches-missionforce-a-national-security-focused-business-unit/",
+    "authors": [
+      {
+        "name": "Rebecca Szkutak"
+      }
+    ],
+    "author": "Rebecca Szkutak",
+    "author_detail": {
+      "name": "Rebecca Szkutak"
+    },
+    "published": "Tue, 16 Sep 2025 14:00:00 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      16,
+      14,
+      0,
+      0,
+      1,
+      259,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Government & Policy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "national security",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Google",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Salesforce",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "defense",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI agents",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3046303",
+    "guidislink": false,
+    "summary": "Salesforce's Missionforce will help modernize national defense workflows across such areas as personnel, logistics, and decision-making.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Salesforce's Missionforce will help modernize national defense workflows across such areas as personnel, logistics, and decision-making."
+    }
+  },
+  {
+    "title": "\u2018Selling coffee beans to Starbucks\u2019 \u2014 how the AI boom could leave AI\u2019s biggest companies behind",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\u2018Selling coffee beans to Starbucks\u2019 \u2014 how the AI boom could leave AI\u2019s biggest companies behind"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/14/selling-coffee-beans-to-starbucks-how-the-ai-boom-could-leave-ais-biggest-companies-behind/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/14/selling-coffee-beans-to-starbucks-how-the-ai-boom-could-leave-ais-biggest-companies-behind/",
+    "authors": [
+      {
+        "name": "Russell Brandom"
+      }
+    ],
+    "author": "Russell Brandom",
+    "author_detail": {
+      "name": "Russell Brandom"
+    },
+    "published": "Sun, 14 Sep 2025 15:00:00 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      14,
+      15,
+      0,
+      0,
+      6,
+      257,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Google",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "foundation models",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3045587",
+    "guidislink": false,
+    "summary": "The competitive landscape of AI is changing in ways that undermine the advantages of the biggest AI labs.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The competitive landscape of AI is changing in ways that undermine the advantages of the biggest AI labs."
+    }
+  },
+  {
+    "title": "Anthropic reports outages, Claude and Console impacted",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic reports outages, Claude and Console impacted"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/10/anthropic-reports-outages-claude-and-console-impacted/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/10/anthropic-reports-outages-claude-and-console-impacted/",
+    "authors": [
+      {
+        "name": "Dominic-Madori Davis"
+      }
+    ],
+    "author": "Dominic-Madori Davis",
+    "author_detail": {
+      "name": "Dominic-Madori Davis"
+    },
+    "published": "Wed, 10 Sep 2025 17:33:05 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      10,
+      17,
+      33,
+      5,
+      2,
+      253,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "outages",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Claude",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3044904",
+    "guidislink": false,
+    "summary": "Anthropic is no stranger to errors or bugs on its platform and has had some issues in the past few months, especially regarding Claude and its models.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Anthropic is no stranger to errors or bugs on its platform and has had some issues in the past few months, especially regarding Claude and its models."
+    }
+  },
+  {
+    "title": "Microsoft to lessen reliance on OpenAI by buying AI from rival Anthropic",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Microsoft to lessen reliance on OpenAI by buying AI from rival Anthropic"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/09/microsoft-to-lessen-reliance-on-openai-by-buying-ai-from-rival-anthropic/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/09/microsoft-to-lessen-reliance-on-openai-by-buying-ai-from-rival-anthropic/",
+    "authors": [
+      {
+        "name": "Rebecca Bellan"
+      }
+    ],
+    "author": "Rebecca Bellan",
+    "author_detail": {
+      "name": "Rebecca Bellan"
+    },
+    "published": "Tue, 09 Sep 2025 20:11:30 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      9,
+      20,
+      11,
+      30,
+      1,
+      252,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Microsoft",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Office 365",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3044485",
+    "guidislink": false,
+    "summary": "The move to diversify its AI partnerships by tapping the shoulder of OpenAI\u2019s top rival comes as the AI company also pursues independence from Microsoft with its own AI infrastructure and a potential LinkedIn competitor.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The move to diversify its AI partnerships by tapping the shoulder of OpenAI\u2019s top rival comes as the AI company also pursues independence from Microsoft with its own AI infrastructure and a potential LinkedIn competitor."
+    }
+  },
+  {
+    "title": "Anthropic endorses California\u2019s AI safety bill, SB 53",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic endorses California\u2019s AI safety bill, SB 53"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/08/anthropic-endorses-californias-ai-safety-bill-sb-53/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/08/anthropic-endorses-californias-ai-safety-bill-sb-53/",
+    "authors": [
+      {
+        "name": "Maxwell Zeff"
+      }
+    ],
+    "author": "Maxwell Zeff",
+    "author_detail": {
+      "name": "Maxwell Zeff"
+    },
+    "published": "Mon, 08 Sep 2025 15:51:33 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      8,
+      15,
+      51,
+      33,
+      0,
+      251,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Government & Policy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "sb 53",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "california",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "SB 1047",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "ai safety",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Gavin Newsom",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3043304",
+    "guidislink": false,
+    "summary": "As Anthropic endorses SB 53, much of Silicon Valley and the federal government are pushing back on AI safety efforts.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "As Anthropic endorses SB 53, much of Silicon Valley and the federal government are pushing back on AI safety efforts."
+    }
+  },
+  {
+    "title": "Screw the money \u2014 Anthropic\u2019s $1.5B copyright settlement sucks for writers",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Screw the money \u2014 Anthropic\u2019s $1.5B copyright settlement sucks for writers"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/05/screw-the-money-anthropics-1-5b-copyright-settlement-sucks-for-writers/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/05/screw-the-money-anthropics-1-5b-copyright-settlement-sucks-for-writers/",
+    "authors": [
+      {
+        "name": "Amanda Silberling"
+      }
+    ],
+    "author": "Amanda Silberling",
+    "author_detail": {
+      "name": "Amanda Silberling"
+    },
+    "published": "Fri, 05 Sep 2025 20:59:21 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      5,
+      20,
+      59,
+      21,
+      4,
+      248,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "lawsuits",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "authors",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Claude",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3043046",
+    "guidislink": false,
+    "summary": "Writers aren't getting this settlement because their work was fed to an AI -- this is just a costly slap on the wrist for Anthropic because it illegally downloaded books instead of buying them.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Writers aren't getting this settlement because their work was fed to an AI -- this is just a costly slap on the wrist for Anthropic because it illegally downloaded books instead of buying them."
+    }
+  },
+  {
+    "title": "A timeline of the US semiconductor market in 2025",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "A timeline of the US semiconductor market in 2025"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/05/a-timeline-of-the-u-s-semiconductor-market-in-2025/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/05/a-timeline-of-the-u-s-semiconductor-market-in-2025/",
+    "authors": [
+      {
+        "name": "Rebecca Szkutak"
+      }
+    ],
+    "author": "Rebecca Szkutak",
+    "author_detail": {
+      "name": "Rebecca Szkutak"
+    },
+    "published": "Fri, 05 Sep 2025 18:26:00 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      5,
+      18,
+      26,
+      0,
+      4,
+      248,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Hardware",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "chips",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "nvidia",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "semiconductor",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "TSMC",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Intel",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "evergreens",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3005295",
+    "guidislink": false,
+    "summary": "From leadership changes at legacy semiconductor companies to wishy washy policy around chip exports, a lot has happened already.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "From leadership changes at legacy semiconductor companies to wishy washy policy around chip exports, a lot has happened already."
+    }
+  },
+  {
+    "title": "Anthropic raises $13B Series F at $183B valuation",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic raises $13B Series F at $183B valuation"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/09/02/anthropic-raises-13b-series-f-at-183b-valuation/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/09/02/anthropic-raises-13b-series-f-at-183b-valuation/",
+    "authors": [
+      {
+        "name": "Rebecca Bellan"
+      }
+    ],
+    "author": "Rebecca Bellan",
+    "author_detail": {
+      "name": "Rebecca Bellan"
+    },
+    "published": "Tue, 02 Sep 2025 16:34:16 +0000",
+    "published_parsed": [
+      2025,
+      9,
+      2,
+      16,
+      34,
+      16,
+      1,
+      245,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Fundraising",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "ICONIQ",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3041496",
+    "guidislink": false,
+    "summary": "AI firm Anthropic's $13 billion Series F round will be used to grow its enterprise adoption, deepen safety research, and support international expansion.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "AI firm Anthropic's $13 billion Series F round will be used to grow its enterprise adoption, deepen safety research, and support international expansion."
+    }
+  },
+  {
+    "title": "Trillion with a \u2018T\u2019? That\u2019s a lot of dollars, Nvidia",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Trillion with a \u2018T\u2019? That\u2019s a lot of dollars, Nvidia"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/podcast/trillion-with-a-t-thats-a-lot-of-dollars-nvidia/"
+      }
+    ],
+    "link": "https://techcrunch.com/podcast/trillion-with-a-t-thats-a-lot-of-dollars-nvidia/",
+    "authors": [
+      {
+        "name": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Maxwell Zeff"
+      }
+    ],
+    "author": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Maxwell Zeff",
+    "author_detail": {
+      "name": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Maxwell Zeff"
+    },
+    "published": "Fri, 29 Aug 2025 15:43:23 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      29,
+      15,
+      43,
+      23,
+      4,
+      241,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Startups",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Venture",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Fundraising",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Intel",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "earnings",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "nvidia",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "government funding",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Equity podcast",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "ai safety",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?post_type=tc_podcast&p=3041039",
+    "guidislink": false,
+    "summary": "Nvidia reported another massive quarter this week with $46.7 billion in revenue, a 56% year-over-year increase driven almost entirely by AI demand. But despite CEO Jensen Huang&#8217;s bold prediction of $3 trillion to $4 trillion in global AI infrastructure spending in the next five years, the stock slid as investors questioned how long this kind [&#8230;]",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Nvidia reported another massive quarter this week with $46.7 billion in revenue, a 56% year-over-year increase driven almost entirely by AI demand. But despite CEO Jensen Huang&#8217;s bold prediction of $3 trillion to $4 trillion in global AI infrastructure spending in the next five years, the stock slid as investors questioned how long this kind [&#8230;]"
+    }
+  },
+  {
+    "title": "Anthropic users face a new choice \u2013 opt out or share your chats for AI training",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic users face a new choice \u2013 opt out or share your chats for AI training"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/08/28/anthropic-users-face-a-new-choice-opt-out-or-share-your-data-for-ai-training/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/08/28/anthropic-users-face-a-new-choice-opt-out-or-share-your-data-for-ai-training/",
+    "authors": [
+      {
+        "name": "Connie Loizos"
+      }
+    ],
+    "author": "Connie Loizos",
+    "author_detail": {
+      "name": "Connie Loizos"
+    },
+    "published": "Thu, 28 Aug 2025 20:43:12 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      28,
+      20,
+      43,
+      12,
+      3,
+      240,
+      0
+    ],
+    "tags": [
+      {
+        "term": "TC",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "policy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Claude",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3040912",
+    "guidislink": false,
+    "summary": "Anthropic is making some major changes to how it handles user data. Users have until September 28 to take action.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Anthropic is making some major changes to how it handles user data. Users have until September 28 to take action."
+    }
+  },
+  {
+    "title": "OpenAI co-founder calls for AI labs to safety-test rival models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "OpenAI co-founder calls for AI labs to safety-test rival models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/08/27/openai-co-founder-calls-for-ai-labs-to-safety-test-rival-models/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/08/27/openai-co-founder-calls-for-ai-labs-to-safety-test-rival-models/",
+    "authors": [
+      {
+        "name": "Maxwell Zeff"
+      }
+    ],
+    "author": "Maxwell Zeff",
+    "author_detail": {
+      "name": "Maxwell Zeff"
+    },
+    "published": "Wed, 27 Aug 2025 19:14:01 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      27,
+      19,
+      14,
+      1,
+      2,
+      239,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "OpenAI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Claude",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "safety testing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3040341",
+    "guidislink": false,
+    "summary": "In an effort to set a new industry standard, OpenAI and Anthropic opened up their AI models for cross-lab safety testing.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "In an effort to set a new industry standard, OpenAI and Anthropic opened up their AI models for cross-lab safety testing."
+    }
+  },
+  {
+    "title": "Anthropic launches a Claude AI agent that lives in Chrome",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic launches a Claude AI agent that lives in Chrome"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/08/26/anthropic-launches-a-claude-ai-agent-that-lives-in-chrome/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/08/26/anthropic-launches-a-claude-ai-agent-that-lives-in-chrome/",
+    "authors": [
+      {
+        "name": "Maxwell Zeff"
+      }
+    ],
+    "author": "Maxwell Zeff",
+    "author_detail": {
+      "name": "Maxwell Zeff"
+    },
+    "published": "Tue, 26 Aug 2025 20:10:59 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      26,
+      20,
+      10,
+      59,
+      1,
+      238,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Chrome",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Claude",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "ai agent",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "browser agent",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3040065",
+    "guidislink": false,
+    "summary": "Anthropic is the latest AI lab to offer an AI agent with the ability to view and take action in a user's Chrome browser.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Anthropic is the latest AI lab to offer an AI agent with the ability to view and take action in a user's Chrome browser."
+    }
+  },
+  {
+    "title": "Anthropic settles AI book-training lawsuit with authors",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic settles AI book-training lawsuit with authors"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/08/26/anthropic-settles-ai-book-training-lawsuit-with-authors/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/08/26/anthropic-settles-ai-book-training-lawsuit-with-authors/",
+    "authors": [
+      {
+        "name": "Russell Brandom"
+      }
+    ],
+    "author": "Russell Brandom",
+    "author_detail": {
+      "name": "Russell Brandom"
+    },
+    "published": "Tue, 26 Aug 2025 18:40:46 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      26,
+      18,
+      40,
+      46,
+      1,
+      238,
+      0
+    ],
+    "tags": [
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "In Brief",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3039967",
+    "guidislink": false,
+    "summary": "Called Bartz v. Anthropic, the case deals with Anthropic's use of books as training material for its large language models.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Called Bartz v. Anthropic, the case deals with Anthropic's use of books as training material for its large language models."
+    }
+  },
+  {
+    "title": "Anthropic bundles Claude Code into enterprise plans",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic bundles Claude Code into enterprise plans"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/08/20/anthropic-bundles-claude-code-into-enterprise-plans/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/08/20/anthropic-bundles-claude-code-into-enterprise-plans/",
+    "authors": [
+      {
+        "name": "Russell Brandom"
+      }
+    ],
+    "author": "Russell Brandom",
+    "author_detail": {
+      "name": "Russell Brandom"
+    },
+    "published": "Wed, 20 Aug 2025 18:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      20,
+      18,
+      0,
+      0,
+      2,
+      232,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Enterprise",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Claude",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "claude code",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3038307",
+    "guidislink": false,
+    "summary": "The integration positions Anthropic to better compete with command-line tools from Google and GitHub, both of which included enterprise integrations on launch.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The integration positions Anthropic to better compete with command-line tools from Google and GitHub, both of which included enterprise integrations on launch."
+    }
+  },
+  {
+    "title": "Anthropic says some Claude models can now end \u2018harmful or abusive\u2019 conversations",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Anthropic says some Claude models can now end \u2018harmful or abusive\u2019 conversations"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://techcrunch.com/2025/08/16/anthropic-says-some-claude-models-can-now-end-harmful-or-abusive-conversations/"
+      }
+    ],
+    "link": "https://techcrunch.com/2025/08/16/anthropic-says-some-claude-models-can-now-end-harmful-or-abusive-conversations/",
+    "authors": [
+      {
+        "name": "Anthony Ha"
+      }
+    ],
+    "author": "Anthony Ha",
+    "author_detail": {
+      "name": "Anthony Ha"
+    },
+    "published": "Sat, 16 Aug 2025 15:50:05 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      16,
+      15,
+      50,
+      5,
+      5,
+      228,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Startups",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Anthropic",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Claude",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://techcrunch.com/?p=3037422",
+    "guidislink": false,
+    "summary": "Anthropic says new capabilities allow its latest AI models to protect themselves by ending abusive conversations.",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Anthropic says new capabilities allow its latest AI models to protect themselves by ending abusive conversations."
+    }
+  }
+]

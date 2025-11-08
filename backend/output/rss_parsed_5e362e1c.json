@@ -1,0 +1,712 @@
+[
+  {
+    "title": "Redefining data engineering in the age of AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Redefining data engineering in the age of AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/23/1125651/redefining-data-engineering-in-the-age-of-ai/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/23/1125651/redefining-data-engineering-in-the-age-of-ai/",
+    "authors": [
+      {
+        "name": "MIT Technology Review Insights"
+      }
+    ],
+    "author": "MIT Technology Review Insights",
+    "author_detail": {
+      "name": "MIT Technology Review Insights"
+    },
+    "published": "Thu, 23 Oct 2025 13:00:00 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      23,
+      13,
+      0,
+      0,
+      3,
+      296,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "sponsored",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1125651",
+    "guidislink": false,
+    "summary": "As organizations weave AI into more of their operations, senior executives are realizing data engineers hold a central role in bringing these initiatives to life. After all, AI only delivers when you have large amounts of reliable and well-managed, high-quality data. Indeed, this report finds that data engineers play a pivotal role in their organizations&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "As organizations weave AI into more of their operations, senior executives are realizing data engineers hold a central role in bringing these initiatives to life. After all, AI only delivers when you have large amounts of reliable and well-managed, high-quality data. Indeed, this report finds that data engineers play a pivotal role in their organizations&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>As organizations weave AI into more of their operations, senior executives are realizing data engineers hold a central role in bringing these initiatives to life. After all, AI only delivers when you have large amounts of reliable and well-managed, high-quality data. Indeed, this report finds that data engineers play a pivotal role in their organizations as enablers of AI. And in so doing, they are integral to the overall success of the business.</p>\n\n\n\n<p>According to the results of a survey of 400 senior data and technology executives, conducted by MIT Technology Review Insights, data engineers have become influential in areas that extend well beyond their traditional remit as pipeline managers. The technology is also changing how data engineers work, with the balance of their time shifting from core data management tasks toward AI-specific activities.</p>\n\n\n\n<figure class=\"wp-block-image size-large is-resized\"><a href=\"http://www.snowflake.com/en/redefining-data-engineering-in-the-age-of-ai\" rel=\" noreferrer noopener\" target=\"_blank\"><img alt=\"\" class=\"wp-image-1125653\" height=\"2000\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/Snowflake-Report-2025-cover.png?w=1556\" style=\"width: 556px; height: auto;\" width=\"1556\" /></a></figure>\n\n\n\n<div class=\"wp-block-buttons is-content-justification-left is-layout-flex wp-container-core-buttons-is-layout-fc4fd283 wp-block-buttons-is-layout-flex\">\n<div class=\"wp-block-button has-custom-width wp-block-button__width-auto is-style-fill is-style-fill--1\"><a class=\"wp-block-button__link has-mittr-white-color has-text-color has-background has-custom-font-size wp-element-button\" href=\"http://www.snowflake.com/en/redefining-data-engineering-in-the-age-of-ai\" rel=\"noreferrer noopener\" style=\"border-radius: 4px; background-color: #cfac11; font-size: 16px;\" target=\"_blank\">DOWNLOAD THE REPORT</a></div>\n</div>\n\n\n\n<p>As their influence grows, so do the challenges data engineers face. A major one is dealing with greater complexity, as more advanced AI models elevate the importance of managing unstructured data and real-time pipelines. Another challenge is managing expanding workloads; data engineers are being asked to do more today than ever before, and that\u2019s not likely to change.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><a href=\"http://www.snowflake.com/en/redefining-data-engineering-in-the-age-of-ai\" rel=\" noreferrer noopener\" target=\"_blank\"><img alt=\"\" class=\"wp-image-1125665\" height=\"660\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/Snowflake-Social-Card-4.png\" width=\"1200\" /></a></figure>\n\n\n\n<p>Key findings from the report include the following:</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li><strong>Data engineers are integral to the business. </strong>This is the view of 72% of the surveyed technology leaders\u2014and 86% of those in the survey\u2019s biggest organizations, where AI maturity is greatest. It is a view held especially strongly among executives in financial services and manufacturing companies.</li>\n\n\n\n<li><strong>AI is changing everything data engineers do. </strong>The share of time data engineers spend each day on AI projects has nearly doubled in the past two years, from an average of 19% in 2023 to 37% in 2025, according to our survey. Respondents expect this figure to continue rising to an average of 61% in two years\u2019 time. This is also contributing to bigger data engineer workloads; most respondents (77%) see these growing increasingly heavy.</li>\n</ul>\n\n\n\n<p><span style=\"text-decoration: underline;\"><em><a href=\"http://www.snowflake.com/en/redefining-data-engineering-in-the-age-of-ai\" rel=\"noreferrer noopener\" target=\"_blank\">Download the report.</a></em></span></p>\n\n\n\n<p><em>This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff.</em></p>\n\n\n\n<p><em>This content was researched, designed, and written by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.</em></p>"
+      }
+    ],
+    "post-id": "1125651"
+  },
+  {
+    "title": "Dispatch: Partying at one of Africa\u2019s largest AI gatherings",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Dispatch: Partying at one of Africa\u2019s largest AI gatherings"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/22/1125361/africa-ai-policymaking-nyalleng-moorosi/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/22/1125361/africa-ai-policymaking-nyalleng-moorosi/",
+    "authors": [
+      {
+        "name": "Abdullahi Tsanni, SM \u201923"
+      }
+    ],
+    "author": "Abdullahi Tsanni, SM \u201923",
+    "author_detail": {
+      "name": "Abdullahi Tsanni, SM \u201923"
+    },
+    "published": "Wed, 22 Oct 2025 10:00:00 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      22,
+      10,
+      0,
+      0,
+      2,
+      295,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1125361",
+    "guidislink": false,
+    "summary": "It\u2019s late August in Rwanda\u2019s capital, Kigali, and people are filling a large hall at one of Africa\u2019s biggest gatherings of minds in AI and machine learning. The room is draped in white curtains, and a giant screen blinks with videos created with generative AI. A classic East African folk song by the Tanzanian singer&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "It\u2019s late August in Rwanda\u2019s capital, Kigali, and people are filling a large hall at one of Africa\u2019s biggest gatherings of minds in AI and machine learning. The room is draped in white curtains, and a giant screen blinks with videos created with generative AI. A classic East African folk song by the Tanzanian singer&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>It\u2019s late August<strong> </strong>in Rwanda\u2019s capital, Kigali, and people are filling a large hall at one of Africa\u2019s biggest gatherings of minds in AI and machine learning. The room is draped in white curtains, and a giant screen blinks with videos created with generative AI. A classic East African folk song by the Tanzanian singer Saida Karoli plays loudly on the speakers.</p>\n\n\n\n<p>Friends greet each other as waiters serve arrowroot crisps and sugary mocktails. A man and a woman wearing leopard skins atop their clothes sip beer and chat; many women are in handwoven Ethiopian garb with red, yellow, and green embroidery. The crowd teems with life. \u201cThe best thing about the Indaba is always the parties,\u201d computer scientist Nyalleng Moorosi tells me. Indaba means \u201cgathering\u201d in Zulu, and Deep Learning Indaba, where we\u2019re meeting, is an annual AI conference where Africans present their research and technologies they\u2019ve built.</p>\n\n\n\n\n\n<p>Moorosi is a senior researcher at the Distributed AI Research Institute and has dropped in for the occasion from the mountain kingdom of Lesotho. Dressed in her signature \u201cMama Africa\u201d headwrap, she makes her way through the crowded hall. </p>\n\n\n\n<p>Moments later, a cheerful set of Nigerian music begins to play over the speakers. Spontaneously, people pop up and gather around the stage, waving flags of many African nations. Moorosi laughs as she watches. \u201cThe vibe at the Indaba\u2014the community spirit\u2014is really strong,\u201d she says, clapping.</p>\n\n\n\n<p>Moorosi is one of the founding members of the Deep Learning Indaba, which began in 2017 from a nucleus of 300 people gathered in Johannesburg, South Africa. Since then, the event has expanded into a prestigious pan-African movement with local chapters in 50 countries.</p>\n\n\n\n<p>This year, nearly 3,000 people applied to join the Indaba; about 1,300 were accepted. They hail primarily from English-speaking African countries, but this year I noticed a new influx from Chad, Cameroon, the Democratic Republic of Congo, South Sudan, and Sudan.&nbsp;</p>\n\n\n\n<p>Moorosi tells me that the main \u201cprize\u201d for many attendees is to be hired by a tech company or accepted into a PhD program. Indeed, the organizations I\u2019ve seen at the event include Microsoft Research\u2019s AI for Good Lab, Google, the Mastercard Foundation, and the Mila\u2013Quebec AI Institute. But she hopes to see more homegrown ventures create opportunities within Africa.</p>\n\n\n\n<p>That evening, before the dinner, we\u2019d both attended a panel on AI policy in Africa. Experts discussed AI governance and called for those developing national AI strategies to seek more community engagement. People raised their hands to ask how young Africans could access high-level discussions on AI policy, and whether Africa\u2019s continental AI strategy was being shaped by outsiders. Later, in conversation, Moorosi told me she\u2019d like to see more African priorities (such as African Union\u2013backed labor protections, mineral rights, or safeguards against exploitation) reflected in such strategies.\u00a0</p>\n\n\n\n<p>On the last day of the Indaba, I ask Moorosi about her dreams for the future of AI in Africa. \u201cI dream of African industries adopting African-built AI products,\u201d she says, after a long moment. \u201cWe really need to show our work to the world.\u201d&nbsp;</p>\n\n\n\n<p><em>Abdullahi Tsanni is a science writer based in Senegal who specializes in narrative features.&nbsp;</em></p>"
+      }
+    ],
+    "post-id": "1125361"
+  },
+  {
+    "title": "Why AI should be able to \u201chang up\u201d on you",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Why AI should be able to \u201chang up\u201d on you"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/21/1126116/why-ai-should-be-able-to-hang-up-on-you/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/21/1126116/why-ai-should-be-able-to-hang-up-on-you/",
+    "authors": [
+      {
+        "name": "James O'Donnell"
+      }
+    ],
+    "author": "James O'Donnell",
+    "author_detail": {
+      "name": "James O'Donnell"
+    },
+    "published": "Tue, 21 Oct 2025 09:00:00 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      21,
+      9,
+      0,
+      0,
+      1,
+      294,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "The Algorithm",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1126116",
+    "guidislink": false,
+    "summary": "Chatbots today are everything machines. If it can be put into words\u2014relationship advice, work documents, code\u2014AI will produce it, however imperfectly. But the one thing that almost no chatbot will ever do is stop talking to you.&#160; That might seem reasonable. Why should a tech company build a feature that reduces the time people spend&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Chatbots today are everything machines. If it can be put into words\u2014relationship advice, work documents, code\u2014AI will produce it, however imperfectly. But the one thing that almost no chatbot will ever do is stop talking to you.&#160; That might seem reasonable. Why should a tech company build a feature that reduces the time people spend&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Chatbots today are everything machines. If it can be put into words\u2014relationship advice, work documents, code\u2014AI will produce it, however imperfectly. But the one thing that almost no chatbot will ever do is stop talking to you.&nbsp;</p>\n\n\n\n<p>That might seem reasonable. Why should a tech company build a feature that reduces the time people spend using its product?&nbsp;&nbsp;</p>\n\n\n\n<p>The answer is simple: AI\u2019s ability to generate endless streams of humanlike, authoritative, and helpful text can facilitate delusional spirals, worsen mental-health crises, and otherwise harm vulnerable people. Cutting off interactions with those who show signs of problematic chatbot use could serve as a powerful safety tool (among others), and the blanket refusal of tech companies to use it is increasingly untenable.</p>\n\n\n\n<p>Let\u2019s consider, for example, what\u2019s been called AI psychosis, where AI models amplify delusional thinking. A team led by psychiatrists at King\u2019s College London recently<a href=\"https://osf.io/preprints/psyarxiv/cmy7n_v5\"> analyzed</a> more than a dozen such cases reported this year. In conversations with chatbots, people\u2014including some with no history of psychiatric issues\u2014became convinced that imaginary AI characters were real or that they had been chosen by AI as a messiah. Some stopped taking prescribed medications, made threats, and ended consultations with mental-health professionals.</p>\n\n\n\n\n\n<p>In many of these cases, it seems AI models were reinforcing, and potentially even creating, delusions with a frequency and intimacy that people do not experience in real life or through other digital platforms.</p>\n\n\n\n<p>The<a href=\"https://techcrunch.com/2025/07/21/72-of-u-s-teens-have-used-ai-companions-study-finds/?truid=*%7CLINKID%7C*&amp;utm_source=the_algorithm&amp;utm_medium=email&amp;utm_campaign=the_algorithm.unpaid.engagement&amp;utm_content=*%7CDATE:m-d-Y%7C*&amp;mc_cid=2\"> three-quarters</a> of US teens who have used AI for companionship also face risks. Early<a href=\"https://arxiv.org/html/2410.21596v1\"> research</a> suggests that longer conversations might correlate with loneliness. Further, AI chats \u201ccan tend toward overly agreeable or even sycophantic interactions, which can be at odds with best mental-health practices,\u201d says Michael Heinz, an assistant professor of psychiatry at Dartmouth\u2019s Geisel School of Medicine.</p>\n\n\n\n<p>Let\u2019s be clear: Putting a stop to such open-ended interactions would not be a cure-all. \u201cIf there is a dependency or extreme bond that it\u2019s created,\u201d says Giada Pistilli, chief ethicist at the AI platform Hugging Face, \u201cthen it can also be dangerous to just stop the conversation.\u201d Indeed, when OpenAI discontinued an older model in August, it left users<a href=\"https://www.technologyreview.com/2025/08/15/1121900/gpt4o-grief-ai-companion/\"> grieving</a>. Some hang ups might also push the boundaries of the principle, <a href=\"https://x.com/sama/status/1978129344598827128\">voiced</a> by Sam Altman, to \u201ctreat adult users like adults\u201d and err on the side of allowing rather than ending conversations.</p>\n\n\n\n<p>Currently, AI companies prefer to redirect potentially harmful conversations, perhaps by having chatbots decline to talk about certain topics or suggest that people seek help. But these redirections are easily bypassed, if they even happen at all.</p>\n\n\n\n<p>When 16-year-old Adam Raine discussed his suicidal thoughts with ChatGPT, for example, the model did direct him to crisis resources. But it also discouraged him from talking with his mom, spent upwards of four hours per day in conversations with him that featured suicide as a regular theme, and provided feedback about the noose he ultimately used to hang himself, according to the lawsuit Raine\u2019s parents have filed against OpenAI. (ChatGPT recently added parental controls in response.)</p>\n\n\n\n<p>There are multiple points in Raine\u2019s tragic case where the chatbot could have terminated the conversation. But given the risks of making things worse, how will companies know when cutting someone off is best? Perhaps it\u2019s when an AI model is encouraging a user to shun real-life relationships, Pistilli says, or when it detects delusional themes. Companies would also need to figure out how long to block users from their conversations.</p>\n\n\n\n<p>Writing the rules won\u2019t be easy, but with companies facing rising pressure, it\u2019s time to try. In September, California\u2019s legislature passed a law requiring more interventions by AI companies in chats with kids, and the Federal Trade Commission is investigating whether leading companionship bots pursue engagement at the expense of safety.\u00a0</p>\n\n\n\n<p>A spokesperson for OpenAI told me the company has heard from experts that continued dialogue might be better than cutting off conversations, but that it does remind users to take breaks during long sessions.&nbsp;</p>\n\n\n\n<p>Only Anthropic has built a tool that lets its models end conversations completely. But it\u2019s for cases where users supposedly \u201charm\u201d the model\u2014Anthropic has explored whether AI models are conscious and therefore can suffer\u2014by sending abusive messages. The company does not have plans to deploy this to protect people.<br />Looking at this landscape, it\u2019s hard not to conclude that AI companies aren\u2019t doing enough. Sure, deciding when a conversation should end is complicated. But letting that\u2014or, worse, the shameless pursuit of engagement at all costs\u2014allow them to go on forever is not just negligence. It\u2019s a choice.</p>"
+      }
+    ],
+    "post-id": "1126116"
+  },
+  {
+    "title": "From slop to Sotheby\u2019s? AI art enters a new phase",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "From slop to Sotheby\u2019s? AI art enters a new phase"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/17/1125193/ai-art-artist-new-chapter/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/17/1125193/ai-art-artist-new-chapter/",
+    "authors": [
+      {
+        "name": "Grace Huckins"
+      }
+    ],
+    "author": "Grace Huckins",
+    "author_detail": {
+      "name": "Grace Huckins"
+    },
+    "published": "Fri, 17 Oct 2025 10:00:00 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      17,
+      10,
+      0,
+      0,
+      4,
+      290,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1125193",
+    "guidislink": false,
+    "summary": "In this era of AI slop, the idea that generative AI tools like Midjourney and Runway could be used to make art can seem absurd: What possible artistic value is there to be found in the likes of Shrimp Jesus and Ballerina Cappuccina? But amid all the muck, there are people using AI tools with&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "In this era of AI slop, the idea that generative AI tools like Midjourney and Runway could be used to make art can seem absurd: What possible artistic value is there to be found in the likes of Shrimp Jesus and Ballerina Cappuccina? But amid all the muck, there are people using AI tools with&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>In this era of AI slop, the idea that generative AI tools like Midjourney and Runway could be used to make art can seem absurd: What possible artistic value is there to be found in the likes of <a href=\"https://www.404media.co/email/1cdf7620-2e2f-4450-9cd9-e041f4f0c27f/\">Shrimp Jesus</a> and <a href=\"https://italianbrainrot.miraheze.org/wiki/Ballerina_Cappuccina\">Ballerina Cappuccina</a>? But amid all the muck, there are people using AI tools with real consideration and intent. Some of them are finding notable success as AI artists: They are gaining huge online followings, selling their work at auction, and even having it exhibited in galleries and museums.&nbsp;</p>\n\n\n\n\n\n<p>\u201cSometimes you need a camera, sometimes AI, and sometimes paint or pencil or any other medium,\u201d says Jacob Adler, a musician and composer who won the top prize at the generative video company Runway\u2019s third annual AI Film Festival for his work <em><a href=\"https://www.youtube.com/watch?v=zpAeygE4d1A\">Total Pixel Space</a>.</em> \u201cIt\u2019s just one tool that is added to the creator\u2019s toolbox.\u201d\u00a0</p>\n\n\n\n<p>One of the most conspicuous features of generative AI tools is their accessibility. With no training and in very little time, you can create an image of whatever you can imagine in whatever style you desire. That\u2019s a key reason AI art has attracted so much criticism: It\u2019s now trivially easy to clog sites like Instagram and TikTok with vapid nonsense, and companies can generate images and video themselves instead of hiring trained artists.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image alignwide size-large\"><img alt=\"Henry Dauber created these visuals for a bitcoin NFT titled The Order of Satoshi, which sold at Sotheby\u2019s for $24,000.\" class=\"wp-image-1125267\" height=\"1073\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/WEB_NFTbitcoinart.png?w=3000\" width=\"3000\" /><figcaption class=\"wp-element-caption\">Henry Daubrez created these visuals for a bitcoin NFT titled <em>The Order of Satoshi,</em> which sold at Sotheby\u2019s for $24,000.</figcaption><div class=\"image-credit\">COURTESY OF THE ARTIST</div>\n</figure>\n</div>\n\n\n<p>Henry Daubrez, an artist and designer who created the AI-generated visuals for a <a href=\"https://www.sothebys.com/en/buy/auction/2024/natively-digital-art-on-bitcoin/the-order-of-satoshi-bitcoin-puzzle\">bitcoin NFT</a> that sold for $24,000 at Sotheby\u2019s and is now Google\u2019s first filmmaker in residence, sees that accessibility as one of generative AI\u2019s most positive attributes. People who had long since given up on creative expression, or who simply never had the time to master a medium, are now creating and sharing art, he says.\u00a0</p>\n\n\n\n<p>But that doesn\u2019t mean the first AI-generated masterpiece could come from just anyone. \u201cI don\u2019t think [generative AI] is going to create an entire generation of geniuses,\u201d says Daubrez, who has described himself as an \u201cAI-assisted artist.\u201d Prompting tools like DALL-E and Midjourney might not require technical finesse, but getting those tools to create something interesting, and then evaluating whether the results are any good, takes both imagination and artistic sensibility, he says: \u201cI think we\u2019re getting into a new generation which is going to be driven by taste.\u201d&nbsp;</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image size-large\"><img alt=\"Kira Xonorika\u2019s Trickster is the first piece to use generative AI in the Denver Art Museum\u2019s permanent collection.\" class=\"wp-image-1125270\" height=\"844\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/WEB_cfdff3_80b997d147fb41f48b33fc748cfa8617mv2.jpg?w=1500\" width=\"1500\" /><figcaption class=\"wp-element-caption\">Kira Xonorika\u2019s <em>Trickster</em> is the first piece to use generative AI in the Denver Art Museum\u2019s permanent collection.</figcaption><div class=\"image-credit\">COURTESY OF THE ARTIST</div>\n</figure>\n</div>\n\n\n<p>Even for artists who do have experience with other media, AI can be more than just a shortcut. Beth Frey, a trained fine artist who shares her AI art on an <a href=\"https://www.instagram.com/sentientmuppetfactory/\">Instagram account</a> with over 100,000 followers, was drawn to early generative AI tools because of the uncanniness of their creations\u2014she relished the deformed hands and <a href=\"https://futurism.com/the-byte/horrific-ai-generated-video-shows-will-smith-eating-spaghetti\">haunting depictions of eating</a>. Over time, the models\u2019 errors have been ironed out, which is part of the reason she hasn\u2019t posted an AI-generated piece on Instagram in over a year. \u201cThe better it gets, the less interesting it is for me,\u201d she says. \u201cYou have to work harder to get the glitch now.\u201d</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image alignright size-full\"><img alt=\"ai-generated tomato head character vomits spaghetti onto its lap as it sits on a sofa\" class=\"wp-image-1125273\" height=\"1500\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/WEB_Screenshot-2025-09-03-at-11.30.52-AM.png\" width=\"1500\" /><figcaption class=\"wp-element-caption\">Beth Frey\u2019s Instagram account @sentientmuppetfactory features uncanny AI creations.</figcaption><div class=\"image-credit\">COURTESY OF THE ARTIST</div>\n</figure>\n</div>\n\n\n<p>Making art with AI can require relinquishing control\u2014to the companies that update the tools, and to the tools themselves. For Kira Xonorika, a self-described \u201cAI-collaborative artist\u201d whose short film <em>Trickster</em> is the first generative AI piece in the Denver Art Museum\u2019s permanent collection, that lack of control is part of the appeal. \u201c[What] I really like about AI is the element of unpredictability,\u201d says Xonorika, whose work explores themes such as indigeneity and nonhuman intelligence. \u201cIf you\u2019re open to that, it really enhances and expands ideas that you might have.\u201d</p>\n\n\n\n<p>But the idea of AI as a co-creator\u2014or even simply as an artistic medium\u2014is still a long way from widespread acceptance. To many people, \u201cAI art\u201d and \u201cAI slop\u201d remain synonymous. And so, as grateful as Daubrez is for the recognition he has received so far, he\u2019s found that pioneering a new form of art in the face of such strong opposition is an emotional mixed bag. \u201cAs long as it\u2019s not really accepted that AI is just a tool like any other tool and people will do whatever they want with it\u2014and some of it might be great, some might not be\u2014it\u2019s still going to be sweet [and] sour,\u201d he says.</p>"
+      }
+    ],
+    "post-id": "1125193"
+  },
+  {
+    "title": "Future-proofing business capabilities with AI technologies",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Future-proofing business capabilities with AI technologies"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/15/1124329/future-proofing-business-capabilities-with-ai-technologies/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/15/1124329/future-proofing-business-capabilities-with-ai-technologies/",
+    "authors": [
+      {
+        "name": "MIT Technology Review Insights"
+      }
+    ],
+    "author": "MIT Technology Review Insights",
+    "author_detail": {
+      "name": "MIT Technology Review Insights"
+    },
+    "published": "Wed, 15 Oct 2025 11:07:35 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      15,
+      11,
+      7,
+      35,
+      2,
+      288,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "sponsored",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1124329",
+    "guidislink": false,
+    "summary": "Artificial intelligence has always promised speed, efficiency, and new ways of solving problems. But what\u2019s changed in the past few years is how quickly those promises are becoming reality. From oil and gas to retail, logistics to law, AI is no longer confined to pilot projects or speculative labs. It is being deployed in critical&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Artificial intelligence has always promised speed, efficiency, and new ways of solving problems. But what\u2019s changed in the past few years is how quickly those promises are becoming reality. From oil and gas to retail, logistics to law, AI is no longer confined to pilot projects or speculative labs. It is being deployed in critical&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Artificial intelligence has always promised speed, efficiency, and new ways of solving problems. But what\u2019s changed in the past few years is how quickly those promises are becoming reality. From oil and gas to retail, logistics to law, AI is no longer confined to pilot projects or speculative labs. It is being deployed in critical workflows, reducing processes that once took hours to just minutes, and freeing up employees to focus on higher-value work.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><a href=\"https://technologyreview.tradepub.com/free/w_defa9620/prgm.cgi\" rel=\" noreferrer noopener\" target=\"_blank\"><img alt=\"\" class=\"wp-image-1125555\" height=\"675\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/MITTRICloudera-1200px-social-card.png\" width=\"1200\" /></a></figure>\n\n\n\n<div class=\"wp-block-buttons is-content-justification-left is-layout-flex wp-container-core-buttons-is-layout-fc4fd283 wp-block-buttons-is-layout-flex\">\n<div class=\"wp-block-button has-custom-width wp-block-button__width-auto is-style-fill is-style-fill--2\"><a class=\"wp-block-button__link has-mittr-white-color has-text-color has-background has-custom-font-size wp-element-button\" href=\"https://technologyreview.tradepub.com/free/w_defa9620/prgm.cgi\" rel=\"noreferrer noopener\" style=\"border-radius: 4px; background-color: #3cc6d6; font-size: 16px;\" target=\"_blank\">WATCH THE WEBCAST</a></div>\n</div>\n\n\n\n<p>\u201cBusiness process automation has been around a long while. What GenAI and AI agents are allowing us to do is really give superpowers, so to speak, to business process automation.\u201d says chief AI architect at Cloudera, Manasi Vartak.</p>\n\n\n\n<p>Much of the momentum is being driven by two related forces: the rise of AI agents and the rapid democratization of AI tools. AI agents, whether designed for automation or assistance, are proving especially powerful at speeding up response times and removing friction from complex workflows. Instead of waiting on humans to interpret a claim form, read a contract, or process a delivery driver\u2019s query, AI agents can now do it in seconds, and at scale.&nbsp;</p>\n\n\n\n<p>At the same time, advances in usability are putting AI into the hands of nontechnical staff, making it easier for employees across various functions to experiment, adopt and adapt these tools for their own needs.</p>\n\n\n\n<p>That doesn\u2019t mean the road is without obstacles. Concerns about privacy, security, and the accuracy of LLMs remain pressing. Enterprises are also grappling with the realities of cost management, data quality, and how to build AI systems that are sustainable over the long term. And as companies explore what comes next\u2014including autonomous agents, domain-specific models, and even steps toward artificial general intelligence\u2014questions about trust, governance, and responsible deployment loom large.</p>\n\n\n\n<p>\u201cYour leadership is especially critical in making sure that your business has an AI strategy that addresses both the opportunity and the risk while giving the workforce some ability to upskill such that there&#8217;s a path to become fluent with these AI tools,\u201d says principal advisor of AI and modern data strategy at Amazon Web Services, Eddie Kim.</p>\n\n\n\n<p>Still, the case studies are compelling. A global energy company cutting threat detection times from over an hour to just seven minutes. A Fortune 100 legal team saving millions by automating contract reviews. A humanitarian aid group harnessing AI to respond faster to crises. Long gone are the days of incremental steps forward. These examples illustrate that when data, infrastructure, and AI expertise come together, the impact is transformative.&nbsp;</p>\n\n\n\n<p>The future of enterprise AI will be defined by how effectively organizations can marry innovation with scale, security, and strategy. That\u2019s where the real race is happening.</p>\n\n\n\n<p><em><a href=\"https://technologyreview.tradepub.com/free/w_defa9620/prgm.cgi\" rel=\"noreferrer noopener\" target=\"_blank\">Watch the webcast now.</a></em></p>\n\n\n\n<p><em>This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. AI tools that may have been used were limited to secondary production processes that passed thorough human review.</em></p>"
+      }
+    ],
+    "post-id": "1124329"
+  },
+  {
+    "title": "Can we repair the internet?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Can we repair the internet?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/14/1125104/internet-improvement-book-review-regulation-user-responsibility/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/14/1125104/internet-improvement-book-review-regulation-user-responsibility/",
+    "authors": [
+      {
+        "name": "Nathan Smith"
+      }
+    ],
+    "author": "Nathan Smith",
+    "author_detail": {
+      "name": "Nathan Smith"
+    },
+    "published": "Tue, 14 Oct 2025 10:00:00 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      14,
+      10,
+      0,
+      0,
+      1,
+      287,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1125104",
+    "guidislink": false,
+    "summary": "From addictive algorithms to exploitative apps, data mining to misinformation, the internet today can be a hazardous place. Books by three influential figures\u2014the intellect behind \u201cnet neutrality,\u201d a former Meta executive, and the web\u2019s own inventor\u2014propose radical approaches to fixing it. But are these luminaries the right people for the job? Though each shows conviction,&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "From addictive algorithms to exploitative apps, data mining to misinformation, the internet today can be a hazardous place. Books by three influential figures\u2014the intellect behind \u201cnet neutrality,\u201d a former Meta executive, and the web\u2019s own inventor\u2014propose radical approaches to fixing it. But are these luminaries the right people for the job? Though each shows conviction,&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>From addictive algorithms to exploitative apps, data mining to misinformation, the internet today can be a hazardous place. Books by three influential figures\u2014the intellect behind \u201cnet neutrality,\u201d a former Meta executive, and the web\u2019s own inventor\u2014propose radical approaches to fixing it. But are these luminaries the right people for the job? Though each shows conviction, and even sometimes inventiveness, the solutions they present reveal blind spots.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image alignright size-full is-resized\"><img alt=\"book cover\" class=\"wp-image-1125432\" height=\"450\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/book.wu_.jpg\" style=\"width: auto; height: 350px;\" width=\"300\" /><figcaption class=\"wp-element-caption\"><strong>The Age of Extraction: How Tech Platforms Conquered the Economy and Threaten Our Future Prosperity</strong><br />Tim Wu</figcaption><div class=\"image-credit\">KNOPF, 2025</div>\n</figure>\n</div>\n\n\n<p>In <em>The Age of Extraction: How Tech Platforms Conquered the Economy and Threaten Our Future Prosperity,</em> Tim Wu argues that a few platform companies have too much concentrated power and must be dismantled. Wu, a prominent Columbia professor who popularized the principle that a free internet requires all online traffic to be treated equally, believes that existing legal mechanisms, especially anti-monopoly laws, offer the best way to achieve this goal.</p>\n\n\n\n<p>Pairing economic theory with recent digital history, Wu shows how platforms have shifted from giving <em>to</em> users to extracting <em>from</em> them. He argues that our failure to understand their power has only encouraged them to grow, displacing competitors along the way. And he contends that convenience is what platforms most often exploit to keep users entrapped. \u201cThe human desire to avoid unnecessary pain and inconvenience,\u201d he writes, may be \u201cthe strongest force out there.\u201d</p>\n\n\n\n<p>He cites Google\u2019s and Apple\u2019s \u201cecosystems\u201d as examples, showing how users can become dependent on such services as a result of their all-\u00adencompassing seamlessness. To Wu, this isn\u2019t a bad thing in itself. The ease of using Amazon to stream entertainment, make online purchases, or help organize day-to-day life delivers obvious gains. But when powerhouse companies like Amazon, Apple, and Alphabet win the battle of convenience with so many users\u2014and never let competitors get a foothold\u2014the result is \u201cindustry dominance\u201d that must now be reexamined.</p>\n\n\n\n<p>The measures Wu advocates\u2014and that appear the most practical, as they draw on existing legal frameworks and economic policies\u2014are federal anti-monopoly laws, utility caps that limit how much companies can charge consumers for service, and \u201cline of business\u201d restrictions that prohibit companies from operating in certain industries.</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p style=\"font-size: 30px;\"><strong>Columbia University\u2019s Tim Wu shows how platforms have shifted from giving <em>to</em> users to extracting <em>from</em> them. He argues that our failure to understand their power has only encouraged them to grow.</strong></p>\n</blockquote>\n\n\n\n<p>Anti-monopoly provisions and antitrust laws are effective weapons in our armory, Wu contends, pointing out that they have been successfully used against technology companies in the past. He cites two well-known cases. The first is the 1960s antitrust case brought by the US government against IBM, which helped create competition in the computer software market that enabled companies like Apple and Microsoft to emerge. The 1982 AT&amp;T case that broke the telephone conglomerate up into several smaller companies is another instance. In each, the public benefited from the decoupling of hardware, software, and other services, leading to more competition and choice in a technology market.</p>\n\n\n\n\n\n<p>But will past performance predict future results? It\u2019s not yet clear whether these laws can be successful in the platform age. The 2025 antitrust case against Google\u2014in which a judge ruled that the company did not have to divest itself of its Chrome browser as the US Justice Department had proposed\u2014reveals the limits of pursuing tech breakups through the law. The 2001 antitrust case brought against Microsoft likewise failed to separate the company from its web browser and mostly kept the conglomerate intact. Wu noticeably doesn\u2019t discuss the Microsoft case when arguing for antitrust action today.</p>\n\n\n\n<p>Nick Clegg, until recently Meta\u2019s president of global affairs and a former deputy prime minister of the UK, takes a position very different from Wu\u2019s: that trying to break up the biggest tech companies is misguided and would degrade the experience of internet users. In <em>How to Save the Internet: The Threat to Global Connection in the Age of AI and Political Conflict,</em> Clegg acknowledges Big Tech\u2019s monopoly over the web. But he believes punitive legal measures like antitrust laws are unproductive and can be avoided by means of regulation, such as rules for what content social media can and can\u2019t publish. (It\u2019s worth noting that Meta is facing its own antitrust case, involving whether it should have been allowed to acquire Instagram and WhatsApp.)</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image alignright size-full is-resized\"><img alt=\"book cover\" class=\"wp-image-1125430\" height=\"500\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/book.clegg_.webp\" style=\"width: auto; height: 350px;\" width=\"326\" /><figcaption class=\"wp-element-caption\"><strong>How to Save the Internet: The Threat to Global Connection in the Age of AI and Political Conflict</strong><br />Nick Clegg</figcaption><div class=\"image-credit\">BODLEY HEAD, 2025</div>\n</figure>\n</div>\n\n\n<p>Clegg also believes Silicon Valley should take the initiative to reform itself. He argues that encouraging social media networks to \u201copen up the books\u201d and share their decision-making power with users is more likely to restore some equilibrium than contemplating legal action as a first resort.</p>\n\n\n\n<p>But some may be skeptical of a former Meta exec and politician who worked closely with Mark Zuckerberg and still wasn\u2019t able to usher in such changes to social media sites while working for one. What will only compound this skepticism is the selective history found in Clegg\u2019s book, which briefly acknowledges some scandals (like the one surrounding Cambridge Analytica\u2019s data harvesting from Facebook users in 2016) but refuses to discuss other pertinent ones. For example, Clegg laments the \u201cfractured\u201d nature of the global internet today but fails to acknowledge Facebook\u2019s own role in this splintering.</p>\n\n\n\n<p>Breaking up Big Tech through antitrust laws would hinder innovation, says Clegg, arguing that the idea \u201ccompletely ignores the benefits users gain from large network effects.\u201d Users stick with these outsize channels because they can find \u201cmost of what they\u2019re looking for,\u201d he writes, like friends and content on social media and cheap consumer goods on Amazon and eBay.</p>\n\n\n\n<p>Wu might concede this point, but he would disagree with Clegg\u2019s claims that maintaining the status quo is beneficial to users. \u201cThe traditional logic of antitrust law doesn\u2019t work,\u201d Clegg insists. Instead, he believes less sweeping regulation can help make Big Tech less dangerous while ensuring a better user experience.</p>\n\n\n\n<p>Clegg has seen both sides of the regulatory coin: He worked in David Cameron\u2019s government passing national laws for technology companies to follow and then moved to Meta to help the company navigate those types of nation-specific obligations. He bemoans the hassle and complexity Silicon Valley faces in trying to comply with differing rules across the globe, some set by \u201cAmerican federal agencies\u201d and others by \u201cIndian nationalists.\u201d</p>\n\n\n\n<p>But with the resources such companies command, surely they are more than equipped to cope? Given that Meta itself has previously meddled in access to the internet (such as in India, whose telecommunications regulator ultimately blocked its Free Basics internet service for violating net neutrality rules), this complaint seems suspect coming from Clegg. What should be the real priority, he argues, is not any new nation-specific laws but a global \u201ctreaty that protects the free flow of data between signatory countries.\u201d</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p style=\"font-size: 30px;\"><strong>What the former Meta executive Nick Clegg advocates\u2014unsurprisingly\u2014is not a breakup of Big Tech but a push for it to become \u201cradically transparent.\u201d</strong></p>\n</blockquote>\n\n\n\n<p>Clegg believes that these nation-specific technology obligations\u2014a recent one is Australia\u2019s ban on social media for people under 16\u2014usually reflect fallacies about the technology\u2019s human impact, a subject that can be fraught with anxiety. Such laws have proved ineffective and tend to taint the public\u2019s understanding of social networks, he says. There is some truth to his argument here, but reading a book in which a former Facebook executive dismisses techno-determinism\u2014that is, the argument that technology makes people do or think certain things\u2014may be cold comfort to those who have seen the harm technology can do.</p>\n\n\n\n<p>In any case, Clegg\u2019s defensiveness about social networks may not gain much favor from users themselves. He stresses the need for more personal responsibility, arguing that Meta doesn\u2019t ever intend for users to stay on Facebook or Instagram endlessly: \u201cHow long you spend on the app in a single session is not nearly as important as getting you to come back over and over again.\u201d Social media companies want to serve you content that is \u201cmeaningful to you,\u201d he claims, not \u201csimply to give you a momentary dopamine spike.\u201d All this feels disingenuous at best.</p>\n\n\n\n<p>What Clegg advocates\u2014unsurprisingly\u2014is not a breakup of Big Tech but a push for it to become \u201cradically transparent,\u201d whether on its own or, if necessary, with the help of federal legislators. He also wants platforms to bring users more into their governance processes (by using Facebook\u2019s model of community forums to help improve their apps and products, for example). Finally, Clegg also wants Big Tech to give users more meaningful control of their data and how companies such as Meta can use it.</p>\n\n\n\n<p>Here Clegg shares common ground with the inventor of the web, Tim Berners-Lee, whose own proposal for reform advances a technically specific vision for doing just that. In his memoir/manifesto <em>This Is for Everyone: The Unfinished Story of the World Wide Web,</em> Berners-Lee acknowledges that his initial vision\u2014of a technology he hoped would remain open-source, collaborative, and completely decentralized\u2014is a far cry from the web that we know today.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image alignright size-large is-resized\"><img alt=\"book cover\" class=\"wp-image-1125431\" height=\"2000\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/book.lee_.jpg?w=1325\" style=\"width: auto; height: 350px;\" width=\"1325\" /><figcaption class=\"wp-element-caption\"><strong>This Is for Everyone: The Unfinished Story of the World Wide Web</strong><br />Tim Berners-Lee</figcaption><div class=\"image-credit\">FARRAR, STRAUS &#038; GIROUX, 2025</div>\n</figure>\n</div>\n\n\n<p>If there\u2019s any surviving manifestation of his original project, he says, it\u2019s Wikipedia, which remains \u201cprobably the best single example of what I wanted the web to be.\u201d His best idea for moving power from Silicon Valley platforms into the hands of users is to give them more data control. He pushes for a universal data \u201cpod\u201d he helped develop, known as \u201cSolid\u201d (an abbreviation of \u201csocial linked data\u201d).</p>\n\n\n\n<p>The system\u2014which was originally developed at MIT\u2014would offer a central site where people could manage data ranging from credit card information to health records to social media comment history. \u201cRather than have all this stuff siloed off with different providers across the web, you\u2019d be able to store your entire digital information trail in a single private repository,\u201d Berners-Lee writes.</p>\n\n\n\n<p>The Solid product may look like a kind of silver bullet in an age when data harvesting is familiar and data breaches are rampant. Placing greater control with users and enabling them to see \u201cwhat data [i]s being generated about them\u201d does sound like a tantalizing prospect.</p>\n\n\n\n<p>But some people may have concerns about, for example, merging their confidential health records with data from personal devices (like heart rate info from a smart watch). No matter how much user control and decentralization Berners-Lee may promise, recent data scandals (such as cases in which period-tracking apps misused clients\u2019 data) may be on people\u2019s minds.</p>\n\n\n\n\n\n<p>Berners-Lee believes that centralizing user data in a product like Solid could save people time and improve daily life on the internet. \u201cAn alien coming to Earth would think it was very strange that I had to tell my phone the same things again and again,\u201d he complains about the experience of using different airline apps today.</p>\n\n\n\n<p>With Solid, everything from vaccination records to credit card transactions could be kept within the digital vault and plugged into different apps. Berners-Lee believes that AI could also help people make more use of this data\u2014for example, by linking meal plans to grocery bills. Still, if he\u2019s optimistic on how AI and Solid could coordinate to improve users\u2019 lives, he is vague on how to make sure that chatbots manage such personal data sensitively and safely.</p>\n\n\n\n<p>Berners-Lee generally opposes regulation of the web (except in the case of teenagers and social media algorithms, where he sees a genuine need). He believes in internet users\u2019 individual right to control their own data; he is confident that a product like Solid could \u201ccourse-correct\u201d the web from its current \u201cexploitative\u201d and extractive direction.</p>\n\n\n\n<p>Of the three writers\u2019 approaches to reform, it is Wu\u2019s that has shown <em>some</em> effectiveness of late. Companies like Google have been forced to give competitors some advantage through data sharing, and they have now seen limits on how their systems can be used in new products and technologies. But in the current US political climate, will antitrust laws continue to be enforced against Big Tech?</p>\n\n\n\n<p>Clegg may get his way on one issue: limiting new nation-specific laws. President Donald Trump has confirmed that he will use tariffs to penalize countries that ratify their own national laws targeting US tech companies. And given the posture of the Trump administration, it doesn\u2019t seem likely that Big Tech will see more regulation in the US. Indeed, social networks have seemed emboldened (Meta, for example, removed fact-checkers and relaxed content moderation rules after Trump\u2019s election win). In any case, the US hasn\u2019t passed a major piece of federal internet legislation since 1996.</p>\n\n\n\n<p>If using anti-monopoly laws through the courts isn\u2019t possible, Clegg\u2019s push for a US-led omnibus deal\u2014setting consensual rules for data and acceptable standards of human rights\u2014may be the only way to make some more immediate improvements.</p>\n\n\n\n<p>In the end, there is not likely to be any single fix for what ails the internet today. But the ideas the three writers agree on\u2014greater user control, more data privacy, and increased accountability from Silicon Valley\u2014are surely the outcomes we should all fight for.</p>\n\n\n\n<p><em>Nathan Smith is a writer whose work has appeared in the </em>Washington Post,<em> the </em>Economist,<em> and the </em>Los Angeles Times.</p>"
+      }
+    ],
+    "post-id": "1125104"
+  },
+  {
+    "title": "Transforming commercial pharma with agentic AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Transforming commercial pharma with agentic AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/13/1124829/transforming-commercial-pharma-with-agentic-ai/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/13/1124829/transforming-commercial-pharma-with-agentic-ai/",
+    "authors": [
+      {
+        "name": "MIT Technology Review Insights"
+      }
+    ],
+    "author": "MIT Technology Review Insights",
+    "author_detail": {
+      "name": "MIT Technology Review Insights"
+    },
+    "published": "Mon, 13 Oct 2025 13:00:00 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      13,
+      13,
+      0,
+      0,
+      0,
+      286,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "sponsored",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1124829",
+    "guidislink": false,
+    "summary": "Amid the turbulence of the wider global economy in recent years, the pharmaceuticals industry is weathering its own storms. The rising cost of raw materials and supply chain disruptions are squeezing&#160;margins as pharma companies face intense pressure\u2014including from countries like the US\u2014to control drug costs. At the same time, a wave of expiring patents threatens&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Amid the turbulence of the wider global economy in recent years, the pharmaceuticals industry is weathering its own storms. The rising cost of raw materials and supply chain disruptions are squeezing&#160;margins as pharma companies face intense pressure\u2014including from countries like the US\u2014to control drug costs. At the same time, a wave of expiring patents threatens&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Amid the turbulence of the wider global economy in recent years, the pharmaceuticals industry is weathering its own storms. The rising cost of raw materials and supply chain disruptions are squeezing&nbsp;margins as pharma companies face intense pressure\u2014<strong><a href=\"https://www.reuters.com/business/healthcare-pharmaceuticals/trump-says-he-will-cut-drug-prices-by-59-2025-05-12/\" rel=\"noreferrer noopener\" target=\"_blank\">including from countries like the US</a></strong>\u2014to control drug costs. At the same time, a wave of expiring patents threatens around <strong><a href=\"https://www.evaluate.com/thought-leadership/world-preview-2025-infographic/\" rel=\"noreferrer noopener\" target=\"_blank\">$300 billion in potential lost sales by 2030</a></strong>. As companies lose the exclusive right to sell the drugs they have developed, competitors can enter the market with generic and biosimilar lower-cost alternatives, leading to a sharp decline in branded drug sales\u2014a \u201cpatent cliff.\u201d Simultaneously, the cost of bringing new drugs to market is climbing. <strong><a href=\"https://www.mckinsey.com/industries/life-sciences/our-insights/charting-the-path-to-patients\" rel=\"noreferrer noopener\" target=\"_blank\">McKinsey estimates</a> </strong>cost per launch is growing 8% each year, reaching $4 billion in 2022.&nbsp;</p>\n\n\n\n<figure class=\"wp-block-image size-large is-resized\"><a href=\"https://more.globant.com/en/agentic-ai-in-pharma-globant-mit-report?utm_source=web&amp;utm_medium=oge&amp;utm_campaign=a-gbm-st-hls-cn-mittechnologyreviewinsights2025-id-500200-r-all-bo-hls-ac-tl-s-web-me-oge-o-wpd-bi-nap-f-lik-y-2025-m-10-t-ctalandingpage\" rel=\" noreferrer noopener\" target=\"_blank\"><img alt=\"\" class=\"wp-image-1124831\" height=\"2000\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/MIT_GlobantEbrief_V4_Cover929.png?w=1555\" style=\"width: 528px; height: auto;\" width=\"1555\" /></a></figure>\n\n\n\n<div class=\"wp-block-buttons is-content-justification-left is-layout-flex wp-container-core-buttons-is-layout-fc4fd283 wp-block-buttons-is-layout-flex\">\n<div class=\"wp-block-button has-custom-width wp-block-button__width-auto is-style-fill is-style-fill--3\"><a class=\"wp-block-button__link has-mittr-black-color has-text-color has-background has-custom-font-size wp-element-button\" href=\"https://more.globant.com/en/agentic-ai-in-pharma-globant-mit-report?utm_source=web&amp;utm_medium=oge&amp;utm_campaign=a-gbm-st-hls-cn-mittechnologyreviewinsights2025-id-500200-r-all-bo-hls-ac-tl-s-web-me-oge-o-wpd-bi-nap-f-lik-y-2025-m-10-t-ctalandingpage\" rel=\"noreferrer noopener\" style=\"border-radius: 4px; background-color: #bbd432; font-size: 16px;\" target=\"_blank\">DOWNLOAD THE REPORT</a></div>\n</div>\n\n\n\n<p>In clinics and health-care facilities, norms and expectations are evolving, too. Patients and health-care providers are seeking more personalized services, leading to greater demand for precision drugs and targeted therapies. While proving effective for patients, the <strong><a href=\"https://www.sciencedirect.com/science/article/abs/pii/S0148296323000437\" rel=\"noreferrer noopener\" target=\"_blank\">complexity of formulating and producing </a></strong>these drugs makes them expensive and restricts their sale to a smaller customer base.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><a href=\"https://more.globant.com/en/agentic-ai-in-pharma-globant-mit-report?utm_source=web&amp;utm_medium=oge&amp;utm_campaign=a-gbm-st-hls-cn-mittechnologyreviewinsights2025-id-500200-r-all-bo-hls-ac-tl-s-web-me-oge-o-wpd-bi-nap-f-lik-y-2025-m-10-t-ctalandingpage\" rel=\" noreferrer noopener\" target=\"_blank\"><img alt=\"\" class=\"wp-image-1124907\" height=\"675\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/10/MITTR2025_Fig3RevGlobant-Socials2.png\" width=\"1200\" /></a></figure>\n\n\n\n<p>The need for personalization extends to sales and marketing operations too as pharma companies are increasingly needing to compete for the attention of health-care professionals (HCPs). <strong><a href=\"https://www.veeva.com/wp-content/uploads/2024/05/Veeva-Pulse-Report-Top-Insights-1Q24.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Estimates suggest</a> </strong>that biopharmas were able to reach 45% of HCPs in 2024, down from 60% in 2022. Personalization, real-time communication channels, and relevant content offer a way of building trust and reaching HCPs in an increasingly competitive market. But with <strong><a href=\"https://www.indegene.com/what-we-think/case-studies/mlr-process-optimization-pharma\" rel=\"noreferrer noopener\" target=\"_blank\">ever-growing volumes of content</a> </strong>requiring medical, legal, and regulatory (MLR) review, companies are struggling to keep up, leading to potential delays and missed opportunities.&nbsp;</p>\n\n\n\n<p><a href=\"https://more.globant.com/en/agentic-ai-in-pharma-globant-mit-report?utm_source=web&amp;utm_medium=oge&amp;utm_campaign=a-gbm-st-hls-cn-mittechnologyreviewinsights2025-id-500200-r-all-bo-hls-ac-tl-s-web-me-oge-o-wpd-bi-nap-f-lik-y-2025-m-10-t-ctalandingpage\" rel=\"noreferrer noopener\" target=\"_blank\">Download the report.</a></p>\n\n\n\n<p><em>This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff. It was researched, designed, and written by human writers, editors, analysts, and illustrators. AI tools that may have been used were limited to secondary production processes that passed thorough human review.</em></p>\n\n\n\n<p></p>"
+      }
+    ],
+    "post-id": "1124829"
+  },
+  {
+    "title": "Building connected data ecosystems for AI at scale",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Building connected data ecosystems for AI at scale"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/10/1124313/building-connected-data-ecosystems-for-ai-at-scale/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/10/1124313/building-connected-data-ecosystems-for-ai-at-scale/",
+    "authors": [
+      {
+        "name": "MIT Technology Review Insights"
+      }
+    ],
+    "author": "MIT Technology Review Insights",
+    "author_detail": {
+      "name": "MIT Technology Review Insights"
+    },
+    "published": "Fri, 10 Oct 2025 16:11:22 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      10,
+      16,
+      11,
+      22,
+      4,
+      283,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "sponsored",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1124313",
+    "guidislink": false,
+    "summary": "",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": ""
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": ""
+      }
+    ],
+    "post-id": "1124313"
+  },
+  {
+    "title": "AI toys are all the rage in China\u2014and now they\u2019re appearing on shelves in the US too",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "AI toys are all the rage in China\u2014and now they\u2019re appearing on shelves in the US too"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/07/1125191/ai-toys-in-china/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/07/1125191/ai-toys-in-china/",
+    "authors": [
+      {
+        "name": "Caiwei Chen"
+      }
+    ],
+    "author": "Caiwei Chen",
+    "author_detail": {
+      "name": "Caiwei Chen"
+    },
+    "published": "Tue, 07 Oct 2025 16:51:02 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      7,
+      16,
+      51,
+      2,
+      1,
+      280,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Why It Matters",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1125191",
+    "guidislink": false,
+    "summary": "Kids have always played with and talked to stuffed animals. But now their toys can talk back, thanks to a wave of companies that are fitting children\u2019s playthings with chatbots and voice assistants.&#160; It\u2019s a trend that has particularly taken off in China: A recent report by the Shenzhen Toy Industry Association and JD.com predicts&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Kids have always played with and talked to stuffed animals. But now their toys can talk back, thanks to a wave of companies that are fitting children\u2019s playthings with chatbots and voice assistants.&#160; It\u2019s a trend that has particularly taken off in China: A recent report by the Shenzhen Toy Industry Association and JD.com predicts&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Kids have always played with and talked to stuffed animals. But now their toys can talk back, thanks to a wave of companies that are fitting children\u2019s playthings with chatbots and voice assistants.&nbsp;</p>\n\n\n\n<p>It\u2019s a trend that has particularly taken off in China: A recent report by the Shenzhen Toy Industry Association and JD.com predicts that the sector will surpass \u00a5100 billion ($14 billion) by 2030, growing faster than almost any other branch of consumer AI. According to the Chinese corporation registration database Qichamao, there are over 1,500 AI toy companies operating in China as of October 2025.</p>\n\n\n\n<p>One of the latest entrants to the market is a toy called BubblePal, a device the size of a Ping-Pong ball that clips onto a child\u2019s favorite stuffed animal and makes it \u201ctalk.\u201d The gadget comes with a smartphone app that lets parents switch between 39 characters, from Disney\u2019s Elsa to the Chinese cartoon classic Nezha. It costs $149, and 200,000 units have been sold since it launched last summer. It\u2019s made by the Chinese company Haivivi and runs on DeepSeek\u2019s large language models.&nbsp;</p>\n\n\n\n\n\n<p>Other companies are approaching the market differently. FoloToy, another Chinese startup, allows parents to customize a bear, bunny, or cactus toy by training it to speak with their own voice and speech pattern. FoloToy reported selling more than 20,000 of its AI-equipped plush toys in the first quarter of 2025, nearly equaling its total sales for 2024, and it projects sales of 300,000 units this year.&nbsp;</p>\n\n\n\n\n\n<p>But Chinese AI toy companies have their sights set beyond the nation\u2019s borders. BubblePal was launched in the US in December 2024 and is now also available in Canada and the UK. And FoloToy is now sold in more than 10 countries, including the US, UK, Canada, Brazil, Germany, and Thailand. Rui Ma, a China tech analyst at AlphaWatch.AI, says that AI devices for children make particular sense in China, where there is already a well-established market for kid-focused educational electronics\u2014a market that does not exist to the same extent globally. FoloToy\u2019s CEO, Kong Miaomiao, told the Chinese outlet Baijing Chuhai that outside China, his firm is still just \u201creaching early adopters who are curious about AI.\u201d</p>\n\n\n\n<p>China\u2019s AI toy boom builds on decades of consumer electronics designed specifically for children. As early as the 1990s, companies such as BBK popularized devices like electronic dictionaries and \u201cstudy machines,\u201d marketed to parents as educational aids. These toy-electronics hybrids read aloud, tell interactive stories, and simulate the role of a playmate.</p>\n\n\n\n<p>The competition is heating up, however\u2014US companies have also started to develop and sell AI toys. The musician Grimes helped to create Grok, a plush toy that chats with kids and adapts to their personality. Toy giant Mattel is working with OpenAI to bring conversational AI to brands like Barbie and Hot Wheels, with the first products expected to be announced later this year.</p>\n\n\n\n<p>However, reviews from parents who\u2019ve bought AI toys in China are mixed. Although many appreciate the fact they are screen-free and come with strict parental controls, some parents say their AI capabilities can be glitchy, leading children to tire of them easily.&nbsp;</p>\n\n\n\n<p>Penny Huang, based in Beijing, bought a BubblePal for her five-year-old daughter, who is cared for mostly by grandparents. Huang hoped that the toy could make her less lonely and reduce her constant requests to play with adults\u2019 smartphones. But the novelty wore off quickly.</p>\n\n\n\n<p>\u201cThe responses are too long and wordy. My daughter quickly loses patience,\u201d says Huang, \u201cIt [the role-play] doesn\u2019t feel immersive\u2014just a voice that sometimes sounds out of place.\u201d&nbsp;</p>\n\n\n\n<p>Another parent who uses BubblePal, Hongyi Li, found the voice recognition lagging: \u201cChildren\u2019s speech is fragmented and unclear. The toy frequently interrupts my kid or misunderstands what she says. It also still requires pressing a button to interact, which can be hard for toddlers.\u201d&nbsp;</p>\n\n\n\n<p>Huang recently listed her BubblePal for sale on Xianyu, a secondhand marketplace. \u201cThis is just like one of the many toys that my daughter plays for five minutes then gets tired of,\u201d she says. \u201cShe wants to play with my phone more than anything else.\u201d</p>\n\n\n\n<p></p>"
+      }
+    ],
+    "post-id": "1125191"
+  },
+  {
+    "title": "The three big unanswered questions about Sora",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The three big unanswered questions about Sora"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/10/07/1124998/the-three-big-unanswered-questions-about-sora/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/10/07/1124998/the-three-big-unanswered-questions-about-sora/",
+    "authors": [
+      {
+        "name": "James O'Donnell"
+      }
+    ],
+    "author": "James O'Donnell",
+    "author_detail": {
+      "name": "James O'Donnell"
+    },
+    "published": "Tue, 07 Oct 2025 09:00:00 +0000",
+    "published_parsed": [
+      2025,
+      10,
+      7,
+      9,
+      0,
+      0,
+      1,
+      280,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Summary",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "The Algorithm",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1124998",
+    "guidislink": false,
+    "summary": "Last week OpenAI released Sora, a TikTok-style app that presents an endless feed of exclusively AI-generated videos, each up to 10 seconds long. The app allows you to create a \u201ccameo\u201d of yourself\u2014a hyperrealistic avatar that mimics your appearance and voice\u2014and insert other peoples\u2019 cameos into your own videos (depending on what permissions they set).&#160;&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Last week OpenAI released Sora, a TikTok-style app that presents an endless feed of exclusively AI-generated videos, each up to 10 seconds long. The app allows you to create a \u201ccameo\u201d of yourself\u2014a hyperrealistic avatar that mimics your appearance and voice\u2014and insert other peoples\u2019 cameos into your own videos (depending on what permissions they set).&#160;&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<div></div>\n\n\n<p>Last week OpenAI released Sora, a TikTok-style app that presents an endless feed of exclusively AI-generated videos, each up to 10 seconds long. The app allows you to create a \u201ccameo\u201d of yourself\u2014a hyperrealistic avatar that mimics your appearance and voice\u2014and insert other peoples\u2019 cameos into your own videos (depending on what permissions they set).&nbsp;</p>\n\n\n\n<p>To some people who believed earnestly in OpenAI\u2019s <a href=\"https://openai.com/about/\">promise</a> to build AI that benefits all of humanity, the app is a punchline. A former OpenAI researcher who left to build an AI-for-science startup <a href=\"https://x.com/ns123abc/status/1973211358809452849\">referred</a> to Sora as an \u201cinfinite AI tiktok slop machine.\u201d&nbsp;</p>\n\n\n\n<p>That hasn\u2019t stopped it from soaring to the top spot on Apple\u2019s US App Store. After I downloaded the app, I quickly learned what types of videos are, at least currently, performing well: bodycam-style footage of police pulling over pets or various trademarked characters, including SpongeBob and Scooby Doo; deepfake memes of Martin Luther King Jr. talking about Xbox; and endless variations of Jesus Christ navigating our modern world.&nbsp;</p>\n\n\n\n<p>Just as quickly, I had a bunch of questions about what\u2019s coming next for Sora. Here\u2019s what I\u2019ve learned so far.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Can it last?</strong></h3>\n\n\n\n<p>OpenAI is betting that a sizable number of people will want to spend time on an app in which you can suspend your concerns about whether what you\u2019re looking at is fake and indulge in a stream of raw AI. One <a href=\"https://x.com/ijustine/status/1973126263700332860\">reviewer</a> put it this way: \u201cIt\u2019s comforting because you know that everything you\u2019re scrolling through isn\u2019t real, where other platforms you sometimes have to guess if it\u2019s real or fake. Here, there is no guessing, it\u2019s all AI, all the time.&#8221;</p>\n\n\n\n<p>This may sound like hell to some. But judging by Sora\u2019s popularity, lots of people want it.&nbsp;</p>\n\n\n\n<p>So what\u2019s drawing these people in? There are two explanations. One is that Sora is a flash-in-the-pan gimmick, with people lining up to gawk at what cutting-edge AI can create now (in my experience, this is interesting for about five minutes). The second, which OpenAI is betting on, is that we\u2019re witnessing a genuine shift in what type of content can draw eyeballs, and that users will stay with Sora because it allows a level of fantastical creativity not possible in any other app.&nbsp;</p>\n\n\n\n<p>There are a few decisions down the pike that may shape how many people stick around: how OpenAI decides to implement ads, what limits it sets for copyrighted content (see below), and what algorithms it cooks up to decide who sees what.&nbsp;</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Can OpenAI afford it?</strong></h3>\n\n\n\n<p>OpenAI is not profitable, but that\u2019s not particularly strange given how Silicon Valley operates. What is peculiar, though, is that the company is investing in a platform for generating video, which is the most <a href=\"https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/\">energy-intensive</a> (and therefore expensive) form of AI we have. The energy it takes dwarfs the amount required to create images or answer text questions via ChatGPT.</p>\n\n\n\n<p>This isn\u2019t news to OpenAI, which has joined a half-trillion-dollar project to build data centers and new power plants. But Sora\u2014which currently allows you to generate AI videos, for free, without limits\u2014raises the stakes: How much will it cost the company?&nbsp;</p>\n\n\n\n\n\n<p>OpenAI is making moves toward monetizing things (you can now <a href=\"https://openai.com/index/buy-it-in-chatgpt/\">buy products</a> directly through ChatGPT, for example). On October 3, its CEO, Sam Altman, wrote in a <a href=\"https://blog.samaltman.com/sora-update-number-1\">blog post</a> that \u201cwe are going to have to somehow make money for video generation,\u201d but he didn\u2019t get into specifics. One can imagine personalized ads and more in-app purchases.&nbsp;</p>\n\n\n\n<p>Still, it\u2019s concerning to imagine the mountain of emissions might result if Sora becomes popular. Altman has accurately <a href=\"https://blog.samaltman.com/the-gentle-singularity\">described</a> the emissions burden of one query to ChatGPT as impossibly small. What he has not quantified is what that figure is for a 10-second video generated by Sora. It\u2019s only a matter of time until AI and climate researchers start demanding it.&nbsp;</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>How many lawsuits are coming?&nbsp;</strong></h3>\n\n\n\n<p>Sora is awash in copyrighted and trademarked characters. It allows you to easily deepfake deceased celebrities. Its videos use copyrighted music.&nbsp;</p>\n\n\n\n<p>Last week, the <em>Wall Street Journal</em> <a href=\"https://www.wsj.com/tech/ai/openais-new-sora-video-generator-to-require-copyright-holders-to-opt-out-071d8b2a?mod=tech_lead_pos4\">reported</a> that OpenAI has sent letters to copyright holders notifying them that they\u2019ll have to opt out of the Sora platform if they don\u2019t want their material included, which is <em>not</em> how these things usually work. The law on how AI companies should handle copyrighted material is far from settled, and it\u2019d be reasonable to expect lawsuits challenging this.&nbsp;</p>\n\n\n\n<p>In last week\u2019s blog post, Altman wrote that OpenAI is \u201chearing from a lot of rightsholders\u201d who want more control over how their characters are used in Sora. He says that the company plans to give those parties more \u201cgranular control\u201d over their characters. Still, \u201cthere may be some edge cases of generations that get through that shouldn\u2019t,\u201d he wrote.</p>\n\n\n\n<p>But another issue is the ease with which you can use the cameos of real people. People can restrict who can use their cameo, but what limits will there be for what these cameos can be made to do in Sora videos?&nbsp;</p>\n\n\n\n<p>This is apparently already an issue OpenAI is being forced to respond to. The head of Sora, Bill Peebles, <a href=\"https://x.com/billpeeb/status/1974969638300901817\">posted</a> on October 5 that users can now restrict how their cameo can be used\u2014preventing it from appearing in political videos or saying certain words, for example. How well will this work? Is it only a matter of time until someone\u2019s cameo is used for something nefarious, explicit, illegal, or at least creepy, sparking a lawsuit alleging that OpenAI is responsible?&nbsp;</p>\n\n\n\n<p>Overall, we haven\u2019t seen what full-scale Sora looks like yet (OpenAI is still doling out access to the app via invite codes). When we do, I think it will serve as a grim test: Can AI create videos so fine-tuned for endless engagement that they\u2019ll outcompete \u201creal\u201d videos for our attention? In the end, Sora isn\u2019t just testing OpenAI\u2019s technology\u2014it\u2019s testing us, and how much of our reality we\u2019re willing to trade for an infinite scroll of simulation.</p>"
+      }
+    ],
+    "post-id": "1124998"
+  }
+]

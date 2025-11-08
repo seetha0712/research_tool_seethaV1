@@ -1,0 +1,6562 @@
+[
+  {
+    "title": "From massive models to mobile magic: The tech behind YouTube real-time generative AI effects",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "From massive models to mobile magic: The tech behind YouTube real-time generative AI effects"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/from-massive-models-to-mobile-magic-the-tech-behind-youtube-real-time-generative-ai-effects/"
+      }
+    ],
+    "link": "https://research.google/blog/from-massive-models-to-mobile-magic-the-tech-behind-youtube-real-time-generative-ai-effects/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Thu, 21 Aug 2025 18:05:35 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      21,
+      18,
+      5,
+      35,
+      3,
+      233,
+      0
+    ],
+    "id": "https://research.google/blog/from-massive-models-to-mobile-magic-the-tech-behind-youtube-real-time-generative-ai-effects/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/YTEffects-0-Examples.gif"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/YTEffects-0-Examples.gif"
+      }
+    ]
+  },
+  {
+    "title": "Securing private data at scale with differentially private partition selection",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Securing private data at scale with differentially private partition selection"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/securing-private-data-at-scale-with-differentially-private-partition-selection/"
+      }
+    ],
+    "link": "https://research.google/blog/securing-private-data-at-scale-with-differentially-private-partition-selection/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Wed, 20 Aug 2025 19:24:05 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      20,
+      19,
+      24,
+      5,
+      2,
+      232,
+      0
+    ],
+    "id": "https://research.google/blog/securing-private-data-at-scale-with-differentially-private-partition-selection/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Responsible AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security, Privacy and Abuse Prevention",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DPPS-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DPPS-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Beyond billion-parameter burdens: Unlocking data synthesis with a conditional generator",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Beyond billion-parameter burdens: Unlocking data synthesis with a conditional generator"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/beyond-billion-parameter-burdens-unlocking-data-synthesis-with-a-conditional-generator/"
+      }
+    ],
+    "link": "https://research.google/blog/beyond-billion-parameter-burdens-unlocking-data-synthesis-with-a-conditional-generator/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Thu, 14 Aug 2025 19:06:20 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      14,
+      19,
+      6,
+      20,
+      3,
+      226,
+      0
+    ],
+    "id": "https://research.google/blog/beyond-billion-parameter-burdens-unlocking-data-synthesis-with-a-conditional-generator/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security, Privacy and Abuse Prevention",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/BBPB-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/BBPB-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Enabling physician-centered oversight for AMIE",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Enabling physician-centered oversight for AMIE"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/enabling-physician-centered-oversight-for-amie/"
+      }
+    ],
+    "link": "https://research.google/blog/enabling-physician-centered-oversight-for-amie/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Tue, 12 Aug 2025 17:24:51 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      12,
+      17,
+      24,
+      51,
+      1,
+      224,
+      0
+    ],
+    "id": "https://research.google/blog/enabling-physician-centered-oversight-for-amie/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AMIE-SO-4.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AMIE-SO-4.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Achieving 10,000x training data reduction with high-fidelity labels",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Achieving 10,000x training data reduction with high-fidelity labels"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/"
+      }
+    ],
+    "link": "https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/",
+    "summary": "Human-Computer Interaction and Visualization",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Human-Computer Interaction and Visualization"
+    },
+    "published": "Thu, 07 Aug 2025 09:46:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      7,
+      9,
+      46,
+      0,
+      3,
+      219,
+      0
+    ],
+    "id": "https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security, Privacy and Abuse Prevention",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CurationStrategies_ProcessHero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CurationStrategies_ProcessHero.png"
+      }
+    ]
+  },
+  {
+    "title": "Insulin resistance prediction from wearables and routine blood biomarkers",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Insulin resistance prediction from wearables and routine blood biomarkers"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/"
+      }
+    ],
+    "link": "https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Wed, 06 Aug 2025 20:02:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      6,
+      20,
+      2,
+      0,
+      2,
+      218,
+      0
+    ],
+    "id": "https://research.google/blog/insulin-resistance-prediction-from-wearables-and-routine-blood-biomarkers/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Insulin-Resistance-Prediction-5.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Insulin-Resistance-Prediction-5.png"
+      }
+    ]
+  },
+  {
+    "title": "Highly accurate genome polishing with DeepPolisher: Enhancing the foundation of genomic research",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Highly accurate genome polishing with DeepPolisher: Enhancing the foundation of genomic research"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/highly-accurate-genome-polishing-with-deeppolisher-enhancing-the-foundation-of-genomic-research/"
+      }
+    ],
+    "link": "https://research.google/blog/highly-accurate-genome-polishing-with-deeppolisher-enhancing-the-foundation-of-genomic-research/",
+    "summary": "General Science",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "General Science"
+    },
+    "published": "Wed, 06 Aug 2025 16:13:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      6,
+      16,
+      13,
+      0,
+      2,
+      218,
+      0
+    ],
+    "id": "https://research.google/blog/highly-accurate-genome-polishing-with-deeppolisher-enhancing-the-foundation-of-genomic-research/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepPolisher-2-Architecture.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepPolisher-2-Architecture.png"
+      }
+    ]
+  },
+  {
+    "title": "MLE-STAR: A state-of-the-art machine learning engineering agent",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "MLE-STAR: A state-of-the-art machine learning engineering agent"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/mle-star-a-state-of-the-art-machine-learning-engineering-agents/"
+      }
+    ],
+    "link": "https://research.google/blog/mle-star-a-state-of-the-art-machine-learning-engineering-agents/",
+    "summary": "Machine Intelligence",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Machine Intelligence"
+    },
+    "published": "Fri, 01 Aug 2025 10:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      1,
+      10,
+      0,
+      0,
+      4,
+      213,
+      0
+    ],
+    "id": "https://research.google/blog/mle-star-a-state-of-the-art-machine-learning-engineering-agents/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MLE-STAR-5b-Intervention.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MLE-STAR-5b-Intervention.png"
+      }
+    ]
+  },
+  {
+    "title": "Simulating large systems with Regression Language Models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Simulating large systems with Regression Language Models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/simulating-large-systems-with-regression-language-models/"
+      }
+    ],
+    "link": "https://research.google/blog/simulating-large-systems-with-regression-language-models/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Tue, 29 Jul 2025 23:24:00 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      29,
+      23,
+      24,
+      0,
+      1,
+      210,
+      0
+    ],
+    "id": "https://research.google/blog/simulating-large-systems-with-regression-language-models/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Open Source Models & Datasets",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Software Systems & Engineering",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/RLM-3.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/RLM-3.jpg"
+      }
+    ]
+  },
+  {
+    "title": "SensorLM: Learning the language of wearable sensors",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "SensorLM: Learning the language of wearable sensors"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/sensorlm-learning-the-language-of-wearable-sensors/"
+      }
+    ],
+    "link": "https://research.google/blog/sensorlm-learning-the-language-of-wearable-sensors/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Mon, 28 Jul 2025 17:00:00 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      28,
+      17,
+      0,
+      0,
+      0,
+      209,
+      0
+    ],
+    "id": "https://research.google/blog/sensorlm-learning-the-language-of-wearable-sensors/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SensorLM-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SensorLM-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Synthetic and federated: Privacy-preserving domain adaptation with LLMs for mobile applications",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Synthetic and federated: Privacy-preserving domain adaptation with LLMs for mobile applications"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/synthetic-and-federated-privacy-preserving-domain-adaptation-with-llms-for-mobile-applications/"
+      }
+    ],
+    "link": "https://research.google/blog/synthetic-and-federated-privacy-preserving-domain-adaptation-with-llms-for-mobile-applications/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Thu, 24 Jul 2025 09:42:00 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      24,
+      9,
+      42,
+      0,
+      3,
+      205,
+      0
+    ],
+    "id": "https://research.google/blog/synthetic-and-federated-privacy-preserving-domain-adaptation-with-llms-for-mobile-applications/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Responsible AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SynthFed3-FedButtressHEROFinal.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SynthFed3-FedButtressHEROFinal.png"
+      }
+    ]
+  },
+  {
+    "title": "LSM-2: Learning from incomplete wearable sensor data",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "LSM-2: Learning from incomplete wearable sensor data"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/"
+      }
+    ],
+    "link": "https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Tue, 22 Jul 2025 16:42:00 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      22,
+      16,
+      42,
+      0,
+      1,
+      203,
+      0
+    ],
+    "id": "https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LSM2-4.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LSM2-4.png"
+      }
+    ]
+  },
+  {
+    "title": "Measuring heart rate with consumer ultra-wideband radar",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Measuring heart rate with consumer ultra-wideband radar"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/measuring-heart-rate-with-consumer-ultra-wideband-radar/"
+      }
+    ],
+    "link": "https://research.google/blog/measuring-heart-rate-with-consumer-ultra-wideband-radar/",
+    "summary": "Hardware & Architecture",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Hardware & Architecture"
+    },
+    "published": "Thu, 17 Jul 2025 19:00:00 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      17,
+      19,
+      0,
+      0,
+      3,
+      198,
+      0
+    ],
+    "id": "https://research.google/blog/measuring-heart-rate-with-consumer-ultra-wideband-radar/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Hardware & Architecture",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/RadarUWB-0c-HeroStill.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/RadarUWB-0c-HeroStill.png"
+      }
+    ]
+  },
+  {
+    "title": "Android Earthquake Alerts: A global system for early warning",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Android Earthquake Alerts: A global system for early warning"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/android-earthquake-alerts-a-global-system-for-early-warning/"
+      }
+    ],
+    "link": "https://research.google/blog/android-earthquake-alerts-a-global-system-for-early-warning/",
+    "summary": "Data Mining & Modeling",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Data Mining & Modeling"
+    },
+    "published": "Thu, 17 Jul 2025 09:34:00 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      17,
+      9,
+      34,
+      0,
+      3,
+      198,
+      0
+    ],
+    "id": "https://research.google/blog/android-earthquake-alerts-a-global-system-for-early-warning/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Data Mining & Modeling",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Mobile Systems",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/EQdetection1_Map.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/EQdetection1_Map.png"
+      }
+    ]
+  },
+  {
+    "title": "Graph foundation models for relational data",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Graph foundation models for relational data"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/graph-foundation-models-for-relational-data/"
+      }
+    ],
+    "link": "https://research.google/blog/graph-foundation-models-for-relational-data/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Thu, 10 Jul 2025 03:14:00 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      10,
+      3,
+      14,
+      0,
+      3,
+      191,
+      0
+    ],
+    "id": "https://research.google/blog/graph-foundation-models-for-relational-data/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GFM4RelationalData-3.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GFM4RelationalData-3.png"
+      }
+    ]
+  },
+  {
+    "title": "MedGemma: Our most capable open models for health AI development",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "MedGemma: Our most capable open models for health AI development"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/"
+      }
+    ],
+    "link": "https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Wed, 09 Jul 2025 17:00:00 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      9,
+      17,
+      0,
+      0,
+      2,
+      190,
+      0
+    ],
+    "id": "https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MedGemma-0a-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MedGemma-0a-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Making group conversations more accessible with sound localization",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Making group conversations more accessible with sound localization"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/making-group-conversations-more-accessible-with-sound-localization/"
+      }
+    ],
+    "link": "https://research.google/blog/making-group-conversations-more-accessible-with-sound-localization/",
+    "summary": "Human-Computer Interaction and Visualization",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Human-Computer Interaction and Visualization"
+    },
+    "published": "Wed, 02 Jul 2025 11:00:00 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      2,
+      11,
+      0,
+      0,
+      2,
+      183,
+      0
+    ],
+    "id": "https://research.google/blog/making-group-conversations-more-accessible-with-sound-localization/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Sound & Accoustics",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Speech Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SpeechCompass-2.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SpeechCompass-2.jpg"
+      }
+    ]
+  },
+  {
+    "title": "How we created HOV-specific ETAs in Google Maps",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "How we created HOV-specific ETAs in Google Maps"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/how-we-created-hov-specific-etas-in-google-maps/"
+      }
+    ],
+    "link": "https://research.google/blog/how-we-created-hov-specific-etas-in-google-maps/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Mon, 30 Jun 2025 12:15:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      30,
+      12,
+      15,
+      0,
+      0,
+      181,
+      0
+    ],
+    "id": "https://research.google/blog/how-we-created-hov-specific-etas-in-google-maps/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Mining & Modeling",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/HOV_Cover.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/HOV_Cover.png"
+      }
+    ]
+  },
+  {
+    "title": "REGEN: Empowering personalized recommendations with natural language",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "REGEN: Empowering personalized recommendations with natural language"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/regen-empowering-personalized-recommendations-with-natural-language/"
+      }
+    ],
+    "link": "https://research.google/blog/regen-empowering-personalized-recommendations-with-natural-language/",
+    "summary": "Data Mining & Modeling",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Data Mining & Modeling"
+    },
+    "published": "Fri, 27 Jun 2025 17:00:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      27,
+      17,
+      0,
+      0,
+      4,
+      178,
+      0
+    ],
+    "id": "https://research.google/blog/regen-empowering-personalized-recommendations-with-natural-language/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Data Mining & Modeling",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/FLARE-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/FLARE-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "MUVERA: Making multi-vector retrieval as fast as single-vector search",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "MUVERA: Making multi-vector retrieval as fast as single-vector search"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/muvera-making-multi-vector-retrieval-as-fast-as-single-vector-search/"
+      }
+    ],
+    "link": "https://research.google/blog/muvera-making-multi-vector-retrieval-as-fast-as-single-vector-search/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Wed, 25 Jun 2025 13:22:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      25,
+      13,
+      22,
+      0,
+      2,
+      176,
+      0
+    ],
+    "id": "https://research.google/blog/muvera-making-multi-vector-retrieval-as-fast-as-single-vector-search/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MUVERA_Cover.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MUVERA_Cover.png"
+      }
+    ]
+  },
+  {
+    "title": "From research to climate resilience",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "From research to climate resilience"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/how-ai-is-helping-us-build-a-more-resilient-planet/"
+      }
+    ],
+    "link": "https://research.google/blog/how-ai-is-helping-us-build-a-more-resilient-planet/",
+    "summary": "Climate & Sustainability",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Climate & Sustainability"
+    },
+    "published": "Tue, 24 Jun 2025 14:47:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      24,
+      14,
+      47,
+      0,
+      1,
+      175,
+      0
+    ],
+    "id": "https://research.google/blog/how-ai-is-helping-us-build-a-more-resilient-planet/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforthePlanet-0d-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforthePlanet-0d-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Unlocking rich genetic insights through multimodal AI with M-REGLE",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Unlocking rich genetic insights through multimodal AI with M-REGLE"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/unlocking-rich-genetic-insights-through-multimodal-ai-with-m-regle/"
+      }
+    ],
+    "link": "https://research.google/blog/unlocking-rich-genetic-insights-through-multimodal-ai-with-m-regle/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Mon, 23 Jun 2025 20:30:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      23,
+      20,
+      30,
+      0,
+      0,
+      174,
+      0
+    ],
+    "id": "https://research.google/blog/unlocking-rich-genetic-insights-through-multimodal-ai-with-m-regle/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Open Source Models & Datasets",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MREGLE-0a-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MREGLE-0a-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "A colorful quantum future",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "A colorful quantum future"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/a-colorful-quantum-future/"
+      }
+    ],
+    "link": "https://research.google/blog/a-colorful-quantum-future/",
+    "summary": "Quantum",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Quantum"
+    },
+    "published": "Mon, 23 Jun 2025 12:22:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      23,
+      12,
+      22,
+      0,
+      0,
+      174,
+      0
+    ],
+    "id": "https://research.google/blog/a-colorful-quantum-future/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Quantum",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ColorCode1_Comparison.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ColorCode1_Comparison.png"
+      }
+    ]
+  },
+  {
+    "title": "Optimizing LLM-based trip planning",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Optimizing LLM-based trip planning"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/optimizing-llm-based-trip-planning/"
+      }
+    ],
+    "link": "https://research.google/blog/optimizing-llm-based-trip-planning/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Fri, 06 Jun 2025 10:23:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      6,
+      10,
+      23,
+      0,
+      4,
+      157,
+      0
+    ],
+    "id": "https://research.google/blog/optimizing-llm-based-trip-planning/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AlgoLLMs1_Preview.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AlgoLLMs1_Preview.png"
+      }
+    ]
+  },
+  {
+    "title": "Zooming in: Efficient regional environmental risk assessment with generative AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Zooming in: Efficient regional environmental risk assessment with generative AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/zooming-in-efficient-regional-environmental-risk-assessment-with-generative-ai/"
+      }
+    ],
+    "link": "https://research.google/blog/zooming-in-efficient-regional-environmental-risk-assessment-with-generative-ai/",
+    "summary": "Climate & Sustainability",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Climate & Sustainability"
+    },
+    "published": "Thu, 05 Jun 2025 17:00:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      5,
+      17,
+      0,
+      0,
+      3,
+      156,
+      0
+    ],
+    "id": "https://research.google/blog/zooming-in-efficient-regional-environmental-risk-assessment-with-generative-ai/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DynGenDown-1-Cartoon.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DynGenDown-1-Cartoon.png"
+      }
+    ]
+  },
+  {
+    "title": "Learning to clarify: Multi-turn conversations with Action-Based Contrastive Self-Training",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Learning to clarify: Multi-turn conversations with Action-Based Contrastive Self-Training"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/learning-to-clarify-multi-turn-conversations-with-action-based-contrastive-self-training/"
+      }
+    ],
+    "link": "https://research.google/blog/learning-to-clarify-multi-turn-conversations-with-action-based-contrastive-self-training/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Tue, 03 Jun 2025 08:13:00 +0000",
+    "published_parsed": [
+      2025,
+      6,
+      3,
+      8,
+      13,
+      0,
+      1,
+      154,
+      0
+    ],
+    "id": "https://research.google/blog/learning-to-clarify-multi-turn-conversations-with-action-based-contrastive-self-training/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/L2C_Preview.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/L2C_Preview.png"
+      }
+    ]
+  },
+  {
+    "title": "Fine-tuning LLMs with user-level differential privacy",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Fine-tuning LLMs with user-level differential privacy"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/fine-tuning-llms-with-user-level-differential-privacy/"
+      }
+    ],
+    "link": "https://research.google/blog/fine-tuning-llms-with-user-level-differential-privacy/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Fri, 23 May 2025 17:00:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      23,
+      17,
+      0,
+      0,
+      4,
+      143,
+      0
+    ],
+    "id": "https://research.google/blog/fine-tuning-llms-with-user-level-differential-privacy/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security, Privacy and Abuse Prevention",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/UserLvlDP-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/UserLvlDP-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Google Research at Google I/O 2025",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Google Research at Google I/O 2025"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/google-research-at-google-io-2025/"
+      }
+    ],
+    "link": "https://research.google/blog/google-research-at-google-io-2025/",
+    "summary": "Climate & Sustainability",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Climate & Sustainability"
+    },
+    "published": "Thu, 22 May 2025 20:35:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      22,
+      20,
+      35,
+      0,
+      3,
+      142,
+      0
+    ],
+    "id": "https://research.google/blog/google-research-at-google-io-2025/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Quantum",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GRatIO25-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GRatIO25-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Deeper insights into retrieval augmented generation: The role of sufficient context",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Deeper insights into retrieval augmented generation: The role of sufficient context"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/deeper-insights-into-retrieval-augmented-generation-the-role-of-sufficient-context/"
+      }
+    ],
+    "link": "https://research.google/blog/deeper-insights-into-retrieval-augmented-generation-the-role-of-sufficient-context/",
+    "summary": "Data Mining & Modeling",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Data Mining & Modeling"
+    },
+    "published": "Wed, 14 May 2025 13:23:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      14,
+      13,
+      23,
+      0,
+      2,
+      134,
+      0
+    ],
+    "id": "https://research.google/blog/deeper-insights-into-retrieval-augmented-generation-the-role-of-sufficient-context/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Data Mining & Modeling",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SufficientContext1_Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SufficientContext1_Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Differential privacy on trust graphs",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Differential privacy on trust graphs"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/differential-privacy-on-trust-graphs/"
+      }
+    ],
+    "link": "https://research.google/blog/differential-privacy-on-trust-graphs/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Tue, 13 May 2025 11:41:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      13,
+      11,
+      41,
+      0,
+      1,
+      133,
+      0
+    ],
+    "id": "https://research.google/blog/differential-privacy-on-trust-graphs/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security, Privacy and Abuse Prevention",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DPTrustGraph1_ExampleHero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DPTrustGraph1_ExampleHero.png"
+      }
+    ]
+  },
+  {
+    "title": "Bringing 3D shoppable products online with generative AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Bringing 3D shoppable products online with generative AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/"
+      }
+    ],
+    "link": "https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Mon, 12 May 2025 11:44:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      12,
+      11,
+      44,
+      0,
+      0,
+      132,
+      0
+    ],
+    "id": "https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/3dGenAI3_SecondGen.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/3dGenAI3_SecondGen.png"
+      }
+    ]
+  },
+  {
+    "title": "A new light on neural connections",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "A new light on neural connections"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/a-new-light-on-neural-connections/"
+      }
+    ],
+    "link": "https://research.google/blog/a-new-light-on-neural-connections/",
+    "summary": "General Science",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "General Science"
+    },
+    "published": "Wed, 07 May 2025 23:49:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      7,
+      23,
+      49,
+      0,
+      2,
+      127,
+      0
+    ],
+    "id": "https://research.google/blog/a-new-light-on-neural-connections/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LICONN2-HeroFinal.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LICONN2-HeroFinal.png"
+      }
+    ]
+  },
+  {
+    "title": "Making complex text understandable: Minimally-lossy text simplification with Gemini",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Making complex text understandable: Minimally-lossy text simplification with Gemini"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/making-complex-text-understandable-minimally-lossy-text-simplification-with-gemini/"
+      }
+    ],
+    "link": "https://research.google/blog/making-complex-text-understandable-minimally-lossy-text-simplification-with-gemini/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Tue, 06 May 2025 10:13:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      6,
+      10,
+      13,
+      0,
+      1,
+      126,
+      0
+    ],
+    "id": "https://research.google/blog/making-complex-text-understandable-minimally-lossy-text-simplification-with-gemini/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Simplify1_SummaryHero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Simplify1_SummaryHero.png"
+      }
+    ]
+  },
+  {
+    "title": "Amplify Initiative: Localized data for globalized AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Amplify Initiative: Localized data for globalized AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/amplify-initiative-localized-data-for-globalized-ai/"
+      }
+    ],
+    "link": "https://research.google/blog/amplify-initiative-localized-data-for-globalized-ai/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Fri, 02 May 2025 16:12:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      2,
+      16,
+      12,
+      0,
+      4,
+      122,
+      0
+    ],
+    "id": "https://research.google/blog/amplify-initiative-localized-data-for-globalized-ai/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Global",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Open Source Models & Datasets",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Responsible AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Amplify_Preview.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Amplify_Preview.png"
+      }
+    ]
+  },
+  {
+    "title": "AMIE gains vision: A research AI agent for multimodal diagnostic dialogue",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "AMIE gains vision: A research AI agent for multimodal diagnostic dialogue"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/amie-gains-vision-a-research-ai-agent-for-multi-modal-diagnostic-dialogue/"
+      }
+    ],
+    "link": "https://research.google/blog/amie-gains-vision-a-research-ai-agent-for-multi-modal-diagnostic-dialogue/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Thu, 01 May 2025 02:39:00 +0000",
+    "published_parsed": [
+      2025,
+      5,
+      1,
+      2,
+      39,
+      0,
+      3,
+      121,
+      0
+    ],
+    "id": "https://research.google/blog/amie-gains-vision-a-research-ai-agent-for-multi-modal-diagnostic-dialogue/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MMAMIE-1still.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MMAMIE-1still.png"
+      }
+    ]
+  },
+  {
+    "title": "Benchmarking LLMs for global health",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Benchmarking LLMs for global health"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/benchmarking-llms-for-global-health/"
+      }
+    ],
+    "link": "https://research.google/blog/benchmarking-llms-for-global-health/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Wed, 30 Apr 2025 10:33:00 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      30,
+      10,
+      33,
+      0,
+      2,
+      120,
+      0
+    ],
+    "id": "https://research.google/blog/benchmarking-llms-for-global-health/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Global",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Responsible AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TRINDs2_PyramidHero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TRINDs2_PyramidHero.png"
+      }
+    ]
+  },
+  {
+    "title": "Improving brain models with ZAPBench",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Improving brain models with ZAPBench"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/improving-brain-models-with-zapbench/"
+      }
+    ],
+    "link": "https://research.google/blog/improving-brain-models-with-zapbench/",
+    "summary": "General Science",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "General Science"
+    },
+    "published": "Thu, 24 Apr 2025 17:05:00 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      24,
+      17,
+      5,
+      0,
+      3,
+      114,
+      0
+    ],
+    "id": "https://research.google/blog/improving-brain-models-with-zapbench/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ZAPBench-4-Comparison.gif"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ZAPBench-4-Comparison.gif"
+      }
+    ]
+  },
+  {
+    "title": "Introducing Mobility AI: Advancing urban transportation",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Introducing Mobility AI: Advancing urban transportation"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/introducing-mobility-ai-advancing-urban-transportation/"
+      }
+    ],
+    "link": "https://research.google/blog/introducing-mobility-ai-advancing-urban-transportation/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Wed, 23 Apr 2025 12:11:00 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      23,
+      12,
+      11,
+      0,
+      2,
+      113,
+      0
+    ],
+    "id": "https://research.google/blog/introducing-mobility-ai-advancing-urban-transportation/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MobilityAI1_Cover.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MobilityAI1_Cover.png"
+      }
+    ]
+  },
+  {
+    "title": "A new hybrid platform for quantum simulation of magnetism",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "A new hybrid platform for quantum simulation of magnetism"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/a-new-hybrid-platform-for-quantum-simulation-of-magnetism/"
+      }
+    ],
+    "link": "https://research.google/blog/a-new-hybrid-platform-for-quantum-simulation-of-magnetism/",
+    "summary": "Quantum",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Quantum"
+    },
+    "published": "Mon, 21 Apr 2025 17:00:00 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      21,
+      17,
+      0,
+      0,
+      0,
+      111,
+      0
+    ],
+    "id": "https://research.google/blog/a-new-hybrid-platform-for-quantum-simulation-of-magnetism/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Quantum",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/QuantumMagnet-0-Hero.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/QuantumMagnet-0-Hero.jpg"
+      }
+    ]
+  },
+  {
+    "title": "InstructPipe: Generating Visual Blocks pipelines with human instructions and LLMs",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "InstructPipe: Generating Visual Blocks pipelines with human instructions and LLMs"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/instructpipe-generating-visual-blocks-pipelines-with-human-instructions-and-llms/"
+      }
+    ],
+    "link": "https://research.google/blog/instructpipe-generating-visual-blocks-pipelines-with-human-instructions-and-llms/",
+    "summary": "Human-Computer Interaction and Visualization",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Human-Computer Interaction and Visualization"
+    },
+    "published": "Fri, 18 Apr 2025 12:12:00 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      18,
+      12,
+      12,
+      0,
+      4,
+      108,
+      0
+    ],
+    "id": "https://research.google/blog/instructpipe-generating-visual-blocks-pipelines-with-human-instructions-and-llms/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/InstructPipe2_Overview_copy.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/InstructPipe2_Overview_copy.png"
+      }
+    ]
+  },
+  {
+    "title": "Teaching machines the language of biology: Scaling large language models for next-generation single-cell analysis",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Teaching machines the language of biology: Scaling large language models for next-generation single-cell analysis"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/teaching-machines-the-language-of-biology-scaling-large-language-models-for-next-generation-single-cell-analysis/"
+      }
+    ],
+    "link": "https://research.google/blog/teaching-machines-the-language-of-biology-scaling-large-language-models-for-next-generation-single-cell-analysis/",
+    "summary": "Health & Bioscience",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Health & Bioscience"
+    },
+    "published": "Thu, 17 Apr 2025 14:36:00 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      17,
+      14,
+      36,
+      0,
+      3,
+      107,
+      0
+    ],
+    "id": "https://research.google/blog/teaching-machines-the-language-of-biology-scaling-large-language-models-for-next-generation-single-cell-analysis/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CellToSent1_HEROFinal.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CellToSent1_HEROFinal.png"
+      }
+    ]
+  },
+  {
+    "title": "Geospatial Reasoning: Unlocking insights with generative AI and multiple foundation models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Geospatial Reasoning: Unlocking insights with generative AI and multiple foundation models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/geospatial-reasoning-unlocking-insights-with-generative-ai-and-multiple-foundation-models/"
+      }
+    ],
+    "link": "https://research.google/blog/geospatial-reasoning-unlocking-insights-with-generative-ai-and-multiple-foundation-models/",
+    "summary": "Climate & Sustainability",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Climate & Sustainability"
+    },
+    "published": "Tue, 08 Apr 2025 15:40:00 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      8,
+      15,
+      40,
+      0,
+      1,
+      98,
+      0
+    ],
+    "id": "https://research.google/blog/geospatial-reasoning-unlocking-insights-with-generative-ai-and-multiple-foundation-models/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Perception",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GeospatialReasoning1_OverviewHERO.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GeospatialReasoning1_OverviewHERO.png"
+      }
+    ]
+  },
+  {
+    "title": "Evaluating progress of LLMs on scientific problem-solving",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Evaluating progress of LLMs on scientific problem-solving"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/evaluating-progress-of-llms-on-scientific-problem-solving/"
+      }
+    ],
+    "link": "https://research.google/blog/evaluating-progress-of-llms-on-scientific-problem-solving/",
+    "summary": "General Science",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "General Science"
+    },
+    "published": "Thu, 03 Apr 2025 21:43:00 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      3,
+      21,
+      43,
+      0,
+      3,
+      93,
+      0
+    ],
+    "id": "https://research.google/blog/evaluating-progress-of-llms-on-scientific-problem-solving/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/curie-1.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/curie-1.png"
+      }
+    ]
+  },
+  {
+    "title": "ECLeKTic: A novel benchmark for evaluating cross-lingual knowledge transfer in LLMs",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "ECLeKTic: A novel benchmark for evaluating cross-lingual knowledge transfer in LLMs"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/eclektic-a-novel-benchmark-for-evaluating-cross-lingual-knowledge-transfer-in-llms/"
+      }
+    ],
+    "link": "https://research.google/blog/eclektic-a-novel-benchmark-for-evaluating-cross-lingual-knowledge-transfer-in-llms/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Wed, 02 Apr 2025 11:21:00 +0000",
+    "published_parsed": [
+      2025,
+      4,
+      2,
+      11,
+      21,
+      0,
+      2,
+      92,
+      0
+    ],
+    "id": "https://research.google/blog/eclektic-a-novel-benchmark-for-evaluating-cross-lingual-knowledge-transfer-in-llms/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ECLEKTIC1_CreationHERO.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ECLEKTIC1_CreationHERO.png"
+      }
+    ]
+  },
+  {
+    "title": "The evolution of graph learning",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The evolution of graph learning"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/the-evolution-of-graph-learning/"
+      }
+    ],
+    "link": "https://research.google/blog/the-evolution-of-graph-learning/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Mon, 31 Mar 2025 12:29:00 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      31,
+      12,
+      29,
+      0,
+      0,
+      90,
+      0
+    ],
+    "id": "https://research.google/blog/the-evolution-of-graph-learning/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GraphLearningHERO.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GraphLearningHERO.png"
+      }
+    ]
+  },
+  {
+    "title": "Deciphering language processing in the human brain through LLM representations",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Deciphering language processing in the human brain through LLM representations"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/deciphering-language-processing-in-the-human-brain-through-llm-representations/"
+      }
+    ],
+    "link": "https://research.google/blog/deciphering-language-processing-in-the-human-brain-through-llm-representations/",
+    "summary": "General Science",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "General Science"
+    },
+    "published": "Fri, 21 Mar 2025 13:22:00 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      21,
+      13,
+      22,
+      0,
+      4,
+      80,
+      0
+    ],
+    "id": "https://research.google/blog/deciphering-language-processing-in-the-human-brain-through-llm-representations/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Speech Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/PITOM3_ResultsHERO.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/PITOM3_ResultsHERO.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Load balancing with random job arrivals",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Load balancing with random job arrivals"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/load-balancing-with-random-job-arrivals/"
+      }
+    ],
+    "link": "https://research.google/blog/load-balancing-with-random-job-arrivals/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Thu, 20 Mar 2025 20:54:00 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      20,
+      20,
+      54,
+      0,
+      3,
+      79,
+      0
+    ],
+    "id": "https://research.google/blog/load-balancing-with-random-job-arrivals/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Distributed Systems & Parallel Computing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LoadBalancing-1-TreeBalancing.gif"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LoadBalancing-1-TreeBalancing.gif"
+      }
+    ]
+  },
+  {
+    "title": "Loss of Pulse Detection on the Google Pixel Watch 3",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Loss of Pulse Detection on the Google Pixel Watch 3"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/loss-of-pulse-detection-on-the-google-pixel-watch-3/"
+      }
+    ],
+    "link": "https://research.google/blog/loss-of-pulse-detection-on-the-google-pixel-watch-3/",
+    "summary": "Health & Bioscience",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Health & Bioscience"
+    },
+    "published": "Thu, 20 Mar 2025 13:20:00 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      20,
+      13,
+      20,
+      0,
+      3,
+      79,
+      0
+    ],
+    "id": "https://research.google/blog/loss-of-pulse-detection-on-the-google-pixel-watch-3/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Mobile Systems",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LossOfPulse2_TimelineHERO.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LossOfPulse2_TimelineHERO.png"
+      }
+    ]
+  },
+  {
+    "title": "Generating synthetic data with differentially private LLM inference",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Generating synthetic data with differentially private LLM inference"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/generating-synthetic-data-with-differentially-private-llm-inference/"
+      }
+    ],
+    "link": "https://research.google/blog/generating-synthetic-data-with-differentially-private-llm-inference/",
+    "summary": "Machine Intelligence",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Machine Intelligence"
+    },
+    "published": "Tue, 18 Mar 2025 17:00:00 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      18,
+      17,
+      0,
+      0,
+      1,
+      77,
+      0
+    ],
+    "id": "https://research.google/blog/generating-synthetic-data-with-differentially-private-llm-inference/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security, Privacy and Abuse Prevention",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SynthData-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SynthData-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "From diagnosis to treatment: Advancing AMIE for longitudinal disease management",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "From diagnosis to treatment: Advancing AMIE for longitudinal disease management"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/from-diagnosis-to-treatment-advancing-amie-for-longitudinal-disease-management/"
+      }
+    ],
+    "link": "https://research.google/blog/from-diagnosis-to-treatment-advancing-amie-for-longitudinal-disease-management/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Thu, 06 Mar 2025 11:00:00 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      6,
+      11,
+      0,
+      0,
+      3,
+      65,
+      0
+    ],
+    "id": "https://research.google/blog/from-diagnosis-to-treatment-advancing-amie-for-longitudinal-disease-management/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AMIEMx-0a-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AMIEMx-0a-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Discovering new words with confidential federated analytics",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Discovering new words with confidential federated analytics"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/discovering-new-words-with-confidential-federated-analytics/"
+      }
+    ],
+    "link": "https://research.google/blog/discovering-new-words-with-confidential-federated-analytics/",
+    "summary": "Mobile Systems",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Mobile Systems"
+    },
+    "published": "Tue, 04 Mar 2025 10:00:00 +0000",
+    "published_parsed": [
+      2025,
+      3,
+      4,
+      10,
+      0,
+      0,
+      1,
+      63,
+      0
+    ],
+    "id": "https://research.google/blog/discovering-new-words-with-confidential-federated-analytics/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Mobile Systems",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security, Privacy and Abuse Prevention",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Software Systems & Engineering",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ConfidentialFederatedAnalytics-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ConfidentialFederatedAnalytics-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Mind the GAP: Geometry Aware Passthrough mitigates cybersickness",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Mind the GAP: Geometry Aware Passthrough mitigates cybersickness"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/mind-the-gap-geometry-aware-passthrough-mitigates-cybersickness/"
+      }
+    ],
+    "link": "https://research.google/blog/mind-the-gap-geometry-aware-passthrough-mitigates-cybersickness/",
+    "summary": "Human-Computer Interaction and Visualization",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Human-Computer Interaction and Visualization"
+    },
+    "published": "Fri, 28 Feb 2025 14:52:00 +0000",
+    "published_parsed": [
+      2025,
+      2,
+      28,
+      14,
+      52,
+      0,
+      4,
+      59,
+      0
+    ],
+    "id": "https://research.google/blog/mind-the-gap-geometry-aware-passthrough-mitigates-cybersickness/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Perception",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MindTheGap1-ComparisonHERO.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MindTheGap1-ComparisonHERO.png"
+      }
+    ]
+  },
+  {
+    "title": "Accelerating scientific breakthroughs with an AI co-scientist",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Accelerating scientific breakthroughs with an AI co-scientist"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/"
+      }
+    ],
+    "link": "https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Wed, 19 Feb 2025 06:00:00 +0000",
+    "published_parsed": [
+      2025,
+      2,
+      19,
+      6,
+      0,
+      0,
+      2,
+      50,
+      0
+    ],
+    "id": "https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AICoScientist-0-Thumb.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AICoScientist-0-Thumb.png"
+      }
+    ]
+  },
+  {
+    "title": "Mechanism design for large language models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Mechanism design for large language models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/mechanism-design-for-large-language-models/"
+      }
+    ],
+    "link": "https://research.google/blog/mechanism-design-for-large-language-models/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Thu, 13 Feb 2025 14:00:00 +0000",
+    "published_parsed": [
+      2025,
+      2,
+      13,
+      14,
+      0,
+      0,
+      3,
+      44,
+      0
+    ],
+    "id": "https://research.google/blog/mechanism-design-for-large-language-models/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Economics & Electronic Commerce",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MechanismDesign-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MechanismDesign-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Building AI for the pluralistic society",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Building AI for the pluralistic society"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/building-ai-for-the-pluralistic-society/"
+      }
+    ],
+    "link": "https://research.google/blog/building-ai-for-the-pluralistic-society/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Thu, 13 Feb 2025 09:00:00 +0000",
+    "published_parsed": [
+      2025,
+      2,
+      13,
+      9,
+      0,
+      0,
+      3,
+      44,
+      0
+    ],
+    "id": "https://research.google/blog/building-ai-for-the-pluralistic-society/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Responsible AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/PluralisticAI-1-Objectives.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/PluralisticAI-1-Objectives.png"
+      }
+    ]
+  },
+  {
+    "title": "Urban mobility solutions: Calibrating digital twins at scale",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Urban mobility solutions: Calibrating digital twins at scale"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/urban-mobility-solutions-calibrating-digital-twins-at-scale/"
+      }
+    ],
+    "link": "https://research.google/blog/urban-mobility-solutions-calibrating-digital-twins-at-scale/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Mon, 10 Feb 2025 12:00:00 +0000",
+    "published_parsed": [
+      2025,
+      2,
+      10,
+      12,
+      0,
+      0,
+      0,
+      41,
+      0
+    ],
+    "id": "https://research.google/blog/urban-mobility-solutions-calibrating-digital-twins-at-scale/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/UrbanMobility-0-Hero.gif"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/UrbanMobility-0-Hero.gif"
+      }
+    ]
+  },
+  {
+    "title": "Chain of Agents: Large language models collaborating on long-context tasks",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Chain of Agents: Large language models collaborating on long-context tasks"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/"
+      }
+    ],
+    "link": "https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Thu, 23 Jan 2025 20:26:00 +0000",
+    "published_parsed": [
+      2025,
+      1,
+      23,
+      20,
+      26,
+      0,
+      3,
+      23,
+      0
+    ],
+    "id": "https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CoA-5-HotpotQA.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CoA-5-HotpotQA.png"
+      }
+    ]
+  },
+  {
+    "title": "Parfait: Enabling private AI with research tools",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Parfait: Enabling private AI with research tools"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/parfait-enabling-private-ai-with-research-tools/"
+      }
+    ],
+    "link": "https://research.google/blog/parfait-enabling-private-ai-with-research-tools/",
+    "summary": "Distributed Systems & Parallel Computing",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Distributed Systems & Parallel Computing"
+    },
+    "published": "Wed, 22 Jan 2025 09:27:00 +0000",
+    "published_parsed": [
+      2025,
+      1,
+      22,
+      9,
+      27,
+      0,
+      2,
+      22,
+      0
+    ],
+    "id": "https://research.google/blog/parfait-enabling-private-ai-with-research-tools/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Distributed Systems & Parallel Computing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Responsible AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security, Privacy and Abuse Prevention",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Parfait1-PreviewHero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Parfait1-PreviewHero.png"
+      }
+    ]
+  },
+  {
+    "title": "Zero-shot mono-to-binaural speech synthesis",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Zero-shot mono-to-binaural speech synthesis"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/zero-shot-mono-to-binaural-speech-synthesis/"
+      }
+    ],
+    "link": "https://research.google/blog/zero-shot-mono-to-binaural-speech-synthesis/",
+    "summary": "Sound & Accoustics",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Sound & Accoustics"
+    },
+    "published": "Thu, 16 Jan 2025 11:00:00 +0000",
+    "published_parsed": [
+      2025,
+      1,
+      16,
+      11,
+      0,
+      0,
+      3,
+      16,
+      0
+    ],
+    "id": "https://research.google/blog/zero-shot-mono-to-binaural-speech-synthesis/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Sound & Accoustics",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Speech Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/BinauralAudio-1-Overview.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/BinauralAudio-1-Overview.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Understanding Transformer reasoning capabilities via graph algorithms",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Understanding Transformer reasoning capabilities via graph algorithms"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/understanding-transformer-reasoning-capabilities-via-graph-algorithms/"
+      }
+    ],
+    "link": "https://research.google/blog/understanding-transformer-reasoning-capabilities-via-graph-algorithms/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Fri, 20 Dec 2024 11:23:00 +0000",
+    "published_parsed": [
+      2024,
+      12,
+      20,
+      11,
+      23,
+      0,
+      4,
+      355,
+      0
+    ],
+    "id": "https://research.google/blog/understanding-transformer-reasoning-capabilities-via-graph-algorithms/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Mining & Modeling",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TFGraphs_Preview.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TFGraphs_Preview.png"
+      }
+    ]
+  },
+  {
+    "title": "Google Research 2024: Breakthroughs for impact at every scale",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Google Research 2024: Breakthroughs for impact at every scale"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/google-research-2024-breakthroughs-for-impact-at-every-scale/"
+      }
+    ],
+    "link": "https://research.google/blog/google-research-2024-breakthroughs-for-impact-at-every-scale/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Thu, 19 Dec 2024 14:04:00 +0000",
+    "published_parsed": [
+      2024,
+      12,
+      19,
+      14,
+      4,
+      0,
+      3,
+      354,
+      0
+    ],
+    "id": "https://research.google/blog/google-research-2024-breakthroughs-for-impact-at-every-scale/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Quantum",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Year in Review",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/2024YiR-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/2024YiR-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Satellite powered estimation of global solar potential",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Satellite powered estimation of global solar potential"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/"
+      }
+    ],
+    "link": "https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/",
+    "summary": "Climate & Sustainability",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Climate & Sustainability"
+    },
+    "published": "Thu, 12 Dec 2024 11:16:00 +0000",
+    "published_parsed": [
+      2024,
+      12,
+      12,
+      11,
+      16,
+      0,
+      3,
+      347,
+      0
+    ],
+    "id": "https://research.google/blog/satellite-powered-estimation-of-global-solar-potential/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SatelliteSun12_Predictions.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SatelliteSun12_Predictions.png"
+      }
+    ]
+  },
+  {
+    "title": "Advancing AMIE towards specialist care and real-world validation",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Advancing AMIE towards specialist care and real-world validation"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/advancing-amie-towards-specialist-care-and-real-world-validation/"
+      }
+    ],
+    "link": "https://research.google/blog/advancing-amie-towards-specialist-care-and-real-world-validation/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Tue, 10 Dec 2024 10:00:00 +0000",
+    "published_parsed": [
+      2024,
+      12,
+      10,
+      10,
+      0,
+      0,
+      1,
+      345,
+      0
+    ],
+    "id": "https://research.google/blog/advancing-amie-towards-specialist-care-and-real-world-validation/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AMIESpecialty-1-Assessment.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AMIESpecialty-1-Assessment.png"
+      }
+    ]
+  },
+  {
+    "title": "Making quantum error correction work",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Making quantum error correction work"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/making-quantum-error-correction-work/"
+      }
+    ],
+    "link": "https://research.google/blog/making-quantum-error-correction-work/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Mon, 09 Dec 2024 12:21:00 +0000",
+    "published_parsed": [
+      2024,
+      12,
+      9,
+      12,
+      21,
+      0,
+      0,
+      344,
+      0
+    ],
+    "id": "https://research.google/blog/making-quantum-error-correction-work/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Hardware & Architecture",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Quantum",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/QuantumHW-PreviewStill.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/QuantumHW-PreviewStill.png"
+      }
+    ]
+  },
+  {
+    "title": "Looking back at speculative decoding",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Looking back at speculative decoding"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/looking-back-at-speculative-decoding/"
+      }
+    ],
+    "link": "https://research.google/blog/looking-back-at-speculative-decoding/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Fri, 06 Dec 2024 21:46:00 +0000",
+    "published_parsed": [
+      2024,
+      12,
+      6,
+      21,
+      46,
+      0,
+      4,
+      341,
+      0
+    ],
+    "id": "https://research.google/blog/looking-back-at-speculative-decoding/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SpeculativeDecoding-1-Thumbnail.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SpeculativeDecoding-1-Thumbnail.png"
+      }
+    ]
+  },
+  {
+    "title": "Extending video masked autoencoders to 128 frames",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Extending video masked autoencoders to 128 frames"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/extending-video-masked-autoencoders-to-128-frames/"
+      }
+    ],
+    "link": "https://research.google/blog/extending-video-masked-autoencoders-to-128-frames/",
+    "summary": "Machine Intelligence",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Machine Intelligence"
+    },
+    "published": "Wed, 04 Dec 2024 10:00:00 +0000",
+    "published_parsed": [
+      2024,
+      12,
+      4,
+      10,
+      0,
+      0,
+      2,
+      339,
+      0
+    ],
+    "id": "https://research.google/blog/extending-video-masked-autoencoders-to-128-frames/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Perception",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LongVidMAE-1-PreTraining.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LongVidMAE-1-PreTraining.png"
+      }
+    ]
+  },
+  {
+    "title": "Unlocking the power of time-series data with multimodal models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Unlocking the power of time-series data with multimodal models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/unlocking-the-power-of-time-series-data-with-multimodal-models/"
+      }
+    ],
+    "link": "https://research.google/blog/unlocking-the-power-of-time-series-data-with-multimodal-models/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Mon, 25 Nov 2024 21:50:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      25,
+      21,
+      50,
+      0,
+      0,
+      330,
+      0
+    ],
+    "id": "https://research.google/blog/unlocking-the-power-of-time-series-data-with-multimodal-models/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Perception",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/VisualTrends-1-Summary.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/VisualTrends-1-Summary.png"
+      }
+    ]
+  },
+  {
+    "title": "Helping everyone build AI for healthcare applications with open foundation models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Helping everyone build AI for healthcare applications with open foundation models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/helping-everyone-build-ai-for-healthcare-applications-with-open-foundation-models/"
+      }
+    ],
+    "link": "https://research.google/blog/helping-everyone-build-ai-for-healthcare-applications-with-open-foundation-models/",
+    "summary": "Health & Bioscience",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Health & Bioscience"
+    },
+    "published": "Mon, 25 Nov 2024 14:00:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      25,
+      14,
+      0,
+      0,
+      0,
+      330,
+      0
+    ],
+    "id": "https://research.google/blog/helping-everyone-build-ai-for-healthcare-applications-with-open-foundation-models/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Open Source Models & Datasets",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/HAI-DEF-1-Overview.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/HAI-DEF-1-Overview.png"
+      }
+    ]
+  },
+  {
+    "title": "Bridging the gap in differentially private model training",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Bridging the gap in differentially private model training"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/bridging-the-gap-in-differentially-private-model-training/"
+      }
+    ],
+    "link": "https://research.google/blog/bridging-the-gap-in-differentially-private-model-training/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Mon, 25 Nov 2024 12:17:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      25,
+      12,
+      17,
+      0,
+      0,
+      330,
+      0
+    ],
+    "id": "https://research.google/blog/bridging-the-gap-in-differentially-private-model-training/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Distributed Systems & Parallel Computing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Security, Privacy and Abuse Prevention",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DPPrivacy1-LowerBound.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DPPrivacy1-LowerBound.png"
+      }
+    ]
+  },
+  {
+    "title": "Re-Invoke: Tool invocation rewriting for zero-shot tool retrieval",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Re-Invoke: Tool invocation rewriting for zero-shot tool retrieval"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/re-invoke-tool-invocation-rewriting-for-zero-shot-tool-retrieval/"
+      }
+    ],
+    "link": "https://research.google/blog/re-invoke-tool-invocation-rewriting-for-zero-shot-tool-retrieval/",
+    "summary": "Machine Intelligence",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Machine Intelligence"
+    },
+    "published": "Thu, 21 Nov 2024 22:14:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      21,
+      22,
+      14,
+      0,
+      3,
+      326,
+      0
+    ],
+    "id": "https://research.google/blog/re-invoke-tool-invocation-rewriting-for-zero-shot-tool-retrieval/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ReInvoke-1-Overview.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ReInvoke-1-Overview.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Scaling wearable foundation models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Scaling wearable foundation models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/scaling-wearable-foundation-models/"
+      }
+    ],
+    "link": "https://research.google/blog/scaling-wearable-foundation-models/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Wed, 20 Nov 2024 14:34:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      20,
+      14,
+      34,
+      0,
+      2,
+      325,
+      0
+    ],
+    "id": "https://research.google/blog/scaling-wearable-foundation-models/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ScalingWearables1-HeroFinal.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ScalingWearables1-HeroFinal.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Scalable learning of segment-level traffic congestion functions",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Scalable learning of segment-level traffic congestion functions"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/scalable-learning-of-segment-level-traffic-congestion-functions/"
+      }
+    ],
+    "link": "https://research.google/blog/scalable-learning-of-segment-level-traffic-congestion-functions/",
+    "summary": "Climate & Sustainability",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Climate & Sustainability"
+    },
+    "published": "Tue, 19 Nov 2024 15:23:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      19,
+      15,
+      23,
+      0,
+      1,
+      324,
+      0
+    ],
+    "id": "https://research.google/blog/scalable-learning-of-segment-level-traffic-congestion-functions/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TrafficCongestion2-Overview.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TrafficCongestion2-Overview.png"
+      }
+    ]
+  },
+  {
+    "title": "SpeakFaster: Revolutionizing communication for people with severe motor impairments",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "SpeakFaster: Revolutionizing communication for people with severe motor impairments"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/speakfaster-revolutionizing-communication-for-people-with-severe-motor-impairments/"
+      }
+    ],
+    "link": "https://research.google/blog/speakfaster-revolutionizing-communication-for-people-with-severe-motor-impairments/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Tue, 19 Nov 2024 15:17:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      19,
+      15,
+      17,
+      0,
+      1,
+      324,
+      0
+    ],
+    "id": "https://research.google/blog/speakfaster-revolutionizing-communication-for-people-with-severe-motor-impairments/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Speakfaster2-Results1Prev.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Speakfaster2-Results1Prev.png"
+      }
+    ]
+  },
+  {
+    "title": "Insights into population dynamics: A foundation model for geospatial inference",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Insights into population dynamics: A foundation model for geospatial inference"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/insights-into-population-dynamics-a-foundation-model-for-geospatial-inference/"
+      }
+    ],
+    "link": "https://research.google/blog/insights-into-population-dynamics-a-foundation-model-for-geospatial-inference/",
+    "summary": "Economics & Electronic Commerce",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Economics & Electronic Commerce"
+    },
+    "published": "Thu, 14 Nov 2024 12:00:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      14,
+      12,
+      0,
+      0,
+      3,
+      319,
+      0
+    ],
+    "id": "https://research.google/blog/insights-into-population-dynamics-a-foundation-model-for-geospatial-inference/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Economics & Electronic Commerce",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GeoFM-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GeoFM-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Can algorithms make tournament cheating obsolete?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Can algorithms make tournament cheating obsolete?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/can-algorithms-make-sports-tournament-cheating-obsolete/"
+      }
+    ],
+    "link": "https://research.google/blog/can-algorithms-make-sports-tournament-cheating-obsolete/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Wed, 13 Nov 2024 14:55:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      13,
+      14,
+      55,
+      0,
+      2,
+      318,
+      0
+    ],
+    "id": "https://research.google/blog/can-algorithms-make-sports-tournament-cheating-obsolete/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Economics & Electronic Commerce",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SportsTournament1-GraphHero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/SportsTournament1-GraphHero.png"
+      }
+    ]
+  },
+  {
+    "title": "Mapping the ionosphere with the power of Android",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Mapping the ionosphere with the power of Android"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/mapping-the-ionosphere-with-the-power-of-android/"
+      }
+    ],
+    "link": "https://research.google/blog/mapping-the-ionosphere-with-the-power-of-android/",
+    "summary": "Data Mining & Modeling",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Data Mining & Modeling"
+    },
+    "published": "Wed, 13 Nov 2024 14:04:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      13,
+      14,
+      4,
+      0,
+      2,
+      318,
+      0
+    ],
+    "id": "https://research.google/blog/mapping-the-ionosphere-with-the-power-of-android/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Data Mining & Modeling",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Mobile Systems",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Ionosphere3-MapHero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Ionosphere3-MapHero.png"
+      }
+    ]
+  },
+  {
+    "title": "Towards a unified model for predicting human responses to diverse visual content",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Towards a unified model for predicting human responses to diverse visual content"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/towards-a-unified-model-for-predicting-human-responses-to-diverse-visual-content/"
+      }
+    ],
+    "link": "https://research.google/blog/towards-a-unified-model-for-predicting-human-responses-to-diverse-visual-content/",
+    "summary": "Human-Computer Interaction and Visualization",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Human-Computer Interaction and Visualization"
+    },
+    "published": "Tue, 12 Nov 2024 00:13:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      12,
+      0,
+      13,
+      0,
+      1,
+      317,
+      0
+    ],
+    "id": "https://research.google/blog/towards-a-unified-model-for-predicting-human-responses-to-diverse-visual-content/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Perception",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/UniAR-0-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/UniAR-0-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Generating zero-shot personalized portraits",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Generating zero-shot personalized portraits"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/generating-zero-shot-personalized-portraits/"
+      }
+    ],
+    "link": "https://research.google/blog/generating-zero-shot-personalized-portraits/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Mon, 11 Nov 2024 12:00:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      11,
+      12,
+      0,
+      0,
+      0,
+      316,
+      0
+    ],
+    "id": "https://research.google/blog/generating-zero-shot-personalized-portraits/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GenSelfie2-OverviewHero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/GenSelfie2-OverviewHero.png"
+      }
+    ]
+  },
+  {
+    "title": "An improved flood forecasting AI model, trained and evaluated globally",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "An improved flood forecasting AI model, trained and evaluated globally"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/a-flood-forecasting-ai-model-trained-and-evaluated-globally/"
+      }
+    ],
+    "link": "https://research.google/blog/a-flood-forecasting-ai-model-trained-and-evaluated-globally/",
+    "summary": "Climate & Sustainability",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Climate & Sustainability"
+    },
+    "published": "Mon, 11 Nov 2024 07:00:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      11,
+      7,
+      0,
+      0,
+      0,
+      316,
+      0
+    ],
+    "id": "https://research.google/blog/a-flood-forecasting-ai-model-trained-and-evaluated-globally/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "General Science",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Global",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Floods24-2-GaugeLocations.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Floods24-2-GaugeLocations.png"
+      }
+    ]
+  },
+  {
+    "title": "Relationships are complicated! An analysis of relationships between datasets on the Web",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Relationships are complicated! An analysis of relationships between datasets on the Web"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/relationships-are-complicated-an-analysis-of-relationships-between-datasets-on-the-web/"
+      }
+    ],
+    "link": "https://research.google/blog/relationships-are-complicated-an-analysis-of-relationships-between-datasets-on-the-web/",
+    "summary": "Data Mining & Modeling",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Data Mining & Modeling"
+    },
+    "published": "Thu, 07 Nov 2024 09:55:00 +0000",
+    "published_parsed": [
+      2024,
+      11,
+      7,
+      9,
+      55,
+      0,
+      3,
+      312,
+      0
+    ],
+    "id": "https://research.google/blog/relationships-are-complicated-an-analysis-of-relationships-between-datasets-on-the-web/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Data Mining & Modeling",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Open Source Models & Datasets",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WebDataRelations1-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WebDataRelations1-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "A return to hand-written notes by learning to read & write",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "A return to hand-written notes by learning to read & write"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/a-return-to-hand-written-notes-by-learning-to-read-write/"
+      }
+    ],
+    "link": "https://research.google/blog/a-return-to-hand-written-notes-by-learning-to-read-write/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Mon, 28 Oct 2024 20:27:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      28,
+      20,
+      27,
+      0,
+      0,
+      302,
+      0
+    ],
+    "id": "https://research.google/blog/a-return-to-hand-written-notes-by-learning-to-read-write/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Perception",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ReadAndWrite-4-Tokenization.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/ReadAndWrite-4-Tokenization.png"
+      }
+    ]
+  },
+  {
+    "title": "What does electrodermal sensing reveal? Insights from the Pixel Watch & Fitbit Sense 2",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "What does electrodermal sensing reveal? Insights from the Pixel Watch & Fitbit Sense 2"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/what-does-electrodermal-sensing-reveal-insights-from-the-pixel-watch-fitbit-sense-2/"
+      }
+    ],
+    "link": "https://research.google/blog/what-does-electrodermal-sensing-reveal-insights-from-the-pixel-watch-fitbit-sense-2/",
+    "summary": "Health & Bioscience",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Health & Bioscience"
+    },
+    "published": "Thu, 24 Oct 2024 12:57:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      24,
+      12,
+      57,
+      0,
+      3,
+      298,
+      0
+    ],
+    "id": "https://research.google/blog/what-does-electrodermal-sensing-reveal-insights-from-the-pixel-watch-fitbit-sense-2/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/EDAResearch-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/EDAResearch-Hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Scalable self-improvement for compiler optimization",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Scalable self-improvement for compiler optimization"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/scalable-self-improvement-for-compiler-optimization/"
+      }
+    ],
+    "link": "https://research.google/blog/scalable-self-improvement-for-compiler-optimization/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Wed, 23 Oct 2024 16:26:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      23,
+      16,
+      26,
+      0,
+      2,
+      297,
+      0
+    ],
+    "id": "https://research.google/blog/scalable-self-improvement-for-compiler-optimization/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/IL-Compiler-Optimization-img-2.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/IL-Compiler-Optimization-img-2.png"
+      }
+    ]
+  },
+  {
+    "title": "Learning DeepVariant's hidden powers",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Learning DeepVariant's hidden powers"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/learning-deepvariants-hidden-powers/"
+      }
+    ],
+    "link": "https://research.google/blog/learning-deepvariants-hidden-powers/",
+    "summary": "Health & Bioscience",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Health & Bioscience"
+    },
+    "published": "Tue, 22 Oct 2024 12:00:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      22,
+      12,
+      0,
+      0,
+      1,
+      296,
+      0
+    ],
+    "id": "https://research.google/blog/learning-deepvariants-hidden-powers/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DV-4-MOSAICs.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DV-4-MOSAICs.png"
+      }
+    ]
+  },
+  {
+    "title": "Taking medical imaging embeddings 3D",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Taking medical imaging embeddings 3D"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/taking-medical-imaging-embeddings-3d/"
+      }
+    ],
+    "link": "https://research.google/blog/taking-medical-imaging-embeddings-3d/",
+    "summary": "Health & Bioscience",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Health & Bioscience"
+    },
+    "published": "Mon, 21 Oct 2024 15:57:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      21,
+      15,
+      57,
+      0,
+      0,
+      295,
+      0
+    ],
+    "id": "https://research.google/blog/taking-medical-imaging-embeddings-3d/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CT-Foundations-CT-hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CT-Foundations-CT-hero.png"
+      }
+    ]
+  },
+  {
+    "title": "Evaluating and enhancing probabilistic reasoning in language models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Evaluating and enhancing probabilistic reasoning in language models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/evaluating-and-enhancing-probabilistic-reasoning-in-language-models/"
+      }
+    ],
+    "link": "https://research.google/blog/evaluating-and-enhancing-probabilistic-reasoning-in-language-models/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Mon, 21 Oct 2024 13:00:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      21,
+      13,
+      0,
+      0,
+      0,
+      295,
+      0
+    ],
+    "id": "https://research.google/blog/evaluating-and-enhancing-probabilistic-reasoning-in-language-models/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/probabilistic-reasoning-img-1.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/probabilistic-reasoning-img-1.png"
+      }
+    ]
+  },
+  {
+    "title": "HDR photo editing with machine learning",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "HDR photo editing with machine learning"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/hdr-photo-editing-with-machine-learning/"
+      }
+    ],
+    "link": "https://research.google/blog/hdr-photo-editing-with-machine-learning/",
+    "summary": "Machine Perception",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Machine Perception"
+    },
+    "published": "Wed, 16 Oct 2024 11:39:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      16,
+      11,
+      39,
+      0,
+      2,
+      290,
+      0
+    ],
+    "id": "https://research.google/blog/hdr-photo-editing-with-machine-learning/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Machine Perception",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Photography",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/HDREditing13-HeroFinal.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/HDREditing13-HeroFinal.png"
+      }
+    ]
+  },
+  {
+    "title": "Validating random circuit sampling as a benchmark for measuring quantum progress",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Validating random circuit sampling as a benchmark for measuring quantum progress"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/validating-random-circuit-sampling-as-a-benchmark-for-measuring-quantum-progress/"
+      }
+    ],
+    "link": "https://research.google/blog/validating-random-circuit-sampling-as-a-benchmark-for-measuring-quantum-progress/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Thu, 10 Oct 2024 17:10:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      10,
+      17,
+      10,
+      0,
+      3,
+      284,
+      0
+    ],
+    "id": "https://research.google/blog/validating-random-circuit-sampling-as-a-benchmark-for-measuring-quantum-progress/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Quantum",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/RCS_Quantum_2.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/RCS_Quantum_2.png"
+      }
+    ]
+  },
+  {
+    "title": "Tx-LLM: Supporting therapeutic development with large language models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Tx-LLM: Supporting therapeutic development with large language models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/tx-llm-supporting-therapeutic-development-with-large-language-models/"
+      }
+    ],
+    "link": "https://research.google/blog/tx-llm-supporting-therapeutic-development-with-large-language-models/",
+    "summary": "Health & Bioscience",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Health & Bioscience"
+    },
+    "published": "Wed, 09 Oct 2024 15:00:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      9,
+      15,
+      0,
+      0,
+      2,
+      283,
+      0
+    ],
+    "id": "https://research.google/blog/tx-llm-supporting-therapeutic-development-with-large-language-models/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TxLLM-1b-UseCases.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TxLLM-1b-UseCases.png"
+      }
+    ]
+  },
+  {
+    "title": "Augmented object intelligence with XR-Objects",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Augmented object intelligence with XR-Objects"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/augmented-object-intelligence-with-xr-objects/"
+      }
+    ],
+    "link": "https://research.google/blog/augmented-object-intelligence-with-xr-objects/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Tue, 01 Oct 2024 23:17:00 +0000",
+    "published_parsed": [
+      2024,
+      10,
+      1,
+      23,
+      17,
+      0,
+      1,
+      275,
+      0
+    ],
+    "id": "https://research.google/blog/augmented-object-intelligence-with-xr-objects/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/XR-Objects_user_prompt.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/XR-Objects_user_prompt.png"
+      }
+    ]
+  },
+  {
+    "title": "Predicting fetal well-being from cardiotocography signals using AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Predicting fetal well-being from cardiotocography signals using AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/predicting-fetal-well-being-from-cardiotocography-signals-using-ai/"
+      }
+    ],
+    "link": "https://research.google/blog/predicting-fetal-well-being-from-cardiotocography-signals-using-ai/",
+    "summary": "Global",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Global"
+    },
+    "published": "Fri, 27 Sep 2024 10:00:00 +0000",
+    "published_parsed": [
+      2024,
+      9,
+      27,
+      10,
+      0,
+      0,
+      4,
+      271,
+      0
+    ],
+    "id": "https://research.google/blog/predicting-fetal-well-being-from-cardiotocography-signals-using-ai/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Global",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Health & Bioscience",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Responsible AI",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Maternal-Health-hero.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Maternal-Health-hero.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Scaling up linear programming with PDLP",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Scaling up linear programming with PDLP"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/scaling-up-linear-programming-with-pdlp/"
+      }
+    ],
+    "link": "https://research.google/blog/scaling-up-linear-programming-with-pdlp/",
+    "summary": "Algorithms & Theory",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Algorithms & Theory"
+    },
+    "published": "Fri, 20 Sep 2024 11:11:00 +0000",
+    "published_parsed": [
+      2024,
+      9,
+      20,
+      11,
+      11,
+      0,
+      4,
+      264,
+      0
+    ],
+    "id": "https://research.google/blog/scaling-up-linear-programming-with-pdlp/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Algorithms & Theory",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/BiscoHero-Spiral.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/BiscoHero-Spiral.png"
+      }
+    ]
+  },
+  {
+    "title": "Open Buildings 2.5D Temporal dataset tracks building changes across the Global South",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Open Buildings 2.5D Temporal dataset tracks building changes across the Global South"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/open-buildings-25d-temporal-dataset-tracks-building-changes-across-the-global-south/"
+      }
+    ],
+    "link": "https://research.google/blog/open-buildings-25d-temporal-dataset-tracks-building-changes-across-the-global-south/",
+    "summary": "Climate & Sustainability",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Climate & Sustainability"
+    },
+    "published": "Thu, 19 Sep 2024 06:00:00 +0000",
+    "published_parsed": [
+      2024,
+      9,
+      19,
+      6,
+      0,
+      0,
+      3,
+      263,
+      0
+    ],
+    "id": "https://research.google/blog/open-buildings-25d-temporal-dataset-tracks-building-changes-across-the-global-south/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Temporal-New-Cairo-Egypt-img.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Temporal-New-Cairo-Egypt-img.png"
+      }
+    ]
+  },
+  {
+    "title": "Whistles, songs, boings, and biotwangs: Recognizing whale vocalizations with AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Whistles, songs, boings, and biotwangs: Recognizing whale vocalizations with AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/whistles-songs-boings-and-biotwangs-recognizing-whale-vocalizations-with-ai/"
+      }
+    ],
+    "link": "https://research.google/blog/whistles-songs-boings-and-biotwangs-recognizing-whale-vocalizations-with-ai/",
+    "summary": "Climate & Sustainability",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Climate & Sustainability"
+    },
+    "published": "Wed, 18 Sep 2024 15:05:00 +0000",
+    "published_parsed": [
+      2024,
+      9,
+      18,
+      15,
+      5,
+      0,
+      2,
+      262,
+      0
+    ],
+    "id": "https://research.google/blog/whistles-songs-boings-and-biotwangs-recognizing-whale-vocalizations-with-ai/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Climate & Sustainability",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Open Source Models & Datasets",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Sound & Accoustics",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WhaleBioacoustics-7-Brydes.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/WhaleBioacoustics-7-Brydes.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Neptune: The long orbit to benchmarking long video understanding",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Neptune: The long orbit to benchmarking long video understanding"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/neptune-the-long-orbit-to-benchmarking-long-video-understanding/"
+      }
+    ],
+    "link": "https://research.google/blog/neptune-the-long-orbit-to-benchmarking-long-video-understanding/",
+    "summary": "Machine Intelligence",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Machine Intelligence"
+    },
+    "published": "Mon, 16 Sep 2024 15:54:00 +0000",
+    "published_parsed": [
+      2024,
+      9,
+      16,
+      15,
+      54,
+      0,
+      0,
+      260,
+      0
+    ],
+    "id": "https://research.google/blog/neptune-the-long-orbit-to-benchmarking-long-video-understanding/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Perception",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Neptune-1-Pipeline.jpg"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Neptune-1-Pipeline.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Grounding AI in reality with a little help from Data Commons",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Grounding AI in reality with a little help from Data Commons"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/"
+      }
+    ],
+    "link": "https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Thu, 12 Sep 2024 06:00:00 +0000",
+    "published_parsed": [
+      2024,
+      9,
+      12,
+      6,
+      0,
+      0,
+      3,
+      256,
+      0
+    ],
+    "id": "https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Open Source Models & Datasets",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DataGemma-0-Hero.original.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DataGemma-0-Hero.original.png"
+      }
+    ]
+  },
+  {
+    "title": "Unlocking 7B+ language models in your browser: A deep dive with Google AI Edge's MediaPipe",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Unlocking 7B+ language models in your browser: A deep dive with Google AI Edge's MediaPipe"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/unlocking-7b-language-models-in-your-browser-a-deep-dive-with-google-ai-edges-mediapipe/"
+      }
+    ],
+    "link": "https://research.google/blog/unlocking-7b-language-models-in-your-browser-a-deep-dive-with-google-ai-edges-mediapipe/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Thu, 22 Aug 2024 09:48:00 +0000",
+    "published_parsed": [
+      2024,
+      8,
+      22,
+      9,
+      48,
+      0,
+      3,
+      235,
+      0
+    ],
+    "id": "https://research.google/blog/unlocking-7b-language-models-in-your-browser-a-deep-dive-with-google-ai-edges-mediapipe/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Software Systems & Engineering",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MediaPipeLLM2-HeroArchitecture.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/MediaPipeLLM2-HeroArchitecture.png"
+      }
+    ]
+  },
+  {
+    "title": "Restoring speaker voices with zero-shot cross-lingual voice transfer for TTS",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Restoring speaker voices with zero-shot cross-lingual voice transfer for TTS"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/restoring-speaker-voices-with-zero-shot-cross-lingual-voice-transfer-for-tts/"
+      }
+    ],
+    "link": "https://research.google/blog/restoring-speaker-voices-with-zero-shot-cross-lingual-voice-transfer-for-tts/",
+    "summary": "Human-Computer Interaction and Visualization",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Human-Computer Interaction and Visualization"
+    },
+    "published": "Wed, 21 Aug 2024 22:37:00 +0000",
+    "published_parsed": [
+      2024,
+      8,
+      21,
+      22,
+      37,
+      0,
+      2,
+      234,
+      0
+    ],
+    "id": "https://research.google/blog/restoring-speaker-voices-with-zero-shot-cross-lingual-voice-transfer-for-tts/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Human-Computer Interaction and Visualization",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Translation",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Speech Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/0ShotVT-1.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/0ShotVT-1.png"
+      }
+    ]
+  },
+  {
+    "title": "Speculative RAG: Enhancing retrieval augmented generation through drafting",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Speculative RAG: Enhancing retrieval augmented generation through drafting"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/"
+      }
+    ],
+    "link": "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+    "summary": "Generative AI",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Generative AI"
+    },
+    "published": "Wed, 21 Aug 2024 17:45:00 +0000",
+    "published_parsed": [
+      2024,
+      8,
+      21,
+      17,
+      45,
+      0,
+      2,
+      234,
+      0
+    ],
+    "id": "https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Generative AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Natural Language Processing",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Speculative_RAG_img1.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Speculative_RAG_img1.png"
+      }
+    ]
+  },
+  {
+    "title": "Transformers in music recommendation",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Transformers in music recommendation"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://research.google/blog/transformers-in-music-recommendation/"
+      }
+    ],
+    "link": "https://research.google/blog/transformers-in-music-recommendation/",
+    "summary": "Data Mining & Modeling",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Data Mining & Modeling"
+    },
+    "published": "Fri, 16 Aug 2024 11:40:00 +0000",
+    "published_parsed": [
+      2024,
+      8,
+      16,
+      11,
+      40,
+      0,
+      4,
+      229,
+      0
+    ],
+    "id": "https://research.google/blog/transformers-in-music-recommendation/",
+    "guidislink": false,
+    "tags": [
+      {
+        "term": "Data Mining & Modeling",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Machine Intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "media_thumbnail": [
+      {
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TransformerMusic4-Hero.png"
+      }
+    ],
+    "href": "",
+    "media_content": [
+      {
+        "medium": "image",
+        "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/TransformerMusic4-Hero.png"
+      }
+    ]
+  }
+]

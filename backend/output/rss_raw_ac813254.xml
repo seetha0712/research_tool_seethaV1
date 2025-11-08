@@ -1,0 +1,401 @@
+
+
+
+    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+        <channel>
+            <title>Latest Finextra Research Artificial intelligence Headlines</title>
+            <link>https://www.finextra.com/</link>
+            <description>The Latest Financial IT Artificial intelligence Headlines</description>
+            <copyright>Copyright 2025 Finextra Research Ltd</copyright>
+            <language>en-GB</language>
+            <webMaster>contact@finextra.com (Finextra Contact)</webMaster>
+            <image>
+                <title>Finextra Research Headlines</title>
+                <link>https://www.finextra.com</link>
+                <url>https://www.finextra.com/finextra-images/site/finextra.png</url>
+            </image>
+            <atom:link href="https://www.finextra.com/rss/channel.aspx?channel=ai" rel="self" type="application/rss+xml" />
+
+
+    
+            <item>
+                <title>CommBank joins OpenAI goldrush</title>
+                <link>https://www.finextra.com/newsarticle/46443/commbank-joins-openai-goldrush?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46443/commbank-joins-openai-goldrush?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 13 Aug 2025 09:50:00 GMT</pubDate>
+                <description>Australia&#39;s CommBank has joined the rush of financial institutions to form a relationship with OpenAI, striking a multi-year deal to provide employees with access to ChatGPT Entperise.</description>
+            </item>
+        
+            <item>
+                <title>Santander partners OpenAI to become &#39;AI-native&#39; bank</title>
+                <link>https://www.finextra.com/newsarticle/46441/santander-partners-openai-to-become-ai-native-bank?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46441/santander-partners-openai-to-become-ai-native-bank?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 12 Aug 2025 18:38:00 GMT</pubDate>
+                <description>Santander has inked a deal with OpenAI, rolling out ChatGPT Enterprise to nearly 15,000 staffers as it bids to become an &quot;AI-native&quot; bank.</description>
+            </item>
+        
+            <item>
+                <title>LHV streamlines legal document processing with AI from Luminance</title>
+                <link>https://www.finextra.com/newsarticle/46434/lhv-streamlines-legal-document-processing-with-ai-from-luminance?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46434/lhv-streamlines-legal-document-processing-with-ai-from-luminance?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 12 Aug 2025 09:02:00 GMT</pubDate>
+                <description>UK bank LHV is to apply artificial intelligence technology from Luminance to streamline legal contract document workflows.</description>
+            </item>
+        
+            <item>
+                <title>BBVA wins plaudits from OpenAI for ChatGPT5 tests</title>
+                <link>https://www.finextra.com/newsarticle/46428/bbva-wins-plaudits-from-openai-for-chatgpt5-tests?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46428/bbva-wins-plaudits-from-openai-for-chatgpt5-tests?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 12 Aug 2025 00:01:00 GMT</pubDate>
+                <description>During the global launch of its new language model, OpenAI has identified BBVA as one of the first institutions to adopt the technology in the financial sector, cutting weeks off the time to conduct technical tasks.</description>
+            </item>
+        
+            <item>
+                <title>CommBank reports 76% drop in scam losses as new security features rolled out</title>
+                <link>https://www.finextra.com/newsarticle/46427/commbank-reports-76-drop-in-scam-losses-as-new-security-features-rolled-out?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46427/commbank-reports-76-drop-in-scam-losses-as-new-security-features-rolled-out?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Mon, 11 Aug 2025 10:25:00 GMT</pubDate>
+                <description>Australia&#39;s CommBank has unveiled a Gen AI scam detection tool that lets customers test suspicious text messages and a new feature in the bank&#39;s mobile app that will reduce the need for one-time passcodes to authorise online card transactions</description>
+            </item>
+        
+            <item>
+                <title>Google Finance gets AI reboot</title>
+                <link>https://www.finextra.com/newsarticle/46424/google-finance-gets-ai-reboot?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46424/google-finance-gets-ai-reboot?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Mon, 11 Aug 2025 00:01:00 GMT</pubDate>
+                <description>Google is giving its financial data, news and analytics service an artificial intelligence makeover.</description>
+            </item>
+        
+            <item>
+                <title>AI-powered payment disputes platform Casap raises $25m</title>
+                <link>https://www.finextra.com/newsarticle/46417/ai-powered-payment-disputes-platform-casap-raises-25m?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46417/ai-powered-payment-disputes-platform-casap-raises-25m?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Fri, 08 Aug 2025 00:01:00 GMT</pubDate>
+                <description>Casap, a firm using AI to automate payment disputes and tackle first party fraud, has raised $25 million in a Series A funding round led by Emergence Capital.</description>
+            </item>
+        
+            <item>
+                <title>Maybank signs RM1bn digital transformation deal with Microsoft</title>
+                <link>https://www.finextra.com/newsarticle/46410/maybank-signs-rm1bn-digital-transformation-deal-with-microsoft?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46410/maybank-signs-rm1bn-digital-transformation-deal-with-microsoft?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 12:51:00 GMT</pubDate>
+                <description>Malaysia&#39;s largest financial institution Maybank, has agreed a deal with Microsoft that will see the tech firm spearhead the bank&#39;s digital transformation</description>
+            </item>
+        
+            <item>
+                <title>Wells Fargo enlists Google Cloud for agentic AI play</title>
+                <link>https://www.finextra.com/newsarticle/46405/wells-fargo-enlists-google-cloud-for-agentic-ai-play?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46405/wells-fargo-enlists-google-cloud-for-agentic-ai-play?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 00:01:00 GMT</pubDate>
+                <description>Wells Fargo is expanding its relationship with Google Cloud to roll out agentic AI across its operations.</description>
+            </item>
+        
+            <item>
+                <title>Alaan raises $48m for spend management platform</title>
+                <link>https://www.finextra.com/newsarticle/46403/alaan-raises-48m-for-spend-management-platform?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46403/alaan-raises-48m-for-spend-management-platform?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 05 Aug 2025 15:04:00 GMT</pubDate>
+                <description>Alaan, a UAE-based, AI-powered corporate spend management platform founded by former McKinsey consultants, has raised $48 million in Series A funding.</description>
+            </item>
+        
+            <item>
+                <title>NatWest and Google to boost UK startups with AI tools and training</title>
+                <link>https://www.finextra.com/newsarticle/46397/natwest-and-google-to-boost-uk-startups-with-ai-tools-and-training?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46397/natwest-and-google-to-boost-uk-startups-with-ai-tools-and-training?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Mon, 04 Aug 2025 10:27:00 GMT</pubDate>
+                <description>NatWest is working with Google Cloud to support entrepreneurs on the UK lender&#39;s business Accelerator with access to AI tools, cloud technology, and expert training.</description>
+            </item>
+        
+            <item>
+                <title>SEC launches AI task force</title>
+                <link>https://www.finextra.com/newsarticle/46396/sec-launches-ai-task-force?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/newsarticle/46396/sec-launches-ai-task-force?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Mon, 04 Aug 2025 10:07:00 GMT</pubDate>
+                <description>The US Securities and Exchange Commission has launched an AI task force to spearhead the agency’s efforts to embed artificial intelligence into its operations.</description>
+            </item>
+        
+            <item>
+                <title>Spektr upgrades compliance software with AI Agent Builder</title>
+                <link>https://www.finextra.com/pressarticle/106712/spektr-upgrades-compliance-software-with-ai-agent-builder?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106712/spektr-upgrades-compliance-software-with-ai-agent-builder?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 13 Aug 2025 09:25:00 GMT</pubDate>
+                <description>spektr, the compliance infrastructure platform trusted by leading fintech innovators, announces the launch of spektr 2.0 – a modular reimagining of compliance architecture built for flexibility and speed.</description>
+            </item>
+        
+            <item>
+                <title>Beeks releases AI market intelligence tool</title>
+                <link>https://www.finextra.com/pressarticle/106708/beeks-releases-ai-market-intelligence-tool?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106708/beeks-releases-ai-market-intelligence-tool?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 13 Aug 2025 09:00:00 GMT</pubDate>
+                <description>Beeks Financial Cloud Group, a leading provider of cloud computing and connectivity solutions for financial markets, has launched Market Edge Intelligence, the world’s first AI/Machine Learning solution for passive monitoring of capital markets data directly at the network edge.</description>
+            </item>
+        
+            <item>
+                <title>3d innovations streamlines market data research with generative AI</title>
+                <link>https://www.finextra.com/pressarticle/106692/3d-innovations-streamlines-market-data-research-with-generative-ai?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106692/3d-innovations-streamlines-market-data-research-with-generative-ai?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 12 Aug 2025 14:15:00 GMT</pubDate>
+                <description>3d innovations, a data management software and services firm, today announced the integration of generative AI into Profiler, its curated catalogue of financial data services, enabling more efficient product evaluation, pricing analysis, and vendor management.</description>
+            </item>
+        
+            <item>
+                <title>Intellect Design Arena takes Purple Fabric AI platform to the US</title>
+                <link>https://www.finextra.com/pressarticle/106690/intellect-design-arena-takes-purple-fabric-ai-platform-to-the-us?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106690/intellect-design-arena-takes-purple-fabric-ai-platform-to-the-us?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 12 Aug 2025 10:57:00 GMT</pubDate>
+                <description>Intellect Design Arena Ltd, an enterprise-grade global financial technology leader, today announced the launch of IntellectAI’s Purple Fabric, the world’s first open business impact AI platform, into the U.S. market.</description>
+            </item>
+        
+            <item>
+                <title>Embedded lending infrastructure platform Lendflow launches AI-powered agents</title>
+                <link>https://www.finextra.com/pressarticle/106682/embedded-lending-infrastructure-platform-lendflow-launches-ai-powered-agents?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106682/embedded-lending-infrastructure-platform-lendflow-launches-ai-powered-agents?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Mon, 11 Aug 2025 18:32:00 GMT</pubDate>
+                <description>Lendflow, a leader in embedded lending infrastructure, announced the official launch of Lendflow Automate, a suite of AI-powered agents designed to optimize workforce efficiency and transform how lending operations are executed.</description>
+            </item>
+        
+            <item>
+                <title>Broadridge invests in AI platform Uptiq</title>
+                <link>https://www.finextra.com/pressarticle/106655/broadridge-invests-in-ai-platform-uptiq?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106655/broadridge-invests-in-ai-platform-uptiq?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Thu, 07 Aug 2025 13:39:00 GMT</pubDate>
+                <description>Broadridge Financial Solutions, Inc. (NYSE: BR), a global Fintech leader, has announced a new strategic partnership and minority investment in Uptiq, an AI platform for financial services.</description>
+            </item>
+        
+            <item>
+                <title>Genesis Global names James Harrison as CEO</title>
+                <link>https://www.finextra.com/pressarticle/106654/genesis-global-names-james-harrison-as-ceo?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106654/genesis-global-names-james-harrison-as-ceo?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Thu, 07 Aug 2025 13:31:00 GMT</pubDate>
+                <description>Genesis Global today announced the appointment of James Harrison as CEO, succeeding his fellow co-founder Stephen Murphy, who is stepping down after ten successful years heading the firm.</description>
+            </item>
+        
+            <item>
+                <title>EToro touts AI for social investing</title>
+                <link>https://www.finextra.com/pressarticle/106653/etoro-touts-ai-for-social-investing?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106653/etoro-touts-ai-for-social-investing?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Thu, 07 Aug 2025 13:26:00 GMT</pubDate>
+                <description>eToro Group Ltd. (“eToro”, or the “Company”) (NASDAQ: ETOR), the trading and investing platform, announced today how the company is harnessing artificial intelligence to redefine social investing.</description>
+            </item>
+        
+            <item>
+                <title>InvestCloud taps AI to drive advisor productivity</title>
+                <link>https://www.finextra.com/pressarticle/106642/investcloud-taps-ai-to-drive-advisor-productivity?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106642/investcloud-taps-ai-to-drive-advisor-productivity?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 17:55:00 GMT</pubDate>
+                <description>InvestCloud, a global leader in wealth technology, today announced the first of a new generation of AI-enabled solutions to help advisors increase productivity and deliver greater value to clients.</description>
+            </item>
+        
+            <item>
+                <title>ERP platform Rillet raises $70m</title>
+                <link>https://www.finextra.com/pressarticle/106641/erp-platform-rillet-raises-70m?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106641/erp-platform-rillet-raises-70m?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 17:53:00 GMT</pubDate>
+                <description>Ambitious companies don’t rise or fall by product alone – they win or lose by how they run finance and accounting. Rillet, the AI-native ERP (enterprise resource planning) platform built for modern finance teams, today announced a $70 million Series B co-led by Andreessen Horowitz and ICONIQ with participation from Sequoia, Oak HC/FT and earlier investors.</description>
+            </item>
+        
+            <item>
+                <title>EquiLend launches AI tool for instant market intelligence</title>
+                <link>https://www.finextra.com/pressarticle/106639/equilend-launches-ai-tool-for-instant-market-intelligence?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106639/equilend-launches-ai-tool-for-instant-market-intelligence?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 17:50:00 GMT</pubDate>
+                <description>EquiLend, a global fintech leader in securities finance, today introduced a new AI-powered assistant within its Data &amp; Analytics suite, designed to help users interact with securities finance and short interest insights more efficiently.</description>
+            </item>
+        
+            <item>
+                <title>Experian taps Sikoia for income and employment checks</title>
+                <link>https://www.finextra.com/pressarticle/106630/experian-taps-sikoia-for-income-and-employment-checks?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/pressarticle/106630/experian-taps-sikoia-for-income-and-employment-checks?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 13:42:00 GMT</pubDate>
+                <description>Global data and technology company, Experian, and leading customer verification platform Sikoia today announce a new partnership to streamline and modernise income and employment verification.</description>
+            </item>
+        
+            <item>
+                <title>Wealth Management: Both Easier &amp; More Complex Than It Ever Was</title>
+                <link>https://www.finextra.com/videoarticle/3332/wealth-management-both-easier--more-complex-than-it-ever-was?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3332/wealth-management-both-easier--more-complex-than-it-ever-was?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 16:43:00 GMT</pubDate>
+                <description>Attending the Communify Fincentric Experience 2025, Michael Smith, EVP - Business Development, Communify Fincentric spoke to FinextraTV about the seemingly conflicting outlook of the current wealth management industry. In some sense, Smith believes, there are more tools to make the process easier but, at the same time, it is harder than ever to be successful. Diving into client requirements and the definition of a good product, Smith provides his expert analysis of the situation.</description>
+            </item>
+        
+            <item>
+                <title>How to Handle AI Scepticism as a Banking Leader</title>
+                <link>https://www.finextra.com/videoarticle/3330/how-to-handle-ai-scepticism-as-a-banking-leader?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3330/how-to-handle-ai-scepticism-as-a-banking-leader?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 09:30:00 GMT</pubDate>
+                <description>Speaking to FinextraTV, Runki Goswami, Global Marketing Head &amp; CMO at Newgen Software, and Varun Ghai, Associate Vice President (P&amp;S), UK &amp; EU, Newgen software discuss the use of AI and technology in banking against a backdrop of heightened customer needs. Explaining the different elements that are now available to banks, Goswami and Ghai also help to define what good leaders look like in this new era of technological change and scepticism.</description>
+            </item>
+        
+            <item>
+                <title>The 3 Most Compelling AI Use Cases in Wealth Management</title>
+                <link>https://www.finextra.com/videoarticle/3329/the-3-most-compelling-ai-use-cases-in-wealth-management?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3329/the-3-most-compelling-ai-use-cases-in-wealth-management?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 05 Aug 2025 15:00:00 GMT</pubDate>
+                <description>As part of our new Future of Wealth Series, Joe Bonanno, Global Head of Data Analytics &amp; Innovation - Citi Wealth, Citi joined FinextraTV to discuss some of the key components of the current wealth management sector. Specifically, Bonanno brings insights into how AI is being receieved across the industry and the ways in which it is particularly useful in relation to data inputs for large language models, task optimisation and research.</description>
+            </item>
+        
+            <item>
+                <title>How AI Can Reduce Decision Fatigue for Asset Managers</title>
+                <link>https://www.finextra.com/videoarticle/3327/how-ai-can-reduce-decision-fatigue-for-asset-managers?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3327/how-ai-can-reduce-decision-fatigue-for-asset-managers?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 30 Jul 2025 08:30:00 GMT</pubDate>
+                <description>Joining the FinextraTV Virtual Studio, Phil Cox, COO, Russell Investments and Roshan Shetty, BFSI &amp; Public Sector Head - Americas, Tech Mahindra discuss the decision fatigue within asset management currently and how AI helps alleviate that. Splitting the task abilities that can be improved into analysis, portfolio construction, risk management and trading strategies, Shetty and Cox debate the ease if AI adoption into existing processes and how information-based tools have risen to the top.</description>
+            </item>
+        
+            <item>
+                <title>AI &amp; Wealth: How to Build Trust Through Impact &amp; Personalisation</title>
+                <link>https://www.finextra.com/videoarticle/3324/ai--wealth-how-to-build-trust-through-impact--personalisation?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3324/ai--wealth-how-to-build-trust-through-impact--personalisation?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 29 Jul 2025 10:00:00 GMT</pubDate>
+                <description>Whilst at Money 20/20 in Amsterdam, Bahadir Yilmaz, Chief Analytics Officer, ING joined FinextraTV to provide some data insights in relation to growing AI conversations. Describing the challenge of taking data from its origins into actionable, presentable insights for clients, Yilmaz explains how a succesful, easy process will help to increase client&#39;s comfort with sharing larger, useful portions of data. Yilmaz, while speaking to AI use cases, says that clients are not interested in what happens behind-the-scenes, they care more for faster services and experiences where they can personally notice the change.</description>
+            </item>
+        
+            <item>
+                <title>Australian Wealth: How Superannuation Growth is Prompting Technology Conversations</title>
+                <link>https://www.finextra.com/videoarticle/3322/australian-wealth-how-superannuation-growth-is-prompting-technology-conversations?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3322/australian-wealth-how-superannuation-growth-is-prompting-technology-conversations?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 23 Jul 2025 13:00:00 GMT</pubDate>
+                <description>Whilst at the Communify Fincentric Experience 2025, Lachlan Hardy, Head of Sales &amp; Business Development - APAC, Communify Fincentric helped to provide his unique insight into how the Australian wealth market compares to others. Speaking to the growth of self-directed wealth and superannuation funds, Hardy describes how one of the key considerations are around how technology is interacting and enabling this growth.</description>
+            </item>
+        
+            <item>
+                <title>How A2A Innovation is Advancing The Fight Against Fraud</title>
+                <link>https://www.finextra.com/videoarticle/3298/how-a2a-innovation-is-advancing-the-fight-against-fraud?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3298/how-a2a-innovation-is-advancing-the-fight-against-fraud?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 23 Jul 2025 10:00:00 GMT</pubDate>
+                <description>Speaking to FinextraTV in this interview, Helena Forest, EVP, Global Product &amp; Commercial, Real Time Payments, Mastercard and Luke Reynolds, SVP, Financial Crimes, Mastercard discuss the impact of fraud and payment scams and look to address their prevention. As well as covering the many forms of fraud, such as APP fraud and romance scams, Forest and Reynolds explore the innovations currently available to help reduce its impact. They provide an honest optimism whilst remaining aware of the existing complexities within fraud prevention, bringing attention to the impact of the latest account to account fraud prevention methods including risk-scoring and Mastercard&#39;s UK A2A Sandbox.</description>
+            </item>
+        
+            <item>
+                <title>How Partnerships Can Give Banks More Technological Agility</title>
+                <link>https://www.finextra.com/videoarticle/3317/how-partnerships-can-give-banks-more-technological-agility?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3317/how-partnerships-can-give-banks-more-technological-agility?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Mon, 21 Jul 2025 10:00:00 GMT</pubDate>
+                <description>At the FinextraTV studio during Temenos Community Forum 2025, Monty Bhatia, EVP, Global Alliances and Partner Ecosystem, Temenos and Sudip Lahiri, Executive Vice President &amp; Head - Europe &amp; UKI, Financial Services, HCLTech spoke about core modernisation and AI implementation. Explaining the benefits of working with trusted partners, Lahiri and Bhatia explored how banks can effectively transition to an agile, modular architecture that enables fast implementation of AI-driven services.</description>
+            </item>
+        
+            <item>
+                <title>How Rip-And-Replace Alternatives Help to Reimagine Banking</title>
+                <link>https://www.finextra.com/videoarticle/3291/how-rip-and-replace-alternatives-help-to-reimagine-banking?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3291/how-rip-and-replace-alternatives-help-to-reimagine-banking?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Thu, 17 Jul 2025 11:00:00 GMT</pubDate>
+                <description>Sitting down with FinextraTV, Keith Redding, CRO, Universal Banking, Finastra discussed what it means to Reimagine Banking and why having the right technology is crucial in this new world. &#160;As well as providing real-world examples, Redding describes how the future is more about progressive transformation than &#39;rip and replace&#39; and how this approach can help banks turn challenges into opportunities.</description>
+            </item>
+        
+            <item>
+                <title>How to Drive Banking Innovation with Generative and Agentic AI</title>
+                <link>https://www.finextra.com/videoarticle/3315/how-to-drive-banking-innovation-with-generative-and-agentic-ai?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3315/how-to-drive-banking-innovation-with-generative-and-agentic-ai?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 16 Jul 2025 10:00:00 GMT</pubDate>
+                <description>Whilst speaking at Temenos Community Forum 2025, Erik Johnson, Global Head of Product Design, Temenos joined the FinextraTV studio to talk about the areas he&#39;s most excited about within the development of AI. Discussing product ideation and compliance across both GenAI and Agentic AI, Johnson passionately positions his belief that AI is a tool that enables banks and partners to focus on more innovative and &#39;fun&#39; day-to-day tasks. Beyond this, Johnson also describes the inherent connection between AI development and co-design.</description>
+            </item>
+        
+            <item>
+                <title>What To Consider When Working with AI &amp; Real-Time Data</title>
+                <link>https://www.finextra.com/videoarticle/3302/what-to-consider-when-working-with-ai--real-time-data?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3302/what-to-consider-when-working-with-ai--real-time-data?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 15 Jul 2025 11:30:00 GMT</pubDate>
+                <description>In this interview at Money 20/20 2025 in Amsterdam, Rishi Doerga, Senior Solutions Engineer, Confluent helps to define real-time data and how it can be safely and correctly utilised alongside AI. When discussing best use cases for AI, Doerga advised a need to take a step back and consider how to manage vast amounts of data, as well as how to approach the data input when working with Agentic AI tools. Doerga also helps to provide some insights to those that require real-time data but are more apprehensive of AI.</description>
+            </item>
+        
+            <item>
+                <title>How Younger Investors Will Change The Face of Wealth Management</title>
+                <link>https://www.finextra.com/videoarticle/3311/how-younger-investors-will-change-the-face-of-wealth-management?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3311/how-younger-investors-will-change-the-face-of-wealth-management?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Mon, 14 Jul 2025 12:00:00 GMT</pubDate>
+                <description>Stepping away from the Temenos Community Forum 2025, Eric Mellor, Wealth Management Specialist, MEA and APAC, Temenos joined the FinextraTV studio to talk about the massive shift of wealth towards younger generations. Explaining the challenges that will occur as this trend continues, Mellor emphasises how quickly those in the industry will lose customers if they don&#39;t prepare now. Describing how younger investors are more interested in ESG, digital experiences and concierge services, Mellor highlights the evolution of wealth management in this new era and the technology that can help financial institutions adjust.</description>
+            </item>
+        
+            <item>
+                <title>How Technology Can Enable an Overdue Rethink of Corporate Lending</title>
+                <link>https://www.finextra.com/videoarticle/3304/how-technology-can-enable-an-overdue-rethink-of-corporate-lending?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/videoarticle/3304/how-technology-can-enable-an-overdue-rethink-of-corporate-lending?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 09 Jul 2025 11:00:00 GMT</pubDate>
+                <description>At the Temenos Community Forum 2025, Maurya Murphy, Senior Product Director (Corporate), Temenos and Mohammad Khatib, Director of Information Technology, The Arab Energy Fund, joined FinextraTV&#39;s studio to discuss the challenges within corporate lending technology. Investigating where legacy systems need modernising, Murphy and Khatib outline emerging technologies that enable an easier, more corporate-friendly approach to loan lifecycles.</description>
+            </item>
+        
+            <item>
+                <title>Modernising for what’s next: Data-led innovation in financial services</title>
+                <link>https://www.finextra.com/event-info/569/modernising-for-whats-next-data-led-innovation-in-financial-services?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/event-info/569/modernising-for-whats-next-data-led-innovation-in-financial-services?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 14 Oct 2025 15:00:00 GMT</pubDate>
+                <description>AI is here – but is the industry’s data ready?</description>
+            </item>
+        
+            <item>
+                <title>What’s next in wealth? Exploring European trends &amp; priorities </title>
+                <link>https://www.finextra.com/event-info/574/whats-next-in-wealth-exploring-european-trends--priorities-?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/event-info/574/whats-next-in-wealth-exploring-european-trends--priorities-?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Tue, 28 Oct 2025 15:00:00 GMT</pubDate>
+                <description>How can wealth managers best serve the next generation of investors? </description>
+            </item>
+        
+            <item>
+                <title>Growing pains: Evolving core banking for an age of AI </title>
+                <link>https://www.finextra.com/event-info/575/growing-pains-evolving-core-banking-for-an-age-of-ai-?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/event-info/575/growing-pains-evolving-core-banking-for-an-age-of-ai-?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Thu, 13 Nov 2025 15:00:00 GMT</pubDate>
+                <description>From aging foundations to digital-first banking and AI.</description>
+            </item>
+        
+            <item>
+                <title>How smart FIs are achieving their AI transformation targets</title>
+                <link>https://www.finextra.com/event-info/577/how-smart-fis-are-achieving-their-ai-transformation-targets?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/event-info/577/how-smart-fis-are-achieving-their-ai-transformation-targets?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Thu, 30 Oct 2025 15:00:00 GMT</pubDate>
+                <description>Discover the most successful AI use cases in banking.</description>
+            </item>
+        
+            <item>
+                <title>Original rambling story telling here ...ChatGDP shortened and improved it in the previous post</title>
+                <link>https://www.finextra.com/blogposting/29066/original-rambling-story-telling-here-chatgdp-shortened-and-improved-it-in-the-previous-post?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/blogposting/29066/original-rambling-story-telling-here-chatgdp-shortened-and-improved-it-in-the-previous-post?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Thu, 07 Aug 2025 10:00:58 GMT</pubDate>
+                <description>AI-impact: 20-30% GDP growth a year or no more than 1-2% over 10 years? Quite a difference between t...</description>
+            </item>
+        
+            <item>
+                <title>AI Is a Tool, Not the Vision — Don’t Let It Decide What You Build</title>
+                <link>https://www.finextra.com/blogposting/29069/ai-is-a-tool-not-the-vision--dont-let-it-decide-what-you-build?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/blogposting/29069/ai-is-a-tool-not-the-vision--dont-let-it-decide-what-you-build?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Thu, 07 Aug 2025 12:26:09 GMT</pubDate>
+                <description>AI technology has seen a meteoric rise in the past several years, and by now it’s far from being a n...</description>
+            </item>
+        
+            <item>
+                <title>Quantum Banking and Accounting: How AI and Quantum Tech Can Eliminate Fraud Before It Happens</title>
+                <link>https://www.finextra.com/blogposting/29093/quantum-banking-and-accounting-how-ai-and-quantum-tech-can-eliminate-fraud-before-it-happens?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/blogposting/29093/quantum-banking-and-accounting-how-ai-and-quantum-tech-can-eliminate-fraud-before-it-happens?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Mon, 11 Aug 2025 15:36:58 GMT</pubDate>
+                <description>By Hajrabibi Mulla Financial fraud has evolved into a highly sophisticated, global challenge — and b...</description>
+            </item>
+        
+            <item>
+                <title>What could go wrong when fintech over-rely on AI, and how to fix it</title>
+                <link>https://www.finextra.com/blogposting/29058/what-could-go-wrong-when-fintech-over-rely-on-ai-and-how-to-fix-it?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/blogposting/29058/what-could-go-wrong-when-fintech-over-rely-on-ai-and-how-to-fix-it?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 16:43:31 GMT</pubDate>
+                <description>Financial services is one of the best-positioned industries to leverage all the benefits AI has to o...</description>
+            </item>
+        
+            <item>
+                <title>How AI is Redefining Financial Infrastructure: From Embedded Lending to Autonomous Finance</title>
+                <link>https://www.finextra.com/blogposting/29059/how-ai-is-redefining-financial-infrastructure-from-embedded-lending-to-autonomous-finance?utm_medium=rssfinextra&amp;utm_source=finextrafeed</link>
+                <guid isPermaLink="true">https://www.finextra.com/blogposting/29059/how-ai-is-redefining-financial-infrastructure-from-embedded-lending-to-autonomous-finance?utm_medium=rssfinextra&amp;utm_source=finextrafeed</guid>
+                <pubDate>Wed, 06 Aug 2025 17:04:26 GMT</pubDate>
+                <description>🧭 Introduction: From Digital Efficiency to Intelligent Infrastructure We are entering the most tran...</description>
+            </item>
+        
+    
+            <item>
+  <title>Sponsor's message: [New Impact Study] How can Businesses Bridge the Gaps in their Cashflow?</title>
+  <link>https://www.finextra.com/banners/banner.aspx?opt=ad&amp;baid=7788</link>
+  <guid isPermaLink="true">https://www.finextra.com/banners/banner.aspx?opt=ad&amp;baid=7788</guid>
+  <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+  <description>[New Impact Study] How can Businesses Bridge the Gaps in their Cashflow?</description>
+</item>
+
+    
+            </channel>
+    </rss> 
+    

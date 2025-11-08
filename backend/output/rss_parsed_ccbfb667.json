@@ -1,0 +1,502 @@
+[
+  {
+    "title": "Tecton is Joining Databricks to Power Real-Time Data for Personalized AI Agents",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Tecton is Joining Databricks to Power Real-Time Data for Personalized AI Agents"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/tecton-joining-databricks-power-real-time-data-personalized-ai-agents"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/tecton-joining-databricks-power-real-time-data-personalized-ai-agents",
+    "id": "https://www.databricks.com/blog/tecton-joining-databricks-power-real-time-data-personalized-ai-agents",
+    "guidislink": false,
+    "published": "Fri, 22 Aug 2025 23:55:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      22,
+      23,
+      55,
+      0,
+      4,
+      234,
+      0
+    ],
+    "summary": "Today, we are thrilled to share that Tecton will soon be joining Databricks. Tecton...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Today, we are thrilled to share that Tecton will soon be joining Databricks. Tecton..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Announcements",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Securing the Future: How Databricks Powers Financial Services",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Securing the Future: How Databricks Powers Financial Services"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/securing-future-how-databricks-powers-financial-services"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/securing-future-how-databricks-powers-financial-services",
+    "id": "https://www.databricks.com/blog/securing-future-how-databricks-powers-financial-services",
+    "guidislink": false,
+    "published": "Fri, 22 Aug 2025 18:35:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      22,
+      18,
+      35,
+      0,
+      4,
+      234,
+      0
+    ],
+    "summary": "Why Data Security &amp; Compliance are Essential for Growth in Financial ServicesIn today's rapidly changing landscape...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Why Data Security &amp; Compliance are Essential for Growth in Financial ServicesIn today's rapidly changing landscape..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Financial Services",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Processing Millions of Events from Thousands of Aircraft with One Declarative Pipeline",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Processing Millions of Events from Thousands of Aircraft with One Declarative Pipeline"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/processing-millions-events-thousands-aircraft-one-declarative-pipeline"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/processing-millions-events-thousands-aircraft-one-declarative-pipeline",
+    "id": "https://www.databricks.com/blog/processing-millions-events-thousands-aircraft-one-declarative-pipeline",
+    "guidislink": false,
+    "published": "Fri, 22 Aug 2025 18:30:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      22,
+      18,
+      30,
+      0,
+      4,
+      234,
+      0
+    ],
+    "summary": "Every second, tens of thousands of aircraft generate IoT events across the globe\u2014from...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Every second, tens of thousands of aircraft generate IoT events across the globe\u2014from..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Solutions",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "From Booking to Bon Voyage: How AI Is Redefining the Travel & Hospitality Experience",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "From Booking to Bon Voyage: How AI Is Redefining the Travel & Hospitality Experience"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/booking-bon-voyage-how-ai-redefining-travel-hospitality-experience"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/booking-bon-voyage-how-ai-redefining-travel-hospitality-experience",
+    "id": "https://www.databricks.com/blog/booking-bon-voyage-how-ai-redefining-travel-hospitality-experience",
+    "guidislink": false,
+    "published": "Wed, 20 Aug 2025 19:40:05 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      20,
+      19,
+      40,
+      5,
+      2,
+      232,
+      0
+    ],
+    "summary": "Travel has always been about more than just getting from point A to point B\u2014it\u2019s...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Travel has always been about more than just getting from point A to point B\u2014it\u2019s..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Retail & Consumer Goods",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Strategy",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Announcing Public Preview of Request for Access in Unity Catalog",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Announcing Public Preview of Request for Access in Unity Catalog"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/announcing-public-preview-request-access-unity-catalog"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/announcing-public-preview-request-access-unity-catalog",
+    "id": "https://www.databricks.com/blog/announcing-public-preview-request-access-unity-catalog",
+    "guidislink": false,
+    "published": "Wed, 20 Aug 2025 18:45:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      20,
+      18,
+      45,
+      0,
+      2,
+      232,
+      0
+    ],
+    "summary": "One of the biggest challenges in security-conscious enterprises is getting timely access to the right data...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "One of the biggest challenges in security-conscious enterprises is getting timely access to the right data..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "How AI is Transforming the Way Retailers Connect With Consumers",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "How AI is Transforming the Way Retailers Connect With Consumers"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/how-ai-transforming-way-retailers-connect-consumers"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/how-ai-transforming-way-retailers-connect-consumers",
+    "id": "https://www.databricks.com/blog/how-ai-transforming-way-retailers-connect-consumers",
+    "guidislink": false,
+    "published": "Wed, 20 Aug 2025 16:00:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      20,
+      16,
+      0,
+      0,
+      2,
+      232,
+      0
+    ],
+    "summary": "AI continues to shape the next generation of retail, not just as a tool for efficiency...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "AI continues to shape the next generation of retail, not just as a tool for efficiency..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Retail & Consumer Goods",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Reverse ETL with Lakebase: Activate your lakehouse data for operational analytics",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Reverse ETL with Lakebase: Activate your lakehouse data for operational analytics"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/reverse-etl-lakebase-activate-your-lakehouse-data-operational-analytics"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/reverse-etl-lakebase-activate-your-lakehouse-data-operational-analytics",
+    "id": "https://www.databricks.com/blog/reverse-etl-lakebase-activate-your-lakehouse-data-operational-analytics",
+    "guidislink": false,
+    "published": "Wed, 20 Aug 2025 12:41:23 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      20,
+      12,
+      41,
+      23,
+      2,
+      232,
+      0
+    ],
+    "summary": "Introduction: Analytics and operations are converging&nbsp;Applications today can\u2019t rely...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Introduction: Analytics and operations are converging&nbsp;Applications today can\u2019t rely..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Solutions",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Introducing Real-Time Mode in Apache Spark\u2122 Structured Streaming",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Introducing Real-Time Mode in Apache Spark\u2122 Structured Streaming"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/introducing-real-time-mode-apache-sparktm-structured-streaming"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/introducing-real-time-mode-apache-sparktm-structured-streaming",
+    "id": "https://www.databricks.com/blog/introducing-real-time-mode-apache-sparktm-structured-streaming",
+    "guidislink": false,
+    "published": "Tue, 19 Aug 2025 20:15:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      19,
+      20,
+      15,
+      0,
+      1,
+      231,
+      0
+    ],
+    "summary": "Apache Spark\u2122 Structured Streaming has long powered mission-critical pipelines at scale, ...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Apache Spark\u2122 Structured Streaming has long powered mission-critical pipelines at scale, ..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Announcements",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Reranking in Mosaic AI Vector Search for Faster, Smarter Retrieval in RAG Agents",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Reranking in Mosaic AI Vector Search for Faster, Smarter Retrieval in RAG Agents"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/reranking-mosaic-ai-vector-search-faster-smarter-retrieval-rag-agents"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/reranking-mosaic-ai-vector-search-faster-smarter-retrieval-rag-agents",
+    "id": "https://www.databricks.com/blog/reranking-mosaic-ai-vector-search-faster-smarter-retrieval-rag-agents",
+    "guidislink": false,
+    "published": "Mon, 18 Aug 2025 19:30:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      18,
+      19,
+      30,
+      0,
+      0,
+      230,
+      0
+    ],
+    "summary": "For many organizations, the biggest challenge with AI agents built over unstructured...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "For many organizations, the biggest challenge with AI agents built over unstructured..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Introducing SQL Stored Procedures in Databricks",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Introducing SQL Stored Procedures in Databricks"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/introducing-sql-stored-procedures-databricks"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/introducing-sql-stored-procedures-databricks",
+    "id": "https://www.databricks.com/blog/introducing-sql-stored-procedures-databricks",
+    "guidislink": false,
+    "published": "Thu, 14 Aug 2025 15:17:39 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      14,
+      15,
+      17,
+      39,
+      3,
+      226,
+      0
+    ],
+    "summary": "Managing repetitive SQL tasks\u2014like cleaning data, updating business rules, or running...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Managing repetitive SQL tasks\u2014like cleaning data, updating business rules, or running..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  }
+]

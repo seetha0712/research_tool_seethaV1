@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Artificial Intelligence</title>
+    <link>https://www.nytimes.com/spotlight/artificial-intelligence</link>
+    <atom:link href="https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/spotlight/artificial-intelligence/rss.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2025 The New York Times Company</copyright>
+    <lastBuildDate>Tue, 26 Aug 2025 11:00:48 +0000</lastBuildDate>
+    <pubDate>Tue, 26 Aug 2025 09:02:18 +0000</pubDate>
+    <image>
+      <title>NYT &gt; Artificial Intelligence</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/spotlight/artificial-intelligence</link>
+    </image>
+    <item>
+      <title>The All-Female Hacker House Trying to Break A.I.’s Glass Ceiling</title>
+      <link>https://www.nytimes.com/2025/08/23/business/ai-female-hackers-foundher-house.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/23/business/ai-female-hackers-foundher-house.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/23/business/ai-female-hackers-foundher-house.html" rel="standout"></atom:link>
+      <description>FoundHer House, a home in San Francisco’s Glen Park neighborhood, is the rare all-female hacker house where residents are creating a supportive community to build their start-ups.</description>
+      <dc:creator>Natallie Rocha and Christie Hemm Klok</dc:creator>
+      <pubDate>Sat, 23 Aug 2025 21:21:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Entrepreneurship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cohousing Communities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">San Francisco (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+    </item>
+    <item>
+      <title>Big Tech’s A.I. Data Centers Are Driving Up Electricity Bills for Everyone</title>
+      <link>https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html" rel="standout"></atom:link>
+      <description>Electricity rates for individuals and small businesses could rise sharply as Amazon, Google, Microsoft and other technology companies build data centers and expand into the energy business.</description>
+      <dc:creator>Ivan Penn and Karen Weise</dc:creator>
+      <pubDate>Thu, 14 Aug 2025 15:13:37 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric Light and Power</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Data Centers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Infrastructure (Public Works)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Real Estate (Commercial)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Building (Construction)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Amazon.com Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">American Electric Power Co Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Dominion Energy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Microsoft Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Meta Platforms Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Companies Are Pouring Billions Into A.I. It Has Yet to Pay Off.</title>
+      <link>https://www.nytimes.com/2025/08/13/business/ai-business-payoff-lags.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/13/business/ai-business-payoff-lags.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/13/business/ai-business-payoff-lags.html" rel="standout"></atom:link>
+      <description>Corporate spending on artificial intelligence is surging as executives bank on major efficiency gains. So far, they report little effect to the bottom line.</description>
+      <dc:creator>Steve Lohr</dc:creator>
+      <pubDate>Wed, 13 Aug 2025 09:01:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Innovation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">ChatGPT</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+    </item>
+    <item>
+      <title>Why A.I. Should Make Parents Rethink Posting Photos of Their Children Online</title>
+      <link>https://www.nytimes.com/2025/08/11/technology/personaltech/ai-kids-photos.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/11/technology/personaltech/ai-kids-photos.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/11/technology/personaltech/ai-kids-photos.html" rel="standout"></atom:link>
+      <description>Artificial intelligence apps generating fake nudes, amid other privacy concerns, make “sharenting” far riskier than it was just a few years ago.</description>
+      <dc:creator>Brian X. Chen</dc:creator>
+      <pubDate>Mon, 11 Aug 2025 09:01:21 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parenting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Child Abuse and Neglect</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pornography</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Privacy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+    </item>
+    <item>
+      <title>21 Ways People Are Using A.I. at Work</title>
+      <link>https://www.nytimes.com/interactive/2025/08/11/upshot/ai-jobs.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/interactive/2025/08/11/upshot/ai-jobs.html</guid>
+      <atom:link href="https://www.nytimes.com/interactive/2025/08/11/upshot/ai-jobs.html" rel="standout"></atom:link>
+      <description>Yes, it still makes plenty of mistakes, but it has become part of the job for many.</description>
+      <dc:creator>Larry Buchanan and Francesca Paris</dc:creator>
+      <pubDate>Tue, 12 Aug 2025 17:02:00 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Environment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Teachers and School Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Missouri Botanical Garden</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Philadelphia Baroque Orchestra</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Legal Profession</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Design</category>
+    </item>
+    <item>
+      <title>Chatbots Can Go Into a Delusional Spiral. Here’s How It Happens.</title>
+      <link>https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html" rel="standout"></atom:link>
+      <description>Over 21 days of talking with ChatGPT, an otherwise perfectly sane man became convinced that he was a real-life superhero. We analyzed the conversation.</description>
+      <dc:creator>Kashmir Hill and Dylan Freedman</dc:creator>
+      <pubDate>Tue, 12 Aug 2025 23:29:26 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">ChatGPT</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-design</category>
+    </item>
+    <item>
+      <title>Swarming to San Francisco’s A.I. Boom: a New Crop of 20-Something CEOs</title>
+      <link>https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/04/technology/ai-young-ceos-san-francisco.html" rel="standout"></atom:link>
+      <description>Some dropped out of M.I.T., Georgetown and Stanford. Others decided not to go to college. They all say they could not afford to wait to build their own artificial intelligence start-ups.</description>
+      <dc:creator>Natallie Rocha</dc:creator>
+      <pubDate>Mon, 04 Aug 2025 20:57:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Venture Capital</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Entrepreneurship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Youth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Cognition AI</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Scale AI Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Y Combinator</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Founders Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">San Francisco (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Foody, Brendan (2003- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kaushik, Karun (2004- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Mercor.io Corp (Mercor)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Delve Technologies Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Artisan AI Inc</category>
+    </item>
+    <item>
+      <title>A.I. Has Ushered in Silicon Valley’s ‘Hard Tech’ Era</title>
+      <link>https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/04/technology/ai-silicon-valley-hard-tech.html" rel="standout"></atom:link>
+      <description>Goodbye to the age of consumer websites and mobile apps. Artificial intelligence has ushered in an era of what insiders in the nation’s innovation capital call “hard tech.”</description>
+      <dc:creator>Mike Isaac</dc:creator>
+      <pubDate>Mon, 04 Aug 2025 20:48:19 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">San Francisco Bay Area (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Silicon Valley (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Anthropic AI LLC</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Meta Platforms Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">OpenAI Labs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Environment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Entrepreneurship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Start-ups</category>
+    </item>
+    <item>
+      <title>The Rise of Silicon Valley’s Techno-Religion</title>
+      <link>https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/04/technology/rationalists-ai-lighthaven.html" rel="standout"></atom:link>
+      <description>The Rationalists, a community focused on the risks of artificial intelligence, regularly gather with tech figures and other like-minded people in a complex that covers much of a city block.</description>
+      <dc:creator>Cade Metz</dc:creator>
+      <pubDate>Thu, 07 Aug 2025 00:03:14 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Buildings (Structures)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Religion and Belief</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Altruism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Rationalists (Philosophical Movement)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">OpenAI Labs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bankman-Fried, Sam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yudkowsky, Eliezer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Musk, Elon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">audio-neutral-informative</category>
+    </item>
+    <item>
+      <title>Google Could Get Broken Up This Week for Antitrust Violations. Here’s What It Would Mean.</title>
+      <link>https://www.nytimes.com/2025/08/26/opinion/google-antitrust-remedy-ai.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/26/opinion/google-antitrust-remedy-ai.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/26/opinion/google-antitrust-remedy-ai.html" rel="standout"></atom:link>
+      <description>It will be effective if people who work at big tech companies start quitting their jobs.</description>
+      <dc:creator>Tim Wu</dc:creator>
+      <pubDate>Tue, 26 Aug 2025 09:02:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Search Engines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Antitrust Laws and Competition Issues</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Web Browsers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Innovation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chrome (Browser)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Justice Department</category>
+    </item>
+    <item>
+      <title>Opinion: The Only Real Solution to the AI College Cheating Crisis</title>
+      <link>https://www.nytimes.com/2025/08/26/opinion/culture/ai-chatgpt-college-cheating-medieval.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/26/opinion/culture/ai-chatgpt-college-cheating-medieval.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/26/opinion/culture/ai-chatgpt-college-cheating-medieval.html" rel="standout"></atom:link>
+      <description>Since A.I. has made the mental effort of writing and problem solving optional, universities need new ways to require the work needed for learning.</description>
+      <dc:creator>Clay Shirky</dc:creator>
+      <pubDate>Tue, 26 Aug 2025 09:01:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tests and Examinations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Middle Ages (Historical Period)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">ChatGPT</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New York University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Elon Musk’s xAI Sues Apple and OpenAI Over Claims It Is Being Shut Out</title>
+      <link>https://www.nytimes.com/2025/08/25/technology/elon-musk-xai-sues-apple.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/25/technology/elon-musk-xai-sues-apple.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/25/technology/elon-musk-xai-sues-apple.html" rel="standout"></atom:link>
+      <description>Mr. Musk’s artificial intelligence company, xAI, claimed that its Grok chatbot app was being artificially suppressed in Apple’s App Store.</description>
+      <dc:creator>Kate Conger</dc:creator>
+      <pubDate>Mon, 25 Aug 2025 18:27:19 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">X.ai Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Apple Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Musk, Elon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">X (Formerly Twitter)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Altman, Samuel H</category>
+    </item>
+    <item>
+      <title>Inside the A.I. Talent Wars</title>
+      <link>https://www.nytimes.com/2025/08/25/podcasts/the-daily/ai-salaries-tech-silicon-valley.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/25/podcasts/the-daily/ai-salaries-tech-silicon-valley.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/25/podcasts/the-daily/ai-salaries-tech-silicon-valley.html" rel="standout"></atom:link>
+      <description>Researchers in the technology have been landing quarter-billion dollar salaries.</description>
+      <dc:creator>Natalie Kitroeff, Mike Isaac, Diana Nguyen, Alex Stern, Carlos Prieto, Lexie Diao, Marc Georges, Maria Byrne, Michael Benoist, Marion Lozano, Dan Powell and Alyssa Moxley</dc:creator>
+      <pubDate>Mon, 25 Aug 2025 10:00:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wages and Salaries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-open-access-audio</category>
+    </item>
+    <item>
+      <title>Teens Are Using Chatbots as Therapists. That’s Alarming.</title>
+      <link>https://www.nytimes.com/2025/08/25/opinion/teen-mental-health-chatbots.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/25/opinion/teen-mental-health-chatbots.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/25/opinion/teen-mental-health-chatbots.html" rel="standout"></atom:link>
+      <description>We are deploying digital pseudo-therapists at an unprecedented scale, and those most at risk of negative outcomes are teens.</description>
+      <dc:creator>Ryan K. McBain</dc:creator>
+      <pubDate>Mon, 25 Aug 2025 21:37:40 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychiatry and Psychiatrists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Loneliness</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suicides and Suicide Attempts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Teenagers and Adolescence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Youth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Clinical Trials</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Depression (Mental)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">ChatGPT</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Anthropic AI LLC</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">OpenAI Labs</category>
+    </item>
+    <item>
+      <title>How ChatGPT Surprised Me</title>
+      <link>https://www.nytimes.com/2025/08/24/opinion/chat-gpt5-open-ai-future.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/24/opinion/chat-gpt5-open-ai-future.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/24/opinion/chat-gpt5-open-ai-future.html" rel="standout"></atom:link>
+      <description>What if we come to love and depend on the A.I.s — if we prefer them in many cases to our fellow humans?</description>
+      <dc:creator>Ezra Klein</dc:creator>
+      <pubDate>Sun, 24 Aug 2025 10:00:25 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Innovation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">ChatGPT</category>
+    </item>
+    <item>
+      <title>Intel&#39;s Downfall Underlines How Even Tech Giants Can Fade</title>
+      <link>https://www.nytimes.com/2025/08/23/technology/intel-computer-chips-tech-ai-trump.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/23/technology/intel-computer-chips-tech-ai-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/23/technology/intel-computer-chips-tech-ai-trump.html" rel="standout"></atom:link>
+      <description>The Silicon Valley chipmaker’s journey from icon to a government project, with the sale of a 10 percent stake to the Trump administration, underlines how even the mightiest in tech can fall.</description>
+      <dc:creator>Tripp Mickle and Don Clark</dc:creator>
+      <pubDate>Sat, 23 Aug 2025 14:29:37 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Intel Corporation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Software</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cloud Computing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Factories and Manufacturing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tan, Lip-Bu</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">NVIDIA Corporation</category>
+    </item>
+    <item>
+      <title>You’re Probably Thinking About the Future All Wrong</title>
+      <link>https://www.nytimes.com/2025/08/23/business/dealbook/future-nick-foster.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/23/business/dealbook/future-nick-foster.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/23/business/dealbook/future-nick-foster.html" rel="standout"></atom:link>
+      <description>Nick Foster helped Apple and Google envision the future. He has some notes.</description>
+      <dc:creator>Sarah Kessler</dc:creator>
+      <pubDate>Mon, 25 Aug 2025 17:02:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+    </item>
+    <item>
+      <title>Nvidia Is Making a New Chip for China Amid Debate on AI Exports</title>
+      <link>https://www.nytimes.com/2025/08/22/business/jensen-huang-nvidia-china.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/22/business/jensen-huang-nvidia-china.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/22/business/jensen-huang-nvidia-china.html" rel="standout"></atom:link>
+      <description>Jensen Huang, Nvidia’s chief executive, said he plans to ask the Trump administration’s permission to sell a more powerful chip to Chinese companies.</description>
+      <dc:creator>Tripp Mickle and Lily Kuo</dc:creator>
+      <pubDate>Sat, 23 Aug 2025 01:19:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">NVIDIA Corporation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Huang, Jen-Hsun</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+    </item>
+    <item>
+      <title>The Hobbyist Restorer Who Rocked the Art World With an A.I. Innovation</title>
+      <link>https://www.nytimes.com/2025/08/22/world/europe/art-restoration-ai-innovation.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/08/22/world/europe/art-restoration-ai-innovation.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/08/22/world/europe/art-restoration-ai-innovation.html" rel="standout"></atom:link>
+      <description>Alex Kachkine spends his days working on microchip research — a skill set surprisingly similar to that needed for restoration.</description>
+      <dc:creator>Ephrat Livni</dc:creator>
+      <pubDate>Fri, 22 Aug 2025 09:02:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Churches (Buildings)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Restoration and Renovation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ministry of Cultural Heritage and Tourism (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+    </item>
+  </channel>
+</rss>

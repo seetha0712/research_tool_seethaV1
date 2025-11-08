@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Custom scrollbar for dashboards */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #3b82f6 #f3f4f6;
+}

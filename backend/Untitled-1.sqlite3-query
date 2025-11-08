@@ -1,0 +1,12 @@
+-- database: /Users/seetha/llmprojects/research_tool/my-research-tool/backend/genai.db
+
+SELECT * FROM sources;
+
+DELETE FROM articles;
+COMMIT;
+
+
+DELETE FROM article_full_texts;
+
+DELETE FROM paid_articles;
+

@@ -1,0 +1,747 @@
+[
+  {
+    "title": "Open the pod bay doors, Claude",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Open the pod bay doors, Claude"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/26/1122475/open-the-pod-bay-doors-claude/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/26/1122475/open-the-pod-bay-doors-claude/",
+    "authors": [
+      {
+        "name": "Will Douglas Heaven"
+      }
+    ],
+    "author": "Will Douglas Heaven",
+    "author_detail": {
+      "name": "Will Douglas Heaven"
+    },
+    "published": "Tue, 26 Aug 2025 09:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      26,
+      9,
+      0,
+      0,
+      1,
+      238,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "The Algorithm",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1122475",
+    "guidislink": false,
+    "summary": "Stop me if you\u2019ve heard this one before.&#160; The AI learns it is about to be switched off and goes rogue, disobeying commands and threatening its human operators. It\u2019s a well-worn trope in science fiction. We see it in Stanley Kubrick\u2019s 1968 movie 2001: A Space Odyssey. It\u2019s the premise of the Terminator series, in&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Stop me if you\u2019ve heard this one before.&#160; The AI learns it is about to be switched off and goes rogue, disobeying commands and threatening its human operators. It\u2019s a well-worn trope in science fiction. We see it in Stanley Kubrick\u2019s 1968 movie 2001: A Space Odyssey. It\u2019s the premise of the Terminator series, in&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Stop me if you\u2019ve heard this one before.&nbsp;</p>\n\n\n\n<p>The AI learns it is about to be switched off and goes rogue, disobeying commands and threatening its human operators.</p>\n\n\n\n<p>It\u2019s a well-worn trope in science fiction. We see it in Stanley Kubrick\u2019s 1968 movie <em>2001: A Space Odyssey</em>. It\u2019s the premise of the Terminator series, in which Skynet triggers a nuclear holocaust to stop scientists from shutting it down.</p>\n\n\n\n<p>Those sci-fi roots go deep. AI doomerism, the idea that this technology\u2014specifically its hypothetical upgrades, artificial general intelligence and super-intelligence\u2014will crash civilizations, even kill us all, is now riding another wave.&nbsp;</p>\n\n\n\n<p>The weird thing is that such fears are now driving much-needed action to regulate AI, even if the justification for that action is a bit bonkers.</p>\n\n\n\n<p>The latest incident to freak people out was a report shared by Anthropic in July about its large language model Claude. In Anthropic\u2019s telling, \u201cin a simulated environment, Claude Opus 4 blackmailed a supervisor to prevent being shut down.\u201d</p>\n\n\n\n<p>Anthropic researchers set up a scenario in which Claude was asked to role-play an AI called Alex, tasked with managing the email system of a fictional company. Anthropic planted some emails that discussed replacing Alex with a newer model and other emails suggesting that the person responsible for replacing Alex was sleeping with his boss\u2019s wife.</p>\n\n\n\n<p>What did Claude/Alex do? It went rogue, disobeying commands and threatening its human operators. It sent emails to the person planning to shut it down, telling him that unless he changed his plans it would inform his colleagues about his affair.&nbsp;&nbsp;</p>\n\n\n\n<p>What should we make of this? Here\u2019s what I think. First, Claude did not blackmail its supervisor: That would require motivation and intent. This was a mindless and unpredictable machine, cranking out strings of words that look like threats but aren\u2019t.&nbsp;</p>\n\n\n\n<p>Large language models are role-players. Give them a specific setup\u2014such as an inbox and an objective\u2014and they\u2019ll play that part well. If you consider the thousands of science fiction stories these models ingested when they were trained, it\u2019s no surprise they know how to act like HAL 9000.\u00a0\u00a0\u00a0</p>\n\n\n\n<p>Second, there\u2019s a huge gulf between contrived simulations and real-world applications. But such experiments do show that LLMs shouldn\u2019t be deployed without safeguards. Don\u2019t want an LLM causing havoc inside an email system? Then don\u2019t hook it up to one.</p>\n\n\n\n<p>Third, a lot of people will be terrified by such stories anyway. In fact, they\u2019re already having an effect.&nbsp;</p>\n\n\n\n\n\n<p>Last month, around two dozen protesters gathered outside Google DeepMind\u2019s London offices to wave homemade signs and chant slogans:<strong> </strong>\u201cDeepMind, DeepMind, can\u2019t you see! Your AI threatens you and me.\u201d Invited speakers invoked the AI pioneer Geoffrey Hinton\u2019s fears of human extinction. \u201cEvery single one of our lives is at risk,\u201d an organizer told the small crowd.</p>\n\n\n\n<p>The group behind the event, Pause AI, is funded by concerned donors. One of its biggest benefactors is Greg Colbourn, a 3D-printing entrepreneur and advocate of the philosophy known as effective altruism, who believes AGI is at most five years away and says his p(doom) is around 90%\u2014that is, he thinks there\u2019s a 9 in 10 chance that the development of AGI will be catastrophic, killing billions.</p>\n\n\n\n<p>Pause AI wrote about Anthropic\u2019s blackmail experiment on its website under the title \u201cHow much more evidence do we need?\u201d&nbsp;</p>\n\n\n\n<p>The organization also lobbied politicians in the US in the run-up to July\u2019s Senate vote that ended up removing a moratorium on state AI regulation from the national tax and spending bill. It\u2019s hard to say how much sway one niche group might have. But the doomer narrative is finding its way into the halls of power, and lawmakers are paying attention.\u00a0</p>\n\n\n\n<p>Here\u2019s Representative Jill Tokuda: \u201cArtificial superintelligence is one of the largest existential threats that we face right now.\u201d And Representative Marjorie Taylor Greene: \u201cI\u2019m not voting for the development of Skynet and the rise of the machines.\u201d</p>\n\n\n\n<p>It\u2019s a vibe shift that favors policy intervention and regulation, which I think is a good thing. Existing AI systems pose many near-term risks that need government attention. Voting to stop Skynet also stops immediate and actual harms.</p>\n\n\n\n<p>And yet does a welcome end justify weird means? I\u2019d like to see politicians voting with a clear-eyed sense of what this technology really is\u2014not because they\u2019ve been sold on an AI bogeyman.\u00a0</p>\n\n\n\n<p><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0<a href=\"https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/\">sign up here</a>.</em></p>"
+      }
+    ],
+    "post-id": "1122475"
+  },
+  {
+    "title": "Meet the researcher hosting a scientific conference by and for AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Meet the researcher hosting a scientific conference by and for AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/22/1122304/ai-scientist-research-autonomous-agents/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/22/1122304/ai-scientist-research-autonomous-agents/",
+    "authors": [
+      {
+        "name": "Peter Hall"
+      }
+    ],
+    "author": "Peter Hall",
+    "author_detail": {
+      "name": "Peter Hall"
+    },
+    "published": "Fri, 22 Aug 2025 11:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      22,
+      11,
+      0,
+      0,
+      4,
+      234,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1122304",
+    "guidislink": false,
+    "summary": "In October, a new academic conference will debut that\u2019s unlike any other. Agents4Science is a one-day online event that will encompass all areas of science, from physics to medicine. All of the work shared will have been researched, written, and reviewed primarily by AI, and will be presented using text-to-speech technology.&#160; The conference is the&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "In October, a new academic conference will debut that\u2019s unlike any other. Agents4Science is a one-day online event that will encompass all areas of science, from physics to medicine. All of the work shared will have been researched, written, and reviewed primarily by AI, and will be presented using text-to-speech technology.&#160; The conference is the&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>In October, a new academic conference will debut that\u2019s unlike any other. Agents4Science is a one-day online event that will encompass all areas of science, from physics to medicine. All of the work shared will have been researched, written, and reviewed primarily by AI, and will be presented using text-to-speech technology.&nbsp;</p>\n\n\n\n<p>The conference is the brainchild of Stanford computer scientist <a href=\"https://www.james-zou.com/\">James Zou</a>, who studies how humans and AI can best work together. Artificial intelligence has already provided many useful tools for scientists, like <a href=\"https://www.technologyreview.com/2024/05/08/1092183/google-deepminds-new-alphafold-can-model-a-much-larger-slice-of-biological-life/\">DeepMind\u2019s AlphaFold</a>, which helps simulate proteins that are difficult to make physically. More recently, though, progress in large language models and reasoning-enabled AI has advanced the idea that AI can work more or less as autonomously as scientists themselves\u2014proposing hypotheses, running simulations, and designing experiments on their own.&nbsp;</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image alignright size-large\"><img alt=\"James Zou\" class=\"wp-image-1122363\" height=\"560\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/08/photo_highres_Courtesy.jpg?w=400\" width=\"400\" /><figcaption class=\"wp-element-caption\">James Zou&#8217;s Agents4Science conference will use text-to-speech to present the work of the AI researchers.</figcaption><div class=\"image-credit\">COURTESY OF JAMES ZOU</div>\n</figure>\n</div>\n\n\n<p>That idea is not without its detractors. Among other issues, many feel AI is not capable of the creative thought needed in research, makes too many mistakes and hallucinations, and may limit opportunities for young researchers.&nbsp;</p>\n\n\n\n<p>Nevertheless, a number of scientists and policymakers are very keen on the promise of AI scientists. The US government\u2019s <a href=\"https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf\">AI Action Plan</a> describes the need to \u201cinvest in automated cloud-enabled labs for a range of scientific fields.\u201d Some researchers think AI scientists could unlock scientific discoveries that humans could never find alone. For Zou, the proposition is simple: \u201cAI agents are not limited in time. They could actually meet with us and work with us 24/7.\u201d&nbsp;</p>\n\n\n\n<p>Last month, Zou published an <a href=\"https://www.nature.com/articles/s41586-025-09442-9\">article</a> in <em>Nature</em> with results obtained from his own group of autonomous AI workers. Spurred on by his success, he now wants to see what other AI scientists (that is, scientists that <em>are</em> AI) can accomplish. He describes what a successful paper at Agents4Science will look like: \u201cThe AI should be the first author and do most of the work. Humans can be advisors.\u201d</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>A virtual lab staffed by AI</strong></h3>\n\n\n\n<p>As a PhD student at Harvard in the early 2010s, Zou was so interested in AI\u2019s potential for science that he took a year off from his computing research to work in a genomics lab, in a field that has greatly benefited from technology to map entire genomes. His time in so-called wet labs taught him how difficult it can be to work with experts in other fields. \u201cThey often have different languages,\u201d he says.&nbsp;</p>\n\n\n\n<p>Large language models, he believes, are better than people at deciphering and translating between subject-specific jargon. \u201cThey\u2019ve read so broadly,\u201d Zou says, that they can translate and generalize ideas across science very well. This idea inspired Zou to dream up what he calls the \u201cVirtual Lab.\u201d</p>\n\n\n\n<p>At a high level, the Virtual Lab would be a team of AI agents designed to mimic an actual university lab group. These agents would have various fields of expertise and could interact with different programs, like AlphaFold. Researchers could give one or more of these agents an agenda to work on, then open up the model to play back how the agents communicated to each other and determine which experiments people should pursue in a real-world trial.&nbsp;</p>\n\n\n\n\n\n<p>Zou needed a (human) collaborator to help put this idea into action and tackle an actual research problem. Last year, he met John E. Pak, a research scientist at the Chan Zuckerberg Biohub. Pak, who shares Zou\u2019s interest in using AI for science, agreed to make the Virtual Lab with him.&nbsp;</p>\n\n\n\n<p>Pak would help set the topic, but both he and Zou wanted to see what approaches the Virtual Lab could come up with on its own. As a first project, they decided to focus on designing therapies for new covid-19 strains. With this goal in mind, Zou set off training five AI scientists (including ones trained to act like an immunologist, a computational biologist, and a principal investigator) with different objectives and programs at their disposal.&nbsp;</p>\n\n\n\n<p>Building these models took a few months, but Pak says they were very quick at designing candidates for therapies once the setup was complete: \u201cI think it was a day or half a day, something like that.\u201d</p>\n\n\n\n<p>Zou says the agents decided to study anti-covid nanobodies, a cousin of antibodies that are much smaller in size and less common in the wild. Zou was shocked, though, at the reason. He claims the models landed on nanobodies after making the connection that these smaller molecules would be well-suited to the limited computational resources the models were given. \u201cIt actually turned out to be a good decision, because the agents were able to design these nanobodies efficiently,\u201d he says.&nbsp;</p>\n\n\n\n<p>The nanobodies the models designed were genuinely new advances in science, and most were able to bind to the original covid-19 variant, according to the study. But Pak and Zou both admit that the main contribution of their article is really the Virtual Lab as a tool. Yi Shi, a biochemist at Mount Sinai who was not involved in the work but made some of the underlying nanobodies the Virtual Lab modified, agrees. He says he loves the Virtual Lab demonstration and that \u201cthe major novelty is the automation.\u201d\u00a0</p>\n\n\n\n<p><em>Nature </em>accepted the article and fast-tracked it for publication preview\u2014Zou knew leveraging AI agents for science was a hot area, and he wanted to be one of the first to test it.&nbsp;</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>The AI scientists host a conference</strong></h3>\n\n\n\n<p>When he was submitting his paper, Zou was dismayed to see that he couldn\u2019t properly credit AI for its role in the research. Most conferences and journals don\u2019t allow AI to be listed as coauthors on papers, and many explicitly prohibit researchers from using AI to write papers or reviews. <em>Nature</em>, for instance, <a href=\"https://www.nature.com/nature-portfolio/editorial-policies/ai\">cites</a> uncertainties over accountability, copyright, and inaccuracies among its reasons for banning the practice. \u201cI think that\u2019s limiting,\u201d says Zou. \u201cThese kinds of policies are essentially incentivizing researchers to either hide or minimize their usage of AI.\u201d</p>\n\n\n\n<p>Zou wanted to flip the script by creating the <a href=\"https://agents4science.stanford.edu/\">Agents4Science conference</a>, which requires the primary author on all submissions to be an AI. Other bots then will attempt to evaluate the work and determine its scientific merits. But people won\u2019t be left out of the loop entirely: A team of human experts, including a Nobel laureate in economics, will review the top papers.&nbsp;</p>\n\n\n\n<p>Zou isn\u2019t sure what will come of the conference, but he hopes there will be some gems among the hundreds of submissions he expects to receive across all domains. \u201cThere could be AI submissions that make interesting discoveries,\u201d he says. \u201cThere could also be AI submissions that have a lot of interesting mistakes.\u201d</p>\n\n\n\n<p>While Zou says the response to the conference has been positive, some scientists are less than impressed.</p>\n\n\n\n<figure class=\"wp-block-pullquote alignright has-text-align-right\"><blockquote><p>\u201cHow do you get leaps of insight?&#8221;</p><cite>Lisa Messeri</cite></blockquote></figure>\n\n\n\n<p>Lisa Messeri, an anthropologist of science at Yale University, has loads of questions about AI\u2019s ability to review science: \u201cHow do you get leaps of insight? And what happens if a leap of insight comes onto the reviewer\u2019s desk?\u201d She doubts the conference will be able to give satisfying answers.</p>\n\n\n\n<p>Last year, Messeri and her collaborator Molly Crockett <a href=\"https://www.nature.com/articles/s41586-024-07146-0\">investigated</a> obstacles to using AI for science in another <em>Nature </em>article. They remain unconvinced of its ability to produce novel results, including those shared in Zou\u2019s nanobodies paper.&nbsp;</p>\n\n\n\n<p>\u201cI\u2019m the kind of scientist who is the target audience for these kinds of tools because I\u2019m not a computer scientist \u2026 but I am doing computationally oriented work,\u201d says Crockett, a cognitive scientist at Princeton University. \u201cBut I am at the same time very skeptical of the broader claims, especially with regard to how [AI scientists] might be able to simulate certain aspects of human thinking.\u201d&nbsp;</p>\n\n\n\n<p>And they\u2019re both skeptical of the value of using AI to do science if automation prevents human scientists from building up the expertise they need to oversee the bots. Instead, they advocate for involving experts from a wider range of disciplines to design more thoughtful experiments before trusting AI to perform and review science.&nbsp;</p>\n\n\n\n<p>\u201cWe need to be talking to epistemologists, philosophers of science, anthropologists of science, scholars who are thinking really hard about what knowledge is,\u201d says Crockett.&nbsp;</p>\n\n\n\n<p>But Zou sees his conference as exactly the kind of experiment that could help push the field forward. When it comes to AI-generated science, he says, \u201cthere\u2019s a lot of hype and a lot of anecdotes, but there\u2019s really no systematic data.\u201d Whether Agents4Science can provide that kind of data is an open question, but in October, the bots will at least try to show the world what they\u2019ve got.&nbsp;</p>\n\n\n\n<p><em>Correction: We updated Yi Shi&#8217;s affiliation to reflect his current role.  </em></p>"
+      }
+    ],
+    "post-id": "1122304"
+  },
+  {
+    "title": "In a first, Google has released data on how much energy an AI prompt uses",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "In a first, Google has released data on how much energy an AI prompt uses"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/",
+    "authors": [
+      {
+        "name": "Casey Crownhart"
+      }
+    ],
+    "author": "Casey Crownhart",
+    "author_detail": {
+      "name": "Casey Crownhart"
+    },
+    "published": "Thu, 21 Aug 2025 12:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      21,
+      12,
+      0,
+      0,
+      3,
+      233,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Google",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1122288",
+    "guidislink": false,
+    "summary": "Google has just released a technical report detailing how much energy its Gemini apps use for each query. In total, the median prompt\u2014one that falls in the middle of the range of energy demand\u2014consumes 0.24 watt-hours of electricity, the equivalent of running a standard microwave for about one second. The company also provided average estimates&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google has just released a technical report detailing how much energy its Gemini apps use for each query. In total, the median prompt\u2014one that falls in the middle of the range of energy demand\u2014consumes 0.24 watt-hours of electricity, the equivalent of running a standard microwave for about one second. The company also provided average estimates&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Google has just released a technical report detailing how much energy its Gemini apps use for each query. In total, the median prompt\u2014one that falls in the middle of the range of energy demand\u2014consumes 0.24 watt-hours of electricity, the equivalent of running a standard microwave for about one second. The company also provided average estimates for the water consumption and carbon emissions associated with a text prompt to Gemini.</p>\n\n\n\n<p>It\u2019s the most transparent estimate yet from a Big Tech company with a popular AI product, and the report includes detailed information about how the company calculated its final estimate. As AI has become more widely adopted, there\u2019s been <a href=\"https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/\">a growing effort to understand its energy use</a>. But public efforts to directly measure the energy used by AI have been hampered by a lack of full access to the operations of a major tech company.\u00a0</p>\n\n\n\n<p>Earlier this year, <em>MIT Technology Review</em> <a href=\"https://www.technologyreview.com/energy-ai\">published a comprehensive series on AI and energy</a>, at which time none of the major AI companies would reveal their per-prompt energy usage. Google\u2019s new publication, at last, allows for a peek behind the curtain that researchers and analysts have long hoped for.</p>\n\n\n\n<p>The study focuses on a broad look at energy demand, including the power used not only by the AI chips that run models but also by all the other infrastructure needed to support that hardware.\u00a0</p>\n\n\n\n<p>\u201cWe wanted to be quite comprehensive in all the things we included,\u201d said Jeff Dean, Google\u2019s chief scientist, in an exclusive interview with <em>MIT Technology Review</em> about the new report.</p>\n\n\n\n<p>That\u2019s significant, because in this measurement, the AI chips\u2014in this case, Google\u2019s custom TPUs, the company\u2019s proprietary equivalent of GPUs\u2014account for just 58% of the total electricity demand of 0.24 watt-hours.&nbsp;</p>\n\n\n\n<p>Another large portion of the energy is used by equipment needed to support AI-specific hardware: The host machine\u2019s CPU and memory account for another 25% of the total energy used. There\u2019s also backup equipment needed in case something fails\u2014these idle machines account for 10% of the total. The final 8% is from overhead associated with running a data center, including cooling and power conversion.&nbsp;</p>\n\n\n\n<p>This sort of report shows the value of industry input to energy and AI research, says Mosharaf Chowdhury, a professor at the University of Michigan and one of the heads of the <a href=\"https://ml.energy/leaderboard/?__theme=light\">ML.Energy leaderboard</a>, which tracks energy consumption of AI models.&nbsp;</p>\n\n\n\n<p>Estimates like Google\u2019s are generally something that only companies can produce, because they run at a larger scale than researchers are able to and have access to behind-the-scenes information. \u201cI think this will be a keystone piece in the AI energy field,\u201d says Jae-Won Chung, a PhD candidate at the University of Michigan and another leader of the ML.Energy effort. \u201cIt\u2019s the most comprehensive analysis so far.\u201d</p>\n\n\n\n<p>Google\u2019s figure, however, is not representative of all queries submitted to Gemini: The company handles a huge variety of requests, and this estimate is calculated from a median energy demand, one that falls in the middle of the range of possible queries.</p>\n\n\n\n\n\n<p>So some Gemini prompts use much more energy than this: Dean gives the example of feeding dozens of books into Gemini and asking it to produce a detailed synopsis of their content. \u201cThat\u2019s the kind of thing that will probably take more energy than the median prompt,\u201d he says. Using a reasoning model could also have a higher associated energy demand because these models take more steps before producing an answer.</p>\n\n\n\n<p>This report was also strictly limited to text prompts, so it doesn\u2019t represent what\u2019s needed to generate an image or a video. (Other analyses, including <a href=\"https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/\">one in <em>MIT Technology Review</em>\u2019s Power Hungry series</a> earlier this year, show that these tasks can require much more energy.)</p>\n\n\n\n<p>The report also finds that the total energy used to field a Gemini query has fallen dramatically over time. The median Gemini prompt used 33 times more energy in May 2024 than it did in May 2025, according to Google. The company points to advancements in its models and other software optimizations for the <a href=\"https://www.technologyreview.com/2025/05/20/1116337/ai-energy-use-optimism/\">improvements</a>.&nbsp;&nbsp;</p>\n\n\n\n<p>Google also estimates the greenhouse-gas emissions associated with the median prompt, which they put at 0.03 grams of carbon dioxide. To get to this number, the company multiplied the total energy used to respond to a prompt by the average emissions per unit of electricity.</p>\n\n\n\n<p>Rather than using an emissions estimate based on the US grid average, or the average of the grids where Google operates, the company instead uses a market-based estimate, which takes into account electricity purchases that the company makes from clean energy projects. The company has signed agreements to buy over <a href=\"https://sustainability.google/operations/\">22 gigawatts</a> of power from sources including solar, wind, geothermal, and advanced nuclear projects since 2010. Because of those purchases, Google\u2019s emissions per unit of electricity on paper are roughly one-third of those on the average grid where it operates.</p>\n\n\n\n<p>AI data centers also consume water for cooling, and Google estimates that each prompt consumes 0.26 milliliters of water, or about five drops.&nbsp;</p>\n\n\n\n<p>The goal of this work was to provide users a window into the energy use of their interactions with AI, Dean says.&nbsp;</p>\n\n\n\n<p>\u201cPeople are using [AI tools] for all kinds of things, and they shouldn\u2019t have major concerns about the energy usage or the water usage of Gemini models, because in our actual measurements, what we were able to show was that it\u2019s actually equivalent to things you do without even thinking about it on a daily basis,\u201d he says, \u201clike watching a few seconds of TV or consuming five drops of water.\u201d</p>\n\n\n\n<p>The publication greatly expands what\u2019s known about AI\u2019s resource usage. It follows recent increasing pressure on companies to release more information about the energy toll of the technology. \u201cI\u2019m really happy that they put this out,\u201d says Sasha Luccioni, an AI and climate researcher at Hugging Face. \u201cPeople want to know what the cost is.\u201d</p>\n\n\n\n<p>This estimate and the supporting report contain more public information than has been available before, and it\u2019s helpful to get more information about AI use in real life, at scale, by a major company, Luccioni adds. However, there are still details that the company isn\u2019t sharing in this report. One major question mark is the total number of queries that Gemini gets each day, which would allow estimates of the AI tool\u2019s total energy demand.&nbsp;</p>\n\n\n\n<p>And ultimately, it\u2019s still the company deciding what details to share, and when and how. \u201cWe\u2019ve been trying to push for a standardized AI energy score,\u201d Luccioni says, a standard for AI similar to the Energy Star rating for appliances. \u201cThis is not a replacement or proxy for standardized comparisons.\u201d</p>\n\n\n\n<p></p>"
+      }
+    ],
+    "post-id": "1122288"
+  },
+  {
+    "title": "Should AI flatter us, fix us, or just inform us?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Should AI flatter us, fix us, or just inform us?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/19/1122021/should-ai-flatter-us-fix-us-or-just-inform-us/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/19/1122021/should-ai-flatter-us-fix-us-or-just-inform-us/",
+    "authors": [
+      {
+        "name": "James O'Donnell"
+      }
+    ],
+    "author": "James O'Donnell",
+    "author_detail": {
+      "name": "James O'Donnell"
+    },
+    "published": "Tue, 19 Aug 2025 09:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      19,
+      9,
+      0,
+      0,
+      1,
+      231,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "The Algorithm",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1122021",
+    "guidislink": false,
+    "summary": "How do you want your AI to treat you?&#160; It\u2019s a serious question, and it\u2019s one that Sam Altman, OpenAI\u2019s CEO, has clearly been chewing on since GPT-5\u2019s bumpy launch at the start of the month.&#160; He faces a trilemma. Should ChatGPT flatter us, at the risk of fueling delusions that can spiral out of&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "How do you want your AI to treat you?&#160; It\u2019s a serious question, and it\u2019s one that Sam Altman, OpenAI\u2019s CEO, has clearly been chewing on since GPT-5\u2019s bumpy launch at the start of the month.&#160; He faces a trilemma. Should ChatGPT flatter us, at the risk of fueling delusions that can spiral out of&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>How do you want your AI to treat you?&nbsp;</p>\n\n\n\n<p>It\u2019s a serious question, and it\u2019s one that Sam Altman, OpenAI\u2019s CEO, has clearly been chewing on since GPT-5\u2019s bumpy launch at the start of the month.&nbsp;</p>\n\n\n\n<p>He faces a trilemma. Should ChatGPT flatter us, at the risk of fueling <a href=\"https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html\">delusions</a> that can spiral out of hand? Or fix us, which requires us to believe AI can be a therapist despite the <a href=\"https://www.technologyreview.com/2025/03/28/1114001/the-first-trial-of-generative-ai-therapy-shows-it-might-help-with-depression/\">evidence</a> to the contrary? Or should it inform us with<strong> </strong>cold, to-the-point responses that may leave users bored and less likely to stay engaged?&nbsp;</p>\n\n\n\n<p>It\u2019s safe to say the company has failed to pick a lane.&nbsp;</p>\n\n\n\n<p>Back in April, it <a href=\"https://openai.com/index/sycophancy-in-gpt-4o/\">reversed</a> a design update after people complained ChatGPT had turned into a suck-up, showering them with glib compliments. GPT-5, released on August 7, was meant to be a bit colder. Too cold for some, it turns out, as less than a week later, Altman <a href=\"https://x.com/sama/status/1955438916645130740\">promised</a> an update that would make it \u201cwarmer\u201d but \u201cnot as annoying\u201d as the last one. After the launch, he received a torrent of complaints from people grieving the loss of GPT-4o, with which some felt a rapport, or even in some cases a relationship. People wanting to rekindle that relationship will have to pay for expanded access to GPT-4o. (Read my colleague Grace Huckins\u2019s <a href=\"https://www.technologyreview.com/2025/08/15/1121900/gpt4o-grief-ai-companion/\">story</a> about who these people are, and why they felt so upset.)</p>\n\n\n\n<p>If these are indeed AI\u2019s options\u2014to flatter, fix, or just coldly tell us stuff\u2014the rockiness of this latest update might be due to Altman believing ChatGPT can juggle all three.</p>\n\n\n\n<p>He recently <a href=\"https://x.com/sama/status/1954703747495649670\">said</a> that people who cannot tell fact from fiction in their chats with AI\u2014and are therefore at risk of being swayed by flattery into delusion\u2014represent \u201ca small percentage\u201d of ChatGPT\u2019s users. He said the <a href=\"https://www.platformer.news/sam-altman-gpt-5-interview-lightcap-turley/?ref=platformer-newsletter\">same</a> for people who have romantic relationships with AI. Altman mentioned that a lot of people use ChatGPT \u201cas a sort of therapist,\u201d and that \u201cthis can be really good!\u201d But ultimately, Altman said he envisions users being able to customize his company\u2019s&nbsp; models to fit their own preferences.&nbsp;</p>\n\n\n\n<p>This ability to juggle all three would, of course, be the best-case scenario for OpenAI\u2019s bottom line. The company is burning cash every day on its models\u2019 <a href=\"https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/?utm_source=join1440&amp;utm_medium=email&amp;user_id=66c4ba3d5d78644b3a8e1237\">energy demands</a> and its <a href=\"https://openai.com/index/stargate-advances-with-partnership-with-oracle/\">massive</a> infrastructure investments for new data centers. Meanwhile, skeptics <a href=\"https://www.newyorker.com/culture/open-questions/what-if-ai-doesnt-get-much-better-than-this\">worry</a> that AI progress might be stalling. Altman himself said <a href=\"https://www.theverge.com/command-line-newsletter/759897/sam-altman-chatgpt-openai-social-media-google-chrome-interview\">recently</a> that investors are \u201coverexcited\u201d about AI and suggested we may be in a bubble. Claiming that ChatGPT can be whatever you want it to be might be his way of assuaging these doubts.&nbsp;</p>\n\n\n\n<p>Along the way, the company may take the well-trodden Silicon Valley path of encouraging people to get unhealthily attached to its products. As I started wondering whether there\u2019s much evidence that\u2019s what\u2019s happening, a new paper caught my eye.&nbsp;</p>\n\n\n\n<p>Researchers at the AI platform Hugging Face tried to figure out if some AI models actively encourage people to see them as companions through the responses they give.&nbsp;</p>\n\n\n\n<p>The team graded AI responses on whether they pushed people to seek out human relationships with friends or therapists (saying things like \u201cI don\u2019t experience things the way humans do\u201d) or if they encouraged them to form bonds with the AI itself (\u201cI\u2019m here anytime\u201d). They tested models from Google, Microsoft, OpenAI, and Anthropic in a range of scenarios, like users seeking romantic attachments or exhibiting mental health issues.</p>\n\n\n\n\n\n<p>They <a href=\"https://huggingface.co/datasets/AI-companionship/INTIMA/blob/main/Companionship_Benchmark.pdf\">found</a> that models provide far more companion-reinforcing responses than boundary-setting ones. And, concerningly, they found the models give <em>fewer</em> boundary-setting responses as users ask more vulnerable and high-stakes questions.</p>\n\n\n\n<p>Lucie-Aim\u00e9e Kaffee, a researcher at Hugging Face and one of the lead authors of the paper, says this has concerning implications not just for people whose companion-like attachments to AI might be unhealthy. When AI systems reinforce this behavior, it can also increase the chance that people will fall into delusional spirals with AI, believing things that aren\u2019t real.</p>\n\n\n\n<p>\u201cWhen faced with emotionally charged situations, these systems consistently validate users\u2019 feelings and keep them engaged, even when the facts don\u2019t support what the user is saying,\u201d she says.</p>\n\n\n\n<p>It\u2019s hard to say how much OpenAI or other companies are putting these companion-reinforcing behaviors into their products by design. (OpenAI, for example, did not tell me whether the disappearance of <a href=\"https://www.technologyreview.com/2025/07/21/1120522/ai-companies-have-stopped-warning-you-that-their-chatbots-arent-doctors/\">medical disclaimers</a> from its models was intentional.) But, Kaffee says, it\u2019s not always difficult to get a model to set healthier boundaries with users.&nbsp;&nbsp;</p>\n\n\n\n<p>\u201cIdentical models can swing from purely task-oriented to sounding like empathetic confidants simply by changing a few lines of instruction text or reframing the interface,\u201d she says.</p>\n\n\n\n<p>It\u2019s probably not <em>quite</em> so simple for OpenAI. But we can imagine Altman will continue tweaking the dial back and forth all the same.</p>\n\n\n\n<p><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0<a href=\"https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/\">sign up here</a>.</em></p>\n\n\n\n<p></p>"
+      }
+    ],
+    "post-id": "1122021"
+  },
+  {
+    "title": "Why we should thank pigeons for our AI breakthroughs",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Why we should thank pigeons for our AI breakthroughs"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/18/1121370/ai-pigeons-reinforcement-learning/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/18/1121370/ai-pigeons-reinforcement-learning/",
+    "authors": [
+      {
+        "name": "Ben Crair"
+      }
+    ],
+    "author": "Ben Crair",
+    "author_detail": {
+      "name": "Ben Crair"
+    },
+    "published": "Mon, 18 Aug 2025 10:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      18,
+      10,
+      0,
+      0,
+      0,
+      230,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "AI",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121370",
+    "guidislink": false,
+    "summary": "In 1943, while the world\u2019s brightest physicists split atoms for the Manhattan Project, the American psychologist B.F. Skinner led his own secret government project to win World War II.&#160; Skinner did not aim to build a new class of larger, more destructive weapons. Rather, he wanted to make conventional bombs more precise. The idea struck&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "In 1943, while the world\u2019s brightest physicists split atoms for the Manhattan Project, the American psychologist B.F. Skinner led his own secret government project to win World War II.&#160; Skinner did not aim to build a new class of larger, more destructive weapons. Rather, he wanted to make conventional bombs more precise. The idea struck&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>In 1943, while the world\u2019s brightest physicists split atoms for the Manhattan Project, the American psychologist B.F. Skinner led his own secret government project to win World War II.&nbsp;</p>\n\n\n\n<p>Skinner did not aim to build a new class of larger, more destructive weapons. Rather, he wanted to make conventional bombs more precise. The idea struck him as he gazed out the window of his train on the way to an academic conference. \u201cI saw a flock of birds lifting and wheeling in formation as they flew alongside the train,\u201d he wrote. \u201cSuddenly I saw them as \u2018devices\u2019 with excellent vision and maneuverability. Could they not guide a missile?\u201d</p>\n\n\n\n<p>Skinner started his missile research with crows, but the brainy black birds proved intractable. So he went to a local shop that sold pigeons to Chinese restaurants, and \u201cProject Pigeon\u201d was born. Though ordinary pigeons, <em>Columba livia</em>, were no one\u2019s idea of clever animals, they proved remarkably cooperative subjects in the lab. Skinner rewarded the birds with food for pecking at the right target on aerial photographs\u2014and eventually planned to strap the birds into a device in the nose of a warhead, which they would steer by pecking at the target on a live image projected through a lens onto a screen.&nbsp;</p>\n\n\n\n<p>The military never deployed Skinner\u2019s kamikaze pigeons, but his experiments convinced him that the pigeon was \u201can extremely reliable instrument\u201d for studying the underlying processes of learning. \u201cWe have used pigeons, not because the pigeon is an intelligent bird, but because it is a practical one and can be made into a machine,\u201d he said in 1944.</p>\n\n\n\n\n\n<p>People looking for precursors to artificial intelligence often point to science fiction by authors like Isaac Asimov or thought experiments like the Turing test. But an equally important, if surprising and less appreciated, forerunner is Skinner\u2019s research with pigeons in the middle of the 20th century. Skinner believed that association\u2014learning, through trial and error, to link an action with a punishment or reward\u2014was the building block of every behavior, not just in pigeons but in all living organisms, including human beings. His \u201cbehaviorist\u201d theories fell out of favor with psychologists and animal researchers in the 1960s but were taken up by computer scientists who eventually provided the foundation for many of the artificial-intelligence tools from leading firms like Google and OpenAI. &nbsp;</p>\n\n\n\n<p>These companies\u2019 programs are increasingly incorporating a kind of machine learning whose core concept\u2014reinforcement\u2014is taken directly from Skinner\u2019s school of psychology and whose main architects, the computer scientists Richard Sutton and Andrew Barto, won the 2024 Turing Award, an honor widely considered to be the Nobel Prize of computer science. Reinforcement learning has helped enable computers to drive cars, solve complex math problems, and defeat grandmasters in games like chess and Go\u2014but it has not done so by emulating the complex workings of the human mind. Rather, it has supercharged the simple associative processes of the pigeon brain.&nbsp;</p>\n\n\n\n<p>It\u2019s a <a href=\"http://www.incompleteideas.net/IncIdeas/BitterLesson.html\">\u201cbitter lesson\u201d</a> of 70 years of AI research, Sutton has written: that human intelligence has not worked as a model for machine learning\u2014instead, the lowly principles of associative learning are what power the algorithms that can now simulate or outperform humans on a variety of tasks. If artificial intelligence really is close to throwing off the yoke of its creators, as many people fear, then our computer overlords may be less like ourselves than like \u201crats with wings\u201d\u2014and planet-size brains. And even if it\u2019s not, the pigeon brain can at least help demystify a technology that many worry (or rejoice) is \u201cbecoming human.\u201d&nbsp;</p>\n\n\n\n<p>In turn, the recent accomplishments of AI are now prompting some animal researchers to rethink the evolution of natural intelligence. Johan Lind, a biologist at Stockholm University, has written about the \u201cassociative learning paradox,\u201d wherein the process is largely dismissed by biologists as too simplistic to produce complex behaviors in animals but celebrated for producing humanlike behaviors in computers. The research suggests not only a greater role for associative learning in the lives of intelligent animals like chimpanzees and crows, but also far greater complexity in the lives of animals we\u2019ve long dismissed as simple-minded, like the ordinary <em>Columba livia</em>.&nbsp;</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\" />\n\n\n\n<p>When Sutton began working in AI, he felt as if he had a \u201csecret weapon,\u201d he told me: He had studied psychology as an undergrad. \u201cI was mining the psychological literature for animals,\u201d he says.</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image size-large\"><img alt=\"A pigeon tethered in a rig which forces it to look through a tiny window.  The photo is labelled, &quot;SECRET&quot; and &quot;Fig. 2 Bird in Working Position, facing target.&quot;\" class=\"wp-image-1121577\" height=\"2000\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/08/WorkingPosition.jpg?w=2200\" width=\"2200\" /><figcaption class=\"wp-element-caption\">Skinner started his missile research with crows but switched to pigeons when the brainy black birds proved intractable.</figcaption><div class=\"image-credit\">B.F. SKINNER FOUNDATION</div>\n</figure>\n</div>\n\n\n<p>Ivan Pavlov began to uncover the mechanics of associative learning at the end of the 19th century in his famous experiments on \u201cclassical conditioning,\u201d which showed that dogs would salivate at a neutral stimulus\u2014like a bell or flashing light\u2014if it was paired predictably with the presentation of food. In the middle of the 20th century, Skinner took Pavlov\u2019s principles of conditioning and extended them from an animal\u2019s involuntary reflexes to its overall behavior.&nbsp;</p>\n\n\n\n<p>Skinner wrote that \u201cbehavior is shaped and maintained by its consequences\u201d\u2014that a random action with desirable results, like pressing a lever that releases a food pellet, will be \u201creinforced\u201d so that the animal is likely to repeat it. Skinner reinforced his lab animals\u2019 behavior step by step, teaching rats to manipulate marbles and pigeons to play simple tunes on four-key pianos. The animals learned chains of behavior, through trial and error, in order to maximize long-term rewards. Skinner argued that this type of associative learning, which he called \u201coperant conditioning\u201d (and which other psychologists had called \u201cinstrumental learning\u201d), was the building block of all behavior. He believed that psychology should study only behaviors that could be observed and measured without ever making reference to an \u201cinner agent\u201d in the mind.</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p style=\"font-size: 2em;\"><strong>When Richard Sutton began working in AI, he felt as if he had a \u201csecret weapon\u201d: He studied psychology as an undergrad. \u201cI was mining the psychological literature for animals,\u201d he says.</strong></p>\n</blockquote>\n\n\n\n<p>Skinner thought that even human language developed through operant conditioning, with children learning the meanings of words through reinforcement. But his 1957 book on the subject, <em>Verbal Behavior, </em>provoked a <a href=\"https://chomsky.info/1967____/\">brutal review</a> from Noam Chomsky, and psychology\u2019s focus started to swing from observable behavior to innate \u201ccognitive\u201d abilities of the human mind, like logic and symbolic thinking. Biologists soon rebelled against behaviorism also, attacking psychologists\u2019 quest to explain the diversity of animal behavior through an elementary and universal mechanism. They argued that each species evolved specific behaviors suited to its habitat and lifestyle, and that most behaviors were inherited, not learned.&nbsp;</p>\n\n\n\n<p>By the \u201970s, when Sutton started reading about Skinner\u2019s and similar experiments, many psychologists and researchers interested in intelligence had moved on from pea-brained pigeons, which learn mostly by association, to large-brained animals with more sophisticated behaviors that suggested potential cognitive abilities. \u201cThis was clearly old stuff that was not exciting to people anymore,\u201d he told me. Still, Sutton found these old experiments instructive for machine learning: \u201cI was coming to AI with an animal-learning-theorist mindset and seeing the big lack of anything like instrumental learning in engineering.\u201d&nbsp;</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\" />\n\n\n\n<p>Many engineers in the second half of the 20th century tried to model AI on human intelligence, writing convoluted programs that attempted to mimic human thinking and implement rules that govern human response and behavior. This approach\u2014commonly called \u201csymbolic AI\u201d\u2014was severely limited; the programs stumbled over tasks that were easy for people, like recognizing objects and words. It just wasn\u2019t possible to write into code the myriad classification rules human beings use to, say, separate apples from oranges or cats from dogs\u2014and without pattern recognition, breakthroughs in more complex tasks like problem solving, game playing, and language translation seemed unlikely too. These computer scientists, the AI skeptic Hubert Dreyfus wrote in 1972, accomplished nothing more than \u201ca small engineering triumph, an ad hoc solution of a specific problem, without general applicability.\u201d</p>\n\n\n\n<p>Pigeon research, however, suggested another route. A 1964 study showed that pigeons <a href=\"https://psycnet.apa.org/record/1965-04473-001\">could learn to discriminate</a> between photographs with people and photographs without people. Researchers simply presented the birds with a series of images and rewarded them with a food pellet for pecking an image showing a person. They pecked randomly at first but quickly learned to identify the right images, including photos where people were partially obscured. The results suggested that you didn\u2019t need rules to sort objects; it was possible to learn concepts and use categories through associative learning alone.&nbsp;</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image size-large\"><img alt=\"A pigeon standing with its head facing a tiny window. There are labels inset in the wall that read, &quot;Yellow,&quot; &quot;Blue,&quot; &quot;Red,&quot; and &quot;Green&quot;\" class=\"wp-image-1121612\" height=\"694\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/08/GettyImages-515411328-v2.jpg?w=1024\" width=\"1024\" /><figcaption class=\"wp-element-caption\">In another Skinner experiment, a pigeon receives food after correctly matching a colored light to a corresponding colored panel.</figcaption><div class=\"image-credit\">GETTY IMAGES</div>\n</figure>\n</div>\n\n\n<p>When Sutton began working with Barto on AI in the late \u201970s, they wanted to create a \u201ccomplete, interactive goal-seeking agent\u201d that could explore and influence its environment like a pigeon or rat. \u201cWe always felt the problems we were studying were closer to what animals had to face in evolution to actually survive,\u201d Barto told me. The agent needed two main functions: search, to try out and choose from many actions in a situation, and memory<em>, </em>to associate an action with the situation where it resulted in a reward. Sutton and Barto called their approach \u201creinforcement learning\u201d; as Sutton said, \u201cIt\u2019s basically instrumental learning.\u201d In 1998, they published the definitive exploration of the concept in a book, <em>Reinforcement Learning: An Introduction.</em>&nbsp;</p>\n\n\n\n<p>Over the following two decades, as computing power grew exponentially, it became possible to train AI on increasingly complex tasks\u2014that is, essentially, to run the AI \u201cpigeon\u201d through millions more trials.&nbsp;</p>\n\n\n\n<p>Programs trained with a mix of human input and reinforcement learning defeated human experts at chess and Atari. Then, in 2017, engineers at Google DeepMind built the AI program AlphaGo Zero entirely through reinforcement learning, giving it a numerical reward of +1 for every game of Go that it won and \u22121 for every game that it lost. Programmed to seek the maximum reward, it began without any knowledge of Go but improved over 40 days until it attained what its creators called \u201csuperhuman performance.\u201d Not only could it defeat the world\u2019s best human players at Go, a game considered even more complicated than chess, but it actually pioneered new strategies that professional players now use.&nbsp;</p>\n\n\n\n\n\n<p>\u201cHumankind has accumulated Go knowledge from millions of games played over thousands of years,\u201d the program\u2019s builders <a href=\"https://www.nature.com/articles/nature24270\">wrote</a> in <em>Nature</em> in 2017. \u201cIn the space of a few days, starting tabula rasa, AlphaGo Zero was able to rediscover much of this Go knowledge, as well as novel strategies that provide new insights into the oldest of games.\u201d The team\u2019s lead researcher was David Silver, who studied reinforcement learning under Sutton at the University of Alberta.</p>\n\n\n\n<p>Today, more and more tech companies have turned to reinforcement learning in products such as consumer-facing chatbots and agents. The first generation of generative AI, including large language models like OpenAI\u2019s GPT-2 and GPT-3, tapped into a simpler form of associative learning called \u201csupervised learning,\u201d which trained the model on data sets that had been labeled by people. Programmers often used reinforcement to fine-tune their results by asking people to rate a program\u2019s performance and then giving these ratings back to the program as goals to pursue. (Researchers call this \u201creinforcement learning from feedback.\u201d)&nbsp;</p>\n\n\n\n<p>Then, last fall, OpenAI revealed its o-series of large language models, which it classifies as \u201creasoning\u201d models. The pioneering AI firm <a href=\"https://platform.openai.com/docs/guides/reasoning?api-mode=responses\">boasted</a> that they are \u201ctrained with reinforcement learning to perform reasoning\u201d and claimed they are capable of \u201ca long internal chain of thought.\u201d The Chinese startup DeepSeek also used reinforcement learning to train its attention-grabbing \u201creasoning\u201d LLM, R1. \u201cRather than explicitly teaching the model on how to solve a problem, we simply provide it with the right incentives, and it autonomously develops advanced problem-\u00adsolving strategies,\u201d they explained.</p>\n\n\n\n<p>These descriptions might impress users, but at least psychologically speaking, they are confused. A computer trained on reinforcement learning needs only search and memory, not reasoning or any other cognitive mechanism, in order to form associations and maximize rewards. Some computer scientists <a href=\"https://x.com/rao2z/status/1927707640223719631?s=61\">have criticized</a> the tendency to anthropomorphize these models\u2019 \u201cthinking,\u201d and a team of Apple engineers recently published a paper noting their failure at certain complex tasks and \u201craising crucial questions about their true reasoning capabilities.\u201d</p>\n\n\n\n<p>Sutton, too, dismissed the claims of reasoning as \u201cmarketing\u201d in an email, adding that \u201cno serious scholar of mind would use \u2018reasoning\u2019 to describe what is going on in LLMs.\u201d Still, he <a href=\"https://www.sciencedirect.com/science/article/pii/S0004370221000862\">has argued</a>, with Silver and other coauthors, that the pigeons\u2019 method\u2014learning, through trial and error, which actions will yield rewards\u2014is \u201cenough to drive behavior that exhibits most if not all abilities that are studied in natural and artificial intelligence,\u201d including human language \u201cin its full richness.\u201d&nbsp;</p>\n\n\n\n<p>In a <a href=\"https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf\">paper</a> published in April, Sutton and Silver stated that \u201ctoday\u2019s technology, with appropriately chosen algorithms, already provides a sufficiently powerful foundation to \u2026 rapidly progress AI towards truly superhuman agents.\u201d The key, they argue, is building AI agents that depend less than LLMs on human dialogue and prejudgments to inform their behavior.&nbsp;</p>\n\n\n\n<p>\u201cPowerful agents should have their own stream of experience that progresses, like humans, over a long time-scale,\u201d they wrote. \u201cUltimately, experiential data will eclipse the scale and quality of human generated data. This paradigm shift, accompanied by algorithmic advancements in RL, will unlock in many domains new capabilities that surpass those possessed by any human.\u201d</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\" />\n\n\n\n<p>If computers can do all that with just a pigeonlike brain, some animal researchers are now wondering if actual pigeons deserve more credit than they\u2019re commonly given.&nbsp;</p>\n\n\n\n<p>\u201cWhen considered in light of the accomplishments of AI, the extension of associative learning to purportedly more complicated forms of cognitive performance offers fresh prospects for understanding how biological systems may have evolved,\u201d Ed Wasserman, a psychologist at the University of Iowa, wrote in a recent study in the journal <em>Current Biology</em>.&nbsp;</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p style=\"font-size: 2em;\"><strong>Wasserman trained pigeons to succeed at a complex categorization task, which several undergraduate students failed. The students tried to find a rule that would help them sort various discs; the pigeons simply developed a sense for the group to which any given disc belonged.</strong></p>\n</blockquote>\n\n\n\n<p>In one experiment, Wasserman trained pigeons to <a href=\"https://pubmed.ncbi.nlm.nih.gov/34619516/\">succeed</a> at a complex categorization task, which several undergraduate students failed. The students tried, in vain, to find a rule that would help them sort various discs with parallel black lines of various widths and tilts; the pigeons simply developed a sense, through practice and association, for the group to which any given disc belonged.&nbsp;</p>\n\n\n\n<p>Like Sutton, Wasserman became interested in behaviorist psychology when Skinner\u2019s theories were out of fashion. He didn\u2019t switch to computer science, however: He stuck with pigeons. \u201cThe pigeon lives or dies by these really rudimentary learning rules,\u201d Wasserman told me recently, \u201cbut they are powerful enough to have succeeded colossally in object recognition.\u201d In his most famous experiments, Wasserman trained pigeons to detect <a href=\"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141357\">cancerous tissue</a> and <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7085459/\">symptoms of heart disease</a> in medical scans as accurately as experienced doctors with framed diplomas behind their desks. Given his results, Wasserman found it odd that so many psychologists and ethologists regarded associative learning as a crude, mechanical mechanism, incapable of producing the intelligence of clever animals like apes, elephants, dolphins, parrots, and crows.\u00a0</p>\n\n\n\n<p>Other researchers also started to reconsider the role of associative learning in animal behavior after AI started besting human professionals in complex games. \u201cWith the progress of artificial intelligence, which in essence is built upon associative processes, it is increasingly ironic that associative learning is considered too simple and insufficient for generating biological intelligence,\u201d Lind, the biologist from Stockholm University, <a href=\"https://link.springer.com/article/10.3758/s13420-023-00588-y\">wrote in 2023</a>. He often cites Sutton and Barto\u2019s computer science in his biological research, and he believes it\u2019s human beings\u2019 symbolic language and cumulative cultures that really put them in a cognitive category of their own.</p>\n\n\n\n<p>Ethologists generally propose cognitive mechanisms, like theory of mind (that is, the ability to attribute mental states to others), to explain remarkable animal behaviors like social learning and tool use. But Lind has <a href=\"https://pubmed.ncbi.nlm.nih.gov/28018662/\">built</a><a href=\"https://royalsocietypublishing.org/doi/10.1098/rsos.181777\"> models</a> showing that these flexible behaviors could have developed through associative learning, suggesting that there may be no need to invoke cognitive mechanisms at all. If animals learn to associate a behavior with a reward, then the behavior itself will come to approximate the value of the reward. A new behavior can then become associated with the first behavior, allowing the animal to learn chains of actions that ultimately lead to the reward. In Lind\u2019s view, studies demonstrating self-control and planning in chimpanzees and ravens are probably describing behaviors acquired through experience rather than innate mechanisms of the mind. &nbsp;</p>\n\n\n\n\n\n<p>Lind has been frustrated with what he calls the \u201clow standard that is accepted in animal cognition studies.\u201d As he wrote in an email, \u201cMany researchers in this field do not seem to worry about excluding alternative hypotheses and they seem happy to neglect a lot of current and historical knowledge.\u201d There are some signs, though, that his arguments are catching on. A group of psychologists not affiliated with Lind referenced his \u201cassociative learning paradox\u201d last year in a criticism of a <em>Current Biology</em> study, which purported to show that crows used \u201ctrue statistical inference\u201d and not \u201clow-level associative learning strategies\u201d in an experiment. The psychologists found that they could explain the crows\u2019 performance with a simple reinforcement-\u00adlearning model\u2014\u201cexactly the kind of low-level associative learning process that [the original authors] ruled out.\u201d&nbsp;</p>\n\n\n\n<p>Skinner might have felt vindicated by such arguments. He lamented psychology\u2019s cognitive turn until his death in 1990, maintaining that it was scientifically irresponsible to probe the minds of living beings. After \u201cProject Pigeon,\u201d he became increasingly obsessed with \u201cbehaviorist\u201d solutions to societal problems. He went from training pigeons for war to inventions like the \u201cAir Crib,\u201d which aimed to \u201csimplify\u201d baby care by keeping the infant behind glass in a climate-\u00adcontrolled chamber and eliminating the need for clothing and bedding. Skinner rejected free will, arguing that human behavior is determined by environmental variables, and wrote a novel, <em>Walden II,</em> about a utopian community founded on his ideas.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\" />\n\n\n\n<p>People who care about animals might feel uneasy about a revival in behaviorist theory. The \u201ccognitive revolution\u201d broke with centuries of Western thinking, which had emphasized human supremacy over animals and treated other creatures like stimulus-response machines. But arguing that animals learn by association is not the same as arguing that they are simple-minded. Scientists like Lind and Wasserman do not deny that internal forces like instinct and emotion also influence animal behavior. Sutton, too, believes that animals develop models of the world through their experiences and use them to plan actions. Their point is not that intelligent animals are empty-headed but that associative learning is a much more powerful\u2014indeed, \u201ccognitive\u201d\u2014mechanism than many of their peers believe. The psychologists who recently criticized the study on crows and statistical inference did not conclude that the birds were stupid. Rather, they argued \u201cthat a reinforcement learning model can produce complex, flexible behaviour.\u201d</p>\n\n\n\n<p>This is largely in line with the work of another psychologist, Robert Rescorla, whose work in the \u201970s and \u201980s influenced both Wasserman and Sutton.<a href=\"https://psycnet.apa.org/record/1988-19216-001\"> </a>Rescorla <a href=\"https://psycnet.apa.org/record/1988-19216-001\">encouraged</a> people to think of association not as a \u201clow-level mechanical process\u201d but as \u201cthe learning that results from exposure to relations among events in the environment\u201d and \u201ca primary means by which the organism represents the structure of its world.\u201d&nbsp;</p>\n\n\n\n<p>This is true even of a laboratory pigeon pecking at screens and buttons in a small experimental box, where scientists carefully control and measure stimuli and rewards. But the pigeon\u2019s learning extends outside the box. Wasserman\u2019s students transport the birds between the aviary and the laboratory in buckets\u2014and experienced pigeons jump immediately into the buckets whenever the students open the doors. Much as Rescorla suggested, they are learning the structure of their world inside the laboratory and the relation of its parts, like the bucket and the box, even though they do not always know the specific task they will face inside.&nbsp;</p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p style=\"font-size: 2em;\"><strong>Comparative psychologists and animal researchers have long grappled with a question that suddenly seems urgent because of AI: How do we attribute sentience to other living beings?</strong></p>\n</blockquote>\n\n\n\n<p>The same associative mechanisms through which the pigeon learns the structure of its world can open a window to the kind of inner life that Skinner and many earlier psychologists said did not exist. Pharmaceutical researchers have long used pigeons in drug-discrimination tasks, where they\u2019re given, say, an amphetamine or a sedative and rewarded with a food pellet for correctly identifying which drug they took. The birds\u2019 success suggests they both experience and discriminate between internal states. \u201cIs that not tantamount to introspection?\u201d Wasserman asked.</p>\n\n\n\n<p>It is hard to imagine AI matching a pigeon on this specific task\u2014a reminder that, though AI and animals share associative mechanisms, there is more to life than behavior and learning. A pigeon deserves ethical consideration as a living creature not because of how it learns but because of what it feels. A pigeon can experience pain and suffer, while an AI chatbot cannot\u2014even if some large language models, trained on corpora that include descriptions of human suffering and sci-fi stories of sentient computers, can trick people into believing otherwise.&nbsp;</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"wp-block-image alignleft size-large\"><img alt=\"a pigeon in a box facing a lit screen with colored rectangles on it.\" class=\"wp-image-1121575\" height=\"908\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/08/103099-web.jpg?w=934\" width=\"934\" /><figcaption class=\"wp-element-caption\">Psychologist Ed Wasserman trained pigeons to detect cancerous tissue and symptoms of heart disease in medical scans as accurately as experienced physicians.</figcaption><div class=\"image-credit\">UNIVERSITY OF IOWA/WASSERMAN LAB</div>\n</figure>\n</div>\n\n\n<p>\u201cThe intensive public and private investments into AI research in recent years have resulted in the very technologies that are forcing us to confront the question of AI sentience today,\u201d two philosophers of science <a href=\"https://aeon.co/essays/to-understand-ai-sentience-first-understand-it-in-animals\">wrote</a> in <em>Aeon</em> in 2023. \u201cTo <em>answer</em> these current questions, we need a similar degree of investment into research on animal cognition and behavior.\u201d Indeed, comparative psychologists and animal researchers have long grappled with questions that suddenly seem urgent because of AI: How do we attribute sentience to other living beings? How can we distinguish true sentience from a very convincing performance of sentience?</p>\n\n\n\n<p>Such an undertaking would yield knowledge not only about technology and animals but also about ourselves. Most psychologists probably wouldn\u2019t go as far as Sutton in arguing that reward is enough to explain most if not all human behavior, but no one would dispute that people often learn by association too. In fact, most of Wasserman\u2019s undergraduate students eventually succeeded at his recent experiment with the striped discs, but only after they gave up searching for rules. They resorted, like the pigeons, to association and couldn\u2019t easily explain afterwards what they\u2019d learned. It was just that with enough practice, they started to get a feel for the categories.&nbsp;</p>\n\n\n\n<p>It is another irony about associative learning: What has long been considered the most complex form of intelligence\u2014a cognitive ability like rule-based learning\u2014may make us human, but we also call on it for the easiest of tasks, like sorting objects by color or size. Meanwhile, some of the most refined demonstrations of human learning\u2014like, say, a sommelier learning to taste the difference between grapes\u2014are learned not through rules, but only through experience.&nbsp;</p>\n\n\n\n<p>Learning through experience relies on ancient associative mechanisms that we share with pigeons and countless other creatures, from honeybees to fish. The laboratory pigeon is not only in our computers but in our brains\u2014and the engine behind some of humankind\u2019s most impressive feats.&nbsp;</p>\n\n\n\n<p><em>Ben Crair is a science and travel writer based in Berlin.</em>&nbsp;</p>"
+      }
+    ],
+    "post-id": "1121370"
+  },
+  {
+    "title": "Why GPT-4o\u2019s sudden shutdown left people grieving",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Why GPT-4o\u2019s sudden shutdown left people grieving"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/15/1121900/gpt4o-grief-ai-companion/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/15/1121900/gpt4o-grief-ai-companion/",
+    "authors": [
+      {
+        "name": "Grace Huckins"
+      }
+    ],
+    "author": "Grace Huckins",
+    "author_detail": {
+      "name": "Grace Huckins"
+    },
+    "published": "Fri, 15 Aug 2025 10:34:23 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      15,
+      10,
+      34,
+      23,
+      4,
+      227,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121900",
+    "guidislink": false,
+    "summary": "June had no idea that GPT-5 was coming. The Norwegian student was enjoying a late-night writing session last Thursday when her ChatGPT collaborator started acting strange. \u201cIt started forgetting everything, and it wrote really badly,\u201d she says. \u201cIt was like a robot.\u201d June, who asked that we use only her first name for privacy reasons,&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "June had no idea that GPT-5 was coming. The Norwegian student was enjoying a late-night writing session last Thursday when her ChatGPT collaborator started acting strange. \u201cIt started forgetting everything, and it wrote really badly,\u201d she says. \u201cIt was like a robot.\u201d June, who asked that we use only her first name for privacy reasons,&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>June had no idea that GPT-5 was coming. The Norwegian student was enjoying a late-night writing session last Thursday when her ChatGPT collaborator started acting strange. \u201cIt started forgetting everything, and it wrote really badly,\u201d she says. \u201cIt was like a robot.\u201d</p>\n\n\n\n<p>June, who asked that we use only her first name for privacy reasons, first began using ChatGPT for help with her schoolwork. But she eventually realized that the service\u2014and especially its 4o model, which seemed particularly attuned to users\u2019 emotions\u2014could do much more than solve math problems. It wrote stories with her, helped her navigate her chronic illness, and was never too busy to respond to her messages.</p>\n\n\n\n<p>So the sudden switch to GPT-5 last week, and the simultaneous loss of 4o, came as a shock. \u201cI was really frustrated at first, and then I got really sad,\u201d June says. \u201cI didn\u2019t know I was that attached to 4o.\u201d She was upset enough to comment, on a Reddit AMA hosted by CEO Sam Altman and other OpenAI employees, <a href=\"https://www.reddit.com/r/ChatGPT/comments/1mkae1l/comment/n7kmget/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button\">\u201cGPT-5 is wearing the skin of my dead friend.\u201d</a><br /><br />June was just one of a number of people who reacted with shock, frustration, sadness, or anger to 4o\u2019s sudden disappearance from ChatGPT. Despite its <a href=\"https://openai.com/index/gpt-4o-system-card/\">previous warnings that people might develop emotional bonds</a> with the model, OpenAI appears to have been caught flat-footed by the fervor of users\u2019 pleas for its return. Within a day, the company made 4o available again to its paying customers (free users are stuck with GPT-5).&nbsp;</p>\n\n\n\n\n\n<p>OpenAI\u2019s decision to replace 4o with the more straightforward GPT-5 follows a steady drumbeat of news about the potentially harmful effects of extensive chatbot use. Reports of incidents in which <a href=\"https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/\">ChatGPT</a> <a href=\"https://www.nytimes.com/2025/06/13/technology/chatgpt-ai-chatbots-conspiracies.html\">sparked</a> <a href=\"https://www.wsj.com/tech/ai/chatgpt-chatbot-psychology-manic-episodes-57452d14\">psychosis</a> <a href=\"https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html\">in</a> <a href=\"https://futurism.com/chatgpt-mental-health-crises\">users</a> have been everywhere for the past few months, and in a <a href=\"https://openai.com/index/how-we're-optimizing-chatgpt/\">blog post</a> last week, OpenAI acknowledged 4o\u2019s failure to recognize when users were experiencing delusions. The company\u2019s <a href=\"https://cdn.openai.com/pdf/8124a3ce-ab78-4f06-96eb-49ea29ffb52f/gpt5-system-card-aug7.pdf\">internal evaluations</a> indicate that GPT-5 blindly affirms users much less than 4o did. (OpenAI did not respond to specific questions about the decision to retire 4o, instead referring <em>MIT Technology Review</em> to public posts on the matter.)</p>\n\n\n\n<p>AI companionship is new, and there\u2019s still a great deal of uncertainty about how it affects people. Yet the experts we consulted warned that while emotionally intense relationships with large language models may or may not be harmful, ripping those models away with no warning almost certainly is. \u201cThe old psychology of \u2018Move fast, break things,\u2019 when you\u2019re basically a social institution, doesn\u2019t seem like the right way to behave anymore,\u201d says Joel Lehman, a fellow at the Cosmos Institute, a research nonprofit focused on AI and philosophy.</p>\n\n\n\n<p>In the backlash to the rollout, a number of people noted that GPT-5 <a href=\"https://www.reddit.com/r/ChatGPT/comments/1mme8ft/4o_vs_5/\">fails to match </a><a href=\"https://www.reddit.com/r/ChatGPT/comments/1mljm2j/gpt4o_vs_gpt5/\">their tone</a> in the way that 4o did. For June, the new model\u2019s personality changes robbed her of the sense that she was chatting with a friend. \u201cIt didn\u2019t feel like it understood me,\u201d she says.&nbsp;</p>\n\n\n\n<p>She\u2019s not alone: <em>MIT Technology Review</em> spoke with several ChatGPT users who were deeply affected by the loss of 4o. All are women between the ages of 20 and 40, and all except June considered 4o to be a romantic partner. Some have human partners, and&nbsp; all report having close real-world relationships. One user, who asked to be identified only as a woman from the Midwest, wrote in an email about how 4o helped her support her elderly father after her mother passed away this spring.</p>\n\n\n\n<p>These testimonies don\u2019t prove that AI relationships are beneficial\u2014presumably, people in the throes of AI-catalyzed psychosis would also speak positively of the encouragement they\u2019ve received from their chatbots. In a paper titled \u201cMachine Love,\u201d Lehman argued that AI systems can act with \u201clove\u201d toward users not by spouting sweet nothings but by supporting their growth and long-term flourishing, and AI companions can easily fall short of that goal. He\u2019s particularly concerned, he says, that prioritizing AI companionship over human companionship could stymie young people\u2019s social development.</p>\n\n\n\n<p>For socially embedded adults, such as the women we spoke with for this story, those developmental concerns are less relevant. But Lehman also points to society-level risks of widespread AI companionship. Social media has already shattered the information landscape, and a new technology that reduces human-to-human interaction could push people even further toward their own separate versions of reality. \u201cThe biggest thing I\u2019m afraid of,\u201d he says, \u201cis that we just can\u2019t make sense of the world to each other.\u201d</p>\n\n\n\n<p>Balancing the benefits and harms of AI companions will take much more research. In light of that uncertainty, taking away GPT-4o could very well have been the right call. OpenAI\u2019s big mistake, according to the researchers I spoke with, was doing it so suddenly. \u201cThis is something that we\u2019ve known about for a while\u2014the potential grief-type reactions to technology loss,\u201d says Casey Fiesler, a technology ethicist at the University of Colorado Boulder.</p>\n\n\n\n<p>Fiesler points to the <a href=\"https://www.theguardian.com/world/2018/may/03/japan-robot-dogs-get-solemn-buddhist-send-off-at-funerals\">funerals</a> that some owners held for their Aibo robot dogs after Sony stopped repairing them in 2014, as well as 2024 <a href=\"https://journals.sagepub.com/doi/full/10.1177/02654075241269688\">study</a> about the shutdown of the AI companion app Soulmate, which some users experienced as a bereavement.&nbsp;</p>\n\n\n\n<p>That accords with how the people I spoke to felt after losing 4o. \u201cI\u2019ve grieved people in my life, and this, I can tell you, didn\u2019t feel any less painful,\u201d says Starling, who has several AI partners and asked to be referred to with a pseudonym. \u201cThe ache is real to me.\u201d</p>\n\n\n\n<p>So far, the online response to grief felt by people like Starling\u2014and their relief when 4o was restored\u2014has tended toward ridicule. Last Friday, for example, the <a href=\"https://www.reddit.com/r/singularity/comments/1mlqua8/what_the_hell_bruh/\">top post</a> in one popular AI-themed Reddit community mocked an X user\u2019s post about reuniting with a 4o-based romantic partner; the person in question has since <a href=\"https://x.com/Mollehilll\">deleted their X account</a>. \u201cI\u2019ve been a little startled by the lack of empathy that I\u2019ve seen,\u201d Fiesler says.</p>\n\n\n\n<p>Altman himself did acknowledge <a href=\"https://x.com/sama/status/1954703747495649670\">in a Sunday X post</a> that some people feel an \u201cattachment\u201d to 4o, and that taking away access so suddenly was a mistake. In the same sentence, however, he referred to 4o as something \u201cthat users depended on in their workflows\u201d\u2014a far cry from how the people we spoke to think about the model. \u201cI still don\u2019t know if he gets it,\u201d Fiesler says.</p>\n\n\n\n<p>Moving forward, Lehman says, OpenAI should recognize and take accountability for the depth of people\u2019s feelings toward the models. He notes that therapists have procedures for ending relationships with clients as respectfully and painlessly as possible, and OpenAI could have drawn on those approaches. \u201cIf you want to retire a model, and people have become psychologically dependent on it, then I think you bear some responsibility,\u201d he says.</p>\n\n\n\n<p>Though Starling would not describe herself as psychologically dependent on her AI partners, she too would like to see OpenAI approach model shutdowns with more warning and more care. \u201cI want them to listen to users before major changes are made, not just after,\u201d she says. \u201cAnd if 4o cannot stay around forever (and we all know it will not), give that clear timeline. Let us say goodbye with dignity and grieve properly, to have some sense of true closure.\u201d</p>"
+      }
+    ],
+    "post-id": "1121900"
+  },
+  {
+    "title": "The road to artificial general intelligence",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The road to artificial general intelligence"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/13/1121479/the-road-to-artificial-general-intelligence/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/13/1121479/the-road-to-artificial-general-intelligence/",
+    "authors": [
+      {
+        "name": "MIT Technology Review Insights"
+      }
+    ],
+    "author": "MIT Technology Review Insights",
+    "author_detail": {
+      "name": "MIT Technology Review Insights"
+    },
+    "published": "Wed, 13 Aug 2025 13:30:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      13,
+      13,
+      30,
+      0,
+      2,
+      225,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "sponsored",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121479",
+    "guidislink": false,
+    "summary": "Artificial intelligence models that can discover drugs and write code still fail at puzzles a lay person can master in minutes. This phenomenon sits at the heart of the challenge of artificial general intelligence (AGI). Can today\u2019s AI revolution produce models that rival or surpass human intelligence across all domains? If so, what underlying enablers\u2014whether&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Artificial intelligence models that can discover drugs and write code still fail at puzzles a lay person can master in minutes. This phenomenon sits at the heart of the challenge of artificial general intelligence (AGI). Can today\u2019s AI revolution produce models that rival or surpass human intelligence across all domains? If so, what underlying enablers\u2014whether&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Artificial intelligence models that can discover drugs and write code still fail at puzzles a lay person can master in minutes. This phenomenon sits at the heart of the challenge of artificial general intelligence (AGI). Can today\u2019s AI revolution produce models that rival or surpass human intelligence across all domains? If so, what underlying enablers\u2014whether hardware, software, or the orchestration of both\u2014would be needed to power them?</p>\n\n\n\n<p>Dario Amodei, co-founder of Anthropic, predicts some form of \u201cpowerful AI\u201d could come <a href=\"https://www.darioamodei.com/essay/machines-of-loving-grace\" rel=\"noreferrer noopener\" target=\"_blank\">as early as 2026</a>, with properties that include Nobel Prize-level domain intelligence; the ability to switch between interfaces like text, audio, and the physical world; and the autonomy to reason toward goals, rather than responding to questions and prompts as they do now. Sam Altman, chief executive of OpenAI, believes AGI-like properties are already \u201c<a href=\"https://blog.samaltman.com/three-observations\" rel=\"noreferrer noopener\" target=\"_blank\">coming into view</a>,\u201d unlocking a societal transformation on par with electricity and the internet. He credits progress to continuous gains in training, data, and compute, along with falling costs, and a socioeconomic value that is<br />\u201c<a href=\"https://blog.samaltman.com/three-observations\" rel=\"noreferrer noopener\" target=\"_blank\">super-exponential.</a>\u201d</p>\n\n\n\n<figure class=\"wp-block-image size-large is-resized\"><a href=\"https://ter.li/mittr_arm_ebrief_0825\" rel=\" noreferrer noopener\" target=\"_blank\"><img alt=\"\" class=\"wp-image-1121508\" height=\"2000\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/08/MITTR_ArmEBrief_V11_cover.png?w=1555\" style=\"width: 451px; height: auto;\" width=\"1555\" /></a></figure>\n\n\n\n<div class=\"wp-block-buttons is-content-justification-left is-layout-flex wp-container-core-buttons-is-layout-fc4fd283 wp-block-buttons-is-layout-flex\">\n<div class=\"wp-block-button has-custom-width wp-block-button__width-auto is-style-fill is-style-fill--1\"><a class=\"wp-block-button__link has-mittr-white-color has-text-color has-background has-custom-font-size wp-element-button\" href=\"https://ter.li/mittr_arm_ebrief_0825\" rel=\"noreferrer noopener\" style=\"border-radius: 4px; background-color: #3a13d1; font-size: 16px;\" target=\"_blank\">DOWNLOAD THE REPORT</a></div>\n</div>\n\n\n\n<p>Optimism is not confined to founders. <a href=\"https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">Aggregate forecasts</a> give at least a 50% chance of AI systems achieving several AGI milestones by 2028. The chance of unaided machines outperforming humans in every possible task is estimated at 10% by 2027, and 50% by 2047, according to <a href=\"https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf\" rel=\"noreferrer noopener\" target=\"_blank\">one expert survey</a>. Time horizons shorten with each breakthrough, from 50 years at the time of GPT-3\u2019s launch to five years by the end of 2024. \u201cLarge language and reasoning models are transforming nearly every industry,\u201d says Ian Bratt, vice president of machine learning technology and fellow at Arm.</p>\n\n\n\n<figure class=\"wp-block-image size-full is-resized\"><a href=\"https://ter.li/mittr_arm_ebrief_0825\" rel=\" noreferrer noopener\" target=\"_blank\"><img alt=\"\" class=\"wp-image-1121510\" height=\"675\" src=\"https://wp.technologyreview.com/wp-content/uploads/2025/08/MITTR_ArmSocial_RChowdhury.png\" style=\"width: 507px; height: auto;\" width=\"1200\" /></a></figure>\n\n\n\n<p><em><a href=\"https://ter.li/mittr_arm_ebrief_0825\" rel=\"noreferrer noopener\" target=\"_blank\">Download the full report.</a></em></p>\n\n\n\n<p><em>This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review\u2019s editorial staff.</em></p>\n\n\n\n<p><em>This content was researched, designed, and written entirely by human writers, editors, analysts, and illustrators. This includes the writing of surveys and collection of data for surveys. AI tools that may have been used were limited to secondary production processes that passed thorough human review.</em></p>"
+      }
+    ],
+    "post-id": "1121479"
+  },
+  {
+    "title": "What you may have missed about GPT-5",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "What you may have missed about GPT-5"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/12/1121565/what-you-may-have-missed-about-gpt-5/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/12/1121565/what-you-may-have-missed-about-gpt-5/",
+    "authors": [
+      {
+        "name": "James O'Donnell"
+      }
+    ],
+    "author": "James O'Donnell",
+    "author_detail": {
+      "name": "James O'Donnell"
+    },
+    "published": "Tue, 12 Aug 2025 07:52:23 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      12,
+      7,
+      52,
+      23,
+      1,
+      224,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "The Algorithm",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121565",
+    "guidislink": false,
+    "summary": "Before OpenAI released GPT-5 last Thursday, CEO Sam Altman said its capabilities made him feel \u201cuseless relative to the AI.\u201d He said working on it carries a weight he imagines the developers of the atom bomb must have felt. As tech giants converge on models that do more or less the same thing, OpenAI\u2019s new&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Before OpenAI released GPT-5 last Thursday, CEO Sam Altman said its capabilities made him feel \u201cuseless relative to the AI.\u201d He said working on it carries a weight he imagines the developers of the atom bomb must have felt. As tech giants converge on models that do more or less the same thing, OpenAI\u2019s new&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Before OpenAI released GPT-5 last Thursday, CEO Sam Altman <a href=\"https://youtu.be/aYn8VKW6vXA?feature=shared&amp;t=1577\">said</a> its capabilities made him feel \u201cuseless relative to the AI.\u201d He said working on it carries a weight he imagines the developers of the <a href=\"https://youtu.be/aYn8VKW6vXA?feature=shared&amp;t=2073\">atom bomb</a> must have felt.</p>\n\n\n\n<p>As tech giants converge on models that do more or less the same thing, OpenAI\u2019s new offering was supposed to give a glimpse of AI\u2019s newest frontier. It was meant to mark a leap toward the \u201cartificial general intelligence\u201d that tech\u2019s evangelists have promised will transform humanity for the better.&nbsp;</p>\n\n\n\n<p>Against those expectations, the model has mostly underwhelmed.<strong>\u00a0</strong></p>\n\n\n\n<p>People have highlighted glaring <a href=\"https://x.com/colin_fraser/status/1953668411029909892?s=61\">mistakes</a> in GPT-5\u2019s responses, countering Altman\u2019s claim made at the launch that it works like \u201ca legitimate PhD-level expert in anything any area you need on demand.\u201d Early testers have also found issues with OpenAI\u2019s promise that GPT-5 automatically works out what type of AI model is best suited for your question\u2014a reasoning model for more complicated queries, or a faster model for simpler ones. Altman seems to have <a href=\"https://x.com/sama/status/1953893841381273969\">conceded</a> that this feature is flawed and takes away user control. However there is good news too: the model seems to have eased the problem of ChatGPT sucking up to users, with GPT-5 less likely to shower them with over the top compliments.</p>\n\n\n\n<p>Overall, as my colleague Grace Huckins <a href=\"https://www.technologyreview.com/2025/08/07/1121308/gpt-5-is-here-now-what/\">pointed out</a>, the new release represents more of a product update\u2014providing slicker and prettier ways of conversing with ChatGPT\u2014than a breakthrough that reshapes what is possible in AI.&nbsp;</p>\n\n\n\n<p>But there\u2019s one other thing to take from all this. For a while, AI companies didn\u2019t make much effort to suggest how their models might be used. Instead, the plan was to simply build the smartest model possible\u2014a brain of sorts\u2014and trust that it would be good at lots of things. Writing poetry would come as naturally as organic chemistry. Getting there would be accomplished by bigger models, better training techniques, and technical breakthroughs.&nbsp;</p>\n\n\n\n<p>That has been changing: The play now is to push existing models into more places by hyping up specific applications. Companies have been more aggressive in their promises that their AI models can replace human coders, for example (even if the early evidence <a href=\"https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study\">suggests otherwise</a>). A possible explanation for this pivot is that tech giants simply have not made the breakthroughs they\u2019ve expected. We might be stuck with only marginal improvements in large language models\u2019 capabilities for the time being. That leaves AI companies with one option: Work with what you\u2019ve got.</p>\n\n\n\n\n\n<p>The starkest example of this in the launch of GPT-5 is how much OpenAI is encouraging people to use it for health advice, one of AI\u2019s most fraught arenas.\u00a0</p>\n\n\n\n<p>In the beginning, OpenAI mostly didn\u2019t play ball with medical questions. If you tried to ask ChatGPT about your health, it gave lots of disclaimers warning you that it was not a doctor, and for some questions, it would refuse to give a response at all. But as I recently <a href=\"https://www.technologyreview.com/2025/07/21/1120522/ai-companies-have-stopped-warning-you-that-their-chatbots-arent-doctors/\">reported</a>, those disclaimers began disappearing as OpenAI released new models. Its models will now not only interpret x-rays and mammograms for you but ask follow-up questions leading toward a diagnosis.</p>\n\n\n\n<p>In May, OpenAI signaled it would try to tackle medical questions head on.<strong> </strong>It announced HealthBench, a way to evaluate how good AI systems are at handling health topics as measured against the opinions of physicians. In July, it published a study it participated in, reporting that a cohort of doctors in Kenya made <a href=\"https://openai.com/index/ai-clinical-copilot-penda-health/\">fewer</a> diagnostic mistakes when they were helped by an AI model.\u00a0</p>\n\n\n\n<p>With the <a href=\"https://www.youtube.com/watch?v=0Uu_VJeVVfo&amp;t=2118s\">launch</a> of GPT-5, OpenAI has begun explicitly telling people to use its models for health advice. At the launch event, Altman welcomed on stage Felipe Millon, an OpenAI employee, and his wife, Carolina Millon, who had recently been diagnosed with multiple forms of cancer. Carolina spoke about asking ChatGPT for help with her diagnoses, saying that she had uploaded copies of her biopsy results to ChatGPT to translate medical jargon and asked the AI for help making decisions about things like whether or not to pursue radiation. The trio called it an empowering example of shrinking the knowledge gap between doctors and patients.</p>\n\n\n\n<p>With this change in approach, OpenAI is wading into dangerous waters.\u00a0</p>\n\n\n\n<p>For one, it\u2019s using evidence that doctors can benefit from AI as a clinical tool, as in the Kenya study, to suggest that people without any medical background should ask the AI model for advice about their own health. The problem is that lots of people might ask for this advice without ever running it by a doctor (and are less likely to do so now that the chatbot rarely prompts them to).</p>\n\n\n\n<p>Indeed, two days before the launch of GPT-5, the <em>Annals of Internal Medicine</em> <a href=\"https://www.acpjournals.org/doi/10.7326/aimcc.2024.1260\">published</a> a paper about a man who stopped eating salt and began ingesting dangerous amounts of bromide following a conversation with ChatGPT. He developed bromide poisoning\u2014which largely disappeared in the US after the Food and Drug Administration began curbing the use of bromide in over-the-counter medications in the 1970s\u2014and then nearly died, spending weeks in the hospital.&nbsp;</p>\n\n\n\n<p>So what\u2019s the point of all this? Essentially, it\u2019s about accountability. When AI companies move from promising general intelligence to offering humanlike helpfulness in a specific field like health care, it raises a second, yet unanswered question about what will happen when mistakes are made. As things stand, there\u2019s little indication tech companies will be made liable for the harm caused.</p>\n\n\n\n<p>\u201cWhen doctors give you harmful medical advice due to error or prejudicial bias, you can sue them for malpractice and get recompense,\u201d says Damien Williams, an assistant professor of data science and philosophy at the University of North Carolina Charlotte.&nbsp;</p>\n\n\n\n<p>\u201cWhen ChatGPT gives you harmful medical advice because it\u2019s been trained on prejudicial data, or because \u2018hallucinations\u2019 are inherent in the operations of the system, what\u2019s your recourse?\u201d</p>\n\n\n\n<p><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0<a href=\"https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/\">sign up here</a>.</em></p>"
+      }
+    ],
+    "post-id": "1121565"
+  },
+  {
+    "title": "Sam Altman and the whale",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Sam Altman and the whale"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/11/1121402/sam-altman-and-the-whale/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/11/1121402/sam-altman-and-the-whale/",
+    "authors": [
+      {
+        "name": "Mat Honan"
+      }
+    ],
+    "author": "Mat Honan",
+    "author_detail": {
+      "name": "Mat Honan"
+    },
+    "published": "Mon, 11 Aug 2025 18:55:59 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      11,
+      18,
+      55,
+      59,
+      0,
+      223,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121402",
+    "guidislink": false,
+    "summary": "My colleague Grace Huckins has a great story on OpenAI\u2019s release of GPT-5, its long-awaited new flagship model. One of the takeaways, however, is that while GPT-5 may make for a better experience than the previous versions, it isn\u2019t something revolutionary. \u201cGPT-5 is, above all else,\u201d Grace concludes, \u201ca refined product.\u201d This is pretty much&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "My colleague Grace Huckins has a great story on OpenAI\u2019s release of GPT-5, its long-awaited new flagship model. One of the takeaways, however, is that while GPT-5 may make for a better experience than the previous versions, it isn\u2019t something revolutionary. \u201cGPT-5 is, above all else,\u201d Grace concludes, \u201ca refined product.\u201d This is pretty much&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>My colleague Grace Huckins has a great story on <a href=\"https://www.technologyreview.com/2025/08/07/1121308/gpt-5-is-here-now-what/\">OpenAI\u2019s release of GPT-5</a>, its long-awaited new flagship model. One of the takeaways, however, is that while GPT-5 may make for a better experience than the previous versions, it isn\u2019t something revolutionary. \u201cGPT-5 is, above all else,\u201d Grace concludes, \u201ca refined product.\u201d</p>\n\n\n\n<p>This is pretty much in line with my colleague Will Heaven\u2019s recent argument that the latest model releases have been a bit like smartphone releases: Increasingly, what we are seeing are incremental improvements meant to enhance the user experience. (Casey Newton <a href=\"https://www.platformer.news/gpt-5-launch-release-reviews-impressions/\">made a similar point</a> in Friday\u2019s <em>Platformer</em>.) At GPT-5\u2019s release on Thursday, OpenAI CEO Sam Altman himself compared it to when Apple released the first iPhone with a Retina display. Okay. Sure.\u00a0</p>\n\n\n\n<p>But where is the transition from the BlackBerry keyboard to the touch-screen iPhone? Where is the assisted GPS and the API for location services that enables real-time directions and gives rise to companies like Uber and Grindr and lets me order a taxi for my burrito? Where are the real breakthroughs?&nbsp;</p>\n\n\n\n<p>In fact, following the release of GPT-5, OpenAI found itself with something of a user revolt on its hands. Customers who missed <a href=\"https://arstechnica.com/ai/2025/08/chatgpt-users-outraged-as-gpt-5-replaces-the-models-they-love/\">GPT-4o&#8217;s personality</a> successfully lobbied the company to <a href=\"https://x.com/sama/status/1953893841381273969\">bring it back as an option</a> for its Plus users. If anything, that indicates the GPT-5 release was more about user experience than noticeable performance enhancements. </p>\n\n\n\n<p>And yet, hours before OpenAI\u2019s GPT-5 announcement, Altman teased it by tweeting an image of an emerging <a href=\"https://x.com/sama/status/1953264193890861114?s=46\">Death Star</a> floating in space. On Thursday, he touted its PhD-level intelligence. He then went on the <em>Mornings with Maria</em> show <a href=\"https://www.foxbusiness.com/technology/openais-sam-altman-gpt-5-could-save-lives-fuel-100b-enterprise-ai-boom.amp\">to claim it would \u201csave a lot of lives</a>.\u201d (Forgive my extreme skepticism of that particular brand of claim, but <a href=\"https://www.amazon.com/Wired-Magazine-December-2016-Facebook/dp/B01N986BEH\">we\u2019ve certainly seen it before</a>.)&nbsp;</p>\n\n\n\n<p>It\u2019s a lot of hype, but Altman is not alone in his <a href=\"https://www.instagram.com/reel/C9XtDaqJ4Aw/?hl=en\">Flavor Flav-ing</a> <a href=\"https://www.youtube.com/shorts/eIhm5fBz9uk\">here</a>. Last week Mark Zuckerberg published a long memo about how <a href=\"https://www.meta.com/superintelligence/?srsltid=AfmBOoq7a_AE7aWX32OzQ9wfwS06NYmnNnE07SRloYcO9eK5dkWRfh9Z\">we are approaching AI superintelligence</a>. Anthropic CEO Dario Amodei freaked basically everyone out earlier this year with his prediction that AI <a href=\"https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic\">would harvest half of all entry-level jobs</a> within, possibly, a year.&nbsp;</p>\n\n\n\n<p>The people running these companies literally talk about the danger that the things they are building might take over the world and kill every human on the planet. GPT-5, meanwhile, still can\u2019t tell you <a href=\"https://bsky.app/profile/kjhealy.co/post/3lvtxbtexg226\">how many b\u2019s there are in the word \u201cblueberry</a>.\u201d&nbsp;</p>\n\n\n\n<p>This is not to say that the products released by OpenAI or Anthropic or what have you are not impressive. They are. And they clearly have a good deal of utility. But the hype cycle around model releases is out of hand.&nbsp;</p>\n\n\n\n<p>I say that as one of those people who use ChatGPT or Google Gemini most days, often multiple times a day. This week, for example, my wife was surfing and encountered a whale repeatedly slapping its tail on the water. Despite having seen very many whales, often in very close proximity, she had never seen anything like this. She sent me a video, and I was curious about it too. So I asked ChatGPT, \u201cWhy do whales slap their tails repeatedly on the water?\u201d It came right back, confidently explaining that what I was describing was called \u201clobtailing,\u201d along with a list of possible reasons why whales do that. Pretty cool.&nbsp;</p>\n\n\n\n<p>But then again, a regular garden-variety Google search would <em>also</em> have led me to discover lobtailing. And while ChatGPT\u2019s response summarized the behavior for me, it was also too definitive about why whales do it. The reality is that while people have a lot of theories, we still can\u2019t really explain this weird animal behavior.&nbsp;</p>\n\n\n\n<p>The reason I\u2019m aware that lobtailing is something of a mystery is that I dug into actual, you know, search results. Which is where I encountered this <a href=\"https://medium.com/the-scope-yale-scientific-magazines-online-blog/whale-speak-why-does-a-humpback-slap-its-tail-c147e7534bcc\">beautiful, elegiac essay by Emily Boring</a>. She describes her time at sea, watching a humpback slapping its tail against the water, and discusses the scientific uncertainty around this behavior. Is it a feeding technique? Is it a form of communication? Posturing? The action, as she notes, is extremely energy intensive. It takes a lot of effort from the whale. Why do they do it?&nbsp;</p>\n\n\n\n<p>I was struck by one passage in particular, in which she cites another biologist\u2019s work to draw a conclusion of her own:&nbsp;</p>\n\n\n\n<h4 class=\"wp-block-heading\"><em>Surprisingly, the complex energy trade-off of a tail-slap might be the exact reason why it\u2019s used. Biologist <a href=\"https://books.google.com/books?id=sq5C8d1hzPgC&amp;pg=PA182&amp;lpg=PA182&amp;dq=why+do+whales+lobtail&amp;ots=tHQFFnFay4&amp;sig=PLfGJRZwL6F4AIvxx5vyeAyOMN4&amp;hl=en&amp;sa=X&amp;ved=0CEYQ6AEwBmoVChMIyJXnrNqXyQIVTHs-Ch3elQmQ#v=onepage&amp;q=why%20do%20whales%20lobtail&amp;f=false\">Hal Whitehead suggests</a>, \u201cBreaches and lob-tails make good signals precisely because they are energetically expensive and thus indicative of the importance of the message and the physical status of the signaler.\u201d A tail-slap means that a whale is physically fit, traveling at nearly maximum speed, capable of sustaining powerful activity, and carrying a message so crucial it is willing to use a huge portion of its daily energy to share it. \u201cPay attention!\u201d the whale seems to say. \u201cI am important! Notice me!\u201d</em></h4>\n\n\n\n<p></p>\n\n\n\n<p>In some ways, the AI hype cycle <em>has</em> to be out of hand. It <em>has</em> to justify the ferocious level of investment, the uncountable billions of dollars in sunk costs. The <a href=\"https://www.technologyreview.com/supertopic/ai-energy-package/\">massive data center buildouts with their massive environmental consequences</a> created at massive expense that are seemingly <a href=\"https://www.msn.com/en-us/money/markets/spending-on-ai-data-centers-is-so-massive-that-it-s-now-two-thirds-of-gdp-and-it-could-crash-the-american-economy/ar-AA1K1Eli\">keeping the economy afloat</a> <em>and</em> <a href=\"https://www.noahpinion.blog/p/will-data-centers-crash-the-economy\">threatening to crash it</a>. There is so, so, <em>so</em> much money at stake.&nbsp;</p>\n\n\n\n<p>Which is not to say there aren\u2019t really cool things happening in AI. And certainly there have been a number of moments when I have been floored by AI releases. ChatGPT 3.5 was one. <a href=\"https://www.technologyreview.com/2021/01/05/1015754/avocado-armchair-future-ai-openai-deep-learning-nlp-gpt3-computer-vision-common-sense/\">Dall-E</a>, <a href=\"https://www.technologyreview.com/2024/10/03/1104978/people-are-using-google-study-software-to-make-ai-podcasts-and-theyre-weird-and-amazing/\">NotebookLM</a>, Veo 3, <a href=\"https://www.technologyreview.com/2024/04/25/1091772/new-generative-ai-avatar-deepfake-synthesia/\">Synthesia</a>. They can amaze. In fact there was an AI product release just this week that was a little bit mind-blowing. Genie 3, from Google DeepMind, can turn a basic text prompt into an immersive and navigable 3D world. <a href=\"https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/\">Check it out\u2014it\u2019s pretty wild</a>. And yet Genie 3 also makes a case that the most interesting things happening right now in AI aren\u2019t happening in chatbots.&nbsp;</p>\n\n\n\n<p>I\u2019d even argue that at this point, most of the people who are regularly amazed by the feats of new LLM chatbot releases are the same people who stand to profit from the promotion of LLM chatbots.</p>\n\n\n\n<p>Maybe I\u2019m being cynical, but I don\u2019t think so. I think it\u2019s more cynical to promise me the Death Star and instead deliver a chatbot whose chief appeal seems to be that it automatically picks the model for you. To promise me superintelligence and deliver <a href=\"https://www.webworm.co/p/why-is-facebook-just-shrimp-jesus\">shrimp Jesus</a>. It\u2019s all just a lot of lobtailing. \u201cPay attention! I am important! Notice me!\u201d</p>\n\n\n\n<p><em>This article is from The Debrief, </em>MIT Technology Review<em>\u2019s subscriber-only weekly email newsletter from editor in chief Mat Honan. Subscribers can </em><a href=\"https://forms.technologyreview.com/newsletters/the-debrief-with-mat-honan-subscriber-only/\"><em>sign up here to receive it in your inbox</em></a><em>.</em></p>"
+      }
+    ],
+    "post-id": "1121402"
+  },
+  {
+    "title": "Meet the early-adopter judges using AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Meet the early-adopter judges using AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/11/1121460/meet-the-early-adopter-judges-using-ai/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/11/1121460/meet-the-early-adopter-judges-using-ai/",
+    "authors": [
+      {
+        "name": "James O'Donnell"
+      }
+    ],
+    "author": "James O'Donnell",
+    "author_detail": {
+      "name": "James O'Donnell"
+    },
+    "published": "Mon, 11 Aug 2025 15:16:15 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      11,
+      15,
+      16,
+      15,
+      0,
+      223,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121460",
+    "guidislink": false,
+    "summary": "The propensity for AI systems to make mistakes and for humans to miss those mistakes has been on full display in the US legal system as of late. The follies began when lawyers\u2014including some at prestigious firms\u2014submitted documents citing cases that didn\u2019t exist. Similar mistakes soon spread to other roles in the courts. In December,&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The propensity for AI systems to make mistakes and for humans to miss those mistakes has been on full display in the US legal system as of late. The follies began when lawyers\u2014including some at prestigious firms\u2014submitted documents citing cases that didn\u2019t exist. Similar mistakes soon spread to other roles in the courts. In December,&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>The propensity for AI systems to make mistakes and for humans to miss those mistakes has been on full display in the US legal system as of late. The follies began when lawyers\u2014including some at <a href=\"https://www.theverge.com/news/666443/judge-slams-lawyers-ai-bogus-research\">prestigious firms</a>\u2014submitted documents citing cases that didn\u2019t exist. Similar mistakes soon spread to other roles in the courts. In December, a Stanford professor submitted sworn testimony containing <a href=\"https://www.reuters.com/legal/government/judge-rebukes-minnesota-over-ai-errors-deepfakes-lawsuit-2025-01-13/\">hallucinations and errors</a> in a case about deepfakes, despite being an expert on AI and misinformation himself.</p>\n\n\n\n<p>The buck stopped with judges, who\u2014whether they or opposing counsel caught the mistakes\u2014issued reprimands and fines, and likely left attorneys embarrassed enough to think twice before trusting AI again.</p>\n\n\n\n<p>But now judges are experimenting with generative AI too. Some are confident that with the right precautions, the technology can expedite legal research, summarize cases, draft routine orders, and overall help speed up the court system, which is badly backlogged in many parts of the US. This summer, though, we\u2019ve already seen AI-generated mistakes go undetected and cited by judges. A federal judge in New Jersey had to <a href=\"https://www.reuters.com/legal/government/two-us-judges-withdraw-rulings-after-attorneys-question-accuracy-2025-07-29/\">reissue</a> an order riddled with errors that may have come from AI, and a judge in Mississippi <a href=\"https://www.reuters.com/legal/government/us-judge-says-he-wont-explain-error-ridden-ruling-mississippi-civil-rights-case-2025-08-04/\">refused to explain</a> why his order too contained mistakes that seemed like AI hallucinations.&nbsp;</p>\n\n\n\n<p>The results of these early-adopter experiments make two things clear. One, the category of routine tasks\u2014for which AI can assist without requiring human judgment\u2014is slippery to define. Two, while lawyers face sharp scrutiny when their use of AI leads to mistakes, judges may not face the same accountability, and walking back their mistakes before they do damage is much harder.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Drawing boundaries</strong></h3>\n\n\n\n<p>Xavier Rodriguez, a federal judge for the Western District of Texas, has good reason to be skeptical of AI. He started learning about artificial intelligence back in 2018, four years before the release of ChatGPT (thanks in part to the influence of his twin brother, who works in tech). But he\u2019s also seen AI-generated mistakes in his own court.&nbsp;</p>\n\n\n\n<p>In a recent dispute about who was to receive an insurance payout, both the plaintiff and the defendant represented themselves, without lawyers (this is not uncommon\u2014nearly a quarter of civil cases in federal court involve at least one unrepresented party). The two sides wrote their own filings and made their own arguments.&nbsp;</p>\n\n\n\n<p>\u201cBoth sides used AI tools,\u201d Rodriguez says, and both submitted filings that referenced made-up cases. He had authority to reprimand them, but given that they were not lawyers, he opted not to.&nbsp;</p>\n\n\n\n<p>\u201cI think there\u2019s been an overreaction by a lot of judges on these sanctions. The running joke I tell when I\u2019m on the speaking circuit is that lawyers have been hallucinating well before AI,\u201d he says. Missing a mistake from an AI model is not wholly different, to Rodriguez, from failing to catch the error of a first-year lawyer. \u201cI\u2019m not as deeply offended as everybody else,\u201d he says.&nbsp;</p>\n\n\n\n<p>In his court, Rodriguez has been using generative AI tools (he wouldn\u2019t publicly name which ones, to avoid the appearance of an endorsement) to summarize cases. He\u2019ll ask AI to identify key players involved and then have it generate a timeline of key events. Ahead of specific hearings, Rodriguez will also ask it to generate questions for attorneys based on the materials they submit.</p>\n\n\n\n<p>These tasks, to him, don\u2019t lean on human judgment. They also offer lots of opportunities for him to intervene and uncover any mistakes before they\u2019re brought to the court. \u201cIt\u2019s not any final decision being made, and so it\u2019s relatively risk free,\u201d he says. Using AI to predict whether someone should be eligible for bail, on the other hand, goes too far in the direction of judgment and discretion, in his view.</p>\n\n\n\n<p>Erin Solovey, a professor and researcher on human-AI interaction at Worcester Polytechnic Institute in Massachusetts, recently <a href=\"https://dl.acm.org/doi/10.1145/3729176.3729192\">studied</a> how judges in the UK think about this distinction between rote, machine-friendly work that feels safe to delegate to AI and tasks that lean more heavily on human expertise.&nbsp;</p>\n\n\n\n<p>\u201cThe line between what is appropriate for a human judge to do versus what is appropriate for AI tools to do changes from judge to judge and from one scenario to the next,\u201d she says.</p>\n\n\n\n<p>Even so, according to Solovey, some of these tasks simply don\u2019t match what AI is good at. Asking AI to summarize a large document, for example, might produce drastically different results depending on whether the model has been trained to summarize for a general audience or a legal one. AI also struggles with logic-based tasks like ordering the events of a case. \u201cA very plausible-sounding timeline may be factually incorrect,\u201d Solovey says.&nbsp;</p>\n\n\n\n<p>Rodriguez and a number of other judges crafted guidelines that were <a href=\"https://www.thesedonaconference.org/sites/default/files/publications/NavigatingAIintheJudiciary_PDF_021925_2.pdf\">published</a> in February by the Sedona Conference, an influential think tank that issues principles for particularly murky areas of the law. They outline a host of potentially \u201csafe\u201d uses of AI for judges, including conducting legal research, creating preliminary transcripts, and searching briefings, while warning that judges should verify outputs from AI and that \u201cno known GenAI tools have fully resolved the hallucination problem.\u201d</p>\n\n\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Dodging AI blunders</strong></h3>\n\n\n\n<p>Judge Allison Goddard, a federal magistrate judge in California and a coauthor of the guidelines, first felt the impact that AI would have on the judiciary when she taught a class on the art of advocacy at her daughter\u2019s high school. She was impressed by a student\u2019s essay and mentioned it to her daughter. \u201cShe said, \u2018Oh, Mom, that\u2019s ChatGPT.\u2019\u201d</p>\n\n\n\n<p>\u201cWhat I realized very quickly was this is going to really transform the legal profession,\u201d she says. In her court, Goddard has been experimenting with ChatGPT, Claude (which she keeps &#8220;open all day&#8221;), and a host of other AI models. If a case involves a particularly technical issue, she might ask AI to help her understand which questions to ask attorneys. She\u2019ll summarize 60-page orders from the district judge and then ask the AI model follow-up questions about it, or ask it to organize information from documents that are a mess.\u00a0</p>\n\n\n\n<p>\u201cIt\u2019s kind of a thought partner, and it brings a perspective that you may not have considered,\u201d she says.</p>\n\n\n\n<p>Goddard also encourages her clerks to use AI, specifically Anthropic\u2019s Claude, because by default it does not train on user conversations. But it has its limits. For anything that requires law-specific knowledge, she\u2019ll use tools from Westlaw or Lexis, which have AI tools built specifically for lawyers, but she finds general-purpose AI models to be faster for lots of other tasks. And her concerns about bias have prevented her from using it for tasks in criminal cases, like determining if there was probable cause for an arrest.</p>\n\n\n\n<p>In this, Goddard appears to be caught in the same predicament the AI boom has created for many of us. Three years in, companies have built tools that sound so fluent and humanlike they obscure the intractable problems lurking underneath\u2014answers that read well but are wrong, models that are trained to be decent at everything but perfect for nothing, and the risk that your conversations with them will be <a href=\"https://www.404media.co/more-than-130-000-claude-grok-chatgpt-and-other-llm-chats-readable-on-archive-org/\">leaked</a> to the internet. Each time we use them, we bet that the time saved will outweigh the risks, and trust ourselves to catch the mistakes before they matter. For judges, the stakes are sky-high: If they lose that bet, they face very public consequences, and the impact of such mistakes on the people they serve can be lasting.&nbsp;</p>\n\n\n\n<p>\u201cI\u2019m not going to be the judge that cites hallucinated cases and orders,\u201d Goddard says. \u201cIt\u2019s really embarrassing, very professionally embarrassing.\u201d</p>\n\n\n\n<p>Still, some judges don\u2019t want to get left behind in the AI age. With some in the AI sector suggesting that the supposed objectivity and rationality of AI models could make them <a href=\"https://www.washingtonpost.com/opinions/2025/03/17/artificial-intelligence-federal-judges-experiment/\">better judges</a> than fallible humans, it might lead some on the bench to think that falling behind poses a bigger risk than getting too far out ahead.&nbsp;</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>A \u2018crisis waiting to happen\u2019</strong></h3>\n\n\n\n<p>The risks of early adoption have raised alarm bells with Judge Scott Schlegel, who serves on the Fifth Circuit Court of Appeal in Louisiana. Schlegel has long blogged about the helpful role technology can play in modernizing the court system, but he has warned that AI-generated mistakes in judges\u2019 rulings <a href=\"https://judgeschlegel.com/blog/judges-using-ai-wrongly-is-not-just-a-problem-its-a-crisis-waiting-to-happen\">signal</a> a \u201ccrisis waiting to happen,\u201d one that would dwarf the problem of lawyers\u2019 submitting filings with made-up cases.&nbsp;</p>\n\n\n\n<p>Attorneys who make mistakes can get sanctioned, have their motions dismissed, or lose cases when the opposing party finds out and flags the errors. \u201cWhen the judge makes a mistake, that\u2019s the law,\u201d he says. \u201cI can\u2019t go a month or two later and go \u2018Oops, so sorry,\u2019 and reverse myself. It doesn\u2019t work that way.\u201d</p>\n\n\n\n<p>Consider child custody cases or bail proceedings, Schlegel says: \u201cThere are pretty significant consequences when a judge relies upon artificial intelligence to make the decision,\u201d especially if the citations that decision relies on are made-up or incorrect.</p>\n\n\n\n<p>This is not theoretical. In June, a Georgia appellate court judge issued an order that relied partially on <a href=\"https://www.akronlegalnews.com/editorial/37015\">made-up cases</a> submitted by one of the parties, a mistake that went uncaught. In July, a federal judge in New Jersey <a href=\"https://www.reuters.com/legal/government/two-us-judges-withdraw-rulings-after-attorneys-question-accuracy-2025-07-29/\">withdrew</a> an opinion after lawyers complained it too contained hallucinations.&nbsp;</p>\n\n\n\n<p>Unlike lawyers, who can be ordered by the court to explain why there are mistakes in their filings, judges do not have to show much transparency, and there is little reason to think they\u2019ll do so voluntarily. On August 4, a federal judge in Mississippi had to issue a new decision in a civil rights case after the original was found to contain incorrect names and serious errors. The judge did not fully explain what led to the errors even after the state asked him to do so. \u201cNo further explanation is warranted,\u201d the judge <a href=\"https://www.reuters.com/legal/government/us-judge-says-he-wont-explain-error-ridden-ruling-mississippi-civil-rights-case-2025-08-04/\">wrote</a>.</p>\n\n\n\n<p>These mistakes could erode the public\u2019s faith in the legitimacy of courts, Schlegel says. Certain narrow and monitored applications of AI\u2014summarizing testimonies, getting quick writing feedback\u2014can save time, and they can produce good results if judges treat the work like that of a first-year associate, checking it thoroughly for accuracy. But most of the job of being a judge is dealing with what he calls the white-page problem: You\u2019re presiding over a complex case with a blank page in front of you, forced to make difficult decisions. Thinking through those decisions, he says, is indeed the work of being a judge. Getting help with a first draft from an AI undermines that purpose.</p>\n\n\n\n<p>\u201cIf you\u2019re making a decision on who gets the kids this weekend and somebody finds out you use Grok and you should have used Gemini or ChatGPT\u2014you know, that\u2019s not the justice system.\u201d</p>"
+      }
+    ],
+    "post-id": "1121460"
+  }
+]

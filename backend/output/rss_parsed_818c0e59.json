@@ -1,0 +1,532 @@
+[
+  {
+    "title": "Teaching AI to Fix Your Code: My Summer Improving Quick Fix at Databricks",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Teaching AI to Fix Your Code: My Summer Improving Quick Fix at Databricks"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/teaching-ai-fix-your-code-my-summer-improving-quick-fix-databricks"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/teaching-ai-fix-your-code-my-summer-improving-quick-fix-databricks",
+    "id": "https://www.databricks.com/blog/teaching-ai-fix-your-code-my-summer-improving-quick-fix-databricks",
+    "guidislink": false,
+    "published": "Fri, 08 Aug 2025 22:00:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      8,
+      22,
+      0,
+      0,
+      4,
+      220,
+      0
+    ],
+    "summary": "As humans, we learn to do new things, like ballet or boxing (both activities I had...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "As humans, we learn to do new things, like ballet or boxing (both activities I had..."
+    },
+    "tags": [
+      {
+        "term": "Company",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Culture",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "7x Faster Medical Image Ingestion with Python Data Source API",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "7x Faster Medical Image Ingestion with Python Data Source API"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/7x-faster-medical-image-ingestion-python-data-source-api"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/7x-faster-medical-image-ingestion-python-data-source-api",
+    "id": "https://www.databricks.com/blog/7x-faster-medical-image-ingestion-python-data-source-api",
+    "guidislink": false,
+    "published": "Thu, 07 Aug 2025 20:00:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      7,
+      20,
+      0,
+      0,
+      3,
+      219,
+      0
+    ],
+    "summary": "The Healthcare Data Challenge: Beyond Standard FormatsHealthcare and life sciences...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "The Healthcare Data Challenge: Beyond Standard FormatsHealthcare and life sciences..."
+    },
+    "tags": [
+      {
+        "term": "Data Strategy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Insights",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Personalizing Players' Experiences with Recommendation Systems",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Personalizing Players' Experiences with Recommendation Systems"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/personalizing-players-experiences-recommendation-systems"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/personalizing-players-experiences-recommendation-systems",
+    "id": "https://www.databricks.com/blog/personalizing-players-experiences-recommendation-systems",
+    "guidislink": false,
+    "published": "Thu, 07 Aug 2025 17:20:00 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      7,
+      17,
+      20,
+      0,
+      3,
+      219,
+      0
+    ],
+    "summary": "IntroductionOne of the most powerful tools for creating player-centric experiences is the recommendations system...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "IntroductionOne of the most powerful tools for creating player-centric experiences is the recommendations system..."
+    },
+    "tags": [
+      {
+        "term": "Industries",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Media & Entertainment",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Build with GPT-5 on Databricks with AI Gateway",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Build with GPT-5 on Databricks with AI Gateway"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/build-gpt-5-databricks-ai-gateway"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/build-gpt-5-databricks-ai-gateway",
+    "id": "https://www.databricks.com/blog/build-gpt-5-databricks-ai-gateway",
+    "guidislink": false,
+    "published": "Thu, 07 Aug 2025 16:42:53 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      7,
+      16,
+      42,
+      53,
+      3,
+      219,
+      0
+    ],
+    "summary": "Today, OpenAI released GPT-5, their most advanced language model to date, and you...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Today, OpenAI released GPT-5, their most advanced language model to date, and you..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Introducing OpenAI\u2019s New Open Models on Databricks",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Introducing OpenAI\u2019s New Open Models on Databricks"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/introducing-openais-new-open-models-databricks"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/introducing-openais-new-open-models-databricks",
+    "id": "https://www.databricks.com/blog/introducing-openais-new-open-models-databricks",
+    "guidislink": false,
+    "published": "Tue, 05 Aug 2025 17:00:05 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      5,
+      17,
+      0,
+      5,
+      1,
+      217,
+      0
+    ],
+    "summary": "We\u2019re excited to be partnering with OpenAI to launch their open weight models gpt-oss 20B and gpt-oss 120B, ...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "We\u2019re excited to be partnering with OpenAI to launch their open weight models gpt-oss 20B and gpt-oss 120B, ..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Announcements",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Partners",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study",
+    "id": "https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study",
+    "guidislink": false,
+    "published": "Mon, 04 Aug 2025 16:15:29 GMT",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      16,
+      15,
+      29,
+      0,
+      216,
+      0
+    ],
+    "summary": "In this blog, we dive into Agent Learning from Human Feedback (ALHF)&nbsp;\u2014 a new machine...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "In this blog, we dive into Agent Learning from Human Feedback (ALHF)&nbsp;\u2014 a new machine..."
+    },
+    "tags": [
+      {
+        "term": "Mosaic Research",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Announcing Databricks Vancouver Development Center",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Announcing Databricks Vancouver Development Center"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/announcing-databricks-vancouver-development-center"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/announcing-databricks-vancouver-development-center",
+    "id": "https://www.databricks.com/blog/announcing-databricks-vancouver-development-center",
+    "guidislink": false,
+    "published": "Thu, 31 Jul 2025 16:30:00 GMT",
+    "published_parsed": [
+      2025,
+      7,
+      31,
+      16,
+      30,
+      0,
+      3,
+      212,
+      0
+    ],
+    "summary": "I\u2019m thrilled to announce that Databricks R&amp;D is coming to Vancouver. Starting today,...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "I\u2019m thrilled to announce that Databricks R&amp;D is coming to Vancouver. Starting today,..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Announcements",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Engineering",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Engineering",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Strategy",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Insights",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "Continuous Environmental Monitoring Using the New transformWithState API",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Continuous Environmental Monitoring Using the New transformWithState API"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/continuous-environmental-monitoring-using-new-transformwithstate-api"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/continuous-environmental-monitoring-using-new-transformwithstate-api",
+    "id": "https://www.databricks.com/blog/continuous-environmental-monitoring-using-new-transformwithstate-api",
+    "guidislink": false,
+    "published": "Wed, 30 Jul 2025 16:00:00 GMT",
+    "published_parsed": [
+      2025,
+      7,
+      30,
+      16,
+      0,
+      0,
+      2,
+      211,
+      0
+    ],
+    "summary": "Apache Spark's\u2122 streaming capabilities have evolved dramatically since their inception, ...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Apache Spark's\u2122 streaming capabilities have evolved dramatically since their inception, ..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Solutions",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Engineering",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Data Engineering",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Energy",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "The Power of RLVR: Training a Leading SQL Reasoning Model on Databricks",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "The Power of RLVR: Training a Leading SQL Reasoning Model on Databricks"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/power-rlvr-training-leading-sql-reasoning-model-databricks"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/power-rlvr-training-leading-sql-reasoning-model-databricks",
+    "id": "https://www.databricks.com/blog/power-rlvr-training-leading-sql-reasoning-model-databricks",
+    "guidislink": false,
+    "published": "Wed, 30 Jul 2025 15:15:29 GMT",
+    "published_parsed": [
+      2025,
+      7,
+      30,
+      15,
+      15,
+      29,
+      2,
+      211,
+      0
+    ],
+    "summary": "At&nbsp;Databricks,&nbsp;we use reinforcement learning (RL) to develop&nbsp;reasoning models for...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "At&nbsp;Databricks,&nbsp;we use reinforcement learning (RL) to develop&nbsp;reasoning models for..."
+    },
+    "tags": [
+      {
+        "term": "Mosaic Research",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  },
+  {
+    "title": "What\u2019s New in AI/BI - July 2025 Roundup",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "What\u2019s New in AI/BI - July 2025 Roundup"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.databricks.com/blog/whats-new-aibi-july-2025-roundup"
+      }
+    ],
+    "link": "https://www.databricks.com/blog/whats-new-aibi-july-2025-roundup",
+    "id": "https://www.databricks.com/blog/whats-new-aibi-july-2025-roundup",
+    "guidislink": false,
+    "published": "Wed, 30 Jul 2025 08:07:33 GMT",
+    "published_parsed": [
+      2025,
+      7,
+      30,
+      8,
+      7,
+      33,
+      2,
+      211,
+      0
+    ],
+    "summary": "Introduction Since announcing the General Availability of AI/BI Genie and introducing...",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "https://www.databricks.com",
+      "value": "Introduction Since announcing the General Availability of AI/BI Genie and introducing..."
+    },
+    "tags": [
+      {
+        "term": "Platform",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "Product",
+        "scheme": null,
+        "label": null
+      }
+    ]
+  }
+]

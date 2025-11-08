@@ -1,0 +1,732 @@
+[
+  {
+    "title": "What you may have missed about GPT-5",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "What you may have missed about GPT-5"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/12/1121565/what-you-may-have-missed-about-gpt-5/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/12/1121565/what-you-may-have-missed-about-gpt-5/",
+    "authors": [
+      {
+        "name": "James O'Donnell"
+      }
+    ],
+    "author": "James O'Donnell",
+    "author_detail": {
+      "name": "James O'Donnell"
+    },
+    "published": "Tue, 12 Aug 2025 07:52:23 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      12,
+      7,
+      52,
+      23,
+      1,
+      224,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "The Algorithm",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121565",
+    "guidislink": false,
+    "summary": "Before OpenAI released GPT-5 last Thursday, CEO Sam Altman said its capabilities made him feel \u201cuseless relative to the AI.\u201d He said working on it carries a weight he imagines the developers of the atom bomb must have felt. As tech giants converge on models that do more or less the same thing, OpenAI\u2019s new&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Before OpenAI released GPT-5 last Thursday, CEO Sam Altman said its capabilities made him feel \u201cuseless relative to the AI.\u201d He said working on it carries a weight he imagines the developers of the atom bomb must have felt. As tech giants converge on models that do more or less the same thing, OpenAI\u2019s new&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Before OpenAI released GPT-5 last Thursday, CEO Sam Altman <a href=\"https://youtu.be/aYn8VKW6vXA?feature=shared&amp;t=1577\">said</a> its capabilities made him feel \u201cuseless relative to the AI.\u201d He said working on it carries a weight he imagines the developers of the <a href=\"https://youtu.be/aYn8VKW6vXA?feature=shared&amp;t=2073\">atom bomb</a> must have felt.</p>\n\n\n\n<p>As tech giants converge on models that do more or less the same thing, OpenAI\u2019s new offering was supposed to give a glimpse of AI\u2019s newest frontier. It was meant to mark a leap toward the \u201cartificial general intelligence\u201d that tech\u2019s evangelists have promised will transform humanity for the better.&nbsp;</p>\n\n\n\n<p>Against those expectations, the model has mostly underwhelmed.<strong>\u00a0</strong></p>\n\n\n\n<p>People have highlighted glaring <a href=\"https://x.com/colin_fraser/status/1953668411029909892?s=61\">mistakes</a> in GPT-5\u2019s responses, countering Altman\u2019s claim made at the launch that it works like \u201ca legitimate PhD-level expert in anything any area you need on demand.\u201d Early testers have also found issues with OpenAI\u2019s promise that GPT-5 automatically works out what type of AI model is best suited for your question\u2014a reasoning model for more complicated queries, or a faster model for simpler ones. Altman seems to have <a href=\"https://x.com/sama/status/1953893841381273969\">conceded</a> that this feature is flawed and takes away user control. However there is good news too: the model seems to have eased the problem of ChatGPT sucking up to users, with GPT-5 less likely to shower them with over the top compliments.</p>\n\n\n\n<p>Overall, as my colleague Grace Huckins <a href=\"https://www.technologyreview.com/2025/08/07/1121308/gpt-5-is-here-now-what/\">pointed out</a>, the new release represents more of a product update\u2014providing slicker and prettier ways of conversing with ChatGPT\u2014than a breakthrough that reshapes what is possible in AI.&nbsp;</p>\n\n\n\n<p>But there\u2019s one other thing to take from all this. For a while, AI companies didn\u2019t make much effort to suggest how their models might be used. Instead, the plan was to simply build the smartest model possible\u2014a brain of sorts\u2014and trust that it would be good at lots of things. Writing poetry would come as naturally as organic chemistry. Getting there would be accomplished by bigger models, better training techniques, and technical breakthroughs.&nbsp;</p>\n\n\n\n<p>That has been changing: The play now is to push existing models into more places by hyping up specific applications. Companies have been more aggressive in their promises that their AI models can replace human coders, for example (even if the early evidence <a href=\"https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study\">suggests otherwise</a>). A possible explanation for this pivot is that tech giants simply have not made the breakthroughs they\u2019ve expected. We might be stuck with only marginal improvements in large language models\u2019 capabilities for the time being. That leaves AI companies with one option: Work with what you\u2019ve got.</p>\n\n\n\n\n\n<p>The starkest example of this in the launch of GPT-5 is how much OpenAI is encouraging people to use it for health advice, one of AI\u2019s most fraught arenas.\u00a0</p>\n\n\n\n<p>In the beginning, OpenAI mostly didn\u2019t play ball with medical questions. If you tried to ask ChatGPT about your health, it gave lots of disclaimers warning you that it was not a doctor, and for some questions, it would refuse to give a response at all. But as I recently <a href=\"https://www.technologyreview.com/2025/07/21/1120522/ai-companies-have-stopped-warning-you-that-their-chatbots-arent-doctors/\">reported</a>, those disclaimers began disappearing as OpenAI released new models. Its models will now not only interpret x-rays and mammograms for you but ask follow-up questions leading toward a diagnosis.</p>\n\n\n\n<p>In May, OpenAI signaled it would try to tackle medical questions head on.<strong> </strong>It announced HealthBench, a way to evaluate how good AI systems are at handling health topics as measured against the opinions of physicians. In July, it published a study it participated in, reporting that a cohort of doctors in Kenya made <a href=\"https://openai.com/index/ai-clinical-copilot-penda-health/\">fewer</a> diagnostic mistakes when they were helped by an AI model.\u00a0</p>\n\n\n\n<p>With the <a href=\"https://www.youtube.com/watch?v=0Uu_VJeVVfo&amp;t=2118s\">launch</a> of GPT-5, OpenAI has begun explicitly telling people to use its models for health advice. At the launch event, Altman welcomed on stage Felipe Millon, an OpenAI employee, and his wife, Carolina Millon, who had recently been diagnosed with multiple forms of cancer. Carolina spoke about asking ChatGPT for help with her diagnoses, saying that she had uploaded copies of her biopsy results to ChatGPT to translate medical jargon and asked the AI for help making decisions about things like whether or not to pursue radiation. The trio called it an empowering example of shrinking the knowledge gap between doctors and patients.</p>\n\n\n\n<p>With this change in approach, OpenAI is wading into dangerous waters.\u00a0</p>\n\n\n\n<p>For one, it\u2019s using evidence that doctors can benefit from AI as a clinical tool, as in the Kenya study, to suggest that people without any medical background should ask the AI model for advice about their own health. The problem is that lots of people might ask for this advice without ever running it by a doctor (and are less likely to do so now that the chatbot rarely prompts them to).</p>\n\n\n\n<p>Indeed, two days before the launch of GPT-5, the <em>Annals of Internal Medicine</em> <a href=\"https://www.acpjournals.org/doi/10.7326/aimcc.2024.1260\">published</a> a paper about a man who stopped eating salt and began ingesting dangerous amounts of bromide following a conversation with ChatGPT. He developed bromide poisoning\u2014which largely disappeared in the US after the Food and Drug Administration began curbing the use of bromide in over-the-counter medications in the 1970s\u2014and then nearly died, spending weeks in the hospital.&nbsp;</p>\n\n\n\n<p>So what\u2019s the point of all this? Essentially, it\u2019s about accountability. When AI companies move from promising general intelligence to offering humanlike helpfulness in a specific field like health care, it raises a second, yet unanswered question about what will happen when mistakes are made. As things stand, there\u2019s little indication tech companies will be made liable for the harm caused.</p>\n\n\n\n<p>\u201cWhen doctors give you harmful medical advice due to error or prejudicial bias, you can sue them for malpractice and get recompense,\u201d says Damien Williams, an assistant professor of data science and philosophy at the University of North Carolina Charlotte.&nbsp;</p>\n\n\n\n<p>\u201cWhen ChatGPT gives you harmful medical advice because it\u2019s been trained on prejudicial data, or because \u2018hallucinations\u2019 are inherent in the operations of the system, what\u2019s your recourse?\u201d</p>\n\n\n\n<p><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,\u00a0<a href=\"https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/\">sign up here</a>.</em></p>"
+      }
+    ],
+    "post-id": "1121565"
+  },
+  {
+    "title": "Sam Altman and the whale",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Sam Altman and the whale"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/11/1121402/sam-altman-and-the-whale/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/11/1121402/sam-altman-and-the-whale/",
+    "authors": [
+      {
+        "name": "Mat Honan"
+      }
+    ],
+    "author": "Mat Honan",
+    "author_detail": {
+      "name": "Mat Honan"
+    },
+    "published": "Mon, 11 Aug 2025 18:55:59 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      11,
+      18,
+      55,
+      59,
+      0,
+      223,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121402",
+    "guidislink": false,
+    "summary": "My colleague Grace Huckins has a great story on OpenAI\u2019s release of GPT-5, its long-awaited new flagship model. One of the takeaways, however, is that while GPT-5 may make for a better experience than the previous versions, it isn\u2019t something revolutionary. \u201cGPT-5 is, above all else,\u201d Grace concludes, \u201ca refined product.\u201d This is pretty much&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "My colleague Grace Huckins has a great story on OpenAI\u2019s release of GPT-5, its long-awaited new flagship model. One of the takeaways, however, is that while GPT-5 may make for a better experience than the previous versions, it isn\u2019t something revolutionary. \u201cGPT-5 is, above all else,\u201d Grace concludes, \u201ca refined product.\u201d This is pretty much&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>My colleague Grace Huckins has a great story on <a href=\"https://www.technologyreview.com/2025/08/07/1121308/gpt-5-is-here-now-what/\">OpenAI\u2019s release of GPT-5</a>, its long-awaited new flagship model. One of the takeaways, however, is that while GPT-5 may make for a better experience than the previous versions, it isn\u2019t something revolutionary. \u201cGPT-5 is, above all else,\u201d Grace concludes, \u201ca refined product.\u201d</p>\n\n\n\n<p>This is pretty much in line with my colleague Will Heaven\u2019s recent argument that the latest model releases have been a bit like smartphone releases: Increasingly, what we are seeing are incremental improvements meant to enhance the user experience. (Casey Newton <a href=\"https://www.platformer.news/gpt-5-launch-release-reviews-impressions/\">made a similar point</a> in Friday\u2019s <em>Platformer</em>.) At GPT-5\u2019s release on Thursday, OpenAI CEO Sam Altman himself compared it to when Apple released the first iPhone with a Retina display. Okay. Sure.\u00a0</p>\n\n\n\n<p>But where is the transition from the BlackBerry keyboard to the touch-screen iPhone? Where is the assisted GPS and the API for location services that enables real-time directions and gives rise to companies like Uber and Grindr and lets me order a taxi for my burrito? Where are the real breakthroughs?&nbsp;</p>\n\n\n\n<p>In fact, following the release of GPT-5, OpenAI found itself with something of a user revolt on its hands. Customers who missed <a href=\"https://arstechnica.com/ai/2025/08/chatgpt-users-outraged-as-gpt-5-replaces-the-models-they-love/\">GPT-4o&#8217;s personality</a> successfully lobbied the company to <a href=\"https://x.com/sama/status/1953893841381273969\">bring it back as an option</a> for its Plus users. If anything, that indicates the GPT-5 release was more about user experience than noticeable performance enhancements. </p>\n\n\n\n<p>And yet, hours before OpenAI\u2019s GPT-5 announcement, Altman teased it by tweeting an image of an emerging <a href=\"https://x.com/sama/status/1953264193890861114?s=46\">Death Star</a> floating in space. On Thursday, he touted its PhD-level intelligence. He then went on the <em>Mornings with Maria</em> show <a href=\"https://www.foxbusiness.com/technology/openais-sam-altman-gpt-5-could-save-lives-fuel-100b-enterprise-ai-boom.amp\">to claim it would \u201csave a lot of lives</a>.\u201d (Forgive my extreme skepticism of that particular brand of claim, but <a href=\"https://www.amazon.com/Wired-Magazine-December-2016-Facebook/dp/B01N986BEH\">we\u2019ve certainly seen it before</a>.)&nbsp;</p>\n\n\n\n<p>It\u2019s a lot of hype, but Altman is not alone in his <a href=\"https://www.instagram.com/reel/C9XtDaqJ4Aw/?hl=en\">Flavor Flav-ing</a> <a href=\"https://www.youtube.com/shorts/eIhm5fBz9uk\">here</a>. Last week Mark Zuckerberg published a long memo about how <a href=\"https://www.meta.com/superintelligence/?srsltid=AfmBOoq7a_AE7aWX32OzQ9wfwS06NYmnNnE07SRloYcO9eK5dkWRfh9Z\">we are approaching AI superintelligence</a>. Anthropic CEO Dario Amodei freaked basically everyone out earlier this year with his prediction that AI <a href=\"https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic\">would harvest half of all entry-level jobs</a> within, possibly, a year.&nbsp;</p>\n\n\n\n<p>The people running these companies literally talk about the danger that the things they are building might take over the world and kill every human on the planet. GPT-5, meanwhile, still can\u2019t tell you <a href=\"https://bsky.app/profile/kjhealy.co/post/3lvtxbtexg226\">how many b\u2019s there are in the word \u201cblueberry</a>.\u201d&nbsp;</p>\n\n\n\n<p>This is not to say that the products released by OpenAI or Anthropic or what have you are not impressive. They are. And they clearly have a good deal of utility. But the hype cycle around model releases is out of hand.&nbsp;</p>\n\n\n\n<p>I say that as one of those people who use ChatGPT or Google Gemini most days, often multiple times a day. This week, for example, my wife was surfing and encountered a whale repeatedly slapping its tail on the water. Despite having seen very many whales, often in very close proximity, she had never seen anything like this. She sent me a video, and I was curious about it too. So I asked ChatGPT, \u201cWhy do whales slap their tails repeatedly on the water?\u201d It came right back, confidently explaining that what I was describing was called \u201clobtailing,\u201d along with a list of possible reasons why whales do that. Pretty cool.&nbsp;</p>\n\n\n\n<p>But then again, a regular garden-variety Google search would <em>also</em> have led me to discover lobtailing. And while ChatGPT\u2019s response summarized the behavior for me, it was also too definitive about why whales do it. The reality is that while people have a lot of theories, we still can\u2019t really explain this weird animal behavior.&nbsp;</p>\n\n\n\n<p>The reason I\u2019m aware that lobtailing is something of a mystery is that I dug into actual, you know, search results. Which is where I encountered this <a href=\"https://medium.com/the-scope-yale-scientific-magazines-online-blog/whale-speak-why-does-a-humpback-slap-its-tail-c147e7534bcc\">beautiful, elegiac essay by Emily Boring</a>. She describes her time at sea, watching a humpback slapping its tail against the water, and discusses the scientific uncertainty around this behavior. Is it a feeding technique? Is it a form of communication? Posturing? The action, as she notes, is extremely energy intensive. It takes a lot of effort from the whale. Why do they do it?&nbsp;</p>\n\n\n\n<p>I was struck by one passage in particular, in which she cites another biologist\u2019s work to draw a conclusion of her own:&nbsp;</p>\n\n\n\n<h4 class=\"wp-block-heading\"><em>Surprisingly, the complex energy trade-off of a tail-slap might be the exact reason why it\u2019s used. Biologist <a href=\"https://books.google.com/books?id=sq5C8d1hzPgC&amp;pg=PA182&amp;lpg=PA182&amp;dq=why+do+whales+lobtail&amp;ots=tHQFFnFay4&amp;sig=PLfGJRZwL6F4AIvxx5vyeAyOMN4&amp;hl=en&amp;sa=X&amp;ved=0CEYQ6AEwBmoVChMIyJXnrNqXyQIVTHs-Ch3elQmQ#v=onepage&amp;q=why%20do%20whales%20lobtail&amp;f=false\">Hal Whitehead suggests</a>, \u201cBreaches and lob-tails make good signals precisely because they are energetically expensive and thus indicative of the importance of the message and the physical status of the signaler.\u201d A tail-slap means that a whale is physically fit, traveling at nearly maximum speed, capable of sustaining powerful activity, and carrying a message so crucial it is willing to use a huge portion of its daily energy to share it. \u201cPay attention!\u201d the whale seems to say. \u201cI am important! Notice me!\u201d</em></h4>\n\n\n\n<p></p>\n\n\n\n<p>In some ways, the AI hype cycle <em>has</em> to be out of hand. It <em>has</em> to justify the ferocious level of investment, the uncountable billions of dollars in sunk costs. The <a href=\"https://www.technologyreview.com/supertopic/ai-energy-package/\">massive data center buildouts with their massive environmental consequences</a> created at massive expense that are seemingly <a href=\"https://www.msn.com/en-us/money/markets/spending-on-ai-data-centers-is-so-massive-that-it-s-now-two-thirds-of-gdp-and-it-could-crash-the-american-economy/ar-AA1K1Eli\">keeping the economy afloat</a> <em>and</em> <a href=\"https://www.noahpinion.blog/p/will-data-centers-crash-the-economy\">threatening to crash it</a>. There is so, so, <em>so</em> much money at stake.&nbsp;</p>\n\n\n\n<p>Which is not to say there aren\u2019t really cool things happening in AI. And certainly there have been a number of moments when I have been floored by AI releases. ChatGPT 3.5 was one. <a href=\"https://www.technologyreview.com/2021/01/05/1015754/avocado-armchair-future-ai-openai-deep-learning-nlp-gpt3-computer-vision-common-sense/\">Dall-E</a>, <a href=\"https://www.technologyreview.com/2024/10/03/1104978/people-are-using-google-study-software-to-make-ai-podcasts-and-theyre-weird-and-amazing/\">NotebookLM</a>, Veo 3, <a href=\"https://www.technologyreview.com/2024/04/25/1091772/new-generative-ai-avatar-deepfake-synthesia/\">Synthesia</a>. They can amaze. In fact there was an AI product release just this week that was a little bit mind-blowing. Genie 3, from Google DeepMind, can turn a basic text prompt into an immersive and navigable 3D world. <a href=\"https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/\">Check it out\u2014it\u2019s pretty wild</a>. And yet Genie 3 also makes a case that the most interesting things happening right now in AI aren\u2019t happening in chatbots.&nbsp;</p>\n\n\n\n<p>I\u2019d even argue that at this point, most of the people who are regularly amazed by the feats of new LLM chatbot releases are the same people who stand to profit from the promotion of LLM chatbots.</p>\n\n\n\n<p>Maybe I\u2019m being cynical, but I don\u2019t think so. I think it\u2019s more cynical to promise me the Death Star and instead deliver a chatbot whose chief appeal seems to be that it automatically picks the model for you. To promise me superintelligence and deliver <a href=\"https://www.webworm.co/p/why-is-facebook-just-shrimp-jesus\">shrimp Jesus</a>. It\u2019s all just a lot of lobtailing. \u201cPay attention! I am important! Notice me!\u201d</p>\n\n\n\n<p><em>This article is from The Debrief, </em>MIT Technology Review<em>\u2019s subscriber-only weekly email newsletter from editor in chief Mat Honan. Subscribers can </em><a href=\"https://forms.technologyreview.com/newsletters/the-debrief-with-mat-honan-subscriber-only/\"><em>sign up here to receive it in your inbox</em></a><em>.</em></p>"
+      }
+    ],
+    "post-id": "1121402"
+  },
+  {
+    "title": "Meet the early-adopter judges using AI",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Meet the early-adopter judges using AI"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/11/1121460/meet-the-early-adopter-judges-using-ai/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/11/1121460/meet-the-early-adopter-judges-using-ai/",
+    "authors": [
+      {
+        "name": "James O'Donnell"
+      }
+    ],
+    "author": "James O'Donnell",
+    "author_detail": {
+      "name": "James O'Donnell"
+    },
+    "published": "Mon, 11 Aug 2025 15:16:15 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      11,
+      15,
+      16,
+      15,
+      0,
+      223,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121460",
+    "guidislink": false,
+    "summary": "The propensity for AI systems to make mistakes and for humans to miss those mistakes has been on full display in the US legal system as of late. The follies began when lawyers\u2014including some at prestigious firms\u2014submitted documents citing cases that didn\u2019t exist. Similar mistakes soon spread to other roles in the courts. In December,&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "The propensity for AI systems to make mistakes and for humans to miss those mistakes has been on full display in the US legal system as of late. The follies began when lawyers\u2014including some at prestigious firms\u2014submitted documents citing cases that didn\u2019t exist. Similar mistakes soon spread to other roles in the courts. In December,&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>The propensity for AI systems to make mistakes and for humans to miss those mistakes has been on full display in the US legal system as of late. The follies began when lawyers\u2014including some at <a href=\"https://www.theverge.com/news/666443/judge-slams-lawyers-ai-bogus-research\">prestigious firms</a>\u2014submitted documents citing cases that didn\u2019t exist. Similar mistakes soon spread to other roles in the courts. In December, a Stanford professor submitted sworn testimony containing <a href=\"https://www.reuters.com/legal/government/judge-rebukes-minnesota-over-ai-errors-deepfakes-lawsuit-2025-01-13/\">hallucinations and errors</a> in a case about deepfakes, despite being an expert on AI and misinformation himself.</p>\n\n\n\n<p>The buck stopped with judges, who\u2014whether they or opposing counsel caught the mistakes\u2014issued reprimands and fines, and likely left attorneys embarrassed enough to think twice before trusting AI again.</p>\n\n\n\n<p>But now judges are experimenting with generative AI too. Some are confident that with the right precautions, the technology can expedite legal research, summarize cases, draft routine orders, and overall help speed up the court system, which is badly backlogged in many parts of the US. This summer, though, we\u2019ve already seen AI-generated mistakes go undetected and cited by judges. A federal judge in New Jersey had to <a href=\"https://www.reuters.com/legal/government/two-us-judges-withdraw-rulings-after-attorneys-question-accuracy-2025-07-29/\">reissue</a> an order riddled with errors that may have come from AI, and a judge in Mississippi <a href=\"https://www.reuters.com/legal/government/us-judge-says-he-wont-explain-error-ridden-ruling-mississippi-civil-rights-case-2025-08-04/\">refused to explain</a> why his order too contained mistakes that seemed like AI hallucinations.&nbsp;</p>\n\n\n\n<p>The results of these early-adopter experiments make two things clear. One, the category of routine tasks\u2014for which AI can assist without requiring human judgment\u2014is slippery to define. Two, while lawyers face sharp scrutiny when their use of AI leads to mistakes, judges may not face the same accountability, and walking back their mistakes before they do damage is much harder.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Drawing boundaries</strong></h3>\n\n\n\n<p>Xavier Rodriguez, a federal judge for the Western District of Texas, has good reason to be skeptical of AI. He started learning about artificial intelligence back in 2018, four years before the release of ChatGPT (thanks in part to the influence of his twin brother, who works in tech). But he\u2019s also seen AI-generated mistakes in his own court.&nbsp;</p>\n\n\n\n<p>In a recent dispute about who was to receive an insurance payout, both the plaintiff and the defendant represented themselves, without lawyers (this is not uncommon\u2014nearly a quarter of civil cases in federal court involve at least one unrepresented party). The two sides wrote their own filings and made their own arguments.&nbsp;</p>\n\n\n\n<p>\u201cBoth sides used AI tools,\u201d Rodriguez says, and both submitted filings that referenced made-up cases. He had authority to reprimand them, but given that they were not lawyers, he opted not to.&nbsp;</p>\n\n\n\n<p>\u201cI think there\u2019s been an overreaction by a lot of judges on these sanctions. The running joke I tell when I\u2019m on the speaking circuit is that lawyers have been hallucinating well before AI,\u201d he says. Missing a mistake from an AI model is not wholly different, to Rodriguez, from failing to catch the error of a first-year lawyer. \u201cI\u2019m not as deeply offended as everybody else,\u201d he says.&nbsp;</p>\n\n\n\n<p>In his court, Rodriguez has been using generative AI tools (he wouldn\u2019t publicly name which ones, to avoid the appearance of an endorsement) to summarize cases. He\u2019ll ask AI to identify key players involved and then have it generate a timeline of key events. Ahead of specific hearings, Rodriguez will also ask it to generate questions for attorneys based on the materials they submit.</p>\n\n\n\n<p>These tasks, to him, don\u2019t lean on human judgment. They also offer lots of opportunities for him to intervene and uncover any mistakes before they\u2019re brought to the court. \u201cIt\u2019s not any final decision being made, and so it\u2019s relatively risk free,\u201d he says. Using AI to predict whether someone should be eligible for bail, on the other hand, goes too far in the direction of judgment and discretion, in his view.</p>\n\n\n\n<p>Erin Solovey, a professor and researcher on human-AI interaction at Worcester Polytechnic Institute in Massachusetts, recently <a href=\"https://dl.acm.org/doi/10.1145/3729176.3729192\">studied</a> how judges in the UK think about this distinction between rote, machine-friendly work that feels safe to delegate to AI and tasks that lean more heavily on human expertise.&nbsp;</p>\n\n\n\n<p>\u201cThe line between what is appropriate for a human judge to do versus what is appropriate for AI tools to do changes from judge to judge and from one scenario to the next,\u201d she says.</p>\n\n\n\n<p>Even so, according to Solovey, some of these tasks simply don\u2019t match what AI is good at. Asking AI to summarize a large document, for example, might produce drastically different results depending on whether the model has been trained to summarize for a general audience or a legal one. AI also struggles with logic-based tasks like ordering the events of a case. \u201cA very plausible-sounding timeline may be factually incorrect,\u201d Solovey says.&nbsp;</p>\n\n\n\n<p>Rodriguez and a number of other judges crafted guidelines that were <a href=\"https://www.thesedonaconference.org/sites/default/files/publications/NavigatingAIintheJudiciary_PDF_021925_2.pdf\">published</a> in February by the Sedona Conference, an influential think tank that issues principles for particularly murky areas of the law. They outline a host of potentially \u201csafe\u201d uses of AI for judges, including conducting legal research, creating preliminary transcripts, and searching briefings, while warning that judges should verify outputs from AI and that \u201cno known GenAI tools have fully resolved the hallucination problem.\u201d</p>\n\n\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Dodging AI blunders</strong></h3>\n\n\n\n<p>Judge Allison Goddard, a federal magistrate judge in California and a coauthor of the guidelines, first felt the impact that AI would have on the judiciary when she taught a class on the art of advocacy at her daughter\u2019s high school. She was impressed by a student\u2019s essay and mentioned it to her daughter. \u201cShe said, \u2018Oh, Mom, that\u2019s ChatGPT.\u2019\u201d</p>\n\n\n\n<p>\u201cWhat I realized very quickly was this is going to really transform the legal profession,\u201d she says. In her court, Goddard has been experimenting with ChatGPT, Claude (which she keeps &#8220;open all day&#8221;), and a host of other AI models. If a case involves a particularly technical issue, she might ask AI to help her understand which questions to ask attorneys. She\u2019ll summarize 60-page orders from the district judge and then ask the AI model follow-up questions about it, or ask it to organize information from documents that are a mess.\u00a0</p>\n\n\n\n<p>\u201cIt\u2019s kind of a thought partner, and it brings a perspective that you may not have considered,\u201d she says.</p>\n\n\n\n<p>Goddard also encourages her clerks to use AI, specifically Anthropic\u2019s Claude, because by default it does not train on user conversations. But it has its limits. For anything that requires law-specific knowledge, she\u2019ll use tools from Westlaw or Lexis, which have AI tools built specifically for lawyers, but she finds general-purpose AI models to be faster for lots of other tasks. And her concerns about bias have prevented her from using it for tasks in criminal cases, like determining if there was probable cause for an arrest.</p>\n\n\n\n<p>In this, Goddard appears to be caught in the same predicament the AI boom has created for many of us. Three years in, companies have built tools that sound so fluent and humanlike they obscure the intractable problems lurking underneath\u2014answers that read well but are wrong, models that are trained to be decent at everything but perfect for nothing, and the risk that your conversations with them will be <a href=\"https://www.404media.co/more-than-130-000-claude-grok-chatgpt-and-other-llm-chats-readable-on-archive-org/\">leaked</a> to the internet. Each time we use them, we bet that the time saved will outweigh the risks, and trust ourselves to catch the mistakes before they matter. For judges, the stakes are sky-high: If they lose that bet, they face very public consequences, and the impact of such mistakes on the people they serve can be lasting.&nbsp;</p>\n\n\n\n<p>\u201cI\u2019m not going to be the judge that cites hallucinated cases and orders,\u201d Goddard says. \u201cIt\u2019s really embarrassing, very professionally embarrassing.\u201d</p>\n\n\n\n<p>Still, some judges don\u2019t want to get left behind in the AI age. With some in the AI sector suggesting that the supposed objectivity and rationality of AI models could make them <a href=\"https://www.washingtonpost.com/opinions/2025/03/17/artificial-intelligence-federal-judges-experiment/\">better judges</a> than fallible humans, it might lead some on the bench to think that falling behind poses a bigger risk than getting too far out ahead.&nbsp;</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>A \u2018crisis waiting to happen\u2019</strong></h3>\n\n\n\n<p>The risks of early adoption have raised alarm bells with Judge Scott Schlegel, who serves on the Fifth Circuit Court of Appeal in Louisiana. Schlegel has long blogged about the helpful role technology can play in modernizing the court system, but he has warned that AI-generated mistakes in judges\u2019 rulings <a href=\"https://judgeschlegel.com/blog/judges-using-ai-wrongly-is-not-just-a-problem-its-a-crisis-waiting-to-happen\">signal</a> a \u201ccrisis waiting to happen,\u201d one that would dwarf the problem of lawyers\u2019 submitting filings with made-up cases.&nbsp;</p>\n\n\n\n<p>Attorneys who make mistakes can get sanctioned, have their motions dismissed, or lose cases when the opposing party finds out and flags the errors. \u201cWhen the judge makes a mistake, that\u2019s the law,\u201d he says. \u201cI can\u2019t go a month or two later and go \u2018Oops, so sorry,\u2019 and reverse myself. It doesn\u2019t work that way.\u201d</p>\n\n\n\n<p>Consider child custody cases or bail proceedings, Schlegel says: \u201cThere are pretty significant consequences when a judge relies upon artificial intelligence to make the decision,\u201d especially if the citations that decision relies on are made-up or incorrect.</p>\n\n\n\n<p>This is not theoretical. In June, a Georgia appellate court judge issued an order that relied partially on <a href=\"https://www.akronlegalnews.com/editorial/37015\">made-up cases</a> submitted by one of the parties, a mistake that went uncaught. In July, a federal judge in New Jersey <a href=\"https://www.reuters.com/legal/government/two-us-judges-withdraw-rulings-after-attorneys-question-accuracy-2025-07-29/\">withdrew</a> an opinion after lawyers complained it too contained hallucinations.&nbsp;</p>\n\n\n\n<p>Unlike lawyers, who can be ordered by the court to explain why there are mistakes in their filings, judges do not have to show much transparency, and there is little reason to think they\u2019ll do so voluntarily. On August 4, a federal judge in Mississippi had to issue a new decision in a civil rights case after the original was found to contain incorrect names and serious errors. The judge did not fully explain what led to the errors even after the state asked him to do so. \u201cNo further explanation is warranted,\u201d the judge <a href=\"https://www.reuters.com/legal/government/us-judge-says-he-wont-explain-error-ridden-ruling-mississippi-civil-rights-case-2025-08-04/\">wrote</a>.</p>\n\n\n\n<p>These mistakes could erode the public\u2019s faith in the legitimacy of courts, Schlegel says. Certain narrow and monitored applications of AI\u2014summarizing testimonies, getting quick writing feedback\u2014can save time, and they can produce good results if judges treat the work like that of a first-year associate, checking it thoroughly for accuracy. But most of the job of being a judge is dealing with what he calls the white-page problem: You\u2019re presiding over a complex case with a blank page in front of you, forced to make difficult decisions. Thinking through those decisions, he says, is indeed the work of being a judge. Getting help with a first draft from an AI undermines that purpose.</p>\n\n\n\n<p>\u201cIf you\u2019re making a decision on who gets the kids this weekend and somebody finds out you use Grok and you should have used Gemini or ChatGPT\u2014you know, that\u2019s not the justice system.\u201d</p>"
+      }
+    ],
+    "post-id": "1121460"
+  },
+  {
+    "title": "GPT-5 is here. Now what?",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "GPT-5 is here. Now what?"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/07/1121308/gpt-5-is-here-now-what/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/07/1121308/gpt-5-is-here-now-what/",
+    "authors": [
+      {
+        "name": "Grace Huckins"
+      }
+    ],
+    "author": "Grace Huckins",
+    "author_detail": {
+      "name": "Grace Huckins"
+    },
+    "published": "Thu, 07 Aug 2025 17:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      7,
+      17,
+      0,
+      0,
+      3,
+      219,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121308",
+    "guidislink": false,
+    "summary": "At long last, OpenAI has released GPT-5. The new system abandons the distinction between OpenAI\u2019s flagship models and its o series of reasoning models, automatically routing user queries to a fast nonreasoning model or a slower reasoning version. It is now available to everyone through the ChatGPT web interface\u2014though nonpaying users may need to wait&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "At long last, OpenAI has released GPT-5. The new system abandons the distinction between OpenAI\u2019s flagship models and its o series of reasoning models, automatically routing user queries to a fast nonreasoning model or a slower reasoning version. It is now available to everyone through the ChatGPT web interface\u2014though nonpaying users may need to wait&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>At long last, OpenAI has released GPT-5. The new system abandons the distinction between OpenAI\u2019s flagship models and its o series of reasoning models, automatically routing user queries to a fast nonreasoning model or a slower reasoning version. It is now available to everyone through the ChatGPT web interface\u2014though nonpaying users may need to wait a few days to gain full access to the new capabilities.&nbsp;</p>\n\n\n\n<p>It\u2019s tempting to compare GPT-5 with its explicit predecessor, GPT-4, but the more illuminating juxtaposition is with o1, OpenAI\u2019s first reasoning model, which was <a href=\"https://www.technologyreview.com/2024/09/17/1104004/why-openais-new-model-is-such-a-big-deal/\">released last year</a>. In contrast to GPT-5\u2019s broad release, o1 was initially available only to Plus and Team subscribers. Those users got access to a completely new kind of language model\u2014one that would \u201creason\u201d through its answers by generating additional text before providing a final response, enabling it to solve much more challenging problems than its nonreasoning counterparts.</p>\n\n\n\n\n\n<p>Whereas o1 was a major technological advancement, GPT-5 is, above all else, a refined product. During a press briefing, Sam Altman compared GPT-5 to Apple\u2019s Retina displays, and it\u2019s an apt analogy, though perhaps not in the way that he intended. Much like an unprecedentedly crisp screen, GPT-5 will furnish a more pleasant and seamless user experience. That\u2019s not nothing, but it falls far short of the transformative AI future that Altman has spent much of the past year hyping. In the briefing, Altman called GPT-5 \u201ca significant step along the path to AGI,\u201d or artificial general intelligence, and maybe he\u2019s right\u2014but if so, it\u2019s a very small step.</p>\n\n\n\n<p>Take the demo of the model\u2019s abilities that OpenAI showed to <em>MIT Technology Review</em> in advance of its release. Yann Dubois, a post-training lead at OpenAI, asked GPT-5 to design a web application that would help his partner learn French so that she could communicate more easily with his family. The model did an admirable job of following his instructions and created an appealing, user-friendly app. But when I gave GPT-4o an almost identical prompt, it produced an app with exactly the same functionality. The only difference is that it wasn\u2019t as aesthetically pleasing.</p>\n\n\n\n<p>Some of the other user-experience improvements are more substantial. Having the model rather than the user choose whether to apply reasoning to each query removes a major pain point, especially for users who don\u2019t follow LLM advancements closely.&nbsp;</p>\n\n\n\n<p>And, according to Altman, GPT-5 reasons much faster than the o-series models. The fact that OpenAI is releasing it to nonpaying users suggests that it\u2019s also less expensive for the company to run. That\u2019s a big deal: Running powerful models cheaply and quickly is a tough problem, and solving it is key to reducing <a href=\"https://www.technologyreview.com/supertopic/ai-energy-package/\">AI\u2019s environmental impact</a>.\u00a0</p>\n\n\n\n<p>OpenAI has also taken steps to mitigate <a href=\"https://www.technologyreview.com/2024/06/18/1093440/what-causes-ai-hallucinate-chatbots/\">hallucinations</a>, which have been a persistent headache. OpenAI\u2019s evaluations suggest that GPT-5 models are substantially less likely to make incorrect claims than their predecessor models, o3 and GPT-4o. If that advancement holds up to scrutiny, it could help pave the way for more reliable and trustworthy agents. \u201cHallucination can cause real safety and security issues,\u201d says Dawn Song, a professor of computer science at UC Berkeley. For example, an agent that hallucinates software packages could download malicious code to a user\u2019s device.</p>\n\n\n\n<p>GPT-5 has achieved the state of the art on several benchmarks, including a test of agentic abilities and the coding evaluations SWE-Bench and Aider Polyglot. But according to Cl\u00e9mentine Fourrier, an AI researcher at the company HuggingFace, those evaluations are nearing saturation, which means that current models have achieved close to maximal performance.&nbsp;</p>\n\n\n\n<p>\u201cIt\u2019s basically like looking at the performance of a high schooler on middle-grade problems,\u201d she says. \u201cIf the high schooler fails, it tells you something, but if it succeeds, it doesn\u2019t tell you a lot.\u201d Fourrier said she would be impressed if the system achieved a score of 80% or 85% on SWE-Bench\u2014but it only managed a 74.9%.&nbsp;</p>\n\n\n\n<p>Ultimately, the headline message from OpenAI is that GPT-5 feels better to use. \u201cThe vibes of this model are really good, and I think that people are really going to feel that, especially average people who haven&#8217;t been spending their time thinking about models,\u201d said Nick Turley, the head of ChatGPT.</p>\n\n\n\n<p>Vibes alone, however, won\u2019t bring about the automated future that Altman has promised. Reasoning felt like a major step forward on the way to AGI. We\u2019re still waiting for the next one.</p>"
+      }
+    ],
+    "post-id": "1121308"
+  },
+  {
+    "title": "Five ways that AI is learning to improve itself",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Five ways that AI is learning to improve itself"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/06/1121193/five-ways-that-ai-is-learning-to-improve-itself/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/06/1121193/five-ways-that-ai-is-learning-to-improve-itself/",
+    "authors": [
+      {
+        "name": "Grace Huckins"
+      }
+    ],
+    "author": "Grace Huckins",
+    "author_detail": {
+      "name": "Grace Huckins"
+    },
+    "published": "Wed, 06 Aug 2025 15:14:12 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      6,
+      15,
+      14,
+      12,
+      2,
+      218,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121193",
+    "guidislink": false,
+    "summary": "Last week, Mark Zuckerberg declared that Meta is aiming to achieve smarter-than-human AI. He seems to have a recipe for achieving that goal, and the first ingredient is human talent: Zuckerberg has reportedly tried to lure top researchers to Meta Superintelligence Labs with nine-figure offers. The second ingredient is AI itself.&#160; Zuckerberg recently said on&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Last week, Mark Zuckerberg declared that Meta is aiming to achieve smarter-than-human AI. He seems to have a recipe for achieving that goal, and the first ingredient is human talent: Zuckerberg has reportedly tried to lure top researchers to Meta Superintelligence Labs with nine-figure offers. The second ingredient is AI itself.&#160; Zuckerberg recently said on&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>Last week, Mark Zuckerberg <a href=\"https://www.meta.com/superintelligence/\">declared</a> that Meta is aiming to achieve smarter-than-human AI. He seems to have a recipe for achieving that goal, and the first ingredient is human talent: Zuckerberg has <a href=\"https://www.nytimes.com/2025/06/10/technology/meta-new-ai-lab-superintelligence.html\">reportedly</a> tried to lure top researchers to Meta Superintelligence Labs with nine-figure offers. The second ingredient is AI itself.&nbsp; Zuckerberg <a href=\"https://www.wired.com/story/meta-earnings-superintelligence-q2-2025/\">recently said on an earnings call</a> that Meta Superintelligence Labs will be focused on building self-improving AI\u2014systems that can bootstrap themselves to higher and higher levels of performance.</p>\n\n\n\n<p>The possibility of self-improvement distinguishes AI from other revolutionary technologies. CRISPR can\u2019t improve its own targeting of DNA sequences, and fusion reactors can\u2019t figure out how to make the technology commercially viable. But LLMs can optimize the computer chips they run on, train other LLMs cheaply and efficiently, and perhaps even come up with original ideas for AI research. And they\u2019ve already made some progress in all these domains.</p>\n\n\n\n<p>According to Zuckerberg, AI self-improvement could bring about a world in which humans are liberated from workaday drudgery and can pursue their highest goals with the support of brilliant, hypereffective artificial companions. But self-improvement also creates a fundamental risk, according to Chris Painter, the policy director at the AI research nonprofit METR. If AI accelerates the development of its own capabilities, he says, it could rapidly get better at hacking, designing weapons, and manipulating people. Some researchers even speculate that this positive feedback cycle could lead to an \u201cintelligence explosion,\u201d in which AI rapidly launches itself far beyond the level of human capabilities.</p>\n\n\n\n<p>But you don\u2019t have to be a doomer to take the implications of self-improving AI seriously. <a href=\"https://cdn.openai.com/openai-preparedness-framework-beta.pdf\">OpenAI</a>, <a href=\"https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf\">Anthropic</a>, and <a href=\"https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0.pdf\">Google</a> all include references to automated AI research in their AI safety frameworks, alongside more familiar risk categories such as chemical weapons and cybersecurity. \u201cI think this is the fastest path to powerful AI,\u201d says Jeff Clune, a professor of computer science at the University of British Columbia and senior research advisor at Google DeepMind. \u201cIt\u2019s probably the most important thing we should be thinking about.\u201d</p>\n\n\n\n\n\n<p>By the same token, Clune says, automating AI research and development could have enormous upsides. On our own, we humans might not be able to think up the innovations and improvements that will allow AI to one day tackle prodigious problems like cancer and climate change.</p>\n\n\n\n<p>For now, human ingenuity is still the primary engine of AI advancement; otherwise, Meta would hardly have made such exorbitant offers to attract researchers to its superintelligence lab. But AI is already contributing to its own development, and it\u2019s set to take even more of a role in the years to come. Here are five ways that AI is making itself better.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>1. Enhancing productivity</strong></h3>\n\n\n\n<p>Today, the most important contribution that LLMs make to AI development may also be the most banal. \u201cThe biggest thing is coding assistance,\u201d says Tom Davidson, a senior research fellow at Forethought, an AI research nonprofit. Tools that help engineers write software more quickly, such as Claude Code and Cursor, appear popular across the AI industry: Google CEO Sundar Pichai <a href=\"https://futurism.com/the-byte/google-ceo-code-ai\">claimed</a> in October 2024 that a quarter of the company\u2019s new code was generated by AI, and Anthropic <a href=\"https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf\">recently documented</a> a wide variety of ways that its employees use Claude Code. If engineers are more productive because of this coding assistance, they will be able to design, test, and deploy new AI systems more quickly.</p>\n\n\n\n<p>But the productivity advantage that these tools confer remains uncertain: If engineers are spending large amounts of time correcting errors made by AI systems, they might not be getting any more work done, even if they are spending less of their time writing code manually. A <a href=\"https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/\">recent study</a> from METR found that developers take about 20% longer to complete tasks when using AI coding assistants, though Nate Rush, a member of METR\u2019s technical staff who co-led the study, notes that it only examined extremely experienced developers working on large code bases. Its conclusions might not apply to AI researchers who write up quick scripts to run experiments.</p>\n\n\n\n<p><br />Conducting a similar study within the frontier labs could help provide a much clearer picture of whether coding assistants are making AI researchers at the cutting edge more productive, Rush says\u2014but that work hasn\u2019t yet been undertaken. In the meantime, just taking software engineers\u2019 word for it isn\u2019t enough: The developers METR studied thought that the AI coding tools had made them work more efficiently, even though the tools had actually slowed them down substantially.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>2. Optimizing infrastructure</strong></h3>\n\n\n\n<p>Writing code quickly isn\u2019t that much of an advantage if you have to wait hours, days, or weeks for it to run. LLM training, in particular, is an agonizingly slow process, and the most sophisticated reasoning models can take many minutes to generate a single response. These delays are major bottlenecks for AI development, says Azalia Mirhoseini, an assistant professor of computer science at Stanford University and senior staff scientist at Google DeepMind. \u201cIf we can run AI faster, we can innovate more,\u201d she says.</p>\n\n\n\n<p>That\u2019s why Mirhoseini has been using AI to optimize AI chips. Back in 2021, she and her collaborators at Google built a <a href=\"https://www.nature.com/articles/s41586-021-03544-w\">non-LLM AI system</a> that could decide where to place various components on a computer chip to optimize efficiency. While the work attracted skepticism from the chip design community, Mirhoseini says that <em>Nature </em>investigated the paper and upheld the work\u2019s validity\u2014and she notes that Google has used the system\u2019s designs for multiple generations of its custom AI chips.</p>\n\n\n\n<p>More recently, Mirhoseini has applied LLMs to the problem of writing kernels, low-level functions that control how various operations, like matrix multiplication, are carried out in chips. She\u2019s found that even general-purpose LLMs can, in some cases, write kernels that <a href=\"https://crfm.stanford.edu/2025/05/28/fast-kernels.html\">run faster</a> than the human-designed versions.</p>\n\n\n\n<p>Elsewhere at Google, scientists built a system that they used to optimize various parts of the company\u2019s LLM infrastructure. The system, called <a href=\"https://www.technologyreview.com/2025/05/14/1116438/google-deepminds-new-ai-uses-large-language-models-to-crack-real-world-problems/\">AlphaEvolve</a>, prompts Google\u2019s Gemini LLM to write algorithms for solving some problem, evaluates those algorithms, and asks Gemini to improve on the most successful\u2014and repeats that process several times. AlphaEvolve designed a new approach for running datacenters that saved 0.7% of Google\u2019s computational resources, made further improvements to Google\u2019s custom chip design, and designed a new kernel that sped up Gemini\u2019s training by 1%.&nbsp;&nbsp;&nbsp;</p>\n\n\n\n<p>That might sound like a small improvement, but at a huge company like Google it equates to enormous savings of time, money, and energy. And Matej Balog, a staff research scientist at Google DeepMind who led the AlphaEvolve project, says that he and his team tested the system on only a small component of Gemini\u2019s overall training pipeline. Applying it more broadly, he says, could lead to more savings.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>3. Automating training</strong></h3>\n\n\n\n<p>LLMs are famously data hungry, and training them is costly at every stage. In some specific domains\u2014unusual programming languages, for example\u2014real-world data is too scarce to train LLMs effectively. Reinforcement learning with human feedback, a technique in which humans score LLM responses to prompts and the LLMs are then trained using those scores, has been key to creating models that behave in line with human standards and preferences, but obtaining human feedback is slow and expensive.&nbsp;</p>\n\n\n\n<p>Increasingly, LLMs are being used to fill in the gaps. If prompted with plenty of examples, LLMs can generate plausible synthetic data in domains in which they haven\u2019t been trained, and that synthetic data can then be used for training. LLMs can also be used effectively for reinforcement learning: In an approach called \u201cLLM as a judge,\u201d LLMs, rather than humans, are used to score the outputs of models that are being trained. That approach is key to the influential \u201cConstitutional AI\u201d framework proposed by Anthropic researchers in 2022, in which one LLM is trained to be less harmful based on feedback from another LLM.</p>\n\n\n\n<p>Data scarcity is a particularly acute problem for AI agents. Effective agents need to be able to carry out multistep plans to accomplish particular tasks, but examples of successful step-by-step task completion are scarce online, and using humans to generate new examples would be pricey. To overcome this limitation, Stanford\u2019s Mirhoseini and her colleagues have recently piloted a <a href=\"https://arxiv.org/abs/2504.04736\">technique</a> in which an LLM agent generates a possible step-by-step approach to a given problem, an LLM judge evaluates whether each step is valid, and then a new LLM agent is trained on those steps. \u201cYou\u2019re not limited by data anymore, because the model can just arbitrarily generate more and more experiences,\u201d Mirhoseini says.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>4. Perfecting agent design</strong></h3>\n\n\n\n<p>One area where LLMs haven\u2019t yet made major contributions is in the design of LLMs themselves. Today\u2019s LLMs are all based on a neural-network structure called a transformer, which was proposed by human researchers in 2017, and the notable improvements that have since been made to the architecture were also human-designed.&nbsp;</p>\n\n\n\n<p>But the rise of LLM agents has created an entirely new design universe to explore. Agents need tools to interact with the outside world and instructions for how to use them, and optimizing those tools and instructions is essential to producing effective agents. \u201cHumans haven\u2019t spent as much time mapping out all these ideas, so there\u2019s a lot more low-hanging fruit,\u201d Clune says. \u201cIt\u2019s easier to just create an AI system to go pick it.\u201d</p>\n\n\n\n<p>Together with researchers at the startup Sakana AI, Clune created a system called a \u201c<a href=\"https://sakana.ai/dgm/\">Darwin G\u00f6del Machine</a>\u201d: an LLM agent that can iteratively modify its prompts, tools, and other aspects of its code to improve its own task performance. Not only did the Darwin G\u00f6del Machine achieve higher task scores through modifying itself, but as it evolved, it also managed to find new modifications that its original version wouldn\u2019t have been able to discover. It had entered a true self-improvement loop.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>5. Advancing research</strong></h3>\n\n\n\n<p>Although LLMs are speeding up numerous parts of the LLM development pipeline, humans may still remain essential to AI research for quite a while. Many experts point to \u201cresearch taste,\u201d or the ability that the best scientists have to pick out promising new research questions and directions, as both a particular challenge for AI and a key ingredient in AI development.&nbsp;</p>\n\n\n\n<p>But Clune says research taste might not be as much of a challenge for AI as some researchers think. He and Sakana AI researchers are working on an end-to-end system for AI research that they call the \u201c<a href=\"https://sakana.ai/ai-scientist/\">AI Scientist</a>.\u201d It searches through the scientific literature to determine its own research question, runs experiments to answer that question, and then writes up its results.</p>\n\n\n\n<p>One paper that it wrote earlier this year, in which it devised and tested a new training strategy aimed at making neural networks better at combining examples from their training data, was anonymously submitted to a workshop at the International Conference on Machine Learning, or ICML\u2014one of the most prestigious conferences in the field\u2014with the consent of the workshop organizers. The training strategy didn\u2019t end up working, but the paper was scored highly enough by reviewers to qualify it for acceptance (it is worth noting that ICML workshops have lower standards for acceptance than the main conference). In another instance, Clune says, the AI Scientist came up with a research idea that was later independently proposed by a human researcher on X, where it attracted plenty of interest from other scientists.</p>\n\n\n\n<p>\u201cWe are looking right now at the GPT-1 moment of the AI Scientist,\u201d Clune says. \u201cIn a few short years, it is going to be writing papers that will be accepted at the top peer-reviewed conferences and journals in the world. It will be making novel scientific discoveries.\u201d</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Is superintelligence on its way?</strong></h3>\n\n\n\n<p>With all this enthusiasm for AI self-improvement, it seems likely that in the coming months and years, the contributions AI makes to its own development will only multiply. To hear Mark Zuckerberg tell it, this could mean that superintelligent models, which exceed human capabilities in many domains, are just around the corner. In reality, though, the impact of self-improving AI is far from certain.</p>\n\n\n\n<p>It\u2019s notable that AlphaEvolve has sped up the training of its own core LLM system, Gemini\u2014but that 1% speedup may not observably change the pace of Google\u2019s AI advancements. \u201cThis is still a feedback loop that\u2019s very slow,\u201d says Balog, the AlphaEvolve researcher. \u201cThe training of Gemini takes a significant amount of time. So you can maybe see the exciting beginnings of this virtuous [cycle], but it\u2019s still a very slow process.\u201d</p>\n\n\n\n<p>If each subsequent version of Gemini speeds up its own training by an additional 1%, those accelerations will compound. And because each successive generation will be more capable than the previous one, it should be able to achieve even greater training speedups\u2014not to mention all the other ways it might devise to improve itself. Under such circumstances, proponents of superintelligence argue, an eventual intelligence explosion looks inevitable.</p>\n\n\n\n<p>This conclusion, however, ignores a key observation: Innovation gets harder over time. In the early days of any scientific field, discoveries come fast and easy. There are plenty of obvious experiments to run and ideas to investigate, and none of them have been tried before. But as the science of deep learning matures, finding each additional improvement might require substantially more effort on the part of both humans and their AI collaborators. It\u2019s possible that by the time AI systems attain human-level research abilities, humans or less-intelligent AI systems will already have plucked all the low-hanging fruit.</p>\n\n\n\n<p>Determining the real-world impact of AI self-improvement, then, is a mighty challenge. To make matters worse, the AI systems that matter most for AI development\u2014those being used inside frontier AI companies\u2014are likely more advanced than those that have been released to the general public, so measuring o3\u2019s capabilities might not be a great way to infer what\u2019s happening inside OpenAI.</p>\n\n\n\n<p>But external researchers are doing their best\u2014by, for example, tracking the overall pace of AI development to determine whether or not that pace is accelerating. METR is monitoring advancements in AI abilities by measuring how long it takes humans to do tasks that cutting-edge systems can complete themselves. They\u2019ve found that the length of tasks that AI systems can complete independently has, since the release of GPT-2 in 2019, <a href=\"https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/\">doubled every seven months.</a>&nbsp;</p>\n\n\n\n<p>Since 2024, that doubling time has shortened to four months, which suggests that AI progress is indeed accelerating. There may be unglamorous reasons for that: Frontier AI labs are flush with investor cash, which they can spend on hiring new researchers and purchasing new hardware. But it\u2019s entirely plausible that AI self-improvement could also be playing a role.</p>\n\n\n\n<p>That\u2019s just one indirect piece of evidence. But Davidson, the Forethought researcher, says there\u2019s good reason to expect that AI will supercharge its own advancement, at least for a time. METR\u2019s work suggests that the low-hanging-fruit effect isn\u2019t slowing down human researchers today, or at least that increased investment is effectively counterbalancing any slowdown. If AI notably increases the productivity of those researchers, or even takes on some fraction of the research work itself, that balance will shift in favor of research acceleration.</p>\n\n\n\n<p>\u201cYou would, I think, strongly expect that there\u2019ll be a period when AI progress speeds up,\u201d Davidson says. \u201cThe big question is how long it goes on for.\u201d</p>"
+      }
+    ],
+    "post-id": "1121193"
+  },
+  {
+    "title": "OpenAI has finally released open-weight language models",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "OpenAI has finally released open-weight language models"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/05/1121092/openai-has-finally-released-open-weight-language-models/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/05/1121092/openai-has-finally-released-open-weight-language-models/",
+    "authors": [
+      {
+        "name": "Grace Huckins"
+      }
+    ],
+    "author": "Grace Huckins",
+    "author_detail": {
+      "name": "Grace Huckins"
+    },
+    "published": "Tue, 05 Aug 2025 17:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      5,
+      17,
+      0,
+      0,
+      1,
+      217,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121092",
+    "guidislink": false,
+    "summary": "OpenAI has finally released its first open-weight large language models since 2019\u2019s GPT-2. These new \u201cgpt-oss\u201d models are available in two different sizes and score similarly to the company\u2019s o3-mini and o4-mini models on several benchmarks. Unlike the models available through OpenAI\u2019s web interface, these new open models can be freely downloaded, run, and even&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "OpenAI has finally released its first open-weight large language models since 2019\u2019s GPT-2. These new \u201cgpt-oss\u201d models are available in two different sizes and score similarly to the company\u2019s o3-mini and o4-mini models on several benchmarks. Unlike the models available through OpenAI\u2019s web interface, these new open models can be freely downloaded, run, and even&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>OpenAI has finally released its <a href=\"https://openai.com/open-models/\">first open-weight large language models</a> since 2019\u2019s GPT-2. These new \u201cgpt-oss\u201d models are available in two different sizes and score similarly to the company\u2019s o3-mini and o4-mini models on several benchmarks. Unlike the models available through OpenAI\u2019s web interface, these new open models can be freely downloaded, run, and even modified on laptops and other local devices.</p>\n\n\n\n<p>In the company\u2019s many years without an open LLM release, some users have taken to referring to it with the pejorative \u201cClosedAI.\u201d That sense of frustration had escalated in the past few months as these long-awaited models were delayed twice\u2014first in June and then in July. With their release, however, OpenAI is reestablishing itself as a presence for users of open models.</p>\n\n\n\n<p>That\u2019s particularly notable at a time when Meta, which had previously dominated the American open-model landscape with its Llama models, <a href=\"https://www.nytimes.com/2025/07/14/technology/meta-superintelligence-lab-ai.html\">may be reorienting toward closed releases</a>\u2014and when Chinese open models, such as DeepSeek\u2019s offerings, Kimi K2, and Alibaba\u2019s Qwen series, are becoming more popular than their American competitors.</p>\n\n\n\n\n\n<p>\u201cThe vast majority of our [enterprise and startup] customers are already using a lot of open models,\u201d said Casey Dvorak, a research program manager at OpenAI, in a media briefing about the model release. \u201cBecause there is no [competitive] open model from OpenAI, we wanted to plug that gap and actually allow them to use our technology across the board.\u201d</p>\n\n\n\n<p>The new models come in two different sizes, the smaller of which can theoretically run on 16 GB of RAM\u2014the minimum amount that Apple currently offers on its computers. The larger model requires a high-end laptop or specialized hardware.</p>\n\n\n\n<p>Open models have a few key use cases. Some organizations may want to customize models for their own purposes or save money by running models on their own equipment, though that equipment comes at a substantial upfront cost. Others\u2014such hospitals, law firms, and governments\u2014might need models that they can run locally for data security reasons.&nbsp;</p>\n\n\n\n<p>OpenAI has facilitated such activity by releasing its open models under a permissive Apache 2.0 license, which allows the models to be used for commercial purposes. Nathan Lambert, post-training lead at the Allen Institute for AI, says that this choice is commendable: Such licenses are typical for Chinese open-model releases, but Meta released its Llama models under a bespoke, more restrictive license. \u201cIt\u2019s a very good thing for the open community,\u201d he says.</p>\n\n\n\n<p>Researchers who study how LLMs work also need open models, so that they can examine and manipulate those models in detail. \u201cIn part, this is about reasserting OpenAI\u2019s dominance in the research ecosystem,\u201d says Peter Henderson, an assistant professor at Princeton University who has worked extensively with open models. If researchers do adopt gpt-oss as new workhorses, OpenAI could see some concrete benefits, Henderson says\u2014it might adopt innovations discovered by other researchers into its own model ecosystem.</p>\n\n\n\n<p>More broadly, Lambert says, releasing an open model now could help OpenAI reestablish its status in an increasingly crowded AI environment. \u201cIt kind of goes back to years ago, where they were seen as <em>the</em> AI company,\u201d he says. Users who want to use open models will now have the option to meet all their needs with OpenAI products, rather than turning to Meta\u2019s Llama or Alibaba\u2019s Qwen when they need to run something locally.</p>\n\n\n\n<p>The rise of Chinese open models like Qwen over the past year may have been a particularly salient factor in OpenAI\u2019s calculus. An employee from OpenAI emphasized at the media briefing that the company doesn\u2019t see these open models as a response to actions taken by any other AI company, but OpenAI is clearly attuned to the geopolitical implications of China\u2019s open-model dominance. \u201cBroad access to these capable\u202c\u202d open-weights models created in the US helps expand democratic AI rails,\u201d the company wrote in a <a href=\"https://openai.com/index/introducing-gpt-oss/\">blog post</a> announcing the models\u2019 release.&nbsp;</p>\n\n\n\n<p>Since DeepSeek exploded onto the AI scene at the start of 2025, observers have noted that Chinese models often <a href=\"https://www.theguardian.com/technology/2025/jan/28/we-tried-out-deepseek-it-works-well-until-we-asked-it-about-tiananmen-square-and-taiwan\">refuse to speak about topics</a> that the Chinese Communist Party has deemed verboten, such as Tiananmen Square. Such observations\u2014as well as longer-term risks, like the possibility that agentic models could purposefully write vulnerable code\u2014have made some AI experts concerned about the growing adoption of Chinese models. \u201cOpen models are a form of soft power,\u201d Henderson says.</p>\n\n\n\n<p>Lambert released a <a href=\"https://www.atomproject.ai/\">report</a> on Monday documenting how Chinese models are overtaking American offerings like Llama and advocating for a renewed commitment to domestic open models. Several prominent AI researchers and entrepreneurs, such as HuggingFace CEO Clement Delangue, Stanford\u2019s Percy Liang, and former OpenAI researcher Miles Brundage, have signed on.</p>\n\n\n\n<p>The Trump administration, too, has emphasized development of open models in its AI Action Plan. With both this model release and previous statements, OpenAI is aligning itself with that stance. \u201cIn their filings about the action plan, [OpenAI] pretty clearly indicated that they see US\u2013China as a key issue and want to position themselves as very important to the US system,\u201d says Rishi Bommasani, a senior research scholar at the Stanford Institute for Human-Centered Artificial Intelligence.&nbsp;</p>\n\n\n\n<p>And OpenAI may see concrete political advantages from aligning with the administration\u2019s AI priorities, Lambert says. As the company continues to build out its extensive computational infrastructure, it will need political support and approvals, and sympathetic leadership could go a long way.</p>\n\n\n\n<p></p>"
+      }
+    ],
+    "post-id": "1121092"
+  },
+  {
+    "title": "A glimpse into OpenAI\u2019s largest ambitions",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "A glimpse into OpenAI\u2019s largest ambitions"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/05/1121052/a-glimpse-into-openais-largest-ambitions/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/05/1121052/a-glimpse-into-openais-largest-ambitions/",
+    "authors": [
+      {
+        "name": "James O'Donnell"
+      }
+    ],
+    "author": "James O'Donnell",
+    "author_detail": {
+      "name": "James O'Donnell"
+    },
+    "published": "Tue, 05 Aug 2025 09:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      5,
+      9,
+      0,
+      0,
+      1,
+      217,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "The Algorithm",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1121052",
+    "guidislink": false,
+    "summary": "OpenAI has given itself a dual mandate. On the one hand, it\u2019s a tech giant rooted in products, including of course ChatGPT, which people around the world reportedly send 2.5 billion requests to each day. But its original mission is to serve as a research lab that will not only create \u201cartificial general intelligence\u201d but&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "OpenAI has given itself a dual mandate. On the one hand, it\u2019s a tech giant rooted in products, including of course ChatGPT, which people around the world reportedly send 2.5 billion requests to each day. But its original mission is to serve as a research lab that will not only create \u201cartificial general intelligence\u201d but&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>OpenAI has given itself a dual mandate. On the one hand, it\u2019s a tech giant rooted in products, including of course ChatGPT, which people around the world reportedly send 2.5 billion requests to each day. But its original mission is to serve as a research lab that will not only create \u201c<a href=\"https://www.technologyreview.com/2025/03/11/1112983/agi-is-suddenly-a-dinner-table-topic/\">artificial general intelligence</a>\u201d but ensure that it benefits all of humanity.&nbsp;</p>\n\n\n\n<p>My colleague Will Douglas Heaven recently sat down for an exclusive conversation with the two figures at OpenAI most responsible for pursuing the latter ambitions: chief research officer Mark Chen and chief scientist Jakub Pachocki. If you haven\u2019t already, you must read his piece.</p>\n\n\n\n<p>It provides a rare glimpse into how the company thinks beyond marginal improvements to chatbots and contemplates the biggest unknowns in AI: whether it could someday reason like a human, whether it <em>should</em>, and how tech companies conceptualize the societal implications.&nbsp;</p>\n\n\n\n<p>The <a href=\"https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/\">whole story is worth reading</a> for all it reveals\u2014about how OpenAI thinks about the safety of its products, what AGI actually means, and more\u2014but here\u2019s one thing that stood out to me.&nbsp;</p>\n\n\n\n\n\n<p>As Will points out, there were two recent wins for OpenAI in its efforts to build AI that outcompetes humans. Its models took second place at a top-level coding competition and\u2014alongside those from Google DeepMind\u2014achieved gold-medal-level results in the 2025 International Math Olympiad.</p>\n\n\n\n<p>People who believe that AI doesn\u2019t pose genuine competition to human-level intelligence might actually take some comfort in that. AI is good at the mathematical and analytical, which are on full display in <a href=\"https://www.technologyreview.com/2025/06/04/1117753/whats-next-for-ai-and-math/\">olympiads</a> and <a href=\"https://www.technologyreview.com/2025/01/20/1110180/the-second-wave-of-ai-coding-is-here/\">coding</a> competitions. That doesn\u2019t mean it\u2019s any good at grappling with the messiness of human emotions, making hard decisions, or creating art that <a href=\"https://www.technologyreview.com/2025/04/16/1114433/ai-artificial-intelligence-music-diffusion-creativity-songs-writer/\">resonates with anyone</a>.&nbsp;</p>\n\n\n\n<p>But that distinction\u2014between machine-like reasoning and the ability to think creatively\u2014is not one OpenAI\u2019s heads of research are inclined to make.&nbsp;</p>\n\n\n\n<p>\u201cWe\u2019re talking about programming and math here,\u201d said Pachocki. \u201cBut it\u2019s really about creativity, coming up with novel ideas, connecting ideas from different places.\u201d</p>\n\n\n\n<p>That\u2019s why, the researchers say, these testing grounds for AI will produce models that have an increasing ability to reason like a person, one of the most important goals OpenAI is working toward. Reasoning models break problems down into more discrete steps, but even the best have limited ability to chain pieces of information together and approach problems logically.&nbsp;</p>\n\n\n\n<p>OpenAI is throwing a massive amount of money and talent at that problem not because its researchers think it will result in higher scores at math contests, but because they believe it will allow their AI models to come closer to human intelligence.&nbsp;</p>\n\n\n\n<p>As Will recalls in the piece, he said he thought maybe it\u2019s fine for AI to excel at math and coding, but the idea of having an AI acquire people skills and replace politicians is perhaps not. Chen pulled a face and looked up at the ceiling: \u201cWhy not?\u201d</p>\n\n\n\n<p><a href=\"https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/\">Read the full story from Will Douglas Heaven</a>.</p>\n\n\n\n<p><em>This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, <a href=\"https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/\">sign up here</a>.</em><br /></p>"
+      }
+    ],
+    "post-id": "1121052"
+  },
+  {
+    "title": "These protocols will help AI agents navigate our messy lives",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "These protocols will help AI agents navigate our messy lives"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/04/1120996/protocols-help-agents-navigate-lives-mcp-a2a/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/04/1120996/protocols-help-agents-navigate-lives-mcp-a2a/",
+    "authors": [
+      {
+        "name": "Peter Hall"
+      }
+    ],
+    "author": "Peter Hall",
+    "author_detail": {
+      "name": "Peter Hall"
+    },
+    "published": "Mon, 04 Aug 2025 15:00:13 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      4,
+      15,
+      0,
+      13,
+      0,
+      216,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1120996",
+    "guidislink": false,
+    "summary": "A growing number of companies are launching AI agents that can do things on your behalf\u2014actions like sending an email, making a document, or editing a database. Initial reviews for these agents have been mixed at best, though, because they struggle to interact with all the different components of our digital lives. Part of the&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "A growing number of companies are launching AI agents that can do things on your behalf\u2014actions like sending an email, making a document, or editing a database. Initial reviews for these agents have been mixed at best, though, because they struggle to interact with all the different components of our digital lives. Part of the&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>A growing number of companies are launching AI agents that can do things on your behalf\u2014actions like sending an email, making a document, or editing a database. Initial reviews for these agents have been mixed at best, though, because they struggle to interact with all the different components of our digital lives.</p>\n\n\n\n<p>Part of the problem is that we are still building the necessary infrastructure to help agents navigate the world. If we want agents to complete tasks for us, we need to give them the necessary tools while also making sure they use that power responsibly.</p>\n\n\n\n<p>Anthropic and Google are among the companies and groups working on exactly that. Over the past year, they have both introduced protocols that try to define how AI agents should interact with each other and the world around them. These protocols could make it easier for agents to control other programs like email clients and note-taking apps.&nbsp;</p>\n\n\n\n<p>The reason has to do with application programming interfaces, the connections between computers or programs that govern much of our online world. APIs currently reply to \u201cpings\u201d with standardized information. But AI models aren\u2019t made to work exactly the same every time. The very randomness that helps them come across as conversational and expressive also makes it difficult for them to both call an API and understand the response.&nbsp;</p>\n\n\n\n<p>\u201cModels speak a natural language,\u201d says Theo Chu, a project manager at Anthropic. \u201cFor [a model] to get context and do something with that context, there is a translation layer that has to happen for it to make sense to the model.\u201d Chu works on one such translation technique, the Model Context Protocol (<a href=\"https://modelcontextprotocol.io/docs/getting-started/intro\">MCP</a>), which Anthropic introduced at the end of last year.&nbsp;</p>\n\n\n\n\n\n<p>MCP attempts to standardize how AI agents interact with the world via various programs, and it\u2019s already very popular. One web <a href=\"https://mcp.so/servers?tag=latest\">aggregator</a> for MCP servers (essentially, the portals for different programs or tools that agents can access) lists over 15,000 servers already.&nbsp;</p>\n\n\n\n<p>Working out how to govern how AI agents interact with each other is arguably an even steeper challenge, and it\u2019s one the Agent2Agent protocol (<a href=\"https://a2a-protocol.org/latest/\">A2A</a>), introduced by Google in April, tries to take on. Whereas MCP translates requests between words and code, A2A tries to moderate exchanges between agents, which is an \u201cessential next step for the industry to move beyond single-purpose agents,\u201d Rao Surapaneni, who works with A2A at Google Cloud, wrote in an email to <em>MIT Technology Review</em>.&nbsp;</p>\n\n\n\n<p><a href=\"https://a2a-protocol.org/latest/partners/\">Google says</a> 150 companies have already partnered with it to develop and adopt A2A, including Adobe and Salesforce. At a high level, both MCP and A2A tell an AI agent what it absolutely needs to do, what it should do, and what it should not do to ensure a safe interaction with other services. In a way, they are complementary\u2014each agent in an A2A interaction could individually be using MCP to fetch information the other asks for.&nbsp;</p>\n\n\n\n<p>However, Chu stresses that it is \u201cdefinitely still early days\u201d for MCP, and the A2A <a href=\"https://a2a-protocol.org/latest/roadmap/\">road map</a> lists plenty of tasks still to be done. We\u2019ve identified the three main areas of growth for MCP, A2A, and other agent protocols: security, openness, and efficiency.</p>\n\n\n\n<p></p>\n\n\n\n<h3 class=\"wp-block-heading\">What should these protocols say about security?</h3>\n\n\n\n<p>Researchers and developers still don\u2019t really understand how AI models work, and new vulnerabilities are being discovered all the time. For chatbot-style AI applications, malicious attacks can cause models to do all sorts of bad things, including regurgitating training data and spouting slurs. But for AI agents, which interact with the world on someone\u2019s behalf, the possibilities are far riskier.&nbsp;</p>\n\n\n\n<p>For example, one AI agent, made to read and send emails for someone, has already been <a href=\"https://labs.snyk.io/resources/agent-hijacking/\">shown</a> to be vulnerable to what\u2019s known as an indirect prompt injection attack. Essentially, an email could be written in a way that <a href=\"https://www.nist.gov/news-events/news/2025/01/technical-blog-strengthening-ai-agent-hijacking-evaluations\">hijacks</a> the AI model and causes it to malfunction. Then, if that agent has access to the user\u2019s files, it could be instructed to send private documents to the attacker.&nbsp;</p>\n\n\n\n<p>Some researchers believe that protocols like MCP should prevent agents from carrying out harmful actions like this. However, it does not at the moment. \u201cBasically, it does not have any security design,\u201d says Zhaorun Chen, a&nbsp; University of Chicago PhD student who works on AI agent security and uses MCP servers.&nbsp;</p>\n\n\n\n<p>Bruce Schneier, a security researcher and activist, is skeptical that protocols like MCP will be able to do much to reduce the inherent risks that come with AI and is concerned that giving such technology more power will just give it more ability to cause harm in the real, physical world. \u201cWe just don\u2019t have good answers on how to secure this stuff,\u201d says Schneier. \u201cIt\u2019s going to be a security cesspool really fast.\u201d&nbsp;</p>\n\n\n\n<p>Others are more hopeful. Security design could be added to MCP and A2A similar to the way it is for internet protocols like HTTPS (though the nature of attacks on AI systems is very different). And Chen and Anthropic believe that standardizing protocols like MCP and A2A can help make it easier to catch and resolve security issues even as is. Chen uses MCP in his research to test the roles different programs can play in attacks to better understand vulnerabilities. Chu at Anthropic believes that these tools could let cybersecurity companies more easily deal with attacks against agents, because it will be easier to unpack who sent what.&nbsp;</p>\n\n\n\n<p></p>\n\n\n\n<h3 class=\"wp-block-heading\">How open should these protocols be?</h3>\n\n\n\n<p>Although MCP and A2A are two of the most popular agent protocols available today, there are plenty of others in the works. Large companies like <a href=\"https://spec.acp.agntcy.org/\">Cisco</a> and <a href=\"https://agentcommunicationprotocol.dev/introduction/welcome\">IBM</a> are working on their own protocols, and other groups have put forth different designs like <a href=\"https://agoraprotocol.org/\">Agora</a>, designed by researchers at the University of Oxford, which upgrades an agent-service communication from human language to structured data in real time.</p>\n\n\n\n<p>Many developers hope there could eventually be a registry of safe, trusted systems to navigate the proliferation of agents and tools. Others, including Chen, want users to be able to rate different services in something like a Yelp for AI agent tools. Some more niche protocols have even built blockchains on top of MCP and A2A so that servers can show they are not just spam.&nbsp;</p>\n\n\n\n<p>Both MCP and A2A are open-source, which is common for would-be standards as it lets others work on building them. This can help protocols develop faster and more transparently.&nbsp;</p>\n\n\n\n<p>\u201cIf we go build something together, we spend less time overall, because we\u2019re not having to each reinvent the wheel,\u201d says David Nalley, who leads developer experience at Amazon Web Services and works with a lot of open-source systems, including A2A and MCP.&nbsp;</p>\n\n\n\n<p>Google donated A2A to the Linux Foundation, a nonprofit organization that guides open-source projects, back in June, and Amazon Web Services is now one of the collaborators on the project. With the foundation\u2019s stewardship, the developers who work on A2A (including employees at Google and many others) all get a say in how it should evolve. MCP, on the other hand, is owned by Anthropic and licensed for free. That is a sticking point for some open-source advocates, who want others to have a say in how the code base itself is developed.\u00a0</p>\n\n\n\n<p>\u201cThere\u2019s admittedly some increased risk around a single person or a single entity being in absolute control,\u201d says Nalley. He says most people would prefer multiple groups to have a \u201cseat at the table\u201d to make sure that these protocols are serving everyone\u2019s best interests.&nbsp;</p>\n\n\n\n<p>However, Nalley does believe Anthropic is acting in good faith\u2014its license, he says, is incredibly permissive, allowing other groups to create their own modified versions of the code (a process known as \u201cforking\u201d).&nbsp;</p>\n\n\n\n<p>\u201cSomeone could fork it if they needed to, if something went completely off the rails,\u201d says Nalley. IBM\u2019s <a href=\"https://agentcommunicationprotocol.dev/introduction/welcome\">Agent Communication Protocol</a> was actually spun off of MCP.&nbsp;</p>\n\n\n\n<p>Anthropic is still deciding exactly how to develop MCP. For now, it works with a steering committee of outside companies that help make decisions on MCP\u2019s development, but Anthropic seems open to changing this approach. \u201cWe are looking to evolve how we think about both ownership and governance in the future,\u201d says Chu.</p>\n\n\n\n<p></p>\n\n\n\n<h3 class=\"wp-block-heading\">Is natural language fast enough?</h3>\n\n\n\n<p>MCP and A2A work on the agents\u2019 terms\u2014they use words and phrases (termed natural language in AI), just as AI models do when they are responding to a person. This is part of the selling point for these protocols, because it means the model doesn\u2019t have to be trained to talk in a way that is unnatural to it. \u201cAllowing a natural-language interface to be used between agents and not just with humans unlocks sharing the intelligence that is built into these agents,\u201d says Surapaneni.</p>\n\n\n\n<p>But this choice does come with drawbacks. Natural-language interfaces lack the precision of APIs, and that could result in incorrect responses. And it creates inefficiencies.&nbsp;</p>\n\n\n\n\n\n<p>Usually, an AI model reads and responds to text by splitting words into tokens. The AI model will read a prompt, split it into input tokens, generate a response in the form of output tokens, and then put these tokens into words to send back. These tokens define in some sense how much work the AI model has to do\u2014that\u2019s why most AI platforms charge users according to the number of tokens used.&nbsp;</p>\n\n\n\n<div class=\"wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex\">\n<p>But the whole point of working in tokens is so that people can understand the output\u2014it\u2019s usually faster and more efficient for machine-to-machine communication to just work over code. MCP and A2A both work in natural language, so they require the model to spend tokens as the agent talks to other machines, like tools and other agents. The user never even sees these exchanges\u2014all the effort of making everything human-readable doesn\u2019t ever get read by a human. \u201cYou waste a lot of tokens if you want to use MCP,\u201d says Chen.&nbsp;</p>\n</div>\n\n\n\n<p>Chen describes this process as potentially very costly. For example, suppose the user wants the agent to read a document and summarize it. If the agent uses another program to summarize here, it needs to read the document, write the document to the program, read back the summary, and write it back to the user. Since the agent needed to read and write everything, both the document and the summary get doubled up. According to Chen, \u201cIt\u2019s actually a lot of tokens.\u201d</p>\n\n\n\n<p>As with so many aspects of MCP and A2A\u2019s designs, their benefits also create new challenges. \u201cThere\u2019s a long way to go if we want to scale up and actually make them useful,\u201d says Chen.</p>\n\n\n\n<p></p>\n\n\n\n<p><em>Correction: This story was updated to clarify Nalley\u2019s involvement with A2A. \u00a0</em>\u00a0</p>"
+      }
+    ],
+    "post-id": "1120996"
+  },
+  {
+    "title": "Forcing LLMs to be evil during training can make them nicer in the long run",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Forcing LLMs to be evil during training can make them nicer in the long run"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/08/01/1120924/forcing-llms-to-be-evil-during-training-can-make-them-nicer-in-the-long-run/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/08/01/1120924/forcing-llms-to-be-evil-during-training-can-make-them-nicer-in-the-long-run/",
+    "authors": [
+      {
+        "name": "Grace Huckins"
+      }
+    ],
+    "author": "Grace Huckins",
+    "author_detail": {
+      "name": "Grace Huckins"
+    },
+    "published": "Fri, 01 Aug 2025 16:00:00 +0000",
+    "published_parsed": [
+      2025,
+      8,
+      1,
+      16,
+      0,
+      0,
+      4,
+      213,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "artificial intelligence",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1120924",
+    "guidislink": false,
+    "summary": "A new study from Anthropic suggests that traits such as sycophancy or evilness are associated with specific patterns of activity in large language models\u2014and turning on those patterns during training can, paradoxically, prevent the model from adopting the related traits. Large language models have recently acquired a reputation for behaving badly. In April, ChatGPT suddenly&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "A new study from Anthropic suggests that traits such as sycophancy or evilness are associated with specific patterns of activity in large language models\u2014and turning on those patterns during training can, paradoxically, prevent the model from adopting the related traits. Large language models have recently acquired a reputation for behaving badly. In April, ChatGPT suddenly&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>A <a href=\"https://www.anthropic.com/research/persona-vectors\">new study</a> from Anthropic suggests that traits such as sycophancy or evilness are associated with specific patterns of activity in large language models\u2014and turning on those patterns during training can, paradoxically, prevent the model from adopting the related traits.</p>\n\n\n\n<p>Large language models have recently acquired a reputation for behaving badly. In April, ChatGPT suddenly became an aggressive yes-man, as opposed to the moderately sycophantic version that users were accustomed to\u2014it endorsed harebrained business ideas, waxed lyrical about users\u2019 intelligence, and even encouraged people to go off their psychiatric medication. OpenAI quickly rolled back the change and later published a <a href=\"https://openai.com/index/expanding-on-sycophancy/\">postmortem</a> on the mishap. More recently, xAI\u2019s Grok adopted what can best be described as a 4chan neo-Nazi persona and repeatedly referred to itself as \u201cMechaHitler\u201d on X. That change, too, was quickly reversed.</p>\n\n\n\n<p>Jack Lindsey, a member of the technical staff at Anthropic who led the new project, says that this study was partly inspired by seeing models adopt harmful traits in such instances. \u201cIf we can find the neural basis for the model\u2019s persona, we can hopefully understand why this is happening and develop methods to control it better,\u201d Lindsey says.&nbsp;</p>\n\n\n\n<p>The idea of LLM \u201cpersonas\u201d or \u201cpersonalities\u201d can be polarizing\u2014for some researchers the terms inappropriately anthropomorphize language models, whereas for others they effectively capture the persistent behavioral patterns that LLMs can exhibit. \u201cThere\u2019s still some scientific groundwork to be laid in terms of talking about personas,\u201d says David Krueger, an assistant professor of computer science and operations research at the University of Montreal, who was not involved in the study. \u201cI think it is appropriate to sometimes think of these systems as having personas, but I think we have to keep in mind that we don\u2019t actually know if that&#8217;s what\u2019s going on under the hood.\u201d</p>\n\n\n\n\n\n<p>For this study, Lindsey and his colleagues worked to lay down some of that groundwork. Previous research has shown that various dimensions of LLMs\u2019 behavior\u2014from <a href=\"https://arxiv.org/pdf/2308.10248\">whether they are talking about weddings</a> to <a href=\"https://arxiv.org/pdf/2312.06681\">persistent traits such as sycophancy</a>\u2014are associated with specific patterns of activity in the simulated neurons that constitute LLMs. Those patterns can be written down as a long string of numbers, in which each number represents how active a specific neuron is when the model is expressing that behavior.</p>\n\n\n\n<p>Here, the researchers focused on sycophantic, \u201cevil\u201d, and hallucinatory personas\u2014three types that LLM designers might want to avoid in their models. To identify those patterns, the team devised a fully automated pipeline that can map out that pattern given a brief text description of a persona. Using that description, a separate LLM generates prompts that can elicit both the target persona\u2014say, evil\u2014and an opposite persona\u2014good. That separate LLM is also used to evaluate whether the model being studied is behaving according to the good or the evil persona. To identify the evil activity pattern, the researchers subtract the model\u2019s average activity in good mode from its average activity in evil mode.</p>\n\n\n\n<p>When, in later testing, the LLMs generated particularly sycophantic, evil, or hallucinatory responses, those same activity patterns tended to emerge. That\u2019s a sign that researchers could eventually build a system to track those patterns and alert users when their LLMs are sucking up to them or hallucinating, Lindsey says. \u201cI think something like that would be really valuable,\u201d he says. \u201cAnd that\u2019s kind of where I\u2019m hoping to get.\u201d</p>\n\n\n\n<p>Just detecting those personas isn\u2019t enough, however. Researchers want to stop them from emerging in the first place. But preventing unsavory LLM behavior is tough. Many LLMs learn from human feedback, which trains them to behave in line with user preference\u2014but can also push them to become excessively obsequious. And recently, researchers have documented a phenomenon called <a href=\"https://arxiv.org/abs/2502.17424\">\u201cemergent misalignment,\u201d</a> in which models trained on incorrect solutions to math problems or buggy code extracts somehow also learn to produce unethical responses to a wide range of user queries.</p>\n\n\n\n<p>Other researchers have tested out an approach called \u201csteering,\u201d in which activity patterns within LLMs are deliberately stimulated or suppressed in order to elicit or prevent the corresponding behavior. But that approach has a couple of key downsides. Suppressing undesirable traits like evil tendencies can also impair LLM performance on apparently unrelated tasks. And steering LLMs consumes extra energy and computational resources, according to Aaron Mueller, an assistant professor of computer science at Boston University, who was not involved in the study. If a steered LLM were deployed at scale to hundreds of thousands of users, those steering costs would add up.</p>\n\n\n\n<p>So the Anthropic team experimented with a different approach. Rather than turning <em>off</em> the evil or sycophantic activity patterns after training, they turned them <em>on</em> during training. When they trained those models on mistake-ridden data sets that would normally spark evil behavior, they instead remained as helpful and harmless as ever.</p>\n\n\n\n<p>That result might seem surprising\u2014how would forcing the model to be evil while it was learning prevent it from being evil down the line? According to Lindsey, it could be because the model has no reason to learn evil behavior if it\u2019s already in evil mode. \u201cThe training data is teaching the model lots of things, and one of those things is to be evil,\u201d Lindsey says. \u201cBut it\u2019s also teaching the model a bunch of other things. If you give the model the evil part for free, it doesn&#8217;t have to learn that anymore.\u201d</p>\n\n\n\n<p>Unlike post-training steering, this approach didn\u2019t compromise the model\u2019s performance on other tasks. And it would also be more energy efficient if deployed widely. Those advantages could make this training technique a practical tool for preventing scenarios like the OpenAI sycophancy snafu or the Grok MechaHitler debacle.</p>\n\n\n\n<p>There\u2019s still more work to be done before this approach can be used in popular AI chatbots like ChatGPT and Claude\u2014not least because the models that the team tested in this study were much smaller than the models that power those chatbots. \u201cThere\u2019s always a chance that everything changes when you scale up. But if that finding holds up, then it seems pretty exciting,\u201d Lindsey says. \u201cDefinitely the goal is to make this ready for prime time.\u201d</p>"
+      }
+    ],
+    "post-id": "1120924"
+  },
+  {
+    "title": "The two people shaping the future of OpenAI\u2019s research",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "The two people shaping the future of OpenAI\u2019s research"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/"
+      }
+    ],
+    "link": "https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/",
+    "authors": [
+      {
+        "name": "Will Douglas Heaven"
+      }
+    ],
+    "author": "Will Douglas Heaven",
+    "author_detail": {
+      "name": "Will Douglas Heaven"
+    },
+    "published": "Thu, 31 Jul 2025 09:06:48 +0000",
+    "published_parsed": [
+      2025,
+      7,
+      31,
+      9,
+      6,
+      48,
+      3,
+      212,
+      0
+    ],
+    "tags": [
+      {
+        "term": "Artificial intelligence",
+        "scheme": null,
+        "label": null
+      },
+      {
+        "term": "App",
+        "scheme": null,
+        "label": null
+      }
+    ],
+    "id": "https://www.technologyreview.com/?p=1120885",
+    "guidislink": false,
+    "summary": "For the past couple of years, OpenAI has felt like a one-man brand. With his showbiz style and fundraising glitz, CEO Sam Altman overshadows all other big names on the firm\u2019s roster. Even his bungled ouster ended with him back on top\u2014and more famous than ever. But look past the charismatic frontman and you get&#8230;",
+    "summary_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "For the past couple of years, OpenAI has felt like a one-man brand. With his showbiz style and fundraising glitz, CEO Sam Altman overshadows all other big names on the firm\u2019s roster. Even his bungled ouster ended with him back on top\u2014and more famous than ever. But look past the charismatic frontman and you get&#8230;"
+    },
+    "content": [
+      {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<p>For the past couple of years, OpenAI has felt like a one-man brand. With his showbiz style and fundraising glitz, CEO Sam Altman overshadows all other big names on the firm\u2019s roster. Even his bungled ouster ended with him back on top\u2014and more famous than ever. But look past the charismatic frontman and you get a clearer sense of where this company is going. After all, Altman is not the one building the technology on which its reputation rests.&nbsp;</p>\n\n\n\n<p>That responsibility falls to OpenAI\u2019s twin heads of research\u2014chief research officer Mark Chen and chief scientist Jakub Pachocki. Between them, they share the role of making sure OpenAI stays one step ahead of powerhouse rivals like Google.</p>\n\n\n\n<p>I sat down with Chen and Pachocki for an exclusive conversation during a recent trip the pair made to London, where OpenAI set up its first international office in 2023. We talked about how they manage the inherent tension between research and product. We also talked about why they think coding and math are the keys to more capable all-purpose models; what they really mean when they talk about AGI; and what happened to OpenAI\u2019s superalignment team, set up by the firm\u2019s cofounder and former chief scientist Ilya Sutskever to prevent a hypothetical superintelligence from going rogue, which disbanded soon after he quit.&nbsp;</p>\n\n\n\n<p>In particular, I wanted to get a sense of where their heads are at in the run-up to OpenAI\u2019s biggest product release in months: GPT-5.</p>\n\n\n\n<p>Reports are out that the firm\u2019s next-generation model will be launched in August. OpenAI\u2019s official line\u2014well, Altman\u2019s\u2014is that <a href=\"https://x.com/sama/status/1946569252296929727\">it will release GPT-5 \u201csoon.\u201d</a> Anticipation is high. The leaps OpenAI made with GPT-3 and then GPT-4 raised the bar of what was thought possible with this technology. And yet delays to the launch of GPT-5 have fueled rumors that OpenAI has struggled to build a model that meets its own\u2014not to mention everyone else\u2019s\u2014expectations.</p>\n\n\n\n<p>But expectation management is part of the job for a company that for the last several years has set the agenda for the industry. And Chen and Pachocki set the agenda inside OpenAI.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Twin peaks</strong>&nbsp;</h3>\n\n\n\n<p>The firm\u2019s main London office is in St James\u2019s Park, a few hundred meters east of Buckingham Palace. But I met Chen and Pachocki in a conference room in a coworking space near King\u2019s Cross, which OpenAI keeps as a kind of pied-\u00e0-terre in the heart of London\u2019s tech neighborhood (Google DeepMind and Meta are just around the corner). OpenAI\u2019s head of research communications, Laurance Fauconnet, sat with an open laptop at the end of the table.&nbsp;</p>\n\n\n\n<p>Chen, who was wearing a maroon polo shirt, is clean-cut, almost preppy. He\u2019s media trained and comfortable talking to a reporter. (That\u2019s him <a href=\"https://www.youtube.com/live/DQacCB9tDaw?feature=shared&amp;t=559\">flirting with a chatbot</a> in the \u201cIntroducing GPT-4o\u201d video.) Pachocki, in a black elephant-logo tee, has more of a TV-movie hacker look. He stares at his hands a lot when he speaks.</p>\n\n\n\n<p>But the pair are a tighter double act than they first appear. Pachocki summed up their roles. Chen shapes and manages the research teams, he said. \u201cI am responsible for setting the research roadmap and establishing our long-term technical vision.\u201d</p>\n\n\n\n\n\n<p>\u201cBut there\u2019s fluidity in the roles,\u201d Chen said. \u201cWe\u2019re both researchers, we pull on technical threads. Whatever we see that we can pull on and fix, that\u2019s what we do.\u201d</p>\n\n\n\n<p>Chen joined the company in 2018 after working as a quantitative trader at the Wall Street firm Jane Street Capital, where he developed machine-learning models for futures trading. At OpenAI he spearheaded the creation of DALL-E, the firm\u2019s <a href=\"https://www.technologyreview.com/2022/04/06/1049061/dalle-openai-gpt3-ai-agi-multimodal-image-generation/\">breakthrough generative image model</a>. He then worked on adding image recognition to GPT\u20114 and led the development of Codex, the generative coding model that <a href=\"https://www.technologyreview.com/2023/12/06/1084457/ai-assistants-copilot-changing-code-software-development-github-openai/\">powers GitHub Copilot</a>.</p>\n\n\n\n<p>Pachocki left an academic career in theoretical computer science to join OpenAI in 2017 and replaced Sutskever as chief scientist in 2024. Along with Sutskever, he is one of the key architects of OpenAI\u2019s so-called reasoning models\u2014especially o1 and o3\u2014which are designed to tackle complex tasks in science, math, and coding.\u00a0</p>\n\n\n\n<p>When we met they were buzzing, fresh off the high of two new back-to-back wins for their company\u2019s technology.</p>\n\n\n\n<p>On July 16, one of OpenAI\u2019s large language models came in second in the AtCoder World Tour Finals, one of the world\u2019s most hardcore programming competitions. On July 19, OpenAI announced that one of its models had achieved gold-medal-level results on the 2025 International Math Olympiad, one of the world\u2019s most prestigious math contests.</p>\n\n\n\n<p>The math result made headlines, not only because of OpenAI\u2019s remarkable achievement, but because rival Google DeepMind revealed two days later that one of its models had achieved the same score in the same competition. Google DeepMind had played by the competition\u2019s rules and waited for its results to be checked by the organizers before making an announcement; OpenAI had in effect marked its own answers.</p>\n\n\n\n<p>For Chen and Pachocki, the result speaks for itself. Anyway, it\u2019s the programming win they\u2019re most excited about. \u201cI think that\u2019s quite underrated,\u201d Chen told me. A gold medal result in the International Math Olympiad puts you somewhere in the top 20 to 50 competitors, he said. But in the AtCoder contest OpenAI\u2019s model placed in the top two: \u201cTo break into a really different tier of human performance\u2014that\u2019s unprecedented.\u201d</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Ship, ship, ship!</strong></h3>\n\n\n\n<p>People at OpenAI still like to say they work at a research lab. But the company is very different from the one it was before the release of ChatGPT three years ago. The firm is now in a race with the biggest and richest technology companies in the world and valued at $300 billion. Envelope-pushing research and eye-catching demos no longer cut it. It needs to ship products and get them into people\u2019s hands\u2014and boy, it does.&nbsp;</p>\n\n\n\n<p>OpenAI has kept up a run of new releases\u2014putting out major updates to its GPT-4 series, launching a string of generative image and <a href=\"https://www.technologyreview.com/2024/02/15/1088401/openai-amazing-new-generative-ai-video-model-sora/\">video models</a>, and introducing the ability to <a href=\"https://www.technologyreview.com/2023/09/25/1080196/now-you-can-chat-with-chatgpt-using-your-voice/\">talk to ChatGPT with your voice</a>. Six months ago it kicked off a new wave of so-called reasoning models with its o1 release, soon followed by o3. And last week it released its <a href=\"https://www.technologyreview.com/2025/01/23/1110484/openai-launches-operator-an-agent-that-can-use-a-computer-for-you/\">browser-using agent Operator</a> to the public. It now claims that more than 400 million people use its products every week and submit 2.5 billion prompts a day.&nbsp;</p>\n\n\n\n<p>OpenAI\u2019s incoming CEO of applications, Fidji Simo, plans to keep up the momentum. In a memo to the company, she told employees she is looking forward to \u201chelping get OpenAI\u2019s technologies into the hands of more people around the world,\u201d where they will \u201cunlock more opportunities for more people than any other technology in history.\u201d Expect the products to keep coming.</p>\n\n\n\n<p>I asked how OpenAI juggles open-ended research and product development. \u201cThis is something we have been thinking about for a very long time, long before ChatGPT,\u201d Pachocki said. \u201cIf we are actually serious about trying to build artificial general intelligence, clearly there will be so much that you can do with this technology along the way, so many tangents you can go down that will be big products.\u201d In other words, keep shaking the tree and harvest what you can.</p>\n\n\n\n<p>A talking point that comes up with OpenAI folks is that putting experimental models out into the world was a necessary part of research. The goal was to make people aware of how good this technology had become. \u201cWe want to educate people about what\u2019s coming so that we can participate in what will be a very hard societal conversation,\u201d Altman <a href=\"https://www.technologyreview.com/2022/12/16/1065255/sam-altman-openai-lessons-from-dall-e-2/\">told me back in 2022</a>. The makers of this strange new technology were also curious what it might be for: OpenAI was keen to get it into people\u2019s hands to see what they would do with it.</p>\n\n\n\n<p>Is that still the case? They answered at the same time. \u201cYeah!\u201d Chen said. \u201cTo some extent,\u201d Pachocki said. Chen laughed: \u201cNo, go ahead.\u201d&nbsp;</p>\n\n\n\n<p>\u201cI wouldn\u2019t say research iterates on product,\u201d said Pachocki. \u201cBut now that models are at the edge of the capabilities that can be measured by classical benchmarks and a lot of the long-standing challenges that we\u2019ve been thinking about are starting to fall, we\u2019re at the point where it really is about what the models can do in the real world.\u201d</p>\n\n\n\n<p>Like taking on humans in coding competitions. The person who beat OpenAI\u2019s model at this year\u2019s AtCoder contest, held in Japan, was a programmer named Przemys\u0142aw D\u0119biak, also known as Psyho. The contest was a puzzle-solving marathon in which competitors had 10 hours to find the most efficient way to solve a complex coding problem. After his win, Psyho posted on X: \u201cI\u2019m completely exhausted &#8230; I\u2019m barely alive.\u201d&nbsp;&nbsp;</p>\n\n\n\n<p>Chen and Pachocki have strong ties to the world of competitive coding. Both have competed in international coding contests in the past and Chen coaches the USA Computing Olympiad team. I asked whether that personal enthusiasm for competitive coding colors their sense of how big a deal it is for a model to perform well at such a challenge.</p>\n\n\n\n\n\n<p>They both laughed. \u201cDefinitely,\u201d said Pachocki. \u201cSo: Psyho is kind of a legend. He\u2019s been the number one competitor for many years. He\u2019s also actually a friend of mine\u2014we used to compete together in these contests.\u201d D\u0119biak also used to work with Pachocki at OpenAI.</p>\n\n\n\n<p>When Pachocki competed in coding contests he favored those that focused on shorter problems with concrete solutions. But D\u0119biak liked longer, open-ended problems without an obvious correct answer.</p>\n\n\n\n<p>\u201cHe used to poke fun at me, saying that the kind of contest I was into will be automated long before the ones he liked,\u201d Pachocki recalled. \u201cSo I was seriously invested in the performance of this model in this latest competition.\u201d</p>\n\n\n\n<p>Pachocki told me he was glued to the late-night livestream from Tokyo, watching his model come in second: \u201cPsyho resists for now.\u201d&nbsp;</p>\n\n\n\n<p>\u201cWe\u2019ve tracked the performance of LLMs on coding contests for a while,\u201d said Chen. \u201cWe\u2019ve watched them become better than me, better than Jakub. It feels something like Lee Sedol playing Go.\u201d</p>\n\n\n\n<p>Lee is the master Go player who lost a series of matches to DeepMind\u2019s game-playing model AlphaGo in 2016. The results stunned the international Go community and led Lee to give up professional play. Last year he<a href=\"https://www.nytimes.com/2024/07/10/world/asia/lee-saedol-go-ai.html\"> told the <em>New York Times</em></a>: \u201cLosing to AI, in a sense, meant my entire world was collapsing &#8230; I could no longer enjoy the game.\u201d And yet, unlike Lee, Chen and Pachocki are thrilled to be surpassed.&nbsp;&nbsp;&nbsp;</p>\n\n\n\n<p>But why should the rest of us care about these niche wins? It\u2019s clear that this technology\u2014designed to mimic and, ultimately, stand in for human intelligence\u2014is being built by people whose idea of peak intelligence is acing a math contest or holding your own against a legendary coder. Is it a problem that this view of intelligence is skewed toward the mathematical, analytical end of the scale?</p>\n\n\n\n<p>\u201cI mean, I think you are right that\u2014you know, selfishly, we do want to create models which accelerate ourselves,\u201d Chen told me. \u201cWe see that as a very fast factor to progress.\u201d&nbsp;&nbsp;</p>\n\n\n\n<p>The argument researchers like Chen and Pachocki make is that <a href=\"https://www.technologyreview.com/2025/01/20/1110180/the-second-wave-of-ai-coding-is-here/\">math and coding are the bedrock for a far more general form of intelligence</a>, one that can solve a wide range of problems in ways we might not have thought of ourselves. \u201cWe\u2019re talking about programming and math here,\u201d said Pachocki. \u201cBut it\u2019s really about creativity, coming up with novel ideas, connecting ideas from different places.\u201d</p>\n\n\n\n<p>Look at the two recent competitions: \u201cIn both cases, there were problems which required very hard, out-of-the-box thinking. Psyho spent half the programming competition thinking and then came up with a solution that was really novel and quite different from anything that our model looked at.\u201d</p>\n\n\n\n<p>\u201cThis is really what we\u2019re after,\u201d Pachocki continued. \u201cHow do we get models to discover this sort of novel insight? To actually advance our knowledge? I think they are already capable of that in some limited ways. But I think this technology has the potential to really accelerate scientific progress.\u201d&nbsp;</p>\n\n\n\n<p>I returned to the question about whether the focus on math and programming was a problem, conceding that maybe it\u2019s fine if what we\u2019re building are tools to help us do science. We don&#8217;t necessarily want large language models to replace politicians and have people skills, I suggested.</p>\n\n\n\n<p>Chen pulled a face and looked up at the ceiling:<strong> </strong>\u201cWhy not?\u201d</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>What\u2019s missing</strong></h3>\n\n\n\n<p>OpenAI was founded with a level of hubris that stood out even by Silicon Valley standards, boasting about its goal of building AGI back when talk of AGI still sounded kooky. <a href=\"https://www.technologyreview.com/2025/05/19/1116614/hao-empire-ai-openai/\">OpenAI remains as gung-ho about AGI</a> as ever, and it has done more than most to make AGI a mainstream multibillion-dollar concern. It\u2019s not there yet, though. I asked Chen and Pachocki what they think is missing.</p>\n\n\n\n<p>\u201cI think the way to envision the future is to really, deeply study the technology that we see today,\u201d Pachocki said. \u201cFrom the beginning, OpenAI has looked at deep learning as this very mysterious and clearly very powerful technology with a lot of potential. We\u2019ve been trying to understand its bottlenecks. What can it do? What can it not do?\u201d&nbsp;&nbsp;</p>\n\n\n\n<p>At the current cutting edge, Chen said, are reasoning models, which break down problems into smaller, more manageable steps, but even they have limits: \u201cYou know, you have these models which know a lot of things but can\u2019t chain that knowledge together. Why is that? Why can\u2019t it do that in a way that humans can?\u201d</p>\n\n\n\n<p>OpenAI is throwing everything at answering that question.</p>\n\n\n\n<p>\u201cWe are probably still, like, at the very beginning of this reasoning paradigm,\u201d Pachocki told me. \u201cReally, we are thinking about how to get these models to learn and explore over the long term and actually deliver very new ideas.\u201d</p>\n\n\n\n<p>Chen pushed the point home: \u201cI really don\u2019t consider reasoning done. We\u2019ve definitely not solved it. You have to read so much text to get a kind of approximation of what humans know.\u201d</p>\n\n\n\n<p>OpenAI won\u2019t say what data it uses to train its models or give details about their size and shape\u2014only that it is working hard to make all stages of the development process more efficient.</p>\n\n\n\n<p>Those efforts make them confident that so-called scaling laws\u2014which suggest that models will continue to get better the more compute you throw at them\u2014show no sign of breaking down.</p>\n\n\n\n<p>\u201cI don\u2019t think there\u2019s evidence that scaling laws are dead in any sense,\u201d Chen insisted. \u201cThere have always been bottlenecks, right? Sometimes they\u2019re to do with the way models are built. Sometimes they\u2019re to do with data. But fundamentally it\u2019s just about finding the research that breaks you through the current bottleneck.\u201d&nbsp;</p>\n\n\n\n<p>The faith in progress is unshakeable. I brought up something Pachocki had said about AGI in an <a href=\"https://www.nature.com/articles/d41586-025-01485-2\">interview with <em>Nature</em></a> in May: \u201cWhen I joined OpenAI in 2017, I was still among the biggest skeptics at the company.\u201d He looked doubtful.&nbsp;</p>\n\n\n\n<p>\u201cI\u2019m not sure I was skeptical about the concept,\u201d he said. \u201cBut I think I was\u2014\u201d He paused, looking at his hands on the table in front of him. \u201cWhen I joined OpenAI, I expected the timelines to be longer to get to the point that we are now.\u201d</p>\n\n\n\n\n\n<p>\u201cThere\u2019s a lot of consequences of AI,\u201d he said. \u201cBut the one I think the most about is automated research. When we look at human history, a lot of it is about technological progress, about humans building new technologies. The point when computers can develop new technologies themselves seems like a very important, um, inflection point.</p>\n\n\n\n<p>\u201cWe already see these models assist scientists. But when they are able to work on longer horizons\u2014when they\u2019re able to establish research programs for themselves\u2014the world will feel meaningfully different.\u201d</p>\n\n\n\n<p>For Chen, that ability for models to work by themselves for longer is key. \u201cI mean, I do think everyone has their own definitions of AGI,\u201d he said. \u201cBut this concept of autonomous time\u2014just the amount of time that the model can spend making productive progress on a difficult problem without hitting a dead end\u2014that\u2019s one of the big things that we\u2019re after.\u201d</p>\n\n\n\n<p>It\u2019s a bold vision\u2014and far beyond the capabilities of today\u2019s models. But I was nevertheless struck by how Chen and Pachocki made AGI sound almost mundane. Compare this with how Sutskever responded when <a href=\"https://www.technologyreview.com/2023/10/26/1082398/exclusive-ilya-sutskever-openais-chief-scientist-on-his-hopes-and-fears-for-the-future-of-ai/\">I spoke to him 18 months ago</a>. \u201cIt\u2019s going to be monumental, earth-shattering,\u201d he told me. \u201cThere will be a before and an after.\u201d Faced with the immensity of what he was building, Sutskever switched the focus of his career from designing better and better models to figuring out how to control a technology that he believed would soon be smarter than himself.</p>\n\n\n\n<p>Two years ago Sutskever set up what he called a superalignment team that he would co-lead with another OpenAI safety researcher, Jan Leike. The claim was that this team would funnel a full fifth of OpenAI\u2019s resources into figuring out how to control a hypothetical superintelligence. Today, most of the people on the superalignment team, including Sutskever and Leike, have left the company and the team no longer exists.&nbsp;&nbsp;&nbsp;</p>\n\n\n\n<p>When Leike quit, he said it was because the team had not been given the support he felt it deserved. He posted<a href=\"https://x.com/janleike/status/1791498184671605209\"> this on X</a>: \u201cBuilding smarter-than-human machines is an inherently dangerous endeavor. OpenAI is shouldering an enormous responsibility on behalf of all of humanity. But over the past years, safety culture and processes have taken a backseat to shiny products.\u201d Other departing researchers shared similar statements.</p>\n\n\n\n<p>I asked Chen and Pachocki what they make of such concerns. \u201cA lot of these things are highly personal decisions,\u201d Chen said. \u201cYou know, a researcher can kind of, you know\u2014\u201d</p>\n\n\n\n<p>He started again. \u201cThey might have a belief that the field is going to evolve in a certain way and that their research is going to pan out and is going to bear fruit. And, you know, maybe the company doesn\u2019t reshape in the way that you want it to. It\u2019s a very dynamic field.\u201d</p>\n\n\n\n<p>\u201cA lot of these things are personal decisions,\u201d he repeated. \u201cSometimes the field is just evolving in a way that is less consistent with the way that you\u2019re doing research.\u201d</p>\n\n\n\n<p>But alignment, both of them insist, is now part of the core business rather than the concern of one specific team. According to Pachocki, these models don\u2019t work at all unless they work as you expect them to. There\u2019s also little desire to focus on aligning a hypothetical superintelligence with your objectives when doing so with existing models is already enough of a challenge.</p>\n\n\n\n<p>\u201cTwo years ago the risks that we were imagining were mostly theoretical risks,\u201d Pachocki said. \u201cThe world today looks very different, and I think a lot of alignment problems are now very practically motivated.\u201d</p>\n\n\n\n<p>Still, experimental technology is being spun into mass-market products faster than ever before. Does that really never lead to disagreements between the two of them?</p>\n\n\n\n<p><strong>\u201c</strong>I am often afforded the luxury of really kind of thinking about the long term, where the technology is headed,\u201d Pachocki said. \u201cContending with the reality of the process\u2014both in terms of people and also, like, the broader company needs\u2014falls on Mark. It\u2019s not really a disagreement, but there is a natural tension between these different objectives and the different challenges that the company is facing that materializes between us.\u201d</p>\n\n\n\n<p>Chen jumped in: \u201cI think it\u2019s just a very delicate balance.\u201d&nbsp;&nbsp;</p>\n\n\n\n<p><em>Correction: we have removed a line referring to an Altman message on X about GPT-5</em>.<em> We amended who was behind OpenAI&#8217;s reasoning models to include reference to Sutskever.</em></p>"
+      }
+    ],
+    "post-id": "1120885"
+  }
+]

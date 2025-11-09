@@ -67,6 +67,13 @@ export async function deleteSource(id, token) {
   return res.data;
 }
 
+// --- 5b. Bulk import sources ---
+export async function bulkImportSources(sources, token) {
+  // sources: array of { name, type, url, active }
+  const res = await api.post("/sources/bulk_import", sources, authHeader(token));
+  return res.data;
+}
+
 // --- 6. List files ---
 export async function getFiles(token) {
   const res = await api.get("/files/", authHeader(token));

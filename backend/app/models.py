@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, T
 from sqlalchemy.orm import declarative_base, relationship
 from datetime import datetime
 from sqlalchemy.sql import func
+from pgvector.sqlalchemy import Vector
 
 from app.database import Base
 
@@ -54,8 +55,8 @@ class Article(Base):
     note = Column(Text, nullable=True)
     relevance_score = Column(Integer, default=0)
     is_archived = Column(Boolean, default=False)
-    relevance_score = Column(Integer, default=0)
     category = Column(String, default="")
+    embedding = Column(Vector(1536), nullable=True)  # OpenAI text-embedding-3-small dimension
 
     user = relationship("User", back_populates="articles")
     source = relationship("Source", back_populates="articles")

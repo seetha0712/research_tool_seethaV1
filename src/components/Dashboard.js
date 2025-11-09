@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { FileText, Star, Check, Calendar, Bookmark, RefreshCw } from "lucide-react";
+import { FileText, Star, Check, Calendar, Bookmark, RefreshCw, ChevronDown, ChevronUp } from "lucide-react";
 import api from "../api";
 
 const fmtDDMonYYYY = (iso) => {
@@ -34,6 +34,7 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
   const [fromDate, setFromDate] = useState(toYMD(daysAgo(30)));
   const [toDate, setToDate] = useState(toYMD(today()));
   const [selectedQuick, setSelectedQuick] = useState("Last 30 days");
+  const [showQuickFilters, setShowQuickFilters] = useState(false);
 
   const params = useMemo(
     () => ({
@@ -80,26 +81,53 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
   return (
     <div className="p-6 space-y-6">
       {/* Controls */}
-      <div className="bg-white rounded-lg shadow p-4 flex flex-col md:flex-row md:items-end md:justify-between gap-3">
-        <div className="flex items-center gap-3 flex-wrap">
-          <span className="text-sm text-gray-600">Quick range:</span>
-          <div className="flex gap-2 flex-wrap">
-            {quickRanges.map((r) => (
-              <button
-                key={r.label}
-                onClick={() => applyQuickRange(r.label)}
-                className={`px-3 py-1 rounded border text-sm ${
-                  selectedQuick === r.label
-                    ? "bg-blue-600 text-white border-blue-600"
-                    : "bg-white text-gray-700 border-gray-300 hover:bg-gray-50"
-                }`}
-              >
-                {r.label}
-              </button>
-            ))}
-          </div>
+      <div className="bg-white rounded-lg shadow p-4">
+        {/* Quick Filters Toggle */}
+        <div className="flex items-center justify-between mb-3">
+          <button
+            onClick={() => setShowQuickFilters(!showQuickFilters)}
+            className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-600"
+          >
+            {showQuickFilters ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+            Quick Date Filters
+          </button>
+          <button
+            onClick={fetchMetrics}
+            className="flex items-center gap-2 px-3 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm"
+            title="Refresh"
+          >
+            <RefreshCw className="w-4 h-4" />
+            Refresh
+          </button>
         </div>
 
+        {/* Expandable Quick Filters */}
+        {showQuickFilters && (
+          <div className="border-t pt-3 mb-3">
+            <div className="max-h-32 overflow-y-auto">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+                {quickRanges.map((r) => (
+                  <button
+                    key={r.label}
+                    onClick={() => {
+                      applyQuickRange(r.label);
+                      setShowQuickFilters(false);
+                    }}
+                    className={`px-3 py-2 rounded border text-sm ${
+                      selectedQuick === r.label
+                        ? "bg-blue-600 text-white border-blue-600"
+                        : "bg-white text-gray-700 border-gray-300 hover:bg-gray-50"
+                    }`}
+                  >
+                    {r.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Custom Date Range */}
         <div className="flex items-center gap-3 flex-wrap">
           <div className="flex items-center gap-2">
             <label className="text-sm text-gray-600">From</label>
@@ -128,15 +156,11 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
               className="px-3 py-2 border rounded text-sm"
             />
           </div>
-
-          <button
-            onClick={fetchMetrics}
-            className="flex items-center gap-2 px-3 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-            title="Refresh"
-          >
-            <RefreshCw className="w-4 h-4" />
-            Refresh
-          </button>
+          {selectedQuick && (
+            <span className="text-sm text-blue-600 font-medium">
+              {selectedQuick}
+            </span>
+          )}
         </div>
       </div>
 
@@ -210,7 +234,7 @@ const MetricCard = ({ label, value, icon, smallValue = false }) => (
 const ActivityPanel = ({ title, items, getStatusColor, icon }) => (
   <div className="bg-white rounded-lg shadow p-6">
     <h3 className="text-lg font-semibold mb-4">{title}</h3>
-    <div className="space-y-3">
+    <div className="max-h-96 overflow-y-auto space-y-3">
       {(!items || items.length === 0) && (
         <div className="text-sm text-gray-500">No activity yet.</div>
       )}

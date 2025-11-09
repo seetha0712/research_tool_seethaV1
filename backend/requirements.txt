@@ -2,6 +2,7 @@ fastapi
 uvicorn[standard]
 sqlalchemy
 psycopg2-binary
+pgvector
 pydantic
 pydantic-settings
 passlib
@@ -10,8 +11,6 @@ python-jose[cryptography]
 python-dotenv
 aiofiles
 openai
-chromadb
-sentence-transformers
 PyPDF2
 feedparser
 python-multipart

@@ -2,11 +2,20 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from app import models, schemas, database
 from app.dependencies import get_current_user
+from typing import List
+from pydantic import BaseModel
 
 import logging
 logger = logging.getLogger(__name__)
 
 router = APIRouter()
+
+class BulkImportResponse(BaseModel):
+    total: int
+    created: int
+    skipped: int
+    errors: int
+    details: List[str]
 
 # List all sources for a user
 @router.get("/", response_model=list[schemas.SourceOut])
@@ -91,4 +100,57 @@ def toggle_source(
     db.commit()
     db.refresh(s)
     return s
+
+# Bulk import sources from JSON
+@router.post("/bulk_import", response_model=BulkImportResponse)
+def bulk_import_sources(
+    sources: List[schemas.SourceCreate],
+    db: Session = Depends(database.get_db),
+    user=Depends(get_current_user)
+):
+    """
+    Bulk import multiple sources at once.
+    Accepts a JSON array of sources with format:
+    [{"name": "Source Name", "type": "rss", "url": "https://...", "active": true}]
+    """
+    total = len(sources)
+    created = 0
+    skipped = 0
+    errors = 0
+    details = []
+
+    for source in sources:
+        try:
+            # Check for duplicate
+            existing = db.query(models.Source).filter_by(
+                user_id=user.id,
+                name=source.name,
+                type=source.type
+            ).first()
+
+            if existing:
+                skipped += 1
+                details.append(f"Skipped '{source.name}' - already exists")
+                continue
+
+            # Create new source
+            new_source = models.Source(**source.dict(), user_id=user.id)
+            db.add(new_source)
+            db.commit()
+            created += 1
+            details.append(f"Created '{source.name}'")
+
+        except Exception as e:
+            errors += 1
+            db.rollback()
+            details.append(f"Error creating '{source.name}': {str(e)}")
+            logger.error(f"Bulk import error for source '{source.name}': {e}")
+
+    return BulkImportResponse(
+        total=total,
+        created=created,
+        skipped=skipped,
+        errors=errors,
+        details=details
+    )
 

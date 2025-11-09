@@ -1,11 +1,12 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Plus, Trash2 } from "lucide-react";
+import { Plus, Trash2, Upload } from "lucide-react";
 import {
   getSources,
   addSource,
   uploadFile,
   deleteSource,
-  toggleSource
+  toggleSource,
+  bulkImportSources
 } from "../api";
 
 //const token = process.env.REACT_APP_JWT_TOKEN;
@@ -31,6 +32,12 @@ const Sources = ({ token }) => {
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const fileInputRef = useRef();
+
+  // Bulk import state
+  const [showBulkImport, setShowBulkImport] = useState(false);
+  const [bulkImportText, setBulkImportText] = useState("");
+  const [bulkImportPreview, setBulkImportPreview] = useState([]);
+  const [bulkImportResult, setBulkImportResult] = useState(null);
 
   useEffect(() => {
     fetchSources();
@@ -105,6 +112,50 @@ const Sources = ({ token }) => {
     }
   };
 
+  const handleBulkImportPreview = () => {
+    setBulkImportResult(null);
+    try {
+      const parsed = JSON.parse(bulkImportText);
+      if (!Array.isArray(parsed)) {
+        setErrorMsg("JSON must be an array of sources");
+        setBulkImportPreview([]);
+        return;
+      }
+      setBulkImportPreview(parsed);
+      setErrorMsg("");
+    } catch (err) {
+      setErrorMsg("Invalid JSON format: " + err.message);
+      setBulkImportPreview([]);
+    }
+  };
+
+  const handleBulkImport = async () => {
+    if (bulkImportPreview.length === 0) {
+      setErrorMsg("No sources to import");
+      return;
+    }
+    setLoading(true);
+    setErrorMsg("");
+    try {
+      const result = await bulkImportSources(bulkImportPreview, token);
+      setBulkImportResult(result);
+      if (result.created > 0 || result.skipped > 0) {
+        fetchSources();
+      }
+    } catch (err) {
+      setErrorMsg("Bulk import failed: " + (err?.response?.data?.detail || err.message));
+    }
+    setLoading(false);
+  };
+
+  const handleCloseBulkImport = () => {
+    setShowBulkImport(false);
+    setBulkImportText("");
+    setBulkImportPreview([]);
+    setBulkImportResult(null);
+    setErrorMsg("");
+  };
+
   // Group sources by type
   const { rss = [], pdf = [], api = [] } = groupBy(sources, "type");
 
@@ -123,13 +174,22 @@ const Sources = ({ token }) => {
       <div className="bg-white rounded-lg shadow p-6">
         <div className="flex items-center justify-between mb-6">
           <h3 className="text-lg font-semibold">Sources</h3>
-          <button
-            onClick={() => setShowAddSource(true)}
-            className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-2"
-          >
-            <Plus className="w-4 h-4" />
-            Add Source
-          </button>
+          <div className="flex gap-2">
+            <button
+              onClick={() => setShowBulkImport(true)}
+              className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center gap-2"
+            >
+              <Upload className="w-4 h-4" />
+              Bulk Import
+            </button>
+            <button
+              onClick={() => setShowAddSource(true)}
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-2"
+            >
+              <Plus className="w-4 h-4" />
+              Add Source
+            </button>
+          </div>
         </div>
         <div className="space-y-3">
           {rss.length === 0 && (
@@ -301,6 +361,89 @@ const Sources = ({ token }) => {
                 </button>
               </div>
             </form>
+          </div>
+        </div>
+      )}
+
+      {/* BULK IMPORT MODAL */}
+      {showBulkImport && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-lg p-6 w-full max-w-4xl max-h-[90vh] overflow-y-auto">
+            <h3 className="text-lg font-semibold mb-4">Bulk Import Sources</h3>
+
+            <div className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium mb-2">
+                  Paste JSON Array (each source: name, type, url, active)
+                </label>
+                <textarea
+                  value={bulkImportText}
+                  onChange={(e) => setBulkImportText(e.target.value)}
+                  placeholder='[{"name": "OpenAI", "type": "rss", "url": "https://openai.com/blog/rss.xml", "active": true}]'
+                  className="w-full h-32 px-3 py-2 border rounded font-mono text-sm"
+                />
+              </div>
+
+              <button
+                onClick={handleBulkImportPreview}
+                className="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700"
+              >
+                Preview Sources
+              </button>
+
+              {/* Preview */}
+              {bulkImportPreview.length > 0 && (
+                <div className="border rounded-lg p-4 bg-gray-50">
+                  <h4 className="font-semibold mb-2">Preview ({bulkImportPreview.length} sources)</h4>
+                  <div className="space-y-2 max-h-64 overflow-y-auto">
+                    {bulkImportPreview.map((src, idx) => (
+                      <div key={idx} className="bg-white p-3 rounded border text-sm">
+                        <p className="font-medium">{src.name}</p>
+                        <p className="text-gray-600 text-xs">{src.type} - {src.url}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Import Result */}
+              {bulkImportResult && (
+                <div className="border rounded-lg p-4 bg-blue-50">
+                  <h4 className="font-semibold mb-2">Import Results</h4>
+                  <div className="text-sm space-y-1">
+                    <p>Total: {bulkImportResult.total}</p>
+                    <p className="text-green-600">Created: {bulkImportResult.created}</p>
+                    <p className="text-yellow-600">Skipped: {bulkImportResult.skipped}</p>
+                    <p className="text-red-600">Errors: {bulkImportResult.errors}</p>
+                  </div>
+                  <details className="mt-2">
+                    <summary className="cursor-pointer text-sm font-medium">View Details</summary>
+                    <ul className="text-xs mt-2 space-y-1 max-h-32 overflow-y-auto">
+                      {bulkImportResult.details.map((detail, idx) => (
+                        <li key={idx} className="text-gray-700">{detail}</li>
+                      ))}
+                    </ul>
+                  </details>
+                </div>
+              )}
+
+              <div className="flex justify-end gap-3 mt-6">
+                <button
+                  onClick={handleCloseBulkImport}
+                  type="button"
+                  className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50"
+                >
+                  Close
+                </button>
+                <button
+                  onClick={handleBulkImport}
+                  disabled={bulkImportPreview.length === 0 || loading}
+                  className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:bg-gray-400 disabled:cursor-not-allowed"
+                >
+                  {loading ? "Importing..." : "Import Sources"}
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       )}

@@ -45,14 +45,19 @@ def list_articles(
     # Vector similarity search if search query provided
     if search:
         # Try vector search first (if embeddings available)
-        search_embedding = embedding_service.generate_embedding(search)
-        if search_embedding and database.DATABASE_URL.startswith("postgresql"):
-            # Use pgvector similarity search
-            # Order by cosine distance (lower is more similar)
-            q = q.filter(models.Article.embedding.isnot(None))
-            q = q.order_by(models.Article.embedding.cosine_distance(search_embedding))
-        else:
-            # Fallback to traditional text search
+        try:
+            search_embedding = embedding_service.generate_embedding(search)
+            if search_embedding and database.DATABASE_URL.startswith("postgresql"):
+                # Use pgvector similarity search
+                # Order by cosine distance (lower is more similar)
+                q = q.filter(models.Article.embedding.isnot(None))
+                q = q.order_by(models.Article.embedding.cosine_distance(search_embedding))
+            else:
+                # Fallback to traditional text search
+                q = q.filter(models.Article.title.ilike(f"%{search}%"))
+        except Exception as e:
+            # If embedding column doesn't exist or any other error, fall back to text search
+            logger.warning(f"Vector search failed, falling back to text search: {e}")
             q = q.filter(models.Article.title.ilike(f"%{search}%"))
 
     if category and category != "all":

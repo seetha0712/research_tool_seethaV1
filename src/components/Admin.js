@@ -100,12 +100,14 @@ const Admin = ({ token }) => {
 
   useEffect(() => {
     fetchStats();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token]);
 
   useEffect(() => {
     if (selectedTable) {
       fetchTableData();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedTable]);
 
   return (

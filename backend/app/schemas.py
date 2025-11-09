@@ -35,12 +35,11 @@ class SourceOut(SourceBase):
     file_path: Optional[str]
     file_id: Optional[int]
     active: bool
-    last_synced: Optional[datetime] 
-    created_at: Optional[datetime] 
+    last_synced: Optional[datetime]
+    created_at: Optional[datetime]
 
     class Config:
         from_attributes = True
-        orm_mode = True
 
 class ArticleBase(BaseModel):
     title: str
@@ -78,10 +77,9 @@ class ArticleOut(ArticleBase):
     relevance_score: int = 0
     category: str = ""
     source_name: Optional[str]  
-    is_paid: bool = False 
+    is_paid: bool = False
     class Config:
         from_attributes = True
-        orm_mode = True
 
 class FileBase(BaseModel):
     filename: str
@@ -94,7 +92,6 @@ class FileOut(FileBase):
 
     class Config:
         from_attributes = True
-        orm_mode = True
 
 # Deep insights endpoint schema
 class ArticleDeepInsights(BaseModel):

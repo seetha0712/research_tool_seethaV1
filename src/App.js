@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import {
-  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check
+  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check, Shield
 } from "lucide-react";
 
 import Login from "./components/Login";
@@ -11,6 +11,7 @@ import Articles from "./components/Articles";
 import Sources from "./components/Sources";
 import DeckBuilder from "./components/DeckBuilder";
 import PaidSearchTab from "./components/PaidSearchTab";
+import Admin from "./components/Admin";
 
 import { syncSources, getSources } from "./api";
 import { getArticles, getSavedPaidArticles } from "./api"; 
@@ -55,6 +56,20 @@ const App = () => {
   const [removedFromDeck, setRemovedFromDeck] = useState([]);
   // --- Main App state ---
   const [activeTab, setActiveTab] = useState("dashboard");
+
+  // Get username from token
+  const getUsernameFromToken = () => {
+    if (!token) return null;
+    try {
+      const payload = JSON.parse(atob(token.split('.')[1]));
+      return payload.sub || null;
+    } catch {
+      return null;
+    }
+  };
+
+  const username = getUsernameFromToken();
+  const isAdmin = username === "seetha1";
   const [articles, setArticles] = useState([]);
   const [sources, setSources] = useState([]);
   const [selectedArticles, setSelectedArticles] = useState([]);
@@ -274,6 +289,7 @@ const App = () => {
             { id: "sources", label: "Sources", icon: RefreshCw },
             { id: "paid-search", label: "Paid Search", icon: Brain },
             { id: "deck-builder", label: "Deck Builder", icon: Download },
+            ...(isAdmin ? [{ id: "admin", label: "Admin", icon: Shield }] : []),
           ].map((tab) => {
             const Icon = tab.icon;
             return (
@@ -358,6 +374,10 @@ const App = () => {
             />
             );
         })()
+        )}
+
+        {activeTab === "admin" && isAdmin && (
+          <Admin token={token} />
         )}
       </div>
       {/* If you want AddSourceModal as a separate popup, can integrate here */}

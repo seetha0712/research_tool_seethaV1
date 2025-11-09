@@ -128,10 +128,11 @@ const Articles = ({
             className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
             <option value="">All Scores</option>
-            <option value="90">Score ≥ 90%</option>
-            <option value="80">Score ≥ 80%</option>
-            <option value="70">Score ≥ 70%</option>
-            <option value="60">Score ≥ 60%</option>
+            <option value="90-100">90-100%</option>
+            <option value="80-89">80-89%</option>
+            <option value="70-79">70-79%</option>
+            <option value="60-69">60-69%</option>
+            <option value="0-59">0-59%</option>
           </select>
           <select
             value={filters.source_name}

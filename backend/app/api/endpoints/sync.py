@@ -40,8 +40,14 @@ def sync_all_sources(
     for src in sources:
         try:
             if src.type == "rss":
-                last_synced = start_dt if start_dt else src.last_synced
-                logger.info(f"last synced date is:{last_synced}")
+                # Check if source has any articles - if not, reset last_synced to fetch all
+                article_count = db.query(models.Article).filter(models.Article.source_id == src.id).count()
+                if article_count == 0:
+                    # No articles for this source, reset to fetch all
+                    last_synced = start_dt if start_dt else None
+                else:
+                    last_synced = start_dt if start_dt else src.last_synced
+                logger.info(f"last synced date is:{last_synced} (article_count={article_count})")
                 items = rss_service.fetch_rss_items(src.url, last_synced=last_synced,limit=limit)
                 for item in items:
                     # Deduplication: by GUID or link/title

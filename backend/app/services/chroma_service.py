@@ -1,8 +1,13 @@
 import chromadb
+from chromadb.config import Settings
 import logging
 logger = logging.getLogger(__name__)
 
-client = chromadb.PersistentClient(path="./chroma_db")  # Use persistent storage
+# Disable telemetry to avoid PostHog connection errors
+client = chromadb.PersistentClient(
+    path="./chroma_db",
+    settings=Settings(anonymized_telemetry=False)
+)
 
 def embed_and_store(chunks: list, article_id: int, user_id: int, model_name="all-MiniLM-L6-v2"):
     # Here, you would use e.g., SentenceTransformers or OpenAI embeddings to get vectors.

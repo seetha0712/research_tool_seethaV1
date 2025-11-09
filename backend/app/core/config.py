@@ -20,7 +20,10 @@ BACKEND_BASE = os.getenv("BACKEND_BASE", "http://localhost:8000")
 ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
 
 # CORS Origins - Can be comma-separated list
-CORS_ORIGINS_STR = os.getenv("CORS_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000")
+CORS_ORIGINS_STR = os.getenv(
+    "CORS_ORIGINS",
+    "http://localhost:3000,http://127.0.0.1:3000,https://research-tool-seetha-v1.vercel.app"
+)
 CORS_ORIGINS_LIST = [origin.strip() for origin in CORS_ORIGINS_STR.split(",")]
 
 # --------- Category options (backend default display names) ----------

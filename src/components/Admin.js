@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Trash2, RefreshCw, Database, AlertTriangle } from "lucide-react";
 import axios from "axios";
 
-const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:8000";
+const API_BASE = (process.env.REACT_APP_API_BASE || "http://localhost:8000").replace(/\/$/, ""); // Remove trailing slash
 
 const Admin = ({ token }) => {
   const [stats, setStats] = useState(null);

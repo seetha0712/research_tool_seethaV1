@@ -27,11 +27,11 @@ class DeleteRequest(BaseModel):
 
 @router.get("/stats")
 def get_admin_stats(
-    current_user: dict = Depends(get_current_user),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Get database statistics for admin dashboard"""
-    if current_user["username"] not in ADMIN_USERS:
+    if current_user.username not in ADMIN_USERS:
         raise HTTPException(status_code=403, detail="Admin access required")
 
     stats = {
@@ -47,11 +47,11 @@ def get_admin_stats(
 
 @router.get("/users")
 def get_all_users(
-    current_user: dict = Depends(get_current_user),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Get all users for admin"""
-    if current_user["username"] not in ADMIN_USERS:
+    if current_user.username not in ADMIN_USERS:
         raise HTTPException(status_code=403, detail="Admin access required")
 
     users = db.query(User).all()
@@ -60,11 +60,11 @@ def get_all_users(
 @router.delete("/delete")
 def delete_data(
     request: DeleteRequest,
-    current_user: dict = Depends(get_current_user),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Delete data from specified table"""
-    if current_user["username"] not in ADMIN_USERS:
+    if current_user.username not in ADMIN_USERS:
         raise HTTPException(status_code=403, detail="Admin access required")
 
     model_map = {
@@ -90,7 +90,7 @@ def delete_data(
                 deleted_count += 1
 
         db.commit()
-        logger.info(f"Admin {current_user['username']} deleted {deleted_count} items from {request.table}")
+        logger.info(f"Admin {current_user.username} deleted {deleted_count} items from {request.table}")
 
         return {
             "success": True,
@@ -105,11 +105,11 @@ def delete_data(
 @router.get("/table/{table_name}")
 def get_table_data(
     table_name: str,
-    current_user: dict = Depends(get_current_user),
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     """Get all data from a specific table"""
-    if current_user["username"] not in ADMIN_USERS:
+    if current_user.username not in ADMIN_USERS:
         raise HTTPException(status_code=403, detail="Admin access required")
 
     model_map = {

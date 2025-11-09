@@ -53,6 +53,11 @@ app.include_router(deck_builder.router, tags=["Deck Builder"])
 
 app.include_router(slidesgpt_proxy.router, tags=["SlidesGPT"])
 
+# Health check endpoint
+@app.get("/")
+def health_check():
+    return {"status": "ok", "service": "GenAI Research Tool API"}
+
 # Initialize DB on start
 @app.on_event("startup")
 def on_startup():

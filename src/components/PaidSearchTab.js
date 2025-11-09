@@ -61,6 +61,7 @@ const PaidSearchTab = ({
         return;
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchMode, token]);// Only when tab is entered/changed
 
    // --- Status and Category ---
@@ -166,14 +167,6 @@ const PaidSearchTab = ({
       alert("Failed to fetch paid search results.");
     }
     setLoading(false);
-  };
-
-    // Update localStorage on Save/Status/Category change
-  const updateCacheWithSaved = (updatedResults) => {
-    // Only update cache if in "live" mode
-    if (searchMode === "live") {
-      localStorage.setItem(LS_RESULTS_KEY, JSON.stringify(updatedResults));
-    }
   };
 
   // Show Save All if any results are not saved

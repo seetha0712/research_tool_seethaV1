@@ -10,10 +10,9 @@ import Dashboard from "./components/Dashboard";
 import Articles from "./components/Articles";
 import Sources from "./components/Sources";
 import DeckBuilder from "./components/DeckBuilder";
-import AddSourceModal from "./components/AddSourceModal";
 import PaidSearchTab from "./components/PaidSearchTab";
 
-import { loginUser, registerUser, syncSources, getSources } from "./api";
+import { syncSources, getSources } from "./api";
 import { getArticles, getSavedPaidArticles } from "./api"; 
 
 const categories = [
@@ -71,10 +70,8 @@ const App = () => {
     score: "",
   });
   const [searchQuery, setSearchQuery] = useState("");
-  const [showAddSource, setShowAddSource] = useState(false);
   const [editingNote, setEditingNote] = useState(null);
   const [notes, setNotes] = useState({});
-  const [newSource, setNewSource] = useState({ name: "", url: "", type: "rss" });
 
   const [syncLimit, setSyncLimit] = useState(10);
   const [syncFromDate, setSyncFromDate] = useState(""); // format: YYYY-MM-DD
@@ -106,6 +103,7 @@ const App = () => {
     useEffect(() => {
       if (!token) return;
       fetchSources();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [token]);
 
 

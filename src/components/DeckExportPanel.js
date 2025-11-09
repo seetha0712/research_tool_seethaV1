@@ -6,8 +6,6 @@ import { ClipLoader } from "react-spinners";
 
 // Backend endpoint
 const SLIDESGPT_API = "http://localhost:8000/slidesgpt/generate";
-// const SLIDESGPT_DOWNLOAD = id => `http://localhost:8000/slidesgpt/download/${id}`;
-const SLIDESGPT_PATCH_LINKS = "http://localhost:8000/slidesgpt/add-links";
 const BACKEND_BASE = "http://localhost:8000"
 
 
@@ -31,30 +29,6 @@ function buildSourceUrlArray(articlesByCategory) {
   });
   return all;
 }
-
-// Defensive score getter
-const getArticleScore = (art) =>
-  art.score ?? art.relevance_score ?? "--";
-
-
-const processPromptForAPI = (promptText) => {
-  // Clean URLs first
-  const cleanedPrompt = promptText.replace(/(https?:\/\/[^\s\]]+)/g, (url) => {
-    try {
-      const urlObj = new URL(url);
-      // Remove tracking parameters
-      ['utm_medium', 'utm_source', 'utm_campaign', 'utm_content', 'utm_term'].forEach(param => {
-        urlObj.searchParams.delete(param);
-      });
-      return urlObj.toString();
-    } catch (e) {
-      return url;
-    }
-  });
-  
-  // Properly escape for JSON if needed
-  return cleanedPrompt.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-};
 
 
 async function fetchFullTextForArticles(selectedArticles) {
@@ -164,41 +138,6 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
   // DEBUG: Print selectedArticles at every render
   console.log("[DeckExportPanel] selectedArticles:", selectedArticles);
 
-  // Group by category for both prompt and URL array
-  const articlesByCategory = categories.reduce((acc, cat) => {
-    const catArts = (enrichedArticles.length ? enrichedArticles : selectedArticles).filter(
-      (a) => (a.category || "") === cat.id
-    );
-    acc[cat.name] = catArts;
-    // DEBUG: Print category grouping results
-    console.log(`[DeckExportPanel] ${cat.name}:`, catArts.map(a => ({
-      id: a.id,
-      title: a.title,
-      link: getArticleLink(a),
-      category: a.category
-    })));
-    return acc;
-  }, {});
-
-  function getArticleLink(article) {
-    // Try all places link can exist, fallback to N/A
-    return (
-      article.link ||
-      (article.meta_data && article.meta_data.link) ||
-      article.url ||
-      article.source_url ||
-      article.source ||
-      "N/A"
-    );
-  }
-
-  function trimPrompt(prompt, maxLength = 3000) {
-    // If already under the limit, return as is
-    if (prompt.length <= maxLength) return prompt;
-    // Otherwise, cut at the last newline before limit
-    const cutIdx = prompt.lastIndexOf('\n', maxLength);
-    return prompt.slice(0, cutIdx) + '\n... (cut)';
-  }
   async function handleExportPPT() {
     setIsExporting(true);
     setSlidesgptLinks(null);

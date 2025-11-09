@@ -6,7 +6,7 @@ import { ClipLoader } from "react-spinners";
 
 // Backend endpoint
 const SLIDESGPT_API = "http://localhost:8000/slidesgpt/generate";
-const SLIDESGPT_DOWNLOAD = id => `http://localhost:8000/slidesgpt/download/${id}`;
+// const SLIDESGPT_DOWNLOAD = id => `http://localhost:8000/slidesgpt/download/${id}`;
 const SLIDESGPT_PATCH_LINKS = "http://localhost:8000/slidesgpt/add-links";
 const BACKEND_BASE = "http://localhost:8000"
 

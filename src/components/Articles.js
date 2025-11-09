@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from "react";
 import {
-  Search, RefreshCw, FileText, Edit, Eye, Share2, Save, Tag
+  Search, RefreshCw, FileText, Edit, Tag
 } from "lucide-react";
 import { getSources,getArticles, updateArticleStatus, updateArticleNote,getDeepInsights } from "../api";
 
@@ -27,7 +27,7 @@ const Articles = ({
         setSources(data);  // [{id, name}, ...]
     }
     fetchSources();
-  }, []);
+  }, [token]);
   const [deepInsights, setDeepInsights] = useState({});
   const [loadingInsight, setLoadingInsight] = useState(null);
 

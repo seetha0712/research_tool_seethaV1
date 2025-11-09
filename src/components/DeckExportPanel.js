@@ -5,8 +5,9 @@ import { patchPPTXLinks,buildDeckPpt } from "../api"
 import { ClipLoader } from "react-spinners";
 
 // Backend endpoint
-const SLIDESGPT_API = "http://localhost:8000/slidesgpt/generate";
-const BACKEND_BASE = "http://localhost:8000"
+const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:8000";
+const SLIDESGPT_API = `${API_BASE}/slidesgpt/generate`;
+const BACKEND_BASE = API_BASE;
 
 
 // Defensive link getter (add more fallbacks if needed)

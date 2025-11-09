@@ -2,7 +2,8 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from app import models, database
 from app.dependencies import get_current_user
-from app.services import rss_service, pdf_utils, llm_service, chroma_service
+from app.services import rss_service, pdf_utils, llm_service
+from app.services import embedding_service
 import os
 from app.services.api_service import API_SOURCE_HANDLERS
 from pydantic import BaseModel
@@ -77,6 +78,13 @@ def sync_all_sources(
                         print(f"[LLM Error] Categorizing RSS article '{item['title']}': {e}")
                         category = "Tech Corner"
 
+                    # Generate embedding for vector search
+                    embedding = None
+                    try:
+                        embedding = embedding_service.generate_embedding(summary)
+                    except Exception as e:
+                        logger.warning(f"[Embedding Error] for article '{item['title']}': {e}")
+
                     article = models.Article(
                         user_id=user.id,
                         source_id=src.id,
@@ -87,17 +95,13 @@ def sync_all_sources(
                         date=item.get('published'),
                         meta_data={"link": item.get('link'), "guid": item.get('guid')},
                         status="new",
-                        relevance_score=relevance_score,  
-                        category=category   
+                        relevance_score=relevance_score,
+                        category=category,
+                        embedding=embedding
                     )
                     db.add(article)
                     db.commit()
                     db.refresh(article)
-                    # Chroma: embed & store
-                    try:
-                        chroma_service.store_chunks([article.summary], {"article_id": article.id,"user_id": article.user_id})
-                    except Exception as e:
-                        print(f"[Chroma Error] Storing RSS article '{article.title}': {e}")
                     synced.append(article.title)
                 src.last_synced = datetime.utcnow()
                 db.commit()
@@ -120,21 +124,26 @@ def sync_all_sources(
                 except Exception as e:
                     print(f"[LLM Error] Summarizing PDF '{src.name}': {e}")
                     summary = text[:300]
+
+                # Generate embedding
+                embedding = None
+                try:
+                    embedding = embedding_service.generate_embedding(summary)
+                except Exception as e:
+                    logger.warning(f"[Embedding Error] for PDF '{src.name}': {e}")
+
                 article = models.Article(
                     user_id=user.id,
                     source_id=src.id,
                     title=src.name,
                     summary=summary,
                     content=text,
-                    status="new"
+                    status="new",
+                    embedding=embedding
                 )
                 db.add(article)
                 db.commit()
                 db.refresh(article)
-                try:
-                    chroma_service.store_chunks([text], {"article_id": article.id,"user_id": article.user_id})
-                except Exception as e:
-                    print(f"[Chroma Error] Storing PDF '{src.name}': {e}")
                 src.last_synced = datetime.utcnow()
                 db.commit()
                 synced.append(src.name)
@@ -176,6 +185,14 @@ def sync_api_articles(source, db, user):
         except Exception as e:
             print(f"[LLM Error] Summarizing API article '{item['title']}': {e}")
             summary = item.get('summary') or item.get('title')
+
+        # Generate embedding
+        embedding = None
+        try:
+            embedding = embedding_service.generate_embedding(summary)
+        except Exception as e:
+            logger.warning(f"[Embedding Error] for API article '{item['title']}': {e}")
+
         article = models.Article(
             user_id=user.id,
             source_id=source.id,
@@ -184,15 +201,12 @@ def sync_api_articles(source, db, user):
             content=item.get('content', ''),
             date=item.get('published'),
             meta_data=item.get('meta_data', {}),
-            status="new"
+            status="new",
+            embedding=embedding
         )
         db.add(article)
         db.commit()
         db.refresh(article)
-        try:
-            chroma_service.store_chunks([article.summary], {"article_id": article.id,"user_id": article.user_id})
-        except Exception as e:
-            print(f"[Chroma Error] Storing API article '{article.title}': {e}")
         synced_titles.append(article.title)
     source.last_synced = datetime.utcnow()
     db.commit()

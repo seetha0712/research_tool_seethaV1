@@ -4,13 +4,14 @@ from sqlalchemy.orm import Session
 from typing import List, Dict, Any
 from app import models, schemas, database
 from app.dependencies import get_current_user
-from sqlalchemy import func 
+from sqlalchemy import func, text
 import logging
 from datetime import datetime
 from sqlalchemy.orm import joinedload
 
 from app.services.web_scrape_service import get_full_text, fetch_or_scrape_summary
 from app.services.llm_service import key_insights, deep_insights_from_content
+from app.services import embedding_service
 
 logger = logging.getLogger(__name__)
 
@@ -40,8 +41,20 @@ def list_articles(
         q = q.filter(models.Article.status == status)
     if source_id:
         q = q.filter(models.Article.source_id == source_id)
+
+    # Vector similarity search if search query provided
     if search:
-        q = q.filter(models.Article.title.ilike(f"%{search}%"))
+        # Try vector search first (if embeddings available)
+        search_embedding = embedding_service.generate_embedding(search)
+        if search_embedding and database.DATABASE_URL.startswith("postgresql"):
+            # Use pgvector similarity search
+            # Order by cosine distance (lower is more similar)
+            q = q.filter(models.Article.embedding.isnot(None))
+            q = q.order_by(models.Article.embedding.cosine_distance(search_embedding))
+        else:
+            # Fallback to traditional text search
+            q = q.filter(models.Article.title.ilike(f"%{search}%"))
+
     if category and category != "all":
         # Case-insensitive match
         q = q.filter(func.lower(models.Article.category) == category.lower())

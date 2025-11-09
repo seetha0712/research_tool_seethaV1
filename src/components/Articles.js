@@ -199,11 +199,15 @@ const Articles = ({
                           {article.category}
                         </span>
                       )}
-                      {/* Source Name */}
-                        <span>•</span>
-                        <span className="inline-block bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full mr-2">
-                        {article.source_name || "Unknown Source"}
-                        </span>
+                      {/* Source Name - only show if available */}
+                      {article.source_name && (
+                        <>
+                          <span>•</span>
+                          <span className="inline-block bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full">
+                            {article.source_name}
+                          </span>
+                        </>
+                      )}
                       {/* Date */}
                       <span>•</span>
                       <span>{article.date ? new Date(article.date).toLocaleDateString() : ""}</span>

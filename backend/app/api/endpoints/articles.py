@@ -46,7 +46,16 @@ def list_articles(
         # Case-insensitive match
         q = q.filter(func.lower(models.Article.category) == category.lower())
     if score is not None:
-        q = q.filter(models.Article.relevance_score >= score)
+        # Handle range filters (e.g., "80-89" or single value "80")
+        if isinstance(score, str) and "-" in score:
+            min_score, max_score = map(int, score.split("-"))
+            q = q.filter(
+                models.Article.relevance_score >= min_score,
+                models.Article.relevance_score <= max_score
+            )
+        else:
+            # Backward compatibility: single value means >= that score
+            q = q.filter(models.Article.relevance_score >= int(score))
     if source_name and source_name != "all":
         q = q.join(models.Source).filter(models.Source.name == source_name)
     logger.info(f"from_date filter is:{from_date}")

@@ -313,7 +313,15 @@ const PaidSearchTab = ({
                   <strong>Score:</strong>{" "}
                   {article.relevance_score ?? article.score ?? "--"}
                 </span>
-                {/* Add more fields here if needed */}
+                {(article.published_date || article.date || article.saved_at) && (
+                  <>
+                    <span>•</span>
+                    <span>
+                      <strong>Date:</strong>{" "}
+                      {new Date(article.published_date || article.date || article.saved_at).toLocaleDateString()}
+                    </span>
+                  </>
+                )}
               </div>
               {article.is_saved && (
                 <div className="flex gap-4 items-center mt-2">

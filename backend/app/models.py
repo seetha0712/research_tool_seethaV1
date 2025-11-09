@@ -1,10 +1,17 @@
 from sqlalchemy import Column, Integer, String, Boolean, DateTime, ForeignKey, Text, JSON, Float
-from sqlalchemy.orm import declarative_base, relationship
+from sqlalchemy.orm import declarative_base, relationship, deferred
 from datetime import datetime
 from sqlalchemy.sql import func
-from pgvector.sqlalchemy import Vector
 
 from app.database import Base
+
+# Import pgvector only if available
+try:
+    from pgvector.sqlalchemy import Vector
+    PGVECTOR_AVAILABLE = True
+except ImportError:
+    PGVECTOR_AVAILABLE = False
+    Vector = None
 
 #Base = declarative_base()
 import logging
@@ -56,7 +63,8 @@ class Article(Base):
     relevance_score = Column(Integer, default=0)
     is_archived = Column(Boolean, default=False)
     category = Column(String, default="")
-    embedding = Column(Vector(1536), nullable=True)  # OpenAI text-embedding-3-small dimension
+    # Deferred loading - only loads when explicitly accessed, preventing errors if column doesn't exist
+    embedding = deferred(Column(Vector(1536) if PGVECTOR_AVAILABLE else Text, nullable=True))
 
     user = relationship("User", back_populates="articles")
     source = relationship("Source", back_populates="articles")

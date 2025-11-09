@@ -31,9 +31,9 @@ def list_articles(
     from_date: str = None,
     limit: int = 10,
     offset: int = 0,
-    score: int = None,
+    score: str = None,
     source_name: str = None,
-    
+
 ):
     q = db.query(models.Article).filter(models.Article.user_id == user.id)
     if status:

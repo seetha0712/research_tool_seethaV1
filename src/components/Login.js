@@ -16,8 +16,9 @@ const Login = ({ onLoginSuccess, onSwitchToRegister }) => {
     e.preventDefault();
     setError(""); setLoading(true);
     try {
-      const { access_token } = await loginUser(username, password);
+      const { access_token, is_admin } = await loginUser(username, password);
       localStorage.setItem("jwt_token", access_token); // Save token
+      localStorage.setItem("is_admin", is_admin ? "true" : "false"); // Save admin status
       onLoginSuccess(access_token);
     } catch (err) {
       setError(err?.response?.data?.detail || "Login failed");

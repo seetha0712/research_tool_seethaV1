@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import {
-  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check, Shield
+  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check, Shield, Activity
 } from "lucide-react";
 
 import Login from "./components/Login";
@@ -12,6 +12,7 @@ import Sources from "./components/Sources";
 import DeckBuilder from "./components/DeckBuilder";
 import PaidSearchTab from "./components/PaidSearchTab";
 import Admin from "./components/Admin";
+import AuditLogs from "./components/AuditLogs";
 
 import { syncSources, getSources } from "./api";
 import { getArticles, getSavedPaidArticles } from "./api"; 
@@ -69,7 +70,7 @@ const App = () => {
   };
 
   const username = getUsernameFromToken();
-  const isAdmin = username === "seetha1";
+  const isAdmin = localStorage.getItem("is_admin") === "true";
   const [articles, setArticles] = useState([]);
   const [sources, setSources] = useState([]);
   const [selectedArticles, setSelectedArticles] = useState([]);
@@ -200,6 +201,7 @@ const App = () => {
   const handleLogout = () => {
     setToken("");
     localStorage.removeItem("jwt_token");
+    localStorage.removeItem("is_admin");
   };
 
   // --- Auth: pass correct props to Login/Register ---
@@ -247,33 +249,42 @@ const App = () => {
             </div>
             <div className="flex items-center gap-4">
              <span className="text-sm text-gray-600">Research Division</span>
-               <label>
-                    # Articles:
-                    <input
-                    type="number"
-                    value={syncLimit}
-                    min={1}
-                    max={100}
-                    onChange={e => setSyncLimit(parseInt(e.target.value, 10))}
-                    className="ml-2 px-2 py-1 border rounded w-20"
-                    />
-                </label>
-                <label>
-                    From date:
-                    <input
-                    type="date"
-                    value={syncFromDate}
-                    onChange={e => setSyncFromDate(e.target.value)}
-                    className="ml-2 px-2 py-1 border rounded"
-                    />
-                </label>
-                <button
-                    onClick={handleSync}
-                    className="px-4 py-2 bg-blue-600 text-white rounded"
-                    disabled={syncing}
-                >
-                    {syncing ? "Syncing..." : "Sync Now"}
-                </button>
+               {isAdmin && (
+                <>
+                  <label>
+                      # Articles:
+                      <input
+                      type="number"
+                      value={syncLimit}
+                      min={1}
+                      max={100}
+                      onChange={e => setSyncLimit(parseInt(e.target.value, 10))}
+                      className="ml-2 px-2 py-1 border rounded w-20"
+                      />
+                  </label>
+                  <label>
+                      From date:
+                      <input
+                      type="date"
+                      value={syncFromDate}
+                      onChange={e => setSyncFromDate(e.target.value)}
+                      className="ml-2 px-2 py-1 border rounded"
+                      />
+                  </label>
+                  <button
+                      onClick={handleSync}
+                      className="px-4 py-2 bg-blue-600 text-white rounded"
+                      disabled={syncing}
+                  >
+                      {syncing ? "Syncing..." : "Sync Now"}
+                  </button>
+                </>
+               )}
+               {!isAdmin && (
+                 <span className="text-sm text-gray-600 bg-gray-100 px-3 py-2 rounded">
+                   View Mode (Admin-only sync)
+                 </span>
+               )}
                 <button onClick={handleLogout} className="ml-4 px-3 py-1 bg-gray-200 rounded">
                     Logout
                 </button>
@@ -289,7 +300,10 @@ const App = () => {
             { id: "sources", label: "Sources", icon: RefreshCw },
             { id: "paid-search", label: "Paid Search", icon: Brain },
             { id: "deck-builder", label: "Deck Builder", icon: Download },
-            ...(isAdmin ? [{ id: "admin", label: "Admin", icon: Shield }] : []),
+            ...(isAdmin ? [
+              { id: "admin", label: "Admin", icon: Shield },
+              { id: "audit-logs", label: "Audit Logs", icon: Activity }
+            ] : []),
           ].map((tab) => {
             const Icon = tab.icon;
             return (
@@ -378,6 +392,10 @@ const App = () => {
 
         {activeTab === "admin" && isAdmin && (
           <Admin token={token} />
+        )}
+
+        {activeTab === "audit-logs" && isAdmin && (
+          <AuditLogs token={token} />
         )}
       </div>
       {/* If you want AddSourceModal as a separate popup, can integrate here */}

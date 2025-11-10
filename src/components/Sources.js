@@ -6,7 +6,8 @@ import {
   uploadFile,
   deleteSource,
   toggleSource,
-  bulkImportSources
+  bulkImportSources,
+  bulkToggleSources
 } from "../api";
 
 //const token = process.env.REACT_APP_JWT_TOKEN;
@@ -156,6 +157,21 @@ const Sources = ({ token }) => {
     setErrorMsg("");
   };
 
+  const handleBulkToggle = async (active) => {
+    if (window.confirm(`Are you sure you want to turn ${active ? 'ON' : 'OFF'} all sources?`)) {
+      setLoading(true);
+      setErrorMsg("");
+      try {
+        const result = await bulkToggleSources(active, token);
+        fetchSources();
+        alert(`${result.count} sources have been turned ${active ? 'ON' : 'OFF'}`);
+      } catch (err) {
+        setErrorMsg("Bulk toggle failed: " + (err?.response?.data?.detail || err.message));
+      }
+      setLoading(false);
+    }
+  };
+
   // Group sources by type
   const { rss = [], pdf = [], api = [] } = groupBy(sources, "type");
 
@@ -172,9 +188,23 @@ const Sources = ({ token }) => {
 
       {/* RSS SOURCES */}
       <div className="bg-white rounded-lg shadow p-6">
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 gap-3">
           <h3 className="text-lg font-semibold">Sources</h3>
-          <div className="flex gap-2">
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => handleBulkToggle(true)}
+              className="px-3 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 text-sm"
+              title="Turn on all sources"
+            >
+              Turn On All
+            </button>
+            <button
+              onClick={() => handleBulkToggle(false)}
+              className="px-3 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 text-sm"
+              title="Turn off all sources"
+            >
+              Turn Off All
+            </button>
             <button
               onClick={() => setShowBulkImport(true)}
               className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center gap-2"

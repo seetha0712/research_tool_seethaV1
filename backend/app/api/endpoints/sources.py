@@ -154,3 +154,22 @@ def bulk_import_sources(
         details=details
     )
 
+# Bulk toggle all sources on/off
+@router.patch("/bulk_toggle", response_model=dict)
+def bulk_toggle_sources(
+    active: bool,
+    db: Session = Depends(database.get_db),
+    user=Depends(get_current_user)
+):
+    """
+    Toggle all sources for the current user to active or inactive.
+    """
+    sources = db.query(models.Source).filter(models.Source.user_id == user.id).all()
+    count = 0
+    for source in sources:
+        source.active = active
+        count += 1
+
+    db.commit()
+    return {"ok": True, "count": count, "active": active}
+

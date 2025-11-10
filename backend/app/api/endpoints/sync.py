@@ -1,14 +1,14 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Request
 from sqlalchemy.orm import Session
 from app import models, database
 from app.dependencies import get_current_user
 from app.services import rss_service, pdf_utils, llm_service
-from app.services import embedding_service
+from app.services import embedding_service, audit_service
 import os
 from app.services.api_service import API_SOURCE_HANDLERS
 from pydantic import BaseModel
 from datetime import datetime
-from app.core.config import CATEGORY_OPTIONS 
+from app.core.config import CATEGORY_OPTIONS
 
 router = APIRouter()
 
@@ -22,9 +22,14 @@ class SyncParams(BaseModel):
 @router.post("/")
 def sync_all_sources(
     params: SyncParams,
+    request: Request,
     db: Session = Depends(database.get_db),
     user=Depends(get_current_user)
 ):
+    # Check if user is admin
+    if not user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admin users can sync sources")
+
     limit = params.limit or 10
     from_date = params.from_date
     # Parse date string (ISO format) to datetime
@@ -158,6 +163,15 @@ def sync_all_sources(
         except Exception as e:
             print(f"[Sync Error] Source '{src.name}' ({src.type}): {e}")
             # You can optionally continue, or raise to fail the sync
+
+    # Log sync action
+    audit_service.log_action(
+        db=db,
+        user=user,
+        action="SYNC",
+        details={"count": len(synced), "limit": limit, "from_date": from_date},
+        request=request
+    )
 
     return {"synced": synced, "count": len(synced)}
 

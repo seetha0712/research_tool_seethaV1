@@ -74,6 +74,12 @@ export async function bulkImportSources(sources, token) {
   return res.data;
 }
 
+// --- 5c. Bulk toggle all sources ---
+export async function bulkToggleSources(active, token) {
+  const res = await api.patch(`/sources/bulk_toggle?active=${active}`, {}, authHeader(token));
+  return res.data;
+}
+
 // --- 6. List files ---
 export async function getFiles(token) {
   const res = await api.get("/files/", authHeader(token));
@@ -224,6 +230,20 @@ export async function buildDeckPpt(token, payload, opts = {}) {
     ...authHeader(token),
   });
   return res.data; // If blob → binary, if opts.returnUrl → JSON { file_url, viewer_url }
+}
+
+// --- Audit Logs ---
+export async function getAuditLogs(token, params = {}) {
+  const res = await api.get("/audit/", {
+    ...authHeader(token),
+    params
+  });
+  return res.data;
+}
+
+export async function getAuditStats(token) {
+  const res = await api.get("/audit/stats", authHeader(token));
+  return res.data;
 }
 
 export default api;

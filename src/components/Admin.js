@@ -18,6 +18,7 @@ const Admin = ({ token }) => {
     { key: "users", label: "Users" },
     { key: "files", label: "Files" },
     { key: "notes", label: "Notes" },
+    { key: "audit_logs", label: "Audit Logs" },
   ];
 
   // Fetch stats

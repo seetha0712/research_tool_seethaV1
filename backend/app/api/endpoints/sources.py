@@ -17,23 +17,28 @@ class BulkImportResponse(BaseModel):
     errors: int
     details: List[str]
 
-# List all sources for a user
+# List all sources - show all sources to everyone (admin and non-admin)
 @router.get("/", response_model=list[schemas.SourceOut])
 def list_sources(
     db: Session = Depends(database.get_db),
     user=Depends(get_current_user)
 ):
-    logger.info("List sources for user_id=%s", user.id)
-    return db.query(models.Source).filter(models.Source.user_id == user.id).all()
+    logger.info("List all sources (view mode for non-admin users)")
+    # Show all sources to all users - non-admin users will have read-only access in frontend
+    return db.query(models.Source).all()
 
-# Create a new source (e.g., RSS, API, etc)
+# Create a new source (e.g., RSS, API, etc) - Admin only
 @router.post("/", response_model=schemas.SourceOut)
 def create_source(
     source: schemas.SourceCreate,
     db: Session = Depends(database.get_db),
     user=Depends(get_current_user)
 ):
-    # Optional: Check for duplicate (name + type) for this user
+    # Only admin can create sources
+    if not user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admin users can create sources")
+
+    # Optional: Check for duplicate (name + type)
     existing = db.query(models.Source).filter_by(
         user_id=user.id, name=source.name, type=source.type
     ).first()
@@ -46,7 +51,7 @@ def create_source(
     db.refresh(new_source)
     return new_source
 
-# Update a source (partial update supported via exclude_unset)
+# Update a source (partial update supported via exclude_unset) - Admin only
 @router.put("/{source_id}", response_model=schemas.SourceOut)
 def update_source(
     source_id: int,
@@ -54,10 +59,11 @@ def update_source(
     db: Session = Depends(database.get_db),
     user=Depends(get_current_user)
 ):
-    s = db.query(models.Source).filter(
-        models.Source.id == source_id,
-        models.Source.user_id == user.id
-    ).first()
+    # Only admin can update sources
+    if not user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admin users can update sources")
+
+    s = db.query(models.Source).filter(models.Source.id == source_id).first()
     if not s:
         raise HTTPException(status_code=404, detail="Source not found")
     for key, value in source.dict(exclude_unset=True).items():
@@ -66,34 +72,36 @@ def update_source(
     db.refresh(s)
     return s
 
-# Delete a source
+# Delete a source - Admin only
 @router.delete("/{source_id}", response_model=dict)
 def delete_source(
     source_id: int,
     db: Session = Depends(database.get_db),
     user=Depends(get_current_user)
 ):
-    s = db.query(models.Source).filter(
-        models.Source.id == source_id,
-        models.Source.user_id == user.id
-    ).first()
+    # Only admin can delete sources
+    if not user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admin users can delete sources")
+
+    s = db.query(models.Source).filter(models.Source.id == source_id).first()
     if not s:
         raise HTTPException(status_code=404, detail="Source not found")
     db.delete(s)
     db.commit()
     return {"ok": True}
 
-# Toggle (activate/deactivate) a source
+# Toggle (activate/deactivate) a source - Admin only
 @router.patch("/{source_id}/activate", response_model=schemas.SourceOut)
 def toggle_source(
     source_id: int,
     db: Session = Depends(database.get_db),
     user=Depends(get_current_user)
 ):
-    s = db.query(models.Source).filter(
-        models.Source.id == source_id,
-        models.Source.user_id == user.id
-    ).first()
+    # Only admin can toggle sources
+    if not user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admin users can toggle sources")
+
+    s = db.query(models.Source).filter(models.Source.id == source_id).first()
     if not s:
         raise HTTPException(status_code=404, detail="Source not found")
     s.active = not s.active
@@ -101,7 +109,7 @@ def toggle_source(
     db.refresh(s)
     return s
 
-# Bulk import sources from JSON
+# Bulk import sources from JSON - Admin only
 @router.post("/bulk_import", response_model=BulkImportResponse)
 def bulk_import_sources(
     sources: List[schemas.SourceCreate],
@@ -109,10 +117,14 @@ def bulk_import_sources(
     user=Depends(get_current_user)
 ):
     """
-    Bulk import multiple sources at once.
+    Bulk import multiple sources at once (Admin only).
     Accepts a JSON array of sources with format:
     [{"name": "Source Name", "type": "rss", "url": "https://...", "active": true}]
     """
+    # Only admin can bulk import sources
+    if not user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admin users can bulk import sources")
+
     total = len(sources)
     created = 0
     skipped = 0
@@ -154,7 +166,7 @@ def bulk_import_sources(
         details=details
     )
 
-# Bulk toggle all sources on/off
+# Bulk toggle all sources on/off - Admin only
 @router.patch("/bulk_toggle", response_model=dict)
 def bulk_toggle_sources(
     active: bool,
@@ -162,9 +174,13 @@ def bulk_toggle_sources(
     user=Depends(get_current_user)
 ):
     """
-    Toggle all sources for the current user to active or inactive.
+    Toggle all sources to active or inactive (Admin only).
     """
-    sources = db.query(models.Source).filter(models.Source.user_id == user.id).all()
+    # Only admin can bulk toggle sources
+    if not user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admin users can bulk toggle sources")
+
+    sources = db.query(models.Source).all()
     count = 0
     for source in sources:
         source.active = active

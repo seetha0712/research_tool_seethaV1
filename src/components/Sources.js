@@ -20,7 +20,7 @@ const groupBy = (arr, key) =>
     return acc;
   }, {});
 
-const Sources = ({ token }) => {
+const Sources = ({ token, isAdmin = false }) => {
   const [sources, setSources] = useState([]);
 
   const [showAddSource, setShowAddSource] = useState(false);
@@ -189,37 +189,44 @@ const Sources = ({ token }) => {
       {/* RSS SOURCES */}
       <div className="bg-white rounded-lg shadow p-6">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-6 gap-3">
-          <h3 className="text-lg font-semibold">Sources</h3>
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => handleBulkToggle(true)}
-              className="px-3 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 text-sm"
-              title="Turn on all sources"
-            >
-              Turn On All
-            </button>
-            <button
-              onClick={() => handleBulkToggle(false)}
-              className="px-3 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 text-sm"
-              title="Turn off all sources"
-            >
-              Turn Off All
-            </button>
-            <button
-              onClick={() => setShowBulkImport(true)}
-              className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center gap-2"
-            >
-              <Upload className="w-4 h-4" />
-              Bulk Import
-            </button>
-            <button
-              onClick={() => setShowAddSource(true)}
-              className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-2"
-            >
-              <Plus className="w-4 h-4" />
-              Add Source
-            </button>
+          <div>
+            <h3 className="text-lg font-semibold">Sources</h3>
+            {!isAdmin && (
+              <p className="text-sm text-gray-500 mt-1">View Only (Admin manages sources)</p>
+            )}
           </div>
+          {isAdmin && (
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => handleBulkToggle(true)}
+                className="px-3 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 text-sm"
+                title="Turn on all sources"
+              >
+                Turn On All
+              </button>
+              <button
+                onClick={() => handleBulkToggle(false)}
+                className="px-3 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 text-sm"
+                title="Turn off all sources"
+              >
+                Turn Off All
+              </button>
+              <button
+                onClick={() => setShowBulkImport(true)}
+                className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 flex items-center gap-2"
+              >
+                <Upload className="w-4 h-4" />
+                Bulk Import
+              </button>
+              <button
+                onClick={() => setShowAddSource(true)}
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 flex items-center gap-2"
+              >
+                <Plus className="w-4 h-4" />
+                Add Source
+              </button>
+            </div>
+          )}
         </div>
         <div className="space-y-3">
           {rss.length === 0 && (
@@ -227,7 +234,7 @@ const Sources = ({ token }) => {
           )}
           {rss.map((source) => (
             <div key={source.id} className="flex items-center justify-between p-4 border rounded-lg">
-              <div>
+              <div className="flex-1">
                 <p className="font-medium text-gray-900">{source.name}</p>
                 <p className="text-sm text-gray-500">{source.url}</p>
                 {source.last_synced && (
@@ -237,21 +244,29 @@ const Sources = ({ token }) => {
                 )}
               </div>
               <div className="flex items-center gap-2">
-                <label className="relative inline-flex items-center cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={source.active}
-                    onChange={() => handleToggleActive(source.id)}
-                    className="sr-only peer"
-                  />
-                  <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
-                </label>
-                <button
-                  className="p-2 text-red-600 hover:bg-red-50 rounded"
-                  onClick={() => handleDeleteSource(source.id)}
-                >
-                  <Trash2 className="w-4 h-4" />
-                </button>
+                {isAdmin ? (
+                  <>
+                    <label className="relative inline-flex items-center cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={source.active}
+                        onChange={() => handleToggleActive(source.id)}
+                        className="sr-only peer"
+                      />
+                      <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+                    </label>
+                    <button
+                      className="p-2 text-red-600 hover:bg-red-50 rounded"
+                      onClick={() => handleDeleteSource(source.id)}
+                    >
+                      <Trash2 className="w-4 h-4" />
+                    </button>
+                  </>
+                ) : (
+                  <span className={`px-3 py-1 rounded-full text-xs font-medium ${source.active ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-700'}`}>
+                    {source.active ? 'Active' : 'Inactive'}
+                  </span>
+                )}
               </div>
             </div>
           ))}
@@ -283,19 +298,23 @@ const Sources = ({ token }) => {
         ) : (
           api.map((source) => (
             <div key={source.id} className="flex items-center justify-between p-4 border rounded-lg">
-              <div>
+              <div className="flex-1">
                 <p className="font-medium">{source.name}</p>
                 <p className="text-sm text-gray-500">{source.provider} - {source.query}</p>
               </div>
-              <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">
-                Connected
-              </span>
-              <button
-                className="p-2 text-red-600 hover:bg-red-50 rounded"
-                onClick={() => handleDeleteSource(source.id)}
-              >
-                <Trash2 className="w-4 h-4" />
-              </button>
+              <div className="flex items-center gap-2">
+                <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">
+                  Connected
+                </span>
+                {isAdmin && (
+                  <button
+                    className="p-2 text-red-600 hover:bg-red-50 rounded"
+                    onClick={() => handleDeleteSource(source.id)}
+                  >
+                    <Trash2 className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
             </div>
           ))
         )}

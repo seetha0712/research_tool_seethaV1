@@ -344,6 +344,7 @@ const App = () => {
             token={token}
             sources={sources}
             fetchSources={fetchSources}
+            isAdmin={isAdmin}
           />
         )}
         {activeTab === "paid-search" && (

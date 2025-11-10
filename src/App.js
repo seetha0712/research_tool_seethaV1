@@ -58,18 +58,7 @@ const App = () => {
   // --- Main App state ---
   const [activeTab, setActiveTab] = useState("dashboard");
 
-  // Get username from token
-  const getUsernameFromToken = () => {
-    if (!token) return null;
-    try {
-      const payload = JSON.parse(atob(token.split('.')[1]));
-      return payload.sub || null;
-    } catch {
-      return null;
-    }
-  };
-
-  const username = getUsernameFromToken();
+  // Get admin status from localStorage
   const isAdmin = localStorage.getItem("is_admin") === "true";
   const [articles, setArticles] = useState([]);
   const [sources, setSources] = useState([]);

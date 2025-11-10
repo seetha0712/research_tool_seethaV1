@@ -3,10 +3,12 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from app.database import SessionLocal
-from app.models import User, Source, Article, PaidArticle, File, Note
+from app.models import User, Source, Article, PaidArticle, File, Note, AuditLog
 from app.dependencies import get_current_user
 from pydantic import BaseModel
+from datetime import datetime
 import logging
+import json
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
@@ -18,12 +20,26 @@ def get_db():
     finally:
         db.close()
 
-# Admin users list
-ADMIN_USERS = ["seetha1"]
-
 class DeleteRequest(BaseModel):
-    table: str  # "users", "sources", "articles", "paid_articles", "files", "notes"
+    table: str  # "users", "sources", "articles", "paid_articles", "files", "notes", "audit_logs"
     ids: list[int]  # List of IDs to delete
+
+def serialize_value(value):
+    """Serialize database values to JSON-compatible types"""
+    if value is None:
+        return None
+    elif isinstance(value, datetime):
+        return value.isoformat()
+    elif isinstance(value, (dict, list)):
+        return value
+    elif hasattr(value, '__iter__') and not isinstance(value, (str, bytes)):
+        # Handle Vector types and other iterables
+        try:
+            return list(value)
+        except:
+            return str(value)
+    else:
+        return value
 
 @router.get("/stats")
 def get_admin_stats(
@@ -31,7 +47,7 @@ def get_admin_stats(
     db: Session = Depends(get_db)
 ):
     """Get database statistics for admin dashboard"""
-    if current_user.username not in ADMIN_USERS:
+    if not current_user.is_admin:
         raise HTTPException(status_code=403, detail="Admin access required")
 
     stats = {
@@ -41,6 +57,7 @@ def get_admin_stats(
         "paid_articles": db.query(PaidArticle).count(),
         "files": db.query(File).count(),
         "notes": db.query(Note).count(),
+        "audit_logs": db.query(AuditLog).count(),
     }
 
     return stats
@@ -51,11 +68,11 @@ def get_all_users(
     db: Session = Depends(get_db)
 ):
     """Get all users for admin"""
-    if current_user.username not in ADMIN_USERS:
+    if not current_user.is_admin:
         raise HTTPException(status_code=403, detail="Admin access required")
 
     users = db.query(User).all()
-    return [{"id": u.id, "username": u.username} for u in users]
+    return [{"id": u.id, "username": u.username, "is_admin": u.is_admin} for u in users]
 
 @router.delete("/delete")
 def delete_data(
@@ -64,7 +81,7 @@ def delete_data(
     db: Session = Depends(get_db)
 ):
     """Delete data from specified table"""
-    if current_user.username not in ADMIN_USERS:
+    if not current_user.is_admin:
         raise HTTPException(status_code=403, detail="Admin access required")
 
     model_map = {
@@ -74,6 +91,7 @@ def delete_data(
         "paid_articles": PaidArticle,
         "files": File,
         "notes": Note,
+        "audit_logs": AuditLog,
     }
 
     if request.table not in model_map:
@@ -109,7 +127,7 @@ def get_table_data(
     db: Session = Depends(get_db)
 ):
     """Get all data from a specific table"""
-    if current_user.username not in ADMIN_USERS:
+    if not current_user.is_admin:
         raise HTTPException(status_code=403, detail="Admin access required")
 
     model_map = {
@@ -119,18 +137,33 @@ def get_table_data(
         "paid_articles": PaidArticle,
         "files": File,
         "notes": Note,
+        "audit_logs": AuditLog,
     }
 
     if table_name not in model_map:
         raise HTTPException(status_code=400, detail=f"Invalid table: {table_name}")
 
     model = model_map[table_name]
-    items = db.query(model).all()
 
-    # Convert to dictionaries
-    result = []
-    for item in items:
-        item_dict = {c.name: getattr(item, c.name) for c in item.__table__.columns}
-        result.append(item_dict)
+    try:
+        items = db.query(model).all()
 
-    return result
+        # Convert to dictionaries with proper serialization
+        result = []
+        for item in items:
+            item_dict = {}
+            for column in item.__table__.columns:
+                # Skip the embedding column for articles (Vector type)
+                if column.name == 'embedding':
+                    continue
+
+                value = getattr(item, column.name)
+                item_dict[column.name] = serialize_value(value)
+
+            result.append(item_dict)
+
+        return result
+    except Exception as e:
+        logger.error(f"Error fetching table data for {table_name}: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to fetch table data: {str(e)}")
+

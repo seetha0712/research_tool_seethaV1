@@ -1,5 +1,5 @@
 # app/api/endpoints/deck_builder.py
-from fastapi import APIRouter, Request, Query
+from fastapi import APIRouter, Request, Query, Depends
 from fastapi.responses import StreamingResponse, JSONResponse
 from pptx import Presentation
 from pptx.util import Inches, Pt
@@ -16,18 +16,34 @@ import logging
 
 # Set this to your public backend base when you have HTTPS; stays http://localhost:8000 in dev
 from app.core.config import BACKEND_BASE
+from app.dependencies import get_current_user
 
 router = APIRouter()
 
-# If you have a theme file, point this to it; else keep empty string to use default theme
-# TEMPLATE_PATH = Path("templates/mytheme.pptx")
-TEMPLATE_PATH = ""  # empty -> default PowerPoint theme
+# Template mapping
+TEMPLATE_DIR = Path("templates")
+TEMPLATE_MAP = {
+    "Standard Research Template": "standard_research.pptx",
+    "Executive Summary Template": "executive_summary.pptx",
+    "Detailed Analysis Template": "detailed_analysis.pptx",
+}
 
 # Where generated decks are stored (main.py must mount: app.mount("/static", StaticFiles(directory="static"), name="static"))
 STATIC_DECK_DIR = Path("static/decks")
 STATIC_DECK_DIR.mkdir(parents=True, exist_ok=True)
 
 logger = logging.getLogger(__name__)
+
+# Helper function to format timestamp as DDMonYYYY_HHMM
+def format_readable_timestamp(dt: datetime) -> str:
+    """Format datetime as '10Nov2024_1430'"""
+    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    day = str(dt.day).zfill(2)
+    month = months[dt.month - 1]
+    year = dt.year
+    hour = str(dt.hour).zfill(2)
+    minute = str(dt.minute).zfill(2)
+    return f"{day}{month}{year}_{hour}{minute}"
 
 # -------------------- Helpers: layout & placeholders --------------------
 
@@ -187,12 +203,14 @@ def add_footer_link(slide, prs, text, url):
 async def build_ppt(
     request: Request,
     return_url: int = Query(0),   # if 1, save & return URLs instead of streaming
+    user = Depends(get_current_user),  # Get current user for username
 ):
     """
     JSON body:
     {
       "title": "Gen AI & LLM Trends - July 2025",
       "subtitle": "Your optional subtitle",
+      "template": "Standard Research Template",
       "include_summary": true,
       "sections": [
         {
@@ -218,16 +236,20 @@ async def build_ppt(
     subtitle = data.get("subtitle") or datetime.utcnow().strftime("%d-%b-%Y")
     include_summary = bool(data.get("include_summary", True))
     sections = data.get("sections") or []
+    template_name = data.get("template") or "Standard Research Template"
 
-    # Load theme or default
-    if TEMPLATE_PATH and isinstance(TEMPLATE_PATH, Path) and TEMPLATE_PATH.exists():
-        prs = Presentation(str(TEMPLATE_PATH))
-    elif isinstance(TEMPLATE_PATH, str) and TEMPLATE_PATH:
-        p = Path(TEMPLATE_PATH)
-        prs = Presentation(str(p)) if p.exists() else Presentation()
-        if not p.exists():
-            logger.warning("Template %s not found; using default theme.", TEMPLATE_PATH)
+    # Load selected template
+    template_file = TEMPLATE_MAP.get(template_name)
+    if template_file:
+        template_path = TEMPLATE_DIR / template_file
+        if template_path.exists():
+            prs = Presentation(str(template_path))
+            logger.info(f"Loaded template: {template_file}")
+        else:
+            logger.warning(f"Template {template_file} not found; using default theme.")
+            prs = Presentation()
     else:
+        logger.warning(f"Unknown template '{template_name}'; using default theme.")
         prs = Presentation()
 
     # ----- Title slide -----
@@ -348,21 +370,27 @@ async def build_ppt(
     prs.save(buf)
     buf.seek(0)
 
+    # Generate filename with username and readable timestamp
+    # Format: Title_username_10Nov2024_1430.pptx
+    now = datetime.utcnow()
+    readable_ts = format_readable_timestamp(now)
+    username = user.username if user else "unknown"
+    base_filename = f"{title.replace(' ', '_')}_{username}_{readable_ts}.pptx"
+
     if not return_url:
         # Stream the PPTX back for download
         return StreamingResponse(
             buf,
             media_type="application/vnd.openxmlformats-officedocument.presentationml.presentation",
-            headers={"Content-Disposition": f'attachment; filename="{title.replace(" ", "_")}.pptx"'}
+            headers={"Content-Disposition": f'attachment; filename="{base_filename}"'}
         )
 
     # Save PPTX to disk for preview
-    filename_pptx = f"{title.replace(' ', '_')}_{int(datetime.utcnow().timestamp())}.pptx"
-    disk_pptx = STATIC_DECK_DIR / filename_pptx
+    disk_pptx = STATIC_DECK_DIR / base_filename
     with open(disk_pptx, "wb") as f:
         f.write(buf.getbuffer())
 
-    file_url = f"/static/decks/{quote(filename_pptx)}"
+    file_url = f"/static/decks/{quote(base_filename)}"
     absolute_file_url = f"{BACKEND_BASE}{file_url}"
 
     # Try PDF conversion (LibreOffice) for local embed fallback
@@ -378,7 +406,7 @@ async def build_ppt(
             cmd = [soffice, "--headless", "--convert-to", "pdf", "--outdir", str(STATIC_DECK_DIR), str(disk_pptx)]
             logger.info("Converting PPTX to PDF with: %s", " ".join(cmd))
             subprocess.run(cmd, check=True, timeout=90)
-            filename_pdf = filename_pptx.replace(".pptx", ".pdf")
+            filename_pdf = base_filename.replace(".pptx", ".pdf")
             pdf_rel_url = f"/static/decks/{quote(filename_pdf)}"
             pdf_abs_url = f"{BACKEND_BASE}{pdf_rel_url}"
         else:

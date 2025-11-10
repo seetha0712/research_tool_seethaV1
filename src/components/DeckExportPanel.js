@@ -238,6 +238,7 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
       const payload = {
         title,
         subtitle: "Draft deck",
+        template: template,  // Pass selected template to backend
         include_summary: true,
         sections,
       };

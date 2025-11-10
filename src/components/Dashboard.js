@@ -352,8 +352,8 @@ const ActivityPanel = ({ title, items, getStatusColor, icon }) => (
               </p>
               <p className="text-sm text-gray-500">
                 {(typeof item.source === "object"
-                  ? JSON.stringify(item.source)
-                  : item.source) || "—"}{" "}
+                  ? (item.source?.name || item.source_name || "—")
+                  : (item.source || item.source_name || "—"))}{" "}
                 •{" "}
                 {item.date
                   ? item.date.substring(0, 10)

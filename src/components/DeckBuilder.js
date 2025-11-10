@@ -31,34 +31,44 @@ const DeckBuilder = ({
       return { category, articles: categoryArticles };
     }).filter(group => group.articles.length > 0);
 
-    // Build email body
-    let emailBody = "GenAI Research Monthly Summary\n\n";
-    emailBody += "=" + "=".repeat(50) + "\n\n";
+    // Build HTML email body with proper formatting
+    let emailBody = "GenAI Research Monthly Summary\n";
+    emailBody += "=".repeat(60) + "\n\n";
+    emailBody += `Total Articles: ${selectedArticles.length}\n`;
+    emailBody += `Generated: ${new Date().toLocaleDateString()}\n\n`;
 
-    articlesByCategory.forEach(({ category, articles }) => {
-      emailBody += `${category.name}\n`;
-      emailBody += "-".repeat(category.name.length) + "\n\n";
+    articlesByCategory.forEach(({ category, articles }, catIdx) => {
+      emailBody += `\n${"━".repeat(60)}\n`;
+      emailBody += `${catIdx + 1}. ${category.name.toUpperCase()}\n`;
+      emailBody += `${"━".repeat(60)}\n\n`;
 
       articles.forEach((article, idx) => {
         const url = article.link || article.meta_data?.link || "";
         const score = article.score ?? article.relevance_score ?? "N/A";
+        const source = article.source?.name || article.source_name || article.source || "Unknown";
 
         emailBody += `${idx + 1}. ${article.title}\n`;
-        if (article.summary) {
-          emailBody += `   Summary: ${article.summary.substring(0, 150)}...\n`;
-        }
-        emailBody += `   Score: ${score}\n`;
-        emailBody += `   Link: ${url}\n\n`;
-      });
+        emailBody += `   Source: ${source} | Score: ${score}\n`;
 
-      emailBody += "\n";
+        if (article.summary) {
+          const summaryText = article.summary.substring(0, 200);
+          emailBody += `   Summary: ${summaryText}${article.summary.length > 200 ? "..." : ""}\n`;
+        }
+
+        // Put URL on its own line for email clients to auto-link
+        if (url) {
+          emailBody += `   🔗 ${url}\n`;
+        }
+
+        emailBody += `\n`;
+      });
     });
 
-    emailBody += "=" + "=".repeat(50) + "\n";
-    emailBody += `Total Articles: ${selectedArticles.length}\n`;
+    emailBody += `\n${"=".repeat(60)}\n`;
+    emailBody += `End of Summary\n`;
 
     // Create mailto link
-    const subject = encodeURIComponent("GenAI Research Monthly Summary");
+    const subject = encodeURIComponent("GenAI Research Monthly Summary - " + new Date().toLocaleDateString());
     const body = encodeURIComponent(emailBody);
     const mailtoLink = `mailto:?subject=${subject}&body=${body}`;
 

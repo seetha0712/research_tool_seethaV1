@@ -187,24 +187,14 @@ export async function updatePaidArticle(token, articleId, payload) {
 
 // For regular articles
 export async function fetchArticleFullText(url, summary = "") {
-  const res = await fetch('/articles/fulltext', {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ url, summary }),
-  });
-  if (!res.ok) throw new Error("Failed to fetch article full text");
-  return await res.json();
+  const res = await api.post('/articles/fulltext', { url, summary });
+  return res.data;
 }
 
 // For paid articles
 export async function fetchPaidArticleFullText(url, summary = "") {
-  const res = await fetch('/paid_search/fulltext', {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ url, summary }),
-  });
-  if (!res.ok) throw new Error("Failed to fetch paid article full text");
-  return await res.json();
+  const res = await api.post('/paid_search/fulltext', { url, summary });
+  return res.data;
 }
 
 // Patch PPTX with source URLs and download

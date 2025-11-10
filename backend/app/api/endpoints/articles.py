@@ -174,7 +174,8 @@ def update_status(article_id: int, status: str, db: Session = Depends(database.g
 
 @router.patch("/{article_id}/note", response_model=schemas.ArticleOut)
 def update_note(article_id: int, note: str, db: Session = Depends(database.get_db), user=Depends(get_current_user)):
-    article = db.query(models.Article).filter(models.Article.id == article_id, models.Article.user_id == user.id).first()
+    # Allow all users to add notes to any article (removed user_id filter)
+    article = db.query(models.Article).filter(models.Article.id == article_id).first()
     if not article:
         raise HTTPException(status_code=404, detail="Article not found")
     article.note = note
@@ -182,9 +183,8 @@ def update_note(article_id: int, note: str, db: Session = Depends(database.get_d
     db.refresh(article)
     base = schemas.ArticleOut.from_orm(article).dict()
     base["source_name"] = article.source.name if article.source else None
-    base["is_paid"] = False   # <-- ADD THIS
+    base["is_paid"] = False
     return base
-    #return article
 
 # app/api/endpoints/articles.py
 

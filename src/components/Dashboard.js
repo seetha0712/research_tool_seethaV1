@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { FileText, Star, Check, Calendar, Bookmark, RefreshCw, ChevronDown, ChevronUp } from "lucide-react";
+import { FileText, Star, Check, Calendar, Bookmark } from "lucide-react";
 import api from "../api";
 
 const fmtDDMonYYYY = (iso) => {
@@ -34,9 +34,6 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
   const [fromDate, setFromDate] = useState(toYMD(daysAgo(30)));
   const [toDate, setToDate] = useState(toYMD(today()));
   const [selectedQuick, setSelectedQuick] = useState("Last 30 days");
-  const [showQuickFilters, setShowQuickFilters] = useState(false);
-  const [quickFilterPreview, setQuickFilterPreview] = useState(null);
-  const [previewLoading, setPreviewLoading] = useState(false);
 
   const params = useMemo(
     () => ({
@@ -68,34 +65,12 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token, params.from_date, params.to_date, refreshKey]);
 
-  const fetchQuickFilterPreview = async (label) => {
-    const range = quickRanges.find((r) => r.label === label);
-    if (!range) return;
-
-    setPreviewLoading(true);
-    const previewFromDate = toYMD(range.from());
-    const previewToDate = toYMD(range.to());
-
-    try {
-      const res = await api.get("/dashboard/metrics", {
-        headers: { Authorization: `Bearer ${token}` },
-        params: { from_date: previewFromDate, to_date: previewToDate },
-      });
-      setQuickFilterPreview({ label, data: res.data, fromDate: previewFromDate, toDate: previewToDate });
-    } catch (e) {
-      console.error("Failed to load preview", e);
-      setQuickFilterPreview(null);
-    }
-    setPreviewLoading(false);
-  };
-
   const applyQuickRange = (label) => {
     const range = quickRanges.find((r) => r.label === label);
     if (!range) return;
     setSelectedQuick(label);
     setFromDate(toYMD(range.from()));
     setToDate(toYMD(range.to()));
-    setQuickFilterPreview(null); // Clear preview when applying
   };
 
   if (loading) return <div className="p-6">Loading dashboard...</div>;
@@ -104,153 +79,65 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
 
   return (
     <div className="p-6 space-y-6">
-      {/* Controls */}
-      <div className="bg-white rounded-lg shadow p-4">
-        {/* Quick Filters Toggle */}
-        <div className="flex items-center justify-between mb-3">
-          <button
-            onClick={() => setShowQuickFilters(!showQuickFilters)}
-            className="flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-blue-600"
-          >
-            {showQuickFilters ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
-            Quick Date Filters
-          </button>
-          <button
-            onClick={fetchMetrics}
-            className="flex items-center gap-2 px-3 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm"
-            title="Refresh"
-          >
-            <RefreshCw className="w-4 h-4" />
-            Refresh
-          </button>
+      {/* Date Filter Controls */}
+      <div className="bg-white rounded-lg shadow p-4 space-y-3">
+        {/* Quick Filters */}
+        <div>
+          <label className="text-sm font-medium text-gray-700 mb-2 block">Quick Filters:</label>
+          <div className="flex flex-wrap gap-2">
+            {quickRanges.map((r) => (
+              <button
+                key={r.label}
+                onClick={() => applyQuickRange(r.label)}
+                className={`px-4 py-2 rounded-lg border text-sm font-medium transition-colors ${
+                  selectedQuick === r.label
+                    ? "bg-blue-600 text-white border-blue-600"
+                    : "bg-white text-gray-700 border-gray-300 hover:bg-gray-50 hover:border-gray-400"
+                }`}
+              >
+                {r.label}
+              </button>
+            ))}
+          </div>
         </div>
 
-        {/* Expandable Quick Filters */}
-        {showQuickFilters && (
-          <div className="border-t pt-3 mb-3">
-            <div className="max-h-32 overflow-y-auto">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-                {quickRanges.map((r) => (
-                  <button
-                    key={r.label}
-                    onClick={() => fetchQuickFilterPreview(r.label)}
-                    onDoubleClick={() => {
-                      applyQuickRange(r.label);
-                      setShowQuickFilters(false);
-                    }}
-                    className={`px-3 py-2 rounded border text-sm ${
-                      quickFilterPreview?.label === r.label
-                        ? "bg-blue-600 text-white border-blue-600"
-                        : selectedQuick === r.label
-                        ? "bg-blue-100 text-blue-700 border-blue-300"
-                        : "bg-white text-gray-700 border-gray-300 hover:bg-gray-50"
-                    }`}
-                  >
-                    {r.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Preview Section */}
-            {previewLoading && (
-              <div className="mt-4 p-4 bg-blue-50 rounded text-center text-sm text-blue-600">
-                Loading preview...
-              </div>
-            )}
-
-            {quickFilterPreview && !previewLoading && (
-              <div className="mt-4 border-t pt-4 space-y-3">
-                <div className="flex items-center justify-between">
-                  <h4 className="font-semibold text-sm">Preview: {quickFilterPreview.label}</h4>
-                  <button
-                    onClick={() => {
-                      applyQuickRange(quickFilterPreview.label);
-                      setShowQuickFilters(false);
-                    }}
-                    className="px-3 py-1 bg-green-600 text-white rounded text-sm hover:bg-green-700"
-                  >
-                    Apply Filter
-                  </button>
-                </div>
-
-                {/* Preview Metrics */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-                  <div className="bg-white p-3 rounded border">
-                    <p className="text-xs text-gray-600">Total Articles</p>
-                    <p className="text-lg font-bold text-gray-900">
-                      {(quickFilterPreview.data.total_articles || 0) + (quickFilterPreview.data.total_paid_articles || 0)}
-                    </p>
-                  </div>
-                  <div className="bg-white p-3 rounded border">
-                    <p className="text-xs text-gray-600">Shortlisted</p>
-                    <p className="text-lg font-bold text-yellow-600">{quickFilterPreview.data.shortlisted || 0}</p>
-                  </div>
-                  <div className="bg-white p-3 rounded border">
-                    <p className="text-xs text-gray-600">Final</p>
-                    <p className="text-lg font-bold text-green-600">{quickFilterPreview.data.final || 0}</p>
-                  </div>
-                  <div className="bg-white p-3 rounded border">
-                    <p className="text-xs text-gray-600">Date Range</p>
-                    <p className="text-xs font-medium text-gray-900">
-                      {fmtDDMonYYYY(quickFilterPreview.fromDate)}
-                      <br />→ {fmtDDMonYYYY(quickFilterPreview.toDate)}
-                    </p>
-                  </div>
-                </div>
-
-                {/* Preview Recent Articles */}
-                {quickFilterPreview.data.latest_articles && quickFilterPreview.data.latest_articles.length > 0 && (
-                  <div className="bg-gray-50 p-3 rounded">
-                    <h5 className="text-xs font-semibold mb-2">Recent Articles (Top 3)</h5>
-                    <div className="space-y-1">
-                      {quickFilterPreview.data.latest_articles.slice(0, 3).map((art, idx) => (
-                        <div key={idx} className="text-xs text-gray-700 truncate">
-                          • {art.title}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
-        )}
-
         {/* Custom Date Range */}
-        <div className="flex items-center gap-3 flex-wrap">
-          <div className="flex items-center gap-2">
-            <label className="text-sm text-gray-600">From</label>
-            <input
-              type="date"
-              value={fromDate}
-              max={toDate}
-              onChange={(e) => {
-                setSelectedQuick(""); // custom range
-                setFromDate(e.target.value);
-              }}
-              className="px-3 py-2 border rounded text-sm"
-            />
+        <div className="border-t pt-3">
+          <label className="text-sm font-medium text-gray-700 mb-2 block">Or Custom Range:</label>
+          <div className="flex items-center gap-3 flex-wrap">
+            <div className="flex items-center gap-2">
+              <label className="text-sm text-gray-600">From</label>
+              <input
+                type="date"
+                value={fromDate}
+                max={toDate}
+                onChange={(e) => {
+                  setSelectedQuick(""); // custom range
+                  setFromDate(e.target.value);
+                }}
+                className="px-3 py-2 border rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+            <div className="flex items-center gap-2">
+              <label className="text-sm text-gray-600">To</label>
+              <input
+                type="date"
+                value={toDate}
+                min={fromDate}
+                max={toYMD(today())}
+                onChange={(e) => {
+                  setSelectedQuick("");
+                  setToDate(e.target.value);
+                }}
+                className="px-3 py-2 border rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+            {selectedQuick && (
+              <span className="text-sm text-blue-600 font-medium px-3 py-2 bg-blue-50 rounded">
+                {selectedQuick}
+              </span>
+            )}
           </div>
-          <div className="flex items-center gap-2">
-            <label className="text-sm text-gray-600">To</label>
-            <input
-              type="date"
-              value={toDate}
-              min={fromDate}
-              max={toYMD(today())}
-              onChange={(e) => {
-                setSelectedQuick("");
-                setToDate(e.target.value);
-              }}
-              className="px-3 py-2 border rounded text-sm"
-            />
-          </div>
-          {selectedQuick && (
-            <span className="text-sm text-blue-600 font-medium">
-              {selectedQuick}
-            </span>
-          )}
         </div>
       </div>
 
@@ -356,7 +243,7 @@ const ActivityPanel = ({ title, items, getStatusColor, icon }) => (
                   : (item.source || item.source_name || "—"))}{" "}
                 •{" "}
                 {item.date
-                  ? item.date.substring(0, 10)
+                  ? fmtDDMonYYYY(item.date)
                   : "—"}
               </p>
             </div>

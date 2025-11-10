@@ -1,13 +1,12 @@
 // DeckExportPanel.js
 import React, { useState } from "react";
 import { Save, Download,Link as LinkIcon } from "lucide-react";
-import { patchPPTXLinks,buildDeckPpt } from "../api"
+import { patchPPTXLinks, buildDeckPpt, fetchArticleFullText } from "../api"
 import { ClipLoader } from "react-spinners";
 
 // Backend endpoint
 const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:8000";
 const SLIDESGPT_API = `${API_BASE}/slidesgpt/generate`;
-const BACKEND_BASE = API_BASE;
 
 
 // Defensive link getter (add more fallbacks if needed)
@@ -39,17 +38,7 @@ async function fetchFullTextForArticles(selectedArticles) {
       return { ...article, full_text: article.summary || "" };
     }
     try {
-      const resp = await fetch(`${BACKEND_BASE}/articles/fulltext`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          url: link,
-          summary: article.summary || "",
-          title: article.title || ""
-        }),
-      });
-      if (!resp.ok) throw new Error("Fulltext API failed: " + resp.status);
-      const data = await resp.json();
+      const data = await fetchArticleFullText(link, article.summary || "");
       return {
         ...article,
         full_text: data.full_text || article.summary // fallback

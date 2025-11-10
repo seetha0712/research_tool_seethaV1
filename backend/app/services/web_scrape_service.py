@@ -8,23 +8,42 @@ from app.services.llm_service import key_insights, deep_insights_from_content
 
 logger = logging.getLogger(__name__)
 
-def get_full_text(url: str) -> str:
+def get_full_text(url: str, timeout: int = 10) -> str:
+    """
+    Fetch and extract full text from URL with fast timeout for deck building.
+
+    Args:
+        url: URL to scrape
+        timeout: Timeout in seconds (default 10)
+
+    Returns:
+        Extracted text or empty string if failed
+    """
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept-Language": "en-US,en;q=0.9",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Referer": "https://google.com"
     }
+
     try:
-        #resp = requests.get(url, headers=headers, timeout=10)
-        #resp.raise_for_status()
-        #downloaded = resp.text
-        downloaded = trafilatura.fetch_url(url)
+        # Use requests directly for better timeout control
+        response = requests.get(url, headers=headers, timeout=timeout, allow_redirects=True)
+        response.raise_for_status()
+        downloaded = response.text
+
+        # Extract text with trafilatura
         if downloaded:
             text = trafilatura.extract(downloaded, include_comments=False, include_tables=False)
-            return text or ""
+            if text:
+                return text
+    except requests.Timeout:
+        logger.warning(f"Timeout fetching {url} (limit: {timeout}s)")
+    except requests.RequestException as e:
+        logger.warning(f"Request failed for {url}: {e}")
     except Exception as e:
-        print(f"[Scrape Error] {url}: {e}")
+        logger.warning(f"Scrape failed for {url}: {e}")
+
     return ""
 
 

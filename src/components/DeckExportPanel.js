@@ -242,15 +242,37 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
         sections,
       };
 
-      // CHANGE: ask backend to return URLs so we can preview online
+      // Ask backend to return URLs so we can preview online
       const result = await buildDeckPpt(token, payload, { returnUrl: true });
+
+      // Try to show preview if available (Office viewer or PDF)
       const previewUrl = result?.viewer_url || result?.pdf_abs_url;
-      // Expecting { file_url, viewer_url }
       if (previewUrl) {
         setLocalViewerUrl(previewUrl);
-        setShowEmbed(true); // auto-open preview
+        setShowEmbed(true);
+      }
+
+      // Always download the file as well, since preview might not work
+      if (result?.absolute_file_url || result?.file_url) {
+        const downloadUrl = result.absolute_file_url || result.file_url;
+        // If relative URL, prepend API base
+        const fullUrl = downloadUrl.startsWith('http')
+          ? downloadUrl
+          : `${API_BASE}${downloadUrl}`;
+
+        // Trigger download
+        const a = document.createElement("a");
+        a.href = fullUrl;
+        a.download = `${payload.title.replace(/\s+/g, "_")}.pptx`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        if (!previewUrl) {
+          alert("PPT generated and downloaded successfully! (Preview not available without HTTPS)");
+        }
       } else if (result instanceof Blob) {
-        // Fallback: if backend returned a blob (download only)
+        // Fallback: if backend returned a blob directly
         const url = window.URL.createObjectURL(result);
         const a = document.createElement("a");
         a.href = url;

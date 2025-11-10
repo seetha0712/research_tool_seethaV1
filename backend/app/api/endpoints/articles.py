@@ -36,7 +36,8 @@ def list_articles(
     source_name: str = None,
 
 ):
-    q = db.query(models.Article).filter(models.Article.user_id == user.id)
+    # Show all articles to all users (admin and non-admin have same view)
+    q = db.query(models.Article)
     if status:
         q = q.filter(models.Article.status == status)
     if source_id:

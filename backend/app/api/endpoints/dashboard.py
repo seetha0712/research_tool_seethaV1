@@ -18,11 +18,12 @@ def get_dashboard_metrics(
     Dashboard metrics API
     - Optional start_date & end_date query params for filtering
     - Counts shortlisted & final separately for Articles & PaidArticles
+    - Shows all articles to all users (admin and non-admin have same view)
     """
 
-    # Build base filters
-    article_query = db.query(models.Article).filter_by(user_id=user.id)
-    paid_query = db.query(models.PaidArticle).filter_by(user_id=user.id)
+    # Build base filters - show all articles to everyone
+    article_query = db.query(models.Article)
+    paid_query = db.query(models.PaidArticle)
 
     if start_date:
         article_query = article_query.filter(models.Article.date >= start_date)

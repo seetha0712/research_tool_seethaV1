@@ -22,6 +22,7 @@ class User(Base):
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String, unique=True, index=True, nullable=False)
     hashed_password = Column(String, nullable=False)
+    is_admin = Column(Boolean, default=False)
     sources = relationship("Source", back_populates="user", cascade="all, delete")
     articles = relationship("Article", back_populates="user", cascade="all, delete")
 
@@ -112,9 +113,24 @@ class ArticleFullText(Base):
     id = Column(Integer, primary_key=True, index=True)
     url = Column(String(1024), unique=True, nullable=False, index=True)
     full_text = Column(Text, nullable=True)
-    summary = Column(Text, nullable=True) 
+    summary = Column(Text, nullable=True)
     title = Column(String(512), nullable=True)
     notes = Column(Text, nullable=True)  # For user notes or detailed notes
     infographic_url = Column(String(1024), nullable=True)  # Optional image/infographic
     created_at = Column(DateTime, server_default=func.now())
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+class AuditLog(Base):
+    __tablename__ = "audit_logs"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    username = Column(String, nullable=False)
+    action = Column(String, nullable=False)  # e.g., "CREATE", "UPDATE", "DELETE", "SYNC", "LOGIN"
+    resource_type = Column(String, nullable=True)  # e.g., "Article", "Source", "PaidArticle"
+    resource_id = Column(Integer, nullable=True)  # ID of the affected resource
+    details = Column(JSON, nullable=True)  # Additional details about the action
+    ip_address = Column(String, nullable=True)
+    timestamp = Column(DateTime, server_default=func.now(), index=True)
+
+    user = relationship("User")

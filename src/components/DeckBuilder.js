@@ -1,5 +1,5 @@
 import React from "react";
-import { X, Link as LinkIcon } from "lucide-react";
+import { X, Link as LinkIcon, Mail } from "lucide-react";
 import DeckExportPanel from "./DeckExportPanel";
 import { updatePaidArticle,updateArticleStatus } from "../api";
 
@@ -18,6 +18,54 @@ const DeckBuilder = ({
   removedFromDeck,
   setRemovedFromDeck
 }) => {
+  // Email sharing handler
+  const handleEmailShare = () => {
+    if (selectedArticles.length === 0) {
+      alert("No articles selected to share");
+      return;
+    }
+
+    // Group articles by category
+    const articlesByCategory = categories.map(category => {
+      const categoryArticles = selectedArticles.filter(a => a.category === category.id);
+      return { category, articles: categoryArticles };
+    }).filter(group => group.articles.length > 0);
+
+    // Build email body
+    let emailBody = "GenAI Research Monthly Summary\n\n";
+    emailBody += "=" + "=".repeat(50) + "\n\n";
+
+    articlesByCategory.forEach(({ category, articles }) => {
+      emailBody += `${category.name}\n`;
+      emailBody += "-".repeat(category.name.length) + "\n\n";
+
+      articles.forEach((article, idx) => {
+        const url = article.link || article.meta_data?.link || "";
+        const score = article.score ?? article.relevance_score ?? "N/A";
+
+        emailBody += `${idx + 1}. ${article.title}\n`;
+        if (article.summary) {
+          emailBody += `   Summary: ${article.summary.substring(0, 150)}...\n`;
+        }
+        emailBody += `   Score: ${score}\n`;
+        emailBody += `   Link: ${url}\n\n`;
+      });
+
+      emailBody += "\n";
+    });
+
+    emailBody += "=" + "=".repeat(50) + "\n";
+    emailBody += `Total Articles: ${selectedArticles.length}\n`;
+
+    // Create mailto link
+    const subject = encodeURIComponent("GenAI Research Monthly Summary");
+    const body = encodeURIComponent(emailBody);
+    const mailtoLink = `mailto:?subject=${subject}&body=${body}`;
+
+    // Open default email client
+    window.location.href = mailtoLink;
+  };
+
   // Async handler to remove article and update backend
   const handleRemoveArticle = async (article) => {
   const link = getArticleLink(article);
@@ -56,7 +104,18 @@ const DeckBuilder = ({
   return (
     <div className="p-6 space-y-6">
       <div className="bg-white rounded-lg shadow p-6">
-        <h3 className="text-lg font-semibold mb-4">Monthly Deck Structure</h3>
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="text-lg font-semibold">Monthly Deck Structure</h3>
+          <button
+            onClick={handleEmailShare}
+            className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            disabled={selectedArticles.length === 0}
+            title="Share summary via email"
+          >
+            <Mail className="w-4 h-4" />
+            Share via Email
+          </button>
+        </div>
         <div className="space-y-4">
           {categories.map((category) => {
             const categoryArticles = selectedArticles.filter(a => a.category === category.id);

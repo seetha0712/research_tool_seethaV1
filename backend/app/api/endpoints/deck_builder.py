@@ -23,6 +23,7 @@ router = APIRouter()
 # Template mapping
 TEMPLATE_DIR = Path("templates")
 TEMPLATE_MAP = {
+    "System Default Template": None,  # Use vanilla PowerPoint (default)
     "Standard Research Template": "standard_research.pptx",
     "Executive Summary Template": "executive_summary.pptx",
     "Detailed Analysis Template": "detailed_analysis.pptx",
@@ -236,15 +237,27 @@ async def build_ppt(
     subtitle = data.get("subtitle") or datetime.utcnow().strftime("%d-%b-%Y")
     include_summary = bool(data.get("include_summary", True))
     sections = data.get("sections") or []
-    template_name = data.get("template") or "Standard Research Template"
+    template_name = data.get("template") or "System Default Template"
 
     # Load selected template
     template_file = TEMPLATE_MAP.get(template_name)
-    if template_file:
+
+    if template_file is None:
+        # System Default Template - use vanilla PowerPoint
+        prs = Presentation()
+        logger.info("Using System Default Template (vanilla PowerPoint)")
+    elif template_file:
         template_path = TEMPLATE_DIR / template_file
         if template_path.exists():
             prs = Presentation(str(template_path))
             logger.info(f"Loaded template: {template_file}")
+
+            # Clear all existing slides from template, keep only layouts/theme
+            while len(prs.slides) > 0:
+                rId = prs.slides._sldIdLst[0].rId
+                prs.part.drop_rel(rId)
+                del prs.slides._sldIdLst[0]
+            logger.info(f"Cleared template slides, using only theme/layouts")
         else:
             logger.warning(f"Template {template_file} not found; using default theme.")
             prs = Presentation()

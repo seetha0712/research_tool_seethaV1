@@ -117,7 +117,7 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
   //const [showEmbed, setShowEmbed] = useState(false);          // CHANGE: toggle preview for both paths
 
   const [title, setTitle] = useState("Gen AI & LLM Trends - 2025");
-  const [template, setTemplate] = useState("Standard Research Template");
+  const [template, setTemplate] = useState("System Default Template");
   const [contentOptions, setContentOptions] = useState({
     includeSummary: true,
     generateSummaries: true,
@@ -351,6 +351,7 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
                 onChange={(e) => setTemplate(e.target.value)}
                 className="w-full mt-1 px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
+                <option>System Default Template</option>
                 <option>Standard Research Template</option>
                 <option>Executive Summary Template</option>
                 <option>Detailed Analysis Template</option>

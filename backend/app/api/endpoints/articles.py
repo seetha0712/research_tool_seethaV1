@@ -160,7 +160,9 @@ def delete_article(article_id: int, db: Session = Depends(database.get_db), user
 
 @router.patch("/{article_id}/status", response_model=schemas.ArticleOut)
 def update_status(article_id: int, status: str, db: Session = Depends(database.get_db), user=Depends(get_current_user)):
-    article = db.query(models.Article).filter(models.Article.id == article_id, models.Article.user_id == user.id).first()
+    # Allow all authenticated users to update status on any article (removed user_id filter)
+    # This matches the collaborative nature of the tool where all users can view all articles
+    article = db.query(models.Article).filter(models.Article.id == article_id).first()
     if not article:
         raise HTTPException(status_code=404, detail="Article not found")
     article.status = status

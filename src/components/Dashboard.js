@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { FileText, Star, Check, Calendar, Bookmark } from "lucide-react";
+import { FileText, Star, Check, Calendar, Bookmark, TrendingUp, Database, Trash2, ChevronDown, ChevronUp, AlertCircle, Clock } from "lucide-react";
 import api from "../api";
+import { getSourceAnalytics, getSyncHistory, deleteSyncHistory, deleteOldSyncHistory } from "../api";
 
 const fmtDDMonYYYY = (iso) => {
   if (!iso) return "";
@@ -9,6 +10,13 @@ const fmtDDMonYYYY = (iso) => {
   const dd = String(d.getDate()).padStart(2, "0");
   return `${dd}-${months[d.getMonth()]}-${d.getFullYear()}`;
 };
+
+const fmtDateTime = (iso) => {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return `${fmtDDMonYYYY(iso)} ${d.getHours().toString().padStart(2, "0")}:${d.getMinutes().toString().padStart(2, "0")}`;
+};
+
 // Helper: format date to YYYY-MM-DD
 const toYMD = (d) => d.toISOString().slice(0, 10);
 // Helper: today & N days ago
@@ -26,9 +34,20 @@ const quickRanges = [
   { label: "All time", from: () => new Date("2000-01-01"), to: () => today() },
 ];
 
-const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
+const Dashboard = ({ token, getStatusColor, refreshKey = 0, isAdmin = false }) => {
   const [metrics, setMetrics] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  // Source Analytics state
+  const [sourceAnalytics, setSourceAnalytics] = useState(null);
+  const [analyticsLoading, setAnalyticsLoading] = useState(false);
+  const [showSourceAnalytics, setShowSourceAnalytics] = useState(true);
+
+  // Sync History state
+  const [syncHistory, setSyncHistory] = useState(null);
+  const [historyLoading, setHistoryLoading] = useState(false);
+  const [showSyncHistory, setShowSyncHistory] = useState(true);
+  const [expandedSyncId, setExpandedSyncId] = useState(null);
 
   // Date state (defaults to last 30 days)
   const [fromDate, setFromDate] = useState(toYMD(daysAgo(30)));
@@ -48,7 +67,7 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
     try {
       const res = await api.get("/dashboard/metrics", {
         headers: { Authorization: `Bearer ${token}` },
-        params, // backend should accept from_date, to_date (YYYY-MM-DD)
+        params,
       });
       setMetrics(res.data);
     } catch (e) {
@@ -58,10 +77,59 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
     setLoading(false);
   };
 
+  const fetchSourceAnalytics = async () => {
+    setAnalyticsLoading(true);
+    try {
+      const data = await getSourceAnalytics(token, 30);
+      setSourceAnalytics(data);
+    } catch (e) {
+      console.error("Failed to load source analytics", e);
+      setSourceAnalytics(null);
+    }
+    setAnalyticsLoading(false);
+  };
+
+  const fetchSyncHistory = async () => {
+    setHistoryLoading(true);
+    try {
+      const data = await getSyncHistory(token, { limit: 20 });
+      setSyncHistory(data);
+    } catch (e) {
+      console.error("Failed to load sync history", e);
+      setSyncHistory(null);
+    }
+    setHistoryLoading(false);
+  };
+
+  const handleDeleteSyncRecord = async (syncId) => {
+    if (!window.confirm("Delete this sync history record?")) return;
+    try {
+      await deleteSyncHistory(token, syncId);
+      fetchSyncHistory();
+    } catch (e) {
+      console.error("Failed to delete sync history", e);
+      alert("Failed to delete sync history record");
+    }
+  };
+
+  const handleDeleteOldHistory = async () => {
+    if (!window.confirm("Delete all sync history records older than 360 days?")) return;
+    try {
+      const result = await deleteOldSyncHistory(token, 360);
+      alert(`Deleted ${result.deleted_count} old records`);
+      fetchSyncHistory();
+    } catch (e) {
+      console.error("Failed to delete old sync history", e);
+      alert("Failed to delete old sync history");
+    }
+  };
+
   // Fetch whenever token, date range, or external refreshKey changes
   useEffect(() => {
     if (!token) return;
     fetchMetrics();
+    fetchSourceAnalytics();
+    fetchSyncHistory();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token, params.from_date, params.to_date, refreshKey]);
 
@@ -175,6 +243,150 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
         />
       </div>
 
+      {/* Source Analytics Section */}
+      <div className="bg-white rounded-lg shadow">
+        <div
+          className="p-4 border-b flex items-center justify-between cursor-pointer hover:bg-gray-50"
+          onClick={() => setShowSourceAnalytics(!showSourceAnalytics)}
+        >
+          <div className="flex items-center gap-2">
+            <TrendingUp className="w-5 h-5 text-green-600" />
+            <h3 className="text-lg font-semibold">Source Effectiveness Analytics</h3>
+            {sourceAnalytics?.overall_stats && (
+              <span className="text-sm text-gray-500 ml-2">
+                ({sourceAnalytics.overall_stats.active_sources} active sources,
+                Avg Score: {sourceAnalytics.overall_stats.avg_score})
+              </span>
+            )}
+          </div>
+          {showSourceAnalytics ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+        </div>
+
+        {showSourceAnalytics && (
+          <div className="p-4">
+            {analyticsLoading ? (
+              <div className="text-center py-4 text-gray-500">Loading analytics...</div>
+            ) : sourceAnalytics?.sources?.length > 0 ? (
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="bg-gray-50 text-left">
+                      <th className="px-4 py-3 font-semibold">Source</th>
+                      <th className="px-4 py-3 font-semibold">Type</th>
+                      <th className="px-4 py-3 font-semibold text-right">Total</th>
+                      <th className="px-4 py-3 font-semibold text-right">Avg Score</th>
+                      <th className="px-4 py-3 font-semibold text-right">High Score %</th>
+                      <th className="px-4 py-3 font-semibold">Top Categories</th>
+                      <th className="px-4 py-3 font-semibold">Last Synced</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {sourceAnalytics.sources.map((src, idx) => (
+                      <tr key={src.source_id} className={idx % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                        <td className="px-4 py-3 font-medium">{src.source_name}</td>
+                        <td className="px-4 py-3">
+                          <span className={`px-2 py-1 rounded text-xs font-medium ${
+                            src.source_type === 'rss' ? 'bg-orange-100 text-orange-700' :
+                            src.source_type === 'pdf' ? 'bg-blue-100 text-blue-700' :
+                            'bg-purple-100 text-purple-700'
+                          }`}>
+                            {src.source_type.toUpperCase()}
+                          </span>
+                        </td>
+                        <td className="px-4 py-3 text-right">{src.total_articles}</td>
+                        <td className="px-4 py-3 text-right">
+                          <span className={`font-bold ${
+                            src.avg_score >= 70 ? 'text-green-600' :
+                            src.avg_score >= 40 ? 'text-yellow-600' :
+                            'text-red-600'
+                          }`}>
+                            {src.avg_score}
+                          </span>
+                        </td>
+                        <td className="px-4 py-3 text-right">
+                          <span className={`${src.high_score_percentage >= 50 ? 'text-green-600' : 'text-gray-600'}`}>
+                            {src.high_score_percentage}%
+                          </span>
+                        </td>
+                        <td className="px-4 py-3">
+                          <div className="flex flex-wrap gap-1">
+                            {src.top_categories?.slice(0, 2).map((cat, i) => (
+                              <span key={i} className="px-2 py-0.5 bg-gray-100 text-gray-700 rounded text-xs">
+                                {cat.category} ({cat.count})
+                              </span>
+                            ))}
+                          </div>
+                        </td>
+                        <td className="px-4 py-3 text-gray-500 text-xs">
+                          {src.last_synced ? fmtDateTime(src.last_synced) : "Never"}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <div className="text-center py-4 text-gray-500">No source analytics available yet.</div>
+            )}
+          </div>
+        )}
+      </div>
+
+      {/* Sync History Section */}
+      <div className="bg-white rounded-lg shadow">
+        <div
+          className="p-4 border-b flex items-center justify-between cursor-pointer hover:bg-gray-50"
+          onClick={() => setShowSyncHistory(!showSyncHistory)}
+        >
+          <div className="flex items-center gap-2">
+            <Database className="w-5 h-5 text-blue-600" />
+            <h3 className="text-lg font-semibold">Sync History</h3>
+            {syncHistory && (
+              <span className="text-sm text-gray-500 ml-2">
+                ({syncHistory.total} total syncs)
+              </span>
+            )}
+          </div>
+          <div className="flex items-center gap-2">
+            {isAdmin && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleDeleteOldHistory();
+                }}
+                className="px-3 py-1 text-xs bg-red-50 text-red-600 rounded hover:bg-red-100"
+                title="Delete records older than 360 days"
+              >
+                Clean Old Records
+              </button>
+            )}
+            {showSyncHistory ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+          </div>
+        </div>
+
+        {showSyncHistory && (
+          <div className="p-4">
+            {historyLoading ? (
+              <div className="text-center py-4 text-gray-500">Loading sync history...</div>
+            ) : syncHistory?.history?.length > 0 ? (
+              <div className="space-y-2">
+                {syncHistory.history.map((sync) => (
+                  <SyncHistoryRow
+                    key={sync.id}
+                    sync={sync}
+                    expanded={expandedSyncId === sync.id}
+                    onToggle={() => setExpandedSyncId(expandedSyncId === sync.id ? null : sync.id)}
+                    onDelete={isAdmin ? () => handleDeleteSyncRecord(sync.id) : null}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className="text-center py-4 text-gray-500">No sync history available yet. Run a sync to see results here.</div>
+            )}
+          </div>
+        )}
+      </div>
+
       {/* Recent Activity */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <ActivityPanel
@@ -188,6 +400,126 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0 }) => {
           icon={<Bookmark className="inline w-4 h-4 text-indigo-500" />}
         />
       </div>
+    </div>
+  );
+};
+
+// Sync History Row Component
+const SyncHistoryRow = ({ sync, expanded, onToggle, onDelete }) => {
+  const hasErrors = sync.total_errors > 0;
+  const scores = sync.scores_breakdown || {};
+
+  return (
+    <div className={`border rounded-lg ${hasErrors ? 'border-red-200' : 'border-gray-200'}`}>
+      <div
+        className={`p-3 flex items-center justify-between cursor-pointer hover:bg-gray-50 ${hasErrors ? 'bg-red-50' : ''}`}
+        onClick={onToggle}
+      >
+        <div className="flex items-center gap-4">
+          <Clock className="w-4 h-4 text-gray-400" />
+          <span className="text-sm font-medium">{fmtDateTime(sync.sync_timestamp)}</span>
+          <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs font-medium">
+            {sync.total_articles_fetched} articles
+          </span>
+          <span className="text-xs text-gray-500">
+            {sync.total_sources_synced} sources
+          </span>
+          {hasErrors && (
+            <span className="flex items-center gap-1 px-2 py-1 bg-red-100 text-red-700 rounded text-xs font-medium">
+              <AlertCircle className="w-3 h-3" />
+              {sync.total_errors} errors
+            </span>
+          )}
+        </div>
+        <div className="flex items-center gap-3">
+          <div className="flex gap-2 text-xs">
+            <span className="px-2 py-1 bg-green-100 text-green-700 rounded" title="High (70+)">
+              H: {scores.high || 0}
+            </span>
+            <span className="px-2 py-1 bg-yellow-100 text-yellow-700 rounded" title="Medium (40-69)">
+              M: {scores.medium || 0}
+            </span>
+            <span className="px-2 py-1 bg-red-100 text-red-700 rounded" title="Low (<40)">
+              L: {scores.low || 0}
+            </span>
+          </div>
+          <span className="text-xs text-gray-500">{sync.duration_seconds}s</span>
+          {onDelete && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onDelete();
+              }}
+              className="p-1 text-red-500 hover:bg-red-100 rounded"
+              title="Delete this record"
+            >
+              <Trash2 className="w-4 h-4" />
+            </button>
+          )}
+          {expanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+        </div>
+      </div>
+
+      {expanded && (
+        <div className="border-t p-4 bg-gray-50 space-y-4">
+          {/* Sources Breakdown */}
+          {sync.sources_breakdown?.length > 0 && (
+            <div>
+              <h4 className="text-sm font-semibold mb-2">By Source:</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+                {sync.sources_breakdown.map((src, idx) => (
+                  <div key={idx} className="p-2 bg-white rounded border text-sm">
+                    <div className="font-medium">{src.source_name}</div>
+                    <div className="text-xs text-gray-500">
+                      {src.count} articles • Avg: {src.avg_score}
+                    </div>
+                    <div className="flex flex-wrap gap-1 mt-1">
+                      {Object.entries(src.categories || {}).map(([cat, count]) => (
+                        <span key={cat} className="px-1 bg-gray-100 rounded text-xs">
+                          {cat}: {count}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Categories Breakdown */}
+          {Object.keys(sync.categories_breakdown || {}).length > 0 && (
+            <div>
+              <h4 className="text-sm font-semibold mb-2">By Category:</h4>
+              <div className="flex flex-wrap gap-2">
+                {Object.entries(sync.categories_breakdown).map(([cat, count]) => (
+                  <span key={cat} className="px-2 py-1 bg-white border rounded text-sm">
+                    {cat}: <strong>{count}</strong>
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Errors */}
+          {sync.errors?.length > 0 && (
+            <div>
+              <h4 className="text-sm font-semibold mb-2 text-red-600">Errors:</h4>
+              <div className="space-y-1">
+                {sync.errors.map((err, idx) => (
+                  <div key={idx} className="p-2 bg-red-50 border border-red-200 rounded text-sm text-red-700">
+                    <strong>{err.source_name}:</strong> {err.error}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Sync Params */}
+          <div className="text-xs text-gray-500">
+            Sync params: limit={sync.sync_params?.limit || "N/A"}, from_date={sync.sync_params?.from_date || "N/A"}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

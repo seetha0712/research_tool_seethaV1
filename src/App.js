@@ -316,6 +316,7 @@ const App = () => {
             token={token}
             categories={categories}
             getStatusColor={getStatusColor}
+            isAdmin={isAdmin}
           />
         )}
         {activeTab === "articles" && (

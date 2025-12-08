@@ -1,16 +1,43 @@
 import feedparser
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from datetime import datetime, timezone
 from typing import List, Dict, Optional
 import time
 import logging
 import pytz
-import json, uuid,os 
+import json, uuid,os
 import re
 import html
 import app.services.llm_service as llm_service
 
 logger = logging.getLogger(__name__)
+
+# Browser-like headers to avoid 403 Forbidden errors from servers that block bots
+RSS_REQUEST_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/rss+xml, application/xml, text/xml, application/atom+xml, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Cache-Control": "no-cache",
+}
+
+
+def _create_session_with_retries(max_retries: int = 3, backoff_factor: float = 1.0) -> requests.Session:
+    """Create a requests session with automatic retry logic for transient failures."""
+    session = requests.Session()
+    retry_strategy = Retry(
+        total=max_retries,
+        backoff_factor=backoff_factor,  # Wait 1s, 2s, 4s between retries
+        status_forcelist=[429, 500, 502, 503, 504],  # Retry on these status codes
+        allowed_methods=["GET"],  # Only retry GET requests
+    )
+    adapter = HTTPAdapter(max_retries=retry_strategy)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
 
 def clean_html(raw_html):
     """Remove HTML tags and decode common entities."""
@@ -37,7 +64,10 @@ def fetch_rss_items(source_url: str, last_synced: Optional[datetime] = None, lim
         import re
         source_url = source_url.strip()
         source_url = re.sub(r'%20$', '', source_url)
-        resp = requests.get(source_url, timeout=10)
+
+        # Use session with retry logic and browser-like headers
+        session = _create_session_with_retries(max_retries=3, backoff_factor=1.0)
+        resp = session.get(source_url, headers=RSS_REQUEST_HEADERS, timeout=15)
         resp.raise_for_status()
     except Exception as e:
         raise RuntimeError(f"RSS fetch error: {e}")

@@ -148,3 +148,73 @@ class ArticleFullTextOut(ArticleFullTextBase):
     class Config:
         orm_mode = True
         from_attributes = True
+
+
+# ==================== Sync History Schemas ====================
+
+class SourceSyncBreakdown(BaseModel):
+    """Breakdown of articles synced from a single source."""
+    source_id: int
+    source_name: str
+    source_type: str
+    count: int
+    avg_score: float
+    categories: Dict[str, int]  # {"AI & GenAI Trends": 3, "Tech Corner": 2}
+
+
+class SyncError(BaseModel):
+    """Error that occurred during sync for a specific source."""
+    source_id: Optional[int] = None
+    source_name: str
+    error: str
+
+
+class SyncHistoryOut(BaseModel):
+    """Output schema for sync history records."""
+    id: int
+    user_id: int
+    sync_timestamp: datetime
+    total_articles_fetched: int
+    total_sources_synced: int
+    total_errors: int
+    duration_seconds: Optional[float] = None
+    sources_breakdown: List[Dict]
+    categories_breakdown: Dict[str, int]
+    scores_breakdown: Dict[str, int]  # {"high": 10, "medium": 3, "low": 2}
+    errors: List[Dict]
+    sync_params: Dict
+
+    class Config:
+        from_attributes = True
+
+
+class SyncResultOut(BaseModel):
+    """Enhanced sync response with detailed breakdown."""
+    sync_id: int
+    synced: List[str]  # List of article titles (for backwards compatibility)
+    count: int
+    total_articles_fetched: int
+    duration_seconds: float
+    by_source: List[Dict]
+    by_category: Dict[str, int]
+    by_score_tier: Dict[str, int]  # {"high (70+)": N, "medium (40-69)": N, "low (<40)": N}
+    errors: List[Dict]
+
+
+class SourceAnalytics(BaseModel):
+    """Analytics for a single source."""
+    source_id: int
+    source_name: str
+    source_type: str
+    total_articles: int
+    avg_score: float
+    high_score_percentage: float  # % of articles with score >= 70
+    top_categories: List[Dict]  # [{"category": "AI & GenAI Trends", "count": 10}]
+    last_synced: Optional[datetime] = None
+    articles_last_30_days: int
+
+
+class SourceAnalyticsResponse(BaseModel):
+    """Response for source analytics endpoint."""
+    sources: List[SourceAnalytics]
+    overall_stats: Dict  # {"total_articles": N, "avg_score": N, "total_syncs": N}

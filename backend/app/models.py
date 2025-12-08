@@ -134,3 +134,36 @@ class AuditLog(Base):
     timestamp = Column(DateTime, server_default=func.now(), index=True)
 
     user = relationship("User")
+
+
+class SyncHistory(Base):
+    """Track detailed sync history for analytics and source effectiveness evaluation."""
+    __tablename__ = "sync_history"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    sync_timestamp = Column(DateTime, server_default=func.now(), index=True)
+
+    # Summary stats
+    total_articles_fetched = Column(Integer, default=0)
+    total_sources_synced = Column(Integer, default=0)
+    total_errors = Column(Integer, default=0)
+    duration_seconds = Column(Float, nullable=True)
+
+    # Detailed breakdowns stored as JSON
+    # Format: [{"source_id": 1, "source_name": "...", "source_type": "rss", "count": 5, "avg_score": 72, "categories": {"AI & GenAI Trends": 3}}]
+    sources_breakdown = Column(JSON, default=[])
+
+    # Format: {"AI & GenAI Trends": 5, "Tech Corner": 3, ...}
+    categories_breakdown = Column(JSON, default={})
+
+    # Format: {"high": 10, "medium": 3, "low": 2} where high=70+, medium=40-69, low=<40
+    scores_breakdown = Column(JSON, default={})
+
+    # Format: [{"source_id": 1, "source_name": "...", "error": "403 Forbidden"}]
+    errors = Column(JSON, default=[])
+
+    # Sync parameters used
+    sync_params = Column(JSON, default={})  # {"limit": 10, "from_date": "..."}
+
+    user = relationship("User")

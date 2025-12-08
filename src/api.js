@@ -236,4 +236,39 @@ export async function getAuditStats(token) {
   return res.data;
 }
 
+// --- Sync History ---
+export async function getSyncHistory(token, params = {}) {
+  const res = await api.get("/sync/history", {
+    ...authHeader(token),
+    params
+  });
+  return res.data;
+}
+
+export async function getSyncHistoryDetail(token, syncId) {
+  const res = await api.get(`/sync/history/${syncId}`, authHeader(token));
+  return res.data;
+}
+
+export async function deleteSyncHistory(token, syncId) {
+  const res = await api.delete(`/sync/history/${syncId}`, authHeader(token));
+  return res.data;
+}
+
+export async function deleteOldSyncHistory(token, daysToKeep = 360) {
+  const res = await api.delete(`/sync/history?days_to_keep=${daysToKeep}`, authHeader(token));
+  return res.data;
+}
+
+// --- Source Analytics ---
+export async function getSourceAnalytics(token, days = 30) {
+  const res = await api.get(`/dashboard/source-analytics?days=${days}`, authHeader(token));
+  return res.data;
+}
+
+export async function getSyncTrends(token, days = 30) {
+  const res = await api.get(`/dashboard/sync-trends?days=${days}`, authHeader(token));
+  return res.data;
+}
+
 export default api;

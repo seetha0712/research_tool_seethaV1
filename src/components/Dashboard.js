@@ -275,7 +275,8 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0, isAdmin = false }) =
                       <th className="px-4 py-3 font-semibold">Type</th>
                       <th className="px-4 py-3 font-semibold text-right">Total</th>
                       <th className="px-4 py-3 font-semibold text-right">Avg Score</th>
-                      <th className="px-4 py-3 font-semibold text-right">High Score %</th>
+                      <th className="px-4 py-3 font-semibold text-right">Top Score</th>
+                      <th className="px-4 py-3 font-semibold text-right" title="% of articles with score >= 70">High %</th>
                       <th className="px-4 py-3 font-semibold">Top Categories</th>
                       <th className="px-4 py-3 font-semibold">Last Synced</th>
                     </tr>
@@ -301,6 +302,15 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0, isAdmin = false }) =
                             'text-red-600'
                           }`}>
                             {src.avg_score}
+                          </span>
+                        </td>
+                        <td className="px-4 py-3 text-right">
+                          <span className={`font-bold ${
+                            src.top_score >= 70 ? 'text-green-600' :
+                            src.top_score >= 40 ? 'text-yellow-600' :
+                            'text-red-600'
+                          }`}>
+                            {src.top_score || 0}
                           </span>
                         </td>
                         <td className="px-4 py-3 text-right">

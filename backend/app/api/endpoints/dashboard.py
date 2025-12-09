@@ -125,6 +125,7 @@ def get_source_analytics(
                 "source_type": source.type,
                 "total_articles": 0,
                 "avg_score": 0,
+                "top_score": 0,
                 "high_score_percentage": 0,
                 "top_categories": [],
                 "last_synced": source.last_synced.isoformat() if source.last_synced else None,
@@ -135,6 +136,9 @@ def get_source_analytics(
         total_articles = len(articles)
         total_score = sum(a.relevance_score or 0 for a in articles)
         avg_score = round(total_score / total_articles, 1) if total_articles > 0 else 0
+
+        # Top score (highest individual score)
+        top_score = max((a.relevance_score or 0) for a in articles)
 
         # High score percentage
         high_score_count = sum(1 for a in articles if (a.relevance_score or 0) >= SCORE_HIGH_THRESHOLD)
@@ -164,6 +168,7 @@ def get_source_analytics(
             "source_type": source.type,
             "total_articles": total_articles,
             "avg_score": avg_score,
+            "top_score": top_score,
             "high_score_percentage": high_score_pct,
             "top_categories": top_categories,
             "last_synced": source.last_synced.isoformat() if source.last_synced else None,

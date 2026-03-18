@@ -80,7 +80,11 @@ def sync_all_sources(
         except Exception:
             start_dt = None
 
-    sources = db.query(models.Source).filter(models.Source.user_id == user.id, models.Source.active == True).all()
+    # Admin users can sync all active sources, non-admin users only their own
+    if user.is_admin:
+        sources = db.query(models.Source).filter(models.Source.active == True).all()
+    else:
+        sources = db.query(models.Source).filter(models.Source.user_id == user.id, models.Source.active == True).all()
     synced = []
 
     # === NEW: Tracking variables ===

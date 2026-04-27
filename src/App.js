@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import {
-  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check, Shield, Activity, Server, AlertTriangle
+  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check, Shield, Activity
 } from "lucide-react";
 
 import Login from "./components/Login";
@@ -13,9 +13,8 @@ import DeckBuilder from "./components/DeckBuilder";
 import PaidSearchTab from "./components/PaidSearchTab";
 import Admin from "./components/Admin";
 import AuditLogs from "./components/AuditLogs";
-import Infrastructure from "./components/Infrastructure";
 
-import { syncSources, getSources, checkBackendHealth } from "./api";
+import { syncSources, getSources } from "./api";
 import { getArticles, getSavedPaidArticles } from "./api"; 
 
 const categories = [
@@ -61,7 +60,6 @@ const App = () => {
 
   // Get admin status from localStorage
   const isAdmin = localStorage.getItem("is_admin") === "true";
-  const [maintenanceMode, setMaintenanceMode] = useState(false);
   const [articles, setArticles] = useState([]);
   const [sources, setSources] = useState([]);
   const [selectedArticles, setSelectedArticles] = useState([]);
@@ -112,20 +110,6 @@ const App = () => {
       fetchSources();
       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [token]);
-
-    // Check backend health periodically (for maintenance mode detection)
-    useEffect(() => {
-      if (!token || isAdmin) return;
-
-      const checkHealth = async () => {
-        const result = await checkBackendHealth();
-        setMaintenanceMode(!result.healthy);
-      };
-
-      checkHealth();
-      const interval = setInterval(checkHealth, 30000);
-      return () => clearInterval(interval);
-    }, [token, isAdmin]);
 
 
   // Load ALL articles & paid search results on mount/login
@@ -307,8 +291,7 @@ const App = () => {
             { id: "deck-builder", label: "Deck Builder", icon: Download },
             ...(isAdmin ? [
               { id: "admin", label: "Admin", icon: Shield },
-              { id: "audit-logs", label: "Audit Logs", icon: Activity },
-              { id: "infrastructure", label: "Infrastructure", icon: Server }
+              { id: "audit-logs", label: "Audit Logs", icon: Activity }
             ] : []),
           ].map((tab) => {
             const Icon = tab.icon;
@@ -405,34 +388,7 @@ const App = () => {
         {activeTab === "audit-logs" && isAdmin && (
           <AuditLogs token={token} />
         )}
-
-        {activeTab === "infrastructure" && isAdmin && (
-          <Infrastructure token={token} />
-        )}
       </div>
-
-      {/* Maintenance Mode Banner for non-admins */}
-      {maintenanceMode && !isAdmin && (
-        <div className="fixed inset-0 bg-gray-900 bg-opacity-75 flex items-center justify-center z-50">
-          <div className="bg-white rounded-xl shadow-2xl max-w-md w-full mx-4 p-8 text-center">
-            <div className="flex justify-center mb-4">
-              <div className="p-4 bg-yellow-100 rounded-full">
-                <AlertTriangle className="w-12 h-12 text-yellow-600" />
-              </div>
-            </div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-2">Maintenance Mode</h2>
-            <p className="text-gray-600 mb-6">
-              The application is currently undergoing maintenance. Please try again later.
-            </p>
-            <button
-              onClick={() => window.location.reload()}
-              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors"
-            >
-              Refresh Page
-            </button>
-          </div>
-        </div>
-      )}
       {/* If you want AddSourceModal as a separate popup, can integrate here */}
       {/* <AddSourceModal ... /> */}
     </div>

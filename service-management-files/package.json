@@ -1,0 +1,14 @@
+{
+  "name": "research-tool-infra-manager",
+  "version": "1.0.0",
+  "description": "Standalone infrastructure manager for Research Tool - Start/Stop Render services",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  }
+}

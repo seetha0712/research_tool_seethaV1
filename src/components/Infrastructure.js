@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import {
   Server, Database, Play, Square, RefreshCw, AlertTriangle,
-  CheckCircle, XCircle, Clock, User, Settings
+  CheckCircle, XCircle, Clock, Settings
 } from "lucide-react";
 import {
   getInfrastructureConfig,

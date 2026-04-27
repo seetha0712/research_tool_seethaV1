@@ -37,3 +37,31 @@ CATEGORY_OPTIONS = [
     "AI Beyond Finance",
     "Uncategorized",
 ]
+
+# Render API Configuration
+RENDER_API_KEY = os.getenv("RENDER_API_KEY", "")
+RENDER_API_BASE_URL = "https://api.render.com/v1"
+RENDER_SERVICES = {
+    "database": {
+        "id": os.getenv("RENDER_SERVICE_ID_DB", ""),
+        "name": "research-tool-db",
+        "type": "postgres"
+    },
+    "app": {
+        "id": os.getenv("RENDER_SERVICE_ID_APP", ""),
+        "name": "research_tool_seethaV1",
+        "type": "web_service"
+    }
+}
+
+# SMTP Email Configuration (Gmail)
+SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
+SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+SMTP_USER = os.getenv("SMTP_USER", "")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
+SMTP_FROM_EMAIL = os.getenv("SMTP_FROM_EMAIL", SMTP_USER)
+ADMIN_NOTIFICATION_EMAILS = [
+    email.strip()
+    for email in os.getenv("ADMIN_NOTIFICATION_EMAILS", "").split(",")
+    if email.strip()
+]

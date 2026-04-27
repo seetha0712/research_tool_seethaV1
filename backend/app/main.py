@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app.api.endpoints import (auth, users, sources, articles, files, sync,paid_search,
-    dashboard, slidesgpt_proxy,deck_builder, admin, audit)
+    dashboard, slidesgpt_proxy,deck_builder, admin, audit, infrastructure)
 
 from app.database import init_db
 from fastapi.middleware.cors import CORSMiddleware
@@ -48,7 +48,8 @@ app.include_router(paid_search.router, prefix="/paid_search", tags=["paid_search
 app.include_router(dashboard.router, prefix="/dashboard", tags=["dashboard"])
 app.include_router(deck_builder.router, tags=["Deck Builder"])
 app.include_router(admin.router, prefix="/admin", tags=["Admin"])
-app.include_router(audit.router, prefix="/audit", tags=["Audit"]) 
+app.include_router(audit.router, prefix="/audit", tags=["Audit"])
+app.include_router(infrastructure.router, prefix="/infrastructure", tags=["Infrastructure"]) 
 
 #app.include_router(articles.router, prefix="/api/article", tags=["Articles_Full"])
 #app.include_router(paid_search.router, prefix="/api/paid_article", tags=["PaidArticles_Full"])

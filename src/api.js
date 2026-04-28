@@ -271,40 +271,4 @@ export async function getSyncTrends(token, days = 30) {
   return res.data;
 }
 
-// --- Infrastructure Management ---
-export async function getInfrastructureConfig(token) {
-  const res = await api.get("/infrastructure/config", authHeader(token));
-  return res.data;
-}
-
-export async function getServicesStatus(token) {
-  const res = await api.get("/infrastructure/services", authHeader(token));
-  return res.data;
-}
-
-export async function startService(token, serviceKey) {
-  const res = await api.post("/infrastructure/services/start", { service_key: serviceKey }, authHeader(token));
-  return res.data;
-}
-
-export async function stopService(token, serviceKey) {
-  const res = await api.post("/infrastructure/services/stop", { service_key: serviceKey }, authHeader(token));
-  return res.data;
-}
-
-export async function getInfrastructureActivity(token, limit = 20) {
-  const res = await api.get(`/infrastructure/activity?limit=${limit}`, authHeader(token));
-  return res.data;
-}
-
-// --- Health Check (for maintenance mode) ---
-export async function checkBackendHealth() {
-  try {
-    const res = await api.get("/");
-    return { healthy: true, data: res.data };
-  } catch (error) {
-    return { healthy: false, error: error.message };
-  }
-}
-
 export default api;

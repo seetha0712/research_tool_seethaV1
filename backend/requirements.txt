@@ -15,6 +15,7 @@ PyPDF2
 feedparser
 python-multipart
 requests
+httpx
 beautifulsoup4
 lxml
 trafilatura

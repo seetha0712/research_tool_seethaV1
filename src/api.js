@@ -97,6 +97,18 @@ export async function syncSources(token, { limit = 10, from_date = "" } = {}) {
   return res.data;
 }
 
+// --- 7b. Get sync status ---
+export async function getSyncStatus(token) {
+  const res = await api.get("/sync/status", authHeader(token));
+  return res.data;
+}
+
+// --- 7c. Cancel sync ---
+export async function cancelSync(token) {
+  const res = await api.post("/sync/cancel", {}, authHeader(token));
+  return res.data;
+}
+
 // Get articles with params (filters/search)
 export async function getArticles(token, params = {}) {
    // params example: { category: 'AI Adoption in Finance', status: 'final', search: 'openai' }

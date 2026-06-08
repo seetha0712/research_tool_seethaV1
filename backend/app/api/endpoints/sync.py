@@ -22,10 +22,57 @@ logger = logging.getLogger(__name__)
 SCORE_HIGH_THRESHOLD = 70
 SCORE_MEDIUM_THRESHOLD = 40
 
+# In-memory sync state tracking (per user)
+# Structure: {user_id: {"running": bool, "cancel_requested": bool, "current_source": str, "progress": int, "total": int}}
+_sync_state = {}
+
 
 class SyncParams(BaseModel):
     limit: int = 10
     from_date: str = ""   # ISO string or blank
+
+
+def _get_sync_state(user_id: int) -> dict:
+    """Get sync state for a user."""
+    if user_id not in _sync_state:
+        _sync_state[user_id] = {
+            "running": False,
+            "cancel_requested": False,
+            "current_source": "",
+            "progress": 0,
+            "total": 0
+        }
+    return _sync_state[user_id]
+
+
+def _is_cancelled(user_id: int) -> bool:
+    """Check if sync cancellation was requested."""
+    state = _get_sync_state(user_id)
+    return state.get("cancel_requested", False)
+
+
+@router.get("/status")
+def get_sync_status(user=Depends(get_current_user)):
+    """Get current sync status for the user."""
+    state = _get_sync_state(user.id)
+    return {
+        "running": state["running"],
+        "cancel_requested": state["cancel_requested"],
+        "current_source": state["current_source"],
+        "progress": state["progress"],
+        "total": state["total"]
+    }
+
+
+@router.post("/cancel")
+def cancel_sync(user=Depends(get_current_user)):
+    """Request cancellation of running sync."""
+    state = _get_sync_state(user.id)
+    if not state["running"]:
+        return {"message": "No sync in progress", "cancelled": False}
+
+    state["cancel_requested"] = True
+    return {"message": "Cancellation requested", "cancelled": True}
 
 
 def _get_score_tier(score: int) -> str:
@@ -90,7 +137,25 @@ def sync_all_sources(
     sync_errors = []  # [{source_id, source_name, error}]
     sources_synced_set = set()
 
-    for src in sources:
+    # Initialize sync state
+    sync_state = _get_sync_state(user.id)
+    sync_state["running"] = True
+    sync_state["cancel_requested"] = False
+    sync_state["progress"] = 0
+    sync_state["total"] = len(sources)
+    sync_state["current_source"] = ""
+
+    was_cancelled = False
+
+    for idx, src in enumerate(sources):
+        # Check for cancellation before each source
+        if _is_cancelled(user.id):
+            was_cancelled = True
+            logger.info(f"Sync cancelled by user {user.id} at source {idx + 1}/{len(sources)}")
+            break
+
+        sync_state["progress"] = idx + 1
+        sync_state["current_source"] = src.name
         try:
             if src.type == "rss":
                 # Check if source has any articles - if not, reset last_synced to fetch all
@@ -300,6 +365,11 @@ def sync_all_sources(
         request=request
     )
 
+    # Clear sync state
+    sync_state["running"] = False
+    sync_state["cancel_requested"] = False
+    sync_state["current_source"] = ""
+
     # === Return enhanced response (backward compatible) ===
     return {
         # Backward compatible fields
@@ -316,7 +386,8 @@ def sync_all_sources(
             "medium (40-69)": scores_breakdown["medium"],
             "low (<40)": scores_breakdown["low"]
         },
-        "errors": sync_errors
+        "errors": sync_errors,
+        "was_cancelled": was_cancelled
     }
 
 

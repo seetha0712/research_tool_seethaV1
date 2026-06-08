@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "buildCommand": "npm install",
+  "outputDirectory": "public",
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/public/$1" }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron/daily-report",
+      "schedule": "30 2 * * *"
+    },
+    {
+      "path": "/api/cron/daily-report",
+      "schedule": "30 12 * * *"
+    }
+  ]
+}

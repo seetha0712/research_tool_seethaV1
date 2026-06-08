@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import {
-  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check, Shield, Activity
+  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check, Shield, Activity, StopCircle
 } from "lucide-react";
 
 import Login from "./components/Login";
@@ -14,7 +14,7 @@ import PaidSearchTab from "./components/PaidSearchTab";
 import Admin from "./components/Admin";
 import AuditLogs from "./components/AuditLogs";
 
-import { syncSources, getSources } from "./api";
+import { syncSources, getSources, cancelSync } from "./api";
 import { getArticles, getSavedPaidArticles } from "./api"; 
 
 const categories = [
@@ -163,13 +163,30 @@ const App = () => {
   const handleSync = async () => {
     setSyncing(true);
     try {
-      await syncSources(token, { limit: syncLimit, from_date: syncFromDate });
-      // Optionally reload articles/sources here!
-      alert("Sync complete!");
+      const result = await syncSources(token, { limit: syncLimit, from_date: syncFromDate });
+      if (result.was_cancelled) {
+        alert(`Sync cancelled. ${result.count} articles synced before cancellation.`);
+      } else {
+        alert(`Sync complete! ${result.count} articles synced.`);
+      }
     } catch (err) {
       alert("Sync failed: " + (err?.response?.data?.detail || err.message));
     }
     setSyncing(false);
+  };
+
+  // Stop sync handler
+  const handleStopSync = async () => {
+    try {
+      const result = await cancelSync(token);
+      if (result.cancelled) {
+        alert("Cancellation requested. Sync will stop after current source.");
+      } else {
+        alert("No sync in progress.");
+      }
+    } catch (err) {
+      alert("Failed to cancel: " + (err?.response?.data?.detail || err.message));
+    }
   };
 
   const handleStatusChange = (articleId, newStatus) => {
@@ -260,13 +277,22 @@ const App = () => {
                       className="ml-2 px-2 py-1 border rounded"
                       />
                   </label>
-                  <button
+                  {syncing ? (
+                    <button
+                      onClick={handleStopSync}
+                      className="px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded flex items-center gap-2"
+                    >
+                      <StopCircle className="w-4 h-4" />
+                      Stop Sync
+                    </button>
+                  ) : (
+                    <button
                       onClick={handleSync}
-                      className="px-4 py-2 bg-blue-600 text-white rounded"
-                      disabled={syncing}
-                  >
-                      {syncing ? "Syncing..." : "Sync Now"}
-                  </button>
+                      className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded"
+                    >
+                      Sync Now
+                    </button>
+                  )}
                 </>
                )}
                {!isAdmin && (

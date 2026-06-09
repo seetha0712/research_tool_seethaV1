@@ -19,7 +19,12 @@ DAILY_REPORT_SECRET = os.getenv("DAILY_REPORT_SECRET", "")
 RENDER_API_KEY = os.getenv("RENDER_API_KEY", "")
 RENDER_SERVICE_ID_APP = os.getenv("RENDER_SERVICE_ID_APP", "")
 RENDER_SERVICE_ID_DB = os.getenv("RENDER_SERVICE_ID_DB", "")
-SELF_SUSPEND_AFTER_REPORT = os.getenv("SELF_SUSPEND_AFTER_REPORT", "false").lower() == "true"
+
+
+def _should_self_suspend() -> bool:
+    """Check if self-suspend is enabled (read at runtime, not import time)."""
+    value = os.getenv("SELF_SUSPEND_AFTER_REPORT", "false").lower().strip()
+    return value == "true"
 
 # Track sent article IDs (in-memory - resets on restart, but good enough for daily reports)
 _sent_article_ids = set()
@@ -172,10 +177,14 @@ def _run_report_pipeline(db: Session, user: models.User, article_count: int = 15
             logger.error("Failed to send email")
 
         # Step 6: Self-suspend if configured
-        if SELF_SUSPEND_AFTER_REPORT:
+        should_suspend = _should_self_suspend()
+        logger.info(f"SELF_SUSPEND_AFTER_REPORT={os.getenv('SELF_SUSPEND_AFTER_REPORT', 'not set')} -> should_suspend={should_suspend}")
+        if should_suspend:
             logger.info("Step 4: Self-suspending services...")
             import asyncio
             asyncio.run(_suspend_render_services())
+        else:
+            logger.info("Self-suspend disabled, leaving services running")
 
         logger.info("Daily report pipeline complete")
 
@@ -259,7 +268,8 @@ def get_report_status(current_user: models.User = Depends(get_current_user)):
     return {
         "email_configured": email_service.is_email_configured(),
         "report_emails": email_service.REPORT_EMAILS,
-        "self_suspend_enabled": SELF_SUSPEND_AFTER_REPORT,
+        "self_suspend_enabled": _should_self_suspend(),
+        "self_suspend_raw_value": os.getenv("SELF_SUSPEND_AFTER_REPORT", "not set"),
         "render_api_configured": bool(RENDER_API_KEY),
         "sent_article_count": len(_sent_article_ids)
     }

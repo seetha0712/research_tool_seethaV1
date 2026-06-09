@@ -343,7 +343,9 @@ def _convert_articles_for_email(db: Session, articles: list) -> list:
             "category": article.category,
             "source_name": source_name,
             "meta_data": article.meta_data or {},
-            "link": (article.meta_data or {}).get("link", "")
+            "link": (article.meta_data or {}).get("link", ""),
+            "key_insights": article.key_insights or [],
+            "date": article.date.isoformat() if article.date else ""
         })
     return articles_data
 

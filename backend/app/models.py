@@ -64,6 +64,7 @@ class Article(Base):
     relevance_score = Column(Integer, default=0)
     is_archived = Column(Boolean, default=False)
     category = Column(String, default="")
+    emailed_at = Column(DateTime, nullable=True, default=None)  # Tracks when article was sent in daily report
     # Deferred loading - only loads when explicitly accessed, preventing errors if column doesn't exist
     embedding = deferred(Column(Vector(1536) if PGVECTOR_AVAILABLE else Text, nullable=True))
 

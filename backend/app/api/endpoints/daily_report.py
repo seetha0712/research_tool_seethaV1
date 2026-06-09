@@ -1,11 +1,11 @@
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Header
 from sqlalchemy.orm import Session
-from sqlalchemy import desc, and_, func
+from sqlalchemy import desc
 from app import models, database
 from app.dependencies import get_current_user
 from app.services import email_service
 from app.api.endpoints.sync import sync_all_sources, SyncParams
-from datetime import datetime, date, timezone, timedelta
+from datetime import datetime, timezone, timedelta
 import os
 import logging
 import httpx
@@ -30,36 +30,24 @@ def _should_self_suspend() -> bool:
     return value == "true"
 
 
-# Track sent article IDs by date (in-memory - resets on restart)
-# Structure: {"2026-06-09": {"morning": {1, 2, 3}, "evening": {4, 5, 6}}}
-_sent_articles_by_date = {}
-
-
 def _get_today_ist() -> str:
     """Get today's date in IST as string."""
     return datetime.now(IST).strftime("%Y-%m-%d")
 
 
-def _get_sent_ids_today(mode: str) -> set:
-    """Get IDs of articles sent today for given mode (morning/evening)."""
-    today = _get_today_ist()
-    if today not in _sent_articles_by_date:
-        _sent_articles_by_date[today] = {"morning": set(), "evening": set()}
-    return _sent_articles_by_date[today].get(mode, set())
+def _get_day_of_week_ist() -> int:
+    """Get current day of week in IST (0=Monday, 6=Sunday)."""
+    return datetime.now(IST).weekday()
 
 
-def _mark_articles_sent(article_ids: list, mode: str):
-    """Mark articles as sent for today's mode."""
-    today = _get_today_ist()
-    if today not in _sent_articles_by_date:
-        _sent_articles_by_date[today] = {"morning": set(), "evening": set()}
-    _sent_articles_by_date[today][mode].update(article_ids)
+def _is_monday() -> bool:
+    """Check if today is Monday in IST."""
+    return _get_day_of_week_ist() == 0
 
-    # Clean up old dates (keep only last 7 days)
-    cutoff = (datetime.now(IST) - timedelta(days=7)).strftime("%Y-%m-%d")
-    for old_date in list(_sent_articles_by_date.keys()):
-        if old_date < cutoff:
-            del _sent_articles_by_date[old_date]
+
+def _is_friday() -> bool:
+    """Check if today is Friday in IST."""
+    return _get_day_of_week_ist() == 4
 
 
 def _get_report_type() -> str:
@@ -115,17 +103,57 @@ async def _suspend_render_services():
                 email_service.send_notification("stop", "database", False, str(e))
 
 
+def _cleanup_old_articles(db: Session):
+    """
+    Delete all articles to start fresh for a new week.
+    Called at the start of Monday morning run.
+    """
+    try:
+        count = db.query(models.Article).delete()
+        db.commit()
+        logger.info(f"Weekly cleanup: Deleted {count} articles for fresh start")
+        return count
+    except Exception as e:
+        logger.error(f"Failed to cleanup articles: {e}")
+        db.rollback()
+        return 0
+
+
+def _mark_articles_emailed(db: Session, article_ids: list):
+    """Mark articles as emailed in database."""
+    if not article_ids:
+        return
+    try:
+        now = datetime.utcnow()
+        db.query(models.Article).filter(
+            models.Article.id.in_(article_ids)
+        ).update({"emailed_at": now}, synchronize_session=False)
+        db.commit()
+        logger.info(f"Marked {len(article_ids)} articles as emailed")
+    except Exception as e:
+        logger.error(f"Failed to mark articles as emailed: {e}")
+        db.rollback()
+
+
 def _run_morning_pipeline(db: Session, user: models.User):
     """
-    Morning report pipeline:
-    1. Run sync with 10 articles per source
-    2. Email all articles with score >= 60
-    3. Self-suspend if configured
+    Morning report pipeline (Mon/Wed/Fri 8 AM IST):
+    1. If Monday: Delete all articles for fresh week
+    2. Run sync with 10 articles per source
+    3. Email articles with score >= 60 that haven't been emailed
+    4. Mark emailed articles in database
+    5. Self-suspend if configured
     """
     try:
         logger.info("Starting MORNING report pipeline")
 
-        # Step 1: Run sync
+        # Step 1: Monday cleanup - delete all articles for fresh week
+        if _is_monday():
+            logger.info("Step 0: Monday cleanup - deleting all articles for fresh week")
+            deleted = _cleanup_old_articles(db)
+            logger.info(f"Deleted {deleted} articles")
+
+        # Step 2: Run sync
         logger.info("Step 1: Running sync (10 articles per source)...")
         from fastapi import Request
         from unittest.mock import MagicMock
@@ -141,43 +169,41 @@ def _run_morning_pipeline(db: Session, user: models.User):
         except Exception as e:
             logger.error(f"Sync failed: {e}")
 
-        # Step 2: Fetch articles with score >= 60, not yet sent today
-        logger.info("Step 2: Fetching articles with score >= 60...")
-        sent_ids = _get_sent_ids_today("morning")
-
+        # Step 3: Fetch articles with score >= 60, not yet emailed
+        logger.info("Step 2: Fetching articles with score >= 60 (not yet emailed)...")
         articles = (
             db.query(models.Article)
             .filter(
                 models.Article.relevance_score >= 60,
-                models.Article.relevance_score.isnot(None)
+                models.Article.relevance_score.isnot(None),
+                models.Article.emailed_at.is_(None)  # Not yet emailed
             )
             .order_by(desc(models.Article.relevance_score))
             .all()
         )
 
-        # Filter out already sent
-        unsent_articles = [a for a in articles if a.id not in sent_ids]
-        logger.info(f"Found {len(unsent_articles)} unsent articles with score >= 60")
+        logger.info(f"Found {len(articles)} articles with score >= 60 to email")
 
-        if not unsent_articles:
+        if not articles:
             logger.info("No articles to send")
             _do_suspend_if_enabled()
             return
 
-        # Step 3: Convert to dict format for email
-        articles_data = _convert_articles_for_email(db, unsent_articles)
+        # Step 4: Convert to dict format for email
+        articles_data = _convert_articles_for_email(db, articles)
 
-        # Step 4: Send email
+        # Step 5: Send email
         logger.info(f"Step 3: Sending morning report with {len(articles_data)} articles...")
         email_sent = email_service.send_daily_report(articles_data, "morning")
 
         if email_sent:
             logger.info("Email sent successfully")
-            _mark_articles_sent([a.id for a in unsent_articles], "morning")
+            # Mark articles as emailed in database
+            _mark_articles_emailed(db, [a.id for a in articles])
         else:
             logger.error("Failed to send email")
 
-        # Step 5: Self-suspend
+        # Step 6: Self-suspend
         _do_suspend_if_enabled()
         logger.info("Morning report pipeline complete")
 
@@ -187,41 +213,42 @@ def _run_morning_pipeline(db: Session, user: models.User):
 
 def _run_evening_pipeline(db: Session, user: models.User):
     """
-    Evening report pipeline:
+    Evening report pipeline (Mon/Wed/Fri 8 PM IST):
     1. NO sync (uses articles from morning scan)
-    2. Email remaining articles with score < 60
-    3. Self-suspend if configured
+    2. Email articles with score < 60 that haven't been emailed
+    3. Mark emailed articles in database
+    4. If Friday: Delete all articles after sending
+    5. Self-suspend if configured
     """
     try:
         logger.info("Starting EVENING report pipeline (no sync)")
 
-        # Step 1: Fetch articles with score < 60, not yet sent today
-        logger.info("Step 1: Fetching articles with score < 60...")
-        morning_sent = _get_sent_ids_today("morning")
-        evening_sent = _get_sent_ids_today("evening")
-        all_sent = morning_sent.union(evening_sent)
-
+        # Step 1: Fetch articles with score < 60, not yet emailed
+        logger.info("Step 1: Fetching articles with score < 60 (not yet emailed)...")
         articles = (
             db.query(models.Article)
             .filter(
                 models.Article.relevance_score < 60,
-                models.Article.relevance_score.isnot(None)
+                models.Article.relevance_score.isnot(None),
+                models.Article.emailed_at.is_(None)  # Not yet emailed
             )
             .order_by(desc(models.Article.relevance_score))
             .all()
         )
 
-        # Filter out already sent (in either morning or evening)
-        unsent_articles = [a for a in articles if a.id not in all_sent]
-        logger.info(f"Found {len(unsent_articles)} unsent articles with score < 60")
+        logger.info(f"Found {len(articles)} articles with score < 60 to email")
 
-        if not unsent_articles:
+        if not articles:
             logger.info("No articles to send")
+            # Still do Friday cleanup even if no articles
+            if _is_friday():
+                logger.info("Friday cleanup: Deleting all articles after evening report")
+                _cleanup_old_articles(db)
             _do_suspend_if_enabled()
             return
 
         # Step 2: Convert to dict format for email
-        articles_data = _convert_articles_for_email(db, unsent_articles)
+        articles_data = _convert_articles_for_email(db, articles)
 
         # Step 3: Send email
         logger.info(f"Step 2: Sending evening report with {len(articles_data)} articles...")
@@ -229,11 +256,17 @@ def _run_evening_pipeline(db: Session, user: models.User):
 
         if email_sent:
             logger.info("Email sent successfully")
-            _mark_articles_sent([a.id for a in unsent_articles], "evening")
+            # Mark articles as emailed in database
+            _mark_articles_emailed(db, [a.id for a in articles])
         else:
             logger.error("Failed to send email")
 
-        # Step 4: Self-suspend
+        # Step 4: Friday cleanup - delete all articles after evening report
+        if _is_friday():
+            logger.info("Friday cleanup: Deleting all articles after evening report")
+            _cleanup_old_articles(db)
+
+        # Step 5: Self-suspend
         _do_suspend_if_enabled()
         logger.info("Evening report pipeline complete")
 
@@ -262,7 +295,7 @@ def _run_test_pipeline(db: Session, user: models.User):
         except Exception as e:
             logger.error(f"Sync failed: {e}")
 
-        # Step 2: Fetch top 5 articles
+        # Step 2: Fetch top 5 articles (regardless of emailed status for testing)
         logger.info("Step 2: Fetching top 5 articles...")
         articles = (
             db.query(models.Article)
@@ -338,9 +371,10 @@ def run_morning_report(
 ):
     """
     Morning report (8 AM IST Mon/Wed/Fri):
-    1. Run sync with 10 articles per source
-    2. Email all articles with score >= 60
-    3. Self-suspend if configured
+    - If Monday: Delete all articles for fresh week
+    - Run sync with 10 articles per source
+    - Email articles with score >= 60 (not yet emailed)
+    - Self-suspend if configured
     """
     if DAILY_REPORT_SECRET and x_report_secret != DAILY_REPORT_SECRET:
         raise HTTPException(status_code=401, detail="Invalid report secret")
@@ -348,13 +382,16 @@ def run_morning_report(
     if not current_user.is_admin:
         raise HTTPException(status_code=403, detail="Only admin users can trigger daily report")
 
+    is_monday = _is_monday()
     background_tasks.add_task(_run_morning_pipeline, db, current_user)
 
     return {
         "status": "accepted",
         "mode": "morning",
         "min_score": 60,
-        "articles_per_url": 10
+        "articles_per_url": 10,
+        "monday_cleanup": is_monday,
+        "day_of_week": datetime.now(IST).strftime("%A")
     }
 
 
@@ -367,9 +404,10 @@ def run_evening_report(
 ):
     """
     Evening report (8 PM IST Mon/Wed/Fri):
-    1. NO sync (uses articles from morning scan)
-    2. Email remaining articles with score < 60
-    3. Self-suspend if configured
+    - NO sync (uses articles from morning scan)
+    - Email articles with score < 60 (not yet emailed)
+    - If Friday: Delete all articles after sending
+    - Self-suspend if configured
     """
     if DAILY_REPORT_SECRET and x_report_secret != DAILY_REPORT_SECRET:
         raise HTTPException(status_code=401, detail="Invalid report secret")
@@ -377,13 +415,16 @@ def run_evening_report(
     if not current_user.is_admin:
         raise HTTPException(status_code=403, detail="Only admin users can trigger daily report")
 
+    is_friday = _is_friday()
     background_tasks.add_task(_run_evening_pipeline, db, current_user)
 
     return {
         "status": "accepted",
         "mode": "evening",
         "max_score": 60,
-        "sync": False
+        "sync": False,
+        "friday_cleanup": is_friday,
+        "day_of_week": datetime.now(IST).strftime("%A")
     }
 
 
@@ -397,7 +438,7 @@ def run_test_report(
     """
     Test report (manual trigger only):
     - Syncs 5 articles per source
-    - Sends top 5 articles
+    - Sends top 5 articles (ignores emailed status)
     """
     if DAILY_REPORT_SECRET and x_report_secret != DAILY_REPORT_SECRET:
         raise HTTPException(status_code=401, detail="Invalid report secret")
@@ -416,11 +457,27 @@ def run_test_report(
 
 
 @router.get("/daily-report/status")
-def get_report_status(current_user: models.User = Depends(get_current_user)):
-    """Get the current status of daily report configuration."""
+def get_report_status(
+    db: Session = Depends(database.get_db),
+    current_user: models.User = Depends(get_current_user)
+):
+    """Get the current status of daily report configuration and article counts."""
     today = _get_today_ist()
-    morning_sent = len(_get_sent_ids_today("morning"))
-    evening_sent = len(_get_sent_ids_today("evening"))
+    day_of_week = datetime.now(IST).strftime("%A")
+
+    # Count articles by emailed status
+    total_articles = db.query(models.Article).count()
+    emailed_articles = db.query(models.Article).filter(
+        models.Article.emailed_at.isnot(None)
+    ).count()
+    pending_high_score = db.query(models.Article).filter(
+        models.Article.relevance_score >= 60,
+        models.Article.emailed_at.is_(None)
+    ).count()
+    pending_low_score = db.query(models.Article).filter(
+        models.Article.relevance_score < 60,
+        models.Article.emailed_at.is_(None)
+    ).count()
 
     return {
         "email_configured": email_service.is_email_configured(),
@@ -429,8 +486,13 @@ def get_report_status(current_user: models.User = Depends(get_current_user)):
         "self_suspend_raw_value": os.getenv("SELF_SUSPEND_AFTER_REPORT", "not set"),
         "render_api_configured": bool(RENDER_API_KEY),
         "today_ist": today,
-        "morning_sent_count": morning_sent,
-        "evening_sent_count": evening_sent
+        "day_of_week": day_of_week,
+        "is_monday": _is_monday(),
+        "is_friday": _is_friday(),
+        "total_articles": total_articles,
+        "emailed_articles": emailed_articles,
+        "pending_high_score": pending_high_score,
+        "pending_low_score": pending_low_score
     }
 
 
@@ -462,4 +524,29 @@ def run_daily_report(
         "status": "accepted",
         "mode": report_type,
         "message": f"Redirected to {report_type} pipeline"
+    }
+
+
+@router.post("/daily-report/cleanup", status_code=200)
+def manual_cleanup(
+    db: Session = Depends(database.get_db),
+    current_user: models.User = Depends(get_current_user),
+    x_report_secret: str = Header(None)
+):
+    """
+    Manual cleanup endpoint - delete all articles.
+    Use with caution. Admin only.
+    """
+    if DAILY_REPORT_SECRET and x_report_secret != DAILY_REPORT_SECRET:
+        raise HTTPException(status_code=401, detail="Invalid report secret")
+
+    if not current_user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admin users can trigger cleanup")
+
+    deleted = _cleanup_old_articles(db)
+
+    return {
+        "status": "success",
+        "deleted_count": deleted,
+        "message": f"Deleted {deleted} articles"
     }

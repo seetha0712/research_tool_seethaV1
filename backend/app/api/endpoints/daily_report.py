@@ -52,22 +52,40 @@ async def _suspend_render_services():
     }
 
     async with httpx.AsyncClient() as client:
-        for service_id, name in [(RENDER_SERVICE_ID_APP, "app"), (RENDER_SERVICE_ID_DB, "database")]:
-            if not service_id:
-                continue
+        # Suspend web service
+        if RENDER_SERVICE_ID_APP:
             try:
                 resp = await client.post(
-                    f"https://api.render.com/v1/services/{service_id}/suspend",
+                    f"https://api.render.com/v1/services/{RENDER_SERVICE_ID_APP}/suspend",
                     headers=headers
                 )
                 if resp.status_code in (200, 202):
-                    logger.info(f"Suspended {name} service: {service_id}")
-                    email_service.send_notification("stop", name, True)
+                    logger.info(f"Suspended app service: {RENDER_SERVICE_ID_APP}")
+                    email_service.send_notification("stop", "app", True)
                 else:
-                    logger.error(f"Failed to suspend {name}: {resp.status_code} - {resp.text}")
-                    email_service.send_notification("stop", name, False, resp.text)
+                    logger.error(f"Failed to suspend app: {resp.status_code} - {resp.text}")
+                    email_service.send_notification("stop", "app", False, resp.text)
             except Exception as e:
-                logger.error(f"Error suspending {name}: {e}")
+                logger.error(f"Error suspending app: {e}")
+                email_service.send_notification("stop", "app", False, str(e))
+
+        # Suspend PostgreSQL database (uses different API endpoint)
+        if RENDER_SERVICE_ID_DB:
+            try:
+                # PostgreSQL uses /v1/postgres/{id}/suspend, not /v1/services/
+                resp = await client.post(
+                    f"https://api.render.com/v1/postgres/{RENDER_SERVICE_ID_DB}/suspend",
+                    headers=headers
+                )
+                if resp.status_code in (200, 202):
+                    logger.info(f"Suspended database: {RENDER_SERVICE_ID_DB}")
+                    email_service.send_notification("stop", "database", True)
+                else:
+                    logger.error(f"Failed to suspend database: {resp.status_code} - {resp.text}")
+                    email_service.send_notification("stop", "database", False, resp.text)
+            except Exception as e:
+                logger.error(f"Error suspending database: {e}")
+                email_service.send_notification("stop", "database", False, str(e))
                 email_service.send_notification("stop", name, False, str(e))
 
 

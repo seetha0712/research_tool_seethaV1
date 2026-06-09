@@ -86,15 +86,15 @@ async def _suspend_render_services():
             except Exception as e:
                 logger.error(f"Error suspending database: {e}")
                 email_service.send_notification("stop", "database", False, str(e))
-                email_service.send_notification("stop", name, False, str(e))
 
 
-def _run_report_pipeline(db: Session, user: models.User):
+def _run_report_pipeline(db: Session, user: models.User, article_count: int = 15, sync_limit: int = 25, is_test: bool = False):
     """The actual report pipeline - runs as background task."""
     global _sent_article_ids
 
     try:
-        logger.info("Starting daily report pipeline")
+        report_label = "TEST " if is_test else ""
+        logger.info(f"Starting {report_label}daily report pipeline (articles: {article_count}, sync_limit: {sync_limit})")
 
         # Step 1: Run sync
         logger.info("Step 1: Running sync...")
@@ -106,7 +106,7 @@ def _run_report_pipeline(db: Session, user: models.User):
         mock_request.client = MagicMock()
         mock_request.client.host = "daily-report-cron"
 
-        sync_params = SyncParams(limit=25, from_date="")
+        sync_params = SyncParams(limit=sync_limit, from_date="")
         try:
             sync_result = sync_all_sources(sync_params, mock_request, db, user)
             logger.info(f"Sync complete: {sync_result.get('count', 0)} articles fetched")
@@ -120,7 +120,7 @@ def _run_report_pipeline(db: Session, user: models.User):
             db.query(models.Article)
             .filter(models.Article.relevance_score.isnot(None))
             .order_by(desc(models.Article.relevance_score))
-            .limit(25)
+            .limit(sync_limit)
             .all()
         )
 
@@ -130,7 +130,7 @@ def _run_report_pipeline(db: Session, user: models.User):
             if article.id not in _sent_article_ids:
                 unsent_articles.append(article)
 
-        top_articles = unsent_articles[:15]
+        top_articles = unsent_articles[:article_count]
         logger.info(f"Selected {len(top_articles)} unsent articles for report")
 
         if not top_articles:
@@ -210,12 +210,46 @@ def run_daily_report(
         raise HTTPException(status_code=403, detail="Only admin users can trigger daily report")
 
     # Add to background tasks
-    background_tasks.add_task(_run_report_pipeline, db, current_user)
+    background_tasks.add_task(_run_report_pipeline, db, current_user, article_count=15, sync_limit=25, is_test=False)
 
     return {
         "status": "accepted",
         "message": "Daily report generation started",
-        "report_type": _get_report_type()
+        "report_type": _get_report_type(),
+        "article_count": 15
+    }
+
+
+@router.post("/daily-report/test-run", status_code=202)
+def run_test_report(
+    background_tasks: BackgroundTasks,
+    db: Session = Depends(database.get_db),
+    current_user: models.User = Depends(get_current_user),
+    x_report_secret: str = Header(None)
+):
+    """
+    Trigger a TEST daily report pipeline with only 5 articles.
+
+    Same as /daily-report/run but with reduced article count for testing.
+    Returns 202 Accepted immediately - the work happens in background.
+    """
+    # Verify secret if configured
+    if DAILY_REPORT_SECRET and x_report_secret != DAILY_REPORT_SECRET:
+        raise HTTPException(status_code=401, detail="Invalid report secret")
+
+    # Check admin
+    if not current_user.is_admin:
+        raise HTTPException(status_code=403, detail="Only admin users can trigger daily report")
+
+    # Add to background tasks with test parameters
+    background_tasks.add_task(_run_report_pipeline, db, current_user, article_count=5, sync_limit=10, is_test=True)
+
+    return {
+        "status": "accepted",
+        "message": "TEST daily report generation started",
+        "report_type": _get_report_type(),
+        "article_count": 5,
+        "test": True
     }
 
 

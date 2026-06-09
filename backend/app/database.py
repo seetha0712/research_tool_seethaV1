@@ -1,6 +1,6 @@
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, declarative_base
-from sqlalchemy.exc import OperationalError
+from sqlalchemy.exc import OperationalError, ProgrammingError
 import os
 import logging
 import time
@@ -35,6 +35,32 @@ Base = declarative_base()
 
 logger.info(f"Database engine created for: {DATABASE_URL.split('@')[0] if '@' in DATABASE_URL else 'SQLite'}")
 
+def _run_migrations():
+    """
+    Run manual migrations for columns that SQLAlchemy create_all won't add to existing tables.
+    Safe to run multiple times - uses IF NOT EXISTS or catches errors.
+    """
+    migrations = [
+        # Add emailed_at column to articles table
+        "ALTER TABLE articles ADD COLUMN IF NOT EXISTS emailed_at TIMESTAMP;",
+    ]
+
+    with engine.connect() as conn:
+        for migration in migrations:
+            try:
+                conn.execute(text(migration))
+                conn.commit()
+                logger.info(f"Migration executed: {migration[:50]}...")
+            except ProgrammingError as e:
+                # Column might already exist or other expected error
+                if "already exists" in str(e).lower():
+                    logger.info(f"Migration skipped (already applied): {migration[:50]}...")
+                else:
+                    logger.warning(f"Migration warning: {e}")
+            except Exception as e:
+                logger.warning(f"Migration skipped: {e}")
+
+
 def init_db(max_retries=12, initial_delay=2):
     """
     Initialize database with exponential backoff retry logic for cold starts.
@@ -48,7 +74,11 @@ def init_db(max_retries=12, initial_delay=2):
     for attempt in range(max_retries):
         try:
             Base.metadata.create_all(bind=engine)
-            logger.info("Database initialized successfully")
+            logger.info("Database tables initialized successfully")
+
+            # Run manual migrations for new columns on existing tables
+            _run_migrations()
+            logger.info("Database migrations complete")
             return
         except OperationalError as e:
             if attempt < max_retries - 1:

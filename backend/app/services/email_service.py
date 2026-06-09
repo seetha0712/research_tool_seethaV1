@@ -35,10 +35,38 @@ def send_daily_report(articles: List[dict], report_type: str = "morning") -> boo
         score = article.get("relevance_score") or article.get("score") or "N/A"
         category = article.get("category") or "Uncategorized"
         summary = article.get("summary") or article.get("description") or "No summary available"
-        truncated_summary = summary[:300] + "..." if len(summary) > 300 else summary
         link = article.get("meta_data", {}).get("link") or article.get("link") or "#"
         title = article.get("title") or "Untitled"
         source_name = article.get("source_name") or ""
+        article_date = article.get("date") or ""
+        key_insights = article.get("key_insights") or []
+
+        # Format date if present
+        date_display = ""
+        if article_date:
+            try:
+                from datetime import datetime
+                if isinstance(article_date, str):
+                    # Try parsing ISO format
+                    dt = datetime.fromisoformat(article_date.replace('Z', '+00:00'))
+                else:
+                    dt = article_date
+                date_display = dt.strftime("%b %d, %Y")
+            except:
+                date_display = str(article_date)[:10] if article_date else ""
+
+        # Format key insights as bullet points
+        insights_html = ""
+        if key_insights and len(key_insights) > 0:
+            insights_items = "".join([f'<li style="margin-bottom: 4px;">{insight}</li>' for insight in key_insights])
+            insights_html = f'''
+            <div style="margin-top: 12px; padding: 12px; background: #fffbeb; border-left: 3px solid #f59e0b; border-radius: 4px;">
+              <div style="font-weight: 600; color: #b45309; margin-bottom: 6px; font-size: 13px;">Key Insights:</div>
+              <ul style="margin: 0; padding-left: 20px; color: #78350f; font-size: 13px;">
+                {insights_items}
+              </ul>
+            </div>
+            '''
 
         article_rows += f"""
         <tr style="border-bottom: 1px solid #eee;">
@@ -46,14 +74,16 @@ def send_daily_report(articles: List[dict], report_type: str = "morning") -> boo
             <div style="font-weight: bold; color: #1a73e8; margin-bottom: 8px;">
               {idx + 1}. <a href="{link}" style="color: #1a73e8; text-decoration: none;">{title}</a>
             </div>
-            <div style="display: flex; gap: 12px; margin-bottom: 8px; font-size: 12px;">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; font-size: 12px;">
               <span style="background: #e8f0fe; color: #1a73e8; padding: 2px 8px; border-radius: 4px;">Score: {score}</span>
               <span style="background: #f3e8ff; color: #7c3aed; padding: 2px 8px; border-radius: 4px;">{category}</span>
               {f'<span style="background: #fef3c7; color: #d97706; padding: 2px 8px; border-radius: 4px;">{source_name}</span>' if source_name else ''}
+              {f'<span style="background: #f0fdf4; color: #166534; padding: 2px 8px; border-radius: 4px;">{date_display}</span>' if date_display else ''}
             </div>
-            <div style="color: #555; font-size: 14px; line-height: 1.5;">
-              {truncated_summary}
+            <div style="color: #555; font-size: 14px; line-height: 1.6;">
+              {summary}
             </div>
+            {insights_html}
           </td>
         </tr>
         """

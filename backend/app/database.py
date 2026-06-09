@@ -35,8 +35,14 @@ Base = declarative_base()
 
 logger.info(f"Database engine created for: {DATABASE_URL.split('@')[0] if '@' in DATABASE_URL else 'SQLite'}")
 
-def init_db(max_retries=5, retry_delay=3):
-    """Initialize database with retry logic for cold starts."""
+def init_db(max_retries=12, initial_delay=2):
+    """
+    Initialize database with exponential backoff retry logic for cold starts.
+
+    Render's free-tier PostgreSQL can take 30-60+ seconds to wake up.
+    This retries with exponential backoff: 2s, 4s, 6s, 8s, 10s, 10s, 10s...
+    Total max wait: ~90 seconds
+    """
     from app import models  # import models here, NOT at top
 
     for attempt in range(max_retries):
@@ -46,10 +52,17 @@ def init_db(max_retries=5, retry_delay=3):
             return
         except OperationalError as e:
             if attempt < max_retries - 1:
-                logger.warning(f"Database connection failed (attempt {attempt + 1}/{max_retries}), retrying in {retry_delay}s...")
-                time.sleep(retry_delay)
+                # Exponential backoff capped at 10 seconds
+                delay = min(initial_delay + (attempt * 2), 10)
+                elapsed = sum(min(initial_delay + (i * 2), 10) for i in range(attempt + 1))
+                logger.warning(
+                    f"Database connection failed (attempt {attempt + 1}/{max_retries}), "
+                    f"retrying in {delay}s... (total wait: {elapsed}s)"
+                )
+                time.sleep(delay)
             else:
-                logger.error(f"Database connection failed after {max_retries} attempts")
+                total_wait = sum(min(initial_delay + (i * 2), 10) for i in range(max_retries))
+                logger.error(f"Database connection failed after {max_retries} attempts (~{total_wait}s)")
                 raise
 
 def get_db():

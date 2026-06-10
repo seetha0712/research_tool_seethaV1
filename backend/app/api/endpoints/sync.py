@@ -175,17 +175,11 @@ def sync_all_sources(
                 sources_synced_set.add(src.id)
 
                 for item in items:
-                    # Deduplication: check by link first (global), then by title within source
-                    item_link = item.get('link', '')
-                    if item_link:
-                        exists_by_link = db.query(models.Article).filter(
-                            models.Article.meta_data['link'].astext == item_link
-                        ).first()
-                        if exists_by_link:
-                            continue
+                    # Deduplication: check by title within source (fast, reliable)
                     exists = db.query(models.Article).filter_by(source_id=src.id, title=item['title']).first()
                     if exists:
                         continue
+
                     # Use best available summary (do not paraphrase at this stage)
                     summary = item['summary'] or item['title']
 
@@ -421,14 +415,7 @@ def sync_api_articles_with_stats(source, db, user):
     synced_articles_data = []
 
     for item in articles:
-        # Deduplication: check by link first (global), then by title within source
-        item_link = item.get('meta_data', {}).get('link', '') or item.get('link', '')
-        if item_link:
-            exists_by_link = db.query(models.Article).filter(
-                models.Article.meta_data['link'].astext == item_link
-            ).first()
-            if exists_by_link:
-                continue
+        # Deduplication: check by title within source (fast, reliable)
         exists = db.query(models.Article).filter_by(source_id=source.id, title=item['title']).first()
         if exists:
             continue

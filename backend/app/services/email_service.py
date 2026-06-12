@@ -149,6 +149,132 @@ def send_daily_report(articles: List[dict], report_type: str = "morning") -> boo
         return False
 
 
+def send_run_summary(summary: dict) -> bool:
+    """
+    Send a diagnostic summary email describing exactly what a morning/evening
+    run did: cleanup, sync results, article counts, and whether the digest was
+    sent. This is ALWAYS sent (even when 0 articles or on error) and is sent
+    BEFORE any self-suspend, so the user always has a record of what happened.
+    """
+    if not is_email_configured():
+        logger.warning("Email not configured, skipping run summary")
+        return False
+
+    mode = summary.get("mode", "run")
+    mode_label = mode.capitalize()
+    day = summary.get("day_of_week", "")
+    timestamp = summary.get("timestamp", "")
+
+    # Overall outcome banner
+    if summary.get("error"):
+        banner_color, banner_text = "#dc3545", "Completed with errors"
+    elif summary.get("email_sent"):
+        banner_color, banner_text = "#28a745", "Digest sent"
+    else:
+        banner_color, banner_text = "#d97706", "Ran — no digest sent"
+
+    subject = f"[GenAI Research] {mode_label} Run Summary - {day} ({banner_text})"
+
+    def row(label, value, ok=None):
+        if ok is True:
+            icon = '<span style="color:#28a745;">&#10004;</span> '
+        elif ok is False:
+            icon = '<span style="color:#dc3545;">&#10008;</span> '
+        else:
+            icon = ''
+        return f"""
+        <tr>
+          <td style="padding:10px 14px;border-bottom:1px solid #eee;font-weight:600;color:#333;width:45%;">{label}</td>
+          <td style="padding:10px 14px;border-bottom:1px solid #eee;color:#555;">{icon}{value}</td>
+        </tr>"""
+
+    rows = ""
+
+    # Cleanup (Monday delete-all / Friday delete-all)
+    cleanup = summary.get("cleanup_deleted")
+    if cleanup is not None:
+        rows += row(summary.get("cleanup_label", "Cleanup (delete all)"),
+                    f"{cleanup} articles deleted", ok=True)
+
+    # Sync
+    if summary.get("sync_performed"):
+        rows += row("Sync run", "Yes", ok=True)
+        rows += row("New articles fetched", summary.get("sync_count", 0))
+        sync_errors = summary.get("sync_errors", []) or []
+        if sync_errors:
+            err_names = ", ".join(
+                str(e.get("source_name", "?")) if isinstance(e, dict) else str(e)
+                for e in sync_errors[:10]
+            )
+            rows += row("Sync errors", f"{len(sync_errors)} source(s): {err_names}", ok=False)
+        else:
+            rows += row("Sync errors", "None", ok=True)
+    else:
+        rows += row("Sync run", "No (evening run uses morning's articles)")
+
+    # DB / candidate counts
+    rows += row("Total articles in DB", summary.get("total_in_db", 0))
+    rows += row(summary.get("candidate_label", "Articles matching score filter"),
+                summary.get("candidates", 0))
+    rows += row("Already emailed (skipped)", summary.get("already_emailed", 0))
+    rows += row("Planned to email (new)", summary.get("to_email", 0))
+
+    # Email outcome
+    if summary.get("to_email", 0) > 0:
+        rows += row("Digest email sent", "Yes" if summary.get("email_sent") else "No",
+                    ok=bool(summary.get("email_sent")))
+    else:
+        rows += row("Digest email sent", "No new articles to send")
+
+    # Self-suspend
+    rows += row("Self-suspend after run", "Enabled" if summary.get("self_suspend") else "Disabled")
+
+    # Error (if any)
+    if summary.get("error"):
+        rows += row("Error", summary.get("error"), ok=False)
+
+    html = f"""
+    <!DOCTYPE html>
+    <html>
+    <head><meta charset="utf-8"></head>
+    <body style="font-family:'Segoe UI',Arial,sans-serif;margin:0;padding:0;background:#f5f5f5;">
+      <div style="max-width:640px;margin:0 auto;background:#fff;">
+        <div style="background:{banner_color};color:#fff;padding:24px;text-align:center;">
+          <h2 style="margin:0 0 6px 0;font-size:20px;">{mode_label} Run Summary</h2>
+          <p style="margin:0;opacity:0.9;font-size:13px;">{day} &middot; {timestamp}</p>
+          <p style="margin:10px 0 0 0;font-weight:bold;font-size:15px;">{banner_text}</p>
+        </div>
+        <table style="width:100%;border-collapse:collapse;font-size:14px;">
+          <tbody>{rows}</tbody>
+        </table>
+        <div style="padding:16px;text-align:center;font-size:12px;color:#888;background:#f8fafc;">
+          <p>Automated run diagnostics from the GenAI Research Tool.</p>
+        </div>
+      </div>
+    </body>
+    </html>
+    """
+
+    try:
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = subject
+        msg["From"] = SMTP_USER
+        msg["To"] = ", ".join(REPORT_EMAILS)
+        msg.attach(MIMEText(html, "html"))
+
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
+            server.starttls()
+            server.login(SMTP_USER, SMTP_PASSWORD)
+            server.sendmail(SMTP_USER, REPORT_EMAILS, msg.as_string())
+
+        logger.info(f"Run summary sent for {mode} run")
+        return True
+
+    except Exception as e:
+        logger.error(f"Failed to send run summary: {e}")
+        return False
+
+
 def send_notification(action: str, service_name: str, success: bool, error_message: str = None) -> bool:
     if not is_email_configured():
         logger.warning("Email not configured, skipping notification")

@@ -144,14 +144,32 @@ def _run_morning_pipeline(db: Session, user: models.User):
     4. Mark emailed articles in database
     5. Self-suspend if configured
     """
+    summary = {
+        "mode": "morning",
+        "day_of_week": datetime.now(IST).strftime("%A"),
+        "timestamp": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"),
+        "cleanup_deleted": None,
+        "cleanup_label": "Monday cleanup (delete all)",
+        "candidate_label": "Articles with score >= 60 (unsent)",
+        "sync_performed": False,
+        "sync_count": 0,
+        "sync_errors": [],
+        "total_in_db": 0,
+        "candidates": 0,
+        "already_emailed": 0,
+        "to_email": 0,
+        "email_sent": False,
+        "self_suspend": _should_self_suspend(),
+        "error": None,
+    }
     try:
         logger.info("Starting MORNING report pipeline")
 
         # Step 1: Monday cleanup - delete all articles for fresh week
         if _is_monday():
             logger.info("Step 0: Monday cleanup - deleting all articles for fresh week")
-            deleted = _cleanup_old_articles(db)
-            logger.info(f"Deleted {deleted} articles")
+            summary["cleanup_deleted"] = _cleanup_old_articles(db)
+            logger.info(f"Deleted {summary['cleanup_deleted']} articles")
 
         # Step 2: Run sync
         logger.info("Step 1: Running sync (10 articles per source)...")
@@ -165,12 +183,23 @@ def _run_morning_pipeline(db: Session, user: models.User):
         sync_params = SyncParams(limit=10, from_date="")
         try:
             sync_result = sync_all_sources(sync_params, mock_request, db, user)
-            logger.info(f"Sync complete: {sync_result.get('count', 0)} articles fetched")
+            summary["sync_performed"] = True
+            summary["sync_count"] = sync_result.get("count", 0)
+            summary["sync_errors"] = sync_result.get("errors", []) or []
+            logger.info(f"Sync complete: {summary['sync_count']} articles fetched")
         except Exception as e:
+            summary["sync_errors"] = [{"source_name": "SYNC FAILED", "error": str(e)}]
             logger.error(f"Sync failed: {e}")
 
         # Step 3: Fetch articles with score >= 60, not yet emailed
         logger.info("Step 2: Fetching articles with score >= 60 (not yet emailed)...")
+        summary["total_in_db"] = db.query(models.Article).count()
+        summary["already_emailed"] = (
+            db.query(models.Article)
+            .filter(models.Article.relevance_score >= 60,
+                    models.Article.emailed_at.isnot(None))
+            .count()
+        )
         articles = (
             db.query(models.Article)
             .filter(
@@ -181,34 +210,38 @@ def _run_morning_pipeline(db: Session, user: models.User):
             .order_by(desc(models.Article.relevance_score))
             .all()
         )
-
+        summary["candidates"] = len(articles)
+        summary["to_email"] = len(articles)
         logger.info(f"Found {len(articles)} articles with score >= 60 to email")
 
-        if not articles:
-            logger.info("No articles to send")
-            _do_suspend_if_enabled()
-            return
+        if articles:
+            # Step 4: Convert to dict format and send email
+            articles_data = _convert_articles_for_email(db, articles)
+            logger.info(f"Step 3: Sending morning report with {len(articles_data)} articles...")
+            email_sent = email_service.send_daily_report(articles_data, "morning")
+            summary["email_sent"] = email_sent
 
-        # Step 4: Convert to dict format for email
-        articles_data = _convert_articles_for_email(db, articles)
-
-        # Step 5: Send email
-        logger.info(f"Step 3: Sending morning report with {len(articles_data)} articles...")
-        email_sent = email_service.send_daily_report(articles_data, "morning")
-
-        if email_sent:
-            logger.info("Email sent successfully")
-            # Mark articles as emailed in database
-            _mark_articles_emailed(db, [a.id for a in articles])
+            if email_sent:
+                logger.info("Email sent successfully")
+                _mark_articles_emailed(db, [a.id for a in articles])
+            else:
+                logger.error("Failed to send email")
         else:
-            logger.error("Failed to send email")
+            logger.info("No articles to send")
 
-        # Step 6: Self-suspend
-        _do_suspend_if_enabled()
         logger.info("Morning report pipeline complete")
 
     except Exception as e:
+        summary["error"] = str(e)
         logger.exception(f"Morning report pipeline failed: {e}")
+    finally:
+        # ALWAYS send the run summary before any self-suspend, so there is a
+        # record of what happened even after services shut down.
+        try:
+            email_service.send_run_summary(summary)
+        except Exception as e:
+            logger.error(f"Failed to send run summary: {e}")
+        _do_suspend_if_enabled()
 
 
 def _run_evening_pipeline(db: Session, user: models.User):
@@ -220,11 +253,36 @@ def _run_evening_pipeline(db: Session, user: models.User):
     4. If Friday: Delete all articles after sending
     5. Self-suspend if configured
     """
+    summary = {
+        "mode": "evening",
+        "day_of_week": datetime.now(IST).strftime("%A"),
+        "timestamp": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"),
+        "cleanup_deleted": None,
+        "cleanup_label": "Friday cleanup (delete all)",
+        "candidate_label": "Articles with score < 60 (unsent)",
+        "sync_performed": False,  # evening never syncs
+        "sync_count": 0,
+        "sync_errors": [],
+        "total_in_db": 0,
+        "candidates": 0,
+        "already_emailed": 0,
+        "to_email": 0,
+        "email_sent": False,
+        "self_suspend": _should_self_suspend(),
+        "error": None,
+    }
     try:
         logger.info("Starting EVENING report pipeline (no sync)")
 
         # Step 1: Fetch articles with score < 60, not yet emailed
         logger.info("Step 1: Fetching articles with score < 60 (not yet emailed)...")
+        summary["total_in_db"] = db.query(models.Article).count()
+        summary["already_emailed"] = (
+            db.query(models.Article)
+            .filter(models.Article.relevance_score < 60,
+                    models.Article.emailed_at.isnot(None))
+            .count()
+        )
         articles = (
             db.query(models.Article)
             .filter(
@@ -235,43 +293,41 @@ def _run_evening_pipeline(db: Session, user: models.User):
             .order_by(desc(models.Article.relevance_score))
             .all()
         )
-
+        summary["candidates"] = len(articles)
+        summary["to_email"] = len(articles)
         logger.info(f"Found {len(articles)} articles with score < 60 to email")
 
-        if not articles:
-            logger.info("No articles to send")
-            # Still do Friday cleanup even if no articles
-            if _is_friday():
-                logger.info("Friday cleanup: Deleting all articles after evening report")
-                _cleanup_old_articles(db)
-            _do_suspend_if_enabled()
-            return
+        if articles:
+            articles_data = _convert_articles_for_email(db, articles)
+            logger.info(f"Step 2: Sending evening report with {len(articles_data)} articles...")
+            email_sent = email_service.send_daily_report(articles_data, "evening")
+            summary["email_sent"] = email_sent
 
-        # Step 2: Convert to dict format for email
-        articles_data = _convert_articles_for_email(db, articles)
-
-        # Step 3: Send email
-        logger.info(f"Step 2: Sending evening report with {len(articles_data)} articles...")
-        email_sent = email_service.send_daily_report(articles_data, "evening")
-
-        if email_sent:
-            logger.info("Email sent successfully")
-            # Mark articles as emailed in database
-            _mark_articles_emailed(db, [a.id for a in articles])
+            if email_sent:
+                logger.info("Email sent successfully")
+                _mark_articles_emailed(db, [a.id for a in articles])
+            else:
+                logger.error("Failed to send email")
         else:
-            logger.error("Failed to send email")
+            logger.info("No articles to send")
 
-        # Step 4: Friday cleanup - delete all articles after evening report
+        # Friday cleanup - delete all articles after evening report
         if _is_friday():
             logger.info("Friday cleanup: Deleting all articles after evening report")
-            _cleanup_old_articles(db)
+            summary["cleanup_deleted"] = _cleanup_old_articles(db)
 
-        # Step 5: Self-suspend
-        _do_suspend_if_enabled()
         logger.info("Evening report pipeline complete")
 
     except Exception as e:
+        summary["error"] = str(e)
         logger.exception(f"Evening report pipeline failed: {e}")
+    finally:
+        # ALWAYS send the run summary before any self-suspend.
+        try:
+            email_service.send_run_summary(summary)
+        except Exception as e:
+            logger.error(f"Failed to send run summary: {e}")
+        _do_suspend_if_enabled()
 
 
 def _run_test_pipeline(db: Session, user: models.User):

@@ -27,7 +27,11 @@ else:
         DATABASE_URL,
         pool_pre_ping=True,  # Verify connections before using
         pool_size=5,
-        max_overflow=10
+        max_overflow=10,
+        # Bound each connection attempt so the cold-start retry loop below has
+        # honest, deterministic timing (each failed attempt fails within ~5s
+        # instead of hanging on the OS default TCP timeout).
+        connect_args={"connect_timeout": 5},
     )
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
@@ -61,17 +65,22 @@ def _run_migrations():
                 logger.warning(f"Migration skipped: {e}")
 
 
-def init_db(max_retries=12, initial_delay=2):
+def init_db(max_retries=60, retry_delay=5):
     """
-    Initialize database with exponential backoff retry logic for cold starts.
+    Initialize database with a patient, flat retry loop for cold starts.
 
-    Render's free-tier PostgreSQL can take 30-60+ seconds to wake up.
-    This retries with exponential backoff: 2s, 4s, 6s, 8s, 10s, 10s, 10s...
-    Total max wait: ~90 seconds
+    Render's free-tier PostgreSQL can take up to ~4 minutes to wake up from
+    a suspended state. The app's startup must outlast that cold start on its
+    FIRST deploy attempt; otherwise it crashes (exit 3), Render restarts the
+    instance, and the ~30s restart penalty blows the Vercel cron's health-poll
+    budget -> the scheduled report never gets triggered.
+
+    Flat budget: 60 attempts x 5s = ~5 minutes (each attempt itself is bounded
+    to ~5s via connect_timeout, so the wall-clock budget is honest).
     """
     from app import models  # import models here, NOT at top
 
-    for attempt in range(max_retries):
+    for attempt in range(1, max_retries + 1):
         try:
             Base.metadata.create_all(bind=engine)
             logger.info("Database tables initialized successfully")
@@ -81,18 +90,17 @@ def init_db(max_retries=12, initial_delay=2):
             logger.info("Database migrations complete")
             return
         except OperationalError as e:
-            if attempt < max_retries - 1:
-                # Exponential backoff capped at 10 seconds
-                delay = min(initial_delay + (attempt * 2), 10)
-                elapsed = sum(min(initial_delay + (i * 2), 10) for i in range(attempt + 1))
+            if attempt < max_retries:
                 logger.warning(
-                    f"Database connection failed (attempt {attempt + 1}/{max_retries}), "
-                    f"retrying in {delay}s... (total wait: {elapsed}s)"
+                    f"Database connection failed (attempt {attempt}/{max_retries}), "
+                    f"retrying in {retry_delay}s... (elapsed ~{attempt * retry_delay}s)"
                 )
-                time.sleep(delay)
+                time.sleep(retry_delay)
             else:
-                total_wait = sum(min(initial_delay + (i * 2), 10) for i in range(max_retries))
-                logger.error(f"Database connection failed after {max_retries} attempts (~{total_wait}s)")
+                logger.error(
+                    f"Database connection failed after {max_retries} attempts "
+                    f"(~{max_retries * retry_delay}s): {e}"
+                )
                 raise
 
 def get_db():

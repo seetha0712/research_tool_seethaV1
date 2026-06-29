@@ -50,6 +50,33 @@ def _is_friday() -> bool:
     return _get_day_of_week_ist() == 4
 
 
+def _get_sync_from_date() -> str:
+    """
+    Compute the 'pick articles since' cutoff for the morning sync, based on the
+    previous scheduled run day (runs are Mon/Wed/Fri 8 AM IST):
+
+        Monday    -> since last Friday    (today - 3 days)
+        Wednesday -> since this Monday    (today - 2 days)
+        Friday    -> since this Wednesday (today - 2 days)
+
+    Returns an ISO datetime string anchored at 00:00 of the cutoff day, expressed
+    in UTC (naive) to match how src.last_synced is stored (datetime.utcnow()).
+    For any other day (e.g. manual trigger), returns "" (no date floor).
+    """
+    weekday = _get_day_of_week_ist()  # 0=Mon, 2=Wed, 4=Fri
+    days_back = {0: 3, 2: 2, 4: 2}.get(weekday)
+    if days_back is None:
+        return ""  # not a scheduled run day; let sync fall back to its default
+
+    now_ist = datetime.now(IST)
+    cutoff_ist = (now_ist - timedelta(days=days_back)).replace(
+        hour=0, minute=0, second=0, microsecond=0
+    )
+    # Convert to naive UTC so it compares consistently with src.last_synced.
+    cutoff_utc = cutoff_ist.astimezone(timezone.utc).replace(tzinfo=None)
+    return cutoff_utc.isoformat()
+
+
 def _get_report_type() -> str:
     """Determine if this is morning or evening based on current IST time."""
     now = datetime.now(IST)
@@ -152,6 +179,7 @@ def _run_morning_pipeline(db: Session, user: models.User):
         "cleanup_label": "Monday cleanup (delete all)",
         "candidate_label": "Articles with score >= 60 (unsent)",
         "sync_performed": False,
+        "sync_from_date": "(none)",
         "sync_count": 0,
         "sync_errors": [],
         "total_in_db": 0,
@@ -171,8 +199,13 @@ def _run_morning_pipeline(db: Session, user: models.User):
             summary["cleanup_deleted"] = _cleanup_old_articles(db)
             logger.info(f"Deleted {summary['cleanup_deleted']} articles")
 
-        # Step 2: Run sync
-        logger.info("Step 1: Running sync (10 articles per source)...")
+        # Step 2: Run sync, picking articles since the previous scheduled run day
+        sync_from_date = _get_sync_from_date()
+        summary["sync_from_date"] = sync_from_date or "(none)"
+        logger.info(
+            f"Step 1: Running sync (10 articles per source) "
+            f"from_date={sync_from_date or 'none'}..."
+        )
         from fastapi import Request
         from unittest.mock import MagicMock
 
@@ -180,7 +213,7 @@ def _run_morning_pipeline(db: Session, user: models.User):
         mock_request.client = MagicMock()
         mock_request.client.host = "morning-report-cron"
 
-        sync_params = SyncParams(limit=10, from_date="")
+        sync_params = SyncParams(limit=10, from_date=sync_from_date)
         try:
             sync_result = sync_all_sources(sync_params, mock_request, db, user)
             summary["sync_performed"] = True

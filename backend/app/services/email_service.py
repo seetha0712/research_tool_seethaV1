@@ -199,6 +199,8 @@ def send_run_summary(summary: dict) -> bool:
     # Sync
     if summary.get("sync_performed"):
         rows += row("Sync run", "Yes", ok=True)
+        if summary.get("sync_from_date"):
+            rows += row("Picking articles since", summary.get("sync_from_date"))
         rows += row("New articles fetched", summary.get("sync_count", 0))
         sync_errors = summary.get("sync_errors", []) or []
         if sync_errors:

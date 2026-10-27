@@ -10,9 +10,13 @@ logger = logging.getLogger(__name__)
 # Get database URL from environment variable, fallback to SQLite for local dev
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./genai.db")
 
-# PostgreSQL URLs from Render use postgres:// but SQLAlchemy needs postgresql://
-if DATABASE_URL.startswith("postgres://"):
-    DATABASE_URL = DATABASE_URL.replace("postgres://", "postgresql://", 1)
+# Render gives postgres:// or postgresql:// URLs. Pin the driver to psycopg2
+# explicitly: SQLAlchemy 2.1 changed the bare postgresql:// default to
+# psycopg (v3), which isn't installed, so the app crashed on import.
+for prefix in ("postgres://", "postgresql://"):
+    if DATABASE_URL.startswith(prefix):
+        DATABASE_URL = DATABASE_URL.replace(prefix, "postgresql+psycopg2://", 1)
+        break
 
 # Create engine with appropriate settings
 if DATABASE_URL.startswith("sqlite"):

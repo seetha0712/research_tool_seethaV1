@@ -4,6 +4,7 @@ from sqlalchemy import desc
 from app import models, database
 from app.dependencies import get_current_user
 from app.services import email_service
+from app.core.config import DIGEST_MIN_SCORE
 from app.api.endpoints.sync import sync_all_sources, SyncParams
 from datetime import datetime, timezone, timedelta
 import os
@@ -167,7 +168,7 @@ def _run_morning_pipeline(db: Session, user: models.User):
     Morning report pipeline (Mon/Wed/Fri 8 AM IST):
     1. If Monday: Delete all articles for fresh week
     2. Run sync with 10 articles per source
-    3. Email articles with score >= 60 that haven't been emailed
+    3. Email articles with score >= the digest cutoff that haven't been emailed
     4. Mark emailed articles in database
     5. Self-suspend if configured
     """
@@ -177,7 +178,7 @@ def _run_morning_pipeline(db: Session, user: models.User):
         "timestamp": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"),
         "cleanup_deleted": None,
         "cleanup_label": "Monday cleanup (delete all)",
-        "candidate_label": "Articles with score >= 60 (unsent)",
+        "candidate_label": f"Articles with score >= {DIGEST_MIN_SCORE} (unsent)",
         "sync_performed": False,
         "sync_from_date": "(none)",
         "sync_count": 0,
@@ -224,19 +225,20 @@ def _run_morning_pipeline(db: Session, user: models.User):
             summary["sync_errors"] = [{"source_name": "SYNC FAILED", "error": str(e)}]
             logger.error(f"Sync failed: {e}")
 
-        # Step 3: Fetch articles with score >= 60, not yet emailed
-        logger.info("Step 2: Fetching articles with score >= 60 (not yet emailed)...")
+        # Step 3: Fetch articles with score >= the digest cutoff, not yet emailed
+        logger.info(f"Step 2: Fetching articles with score >= {DIGEST_MIN_SCORE} (not yet emailed)...")
+        summary["unscored"] = db.query(models.Article).filter(models.Article.relevance_score.is_(None)).count()
         summary["total_in_db"] = db.query(models.Article).count()
         summary["already_emailed"] = (
             db.query(models.Article)
-            .filter(models.Article.relevance_score >= 60,
+            .filter(models.Article.relevance_score >= DIGEST_MIN_SCORE,
                     models.Article.emailed_at.isnot(None))
             .count()
         )
         articles = (
             db.query(models.Article)
             .filter(
-                models.Article.relevance_score >= 60,
+                models.Article.relevance_score >= DIGEST_MIN_SCORE,
                 models.Article.relevance_score.isnot(None),
                 models.Article.emailed_at.is_(None)  # Not yet emailed
             )
@@ -245,7 +247,7 @@ def _run_morning_pipeline(db: Session, user: models.User):
         )
         summary["candidates"] = len(articles)
         summary["to_email"] = len(articles)
-        logger.info(f"Found {len(articles)} articles with score >= 60 to email")
+        logger.info(f"Found {len(articles)} articles with score >= {DIGEST_MIN_SCORE} to email")
 
         if articles:
             # Step 4: Convert to dict format and send email
@@ -281,7 +283,7 @@ def _run_evening_pipeline(db: Session, user: models.User):
     """
     Evening report pipeline (Mon/Wed/Fri 8 PM IST):
     1. NO sync (uses articles from morning scan)
-    2. Email articles with score < 60 that haven't been emailed
+    2. Email articles with score < the digest cutoff that haven't been emailed
     3. Mark emailed articles in database
     4. If Friday: Delete all articles after sending
     5. Self-suspend if configured
@@ -292,7 +294,7 @@ def _run_evening_pipeline(db: Session, user: models.User):
         "timestamp": datetime.now(IST).strftime("%Y-%m-%d %H:%M IST"),
         "cleanup_deleted": None,
         "cleanup_label": "Friday cleanup (delete all)",
-        "candidate_label": "Articles with score < 60 (unsent)",
+        "candidate_label": f"Articles with score < {DIGEST_MIN_SCORE} (unsent)",
         "sync_performed": False,  # evening never syncs
         "sync_count": 0,
         "sync_errors": [],
@@ -307,19 +309,19 @@ def _run_evening_pipeline(db: Session, user: models.User):
     try:
         logger.info("Starting EVENING report pipeline (no sync)")
 
-        # Step 1: Fetch articles with score < 60, not yet emailed
-        logger.info("Step 1: Fetching articles with score < 60 (not yet emailed)...")
+        # Step 1: Fetch articles with score < the digest cutoff, not yet emailed
+        logger.info(f"Step 1: Fetching articles with score < {DIGEST_MIN_SCORE} (not yet emailed)...")
         summary["total_in_db"] = db.query(models.Article).count()
         summary["already_emailed"] = (
             db.query(models.Article)
-            .filter(models.Article.relevance_score < 60,
+            .filter(models.Article.relevance_score < DIGEST_MIN_SCORE,
                     models.Article.emailed_at.isnot(None))
             .count()
         )
         articles = (
             db.query(models.Article)
             .filter(
-                models.Article.relevance_score < 60,
+                models.Article.relevance_score < DIGEST_MIN_SCORE,
                 models.Article.relevance_score.isnot(None),
                 models.Article.emailed_at.is_(None)  # Not yet emailed
             )
@@ -328,7 +330,7 @@ def _run_evening_pipeline(db: Session, user: models.User):
         )
         summary["candidates"] = len(articles)
         summary["to_email"] = len(articles)
-        logger.info(f"Found {len(articles)} articles with score < 60 to email")
+        logger.info(f"Found {len(articles)} articles with score < {DIGEST_MIN_SCORE} to email")
 
         if articles:
             articles_data = _convert_articles_for_email(db, articles)
@@ -464,7 +466,7 @@ def run_morning_report(
     Morning report (8 AM IST Mon/Wed/Fri):
     - If Monday: Delete all articles for fresh week
     - Run sync with 10 articles per source
-    - Email articles with score >= 60 (not yet emailed)
+    - Email articles with score >= the digest cutoff (not yet emailed)
     - Self-suspend if configured
     """
     if DAILY_REPORT_SECRET and x_report_secret != DAILY_REPORT_SECRET:
@@ -479,7 +481,7 @@ def run_morning_report(
     return {
         "status": "accepted",
         "mode": "morning",
-        "min_score": 60,
+        "min_score": DIGEST_MIN_SCORE,
         "articles_per_url": 10,
         "monday_cleanup": is_monday,
         "day_of_week": datetime.now(IST).strftime("%A")
@@ -496,7 +498,7 @@ def run_evening_report(
     """
     Evening report (8 PM IST Mon/Wed/Fri):
     - NO sync (uses articles from morning scan)
-    - Email articles with score < 60 (not yet emailed)
+    - Email articles with score < the digest cutoff (not yet emailed)
     - If Friday: Delete all articles after sending
     - Self-suspend if configured
     """
@@ -512,7 +514,7 @@ def run_evening_report(
     return {
         "status": "accepted",
         "mode": "evening",
-        "max_score": 60,
+        "max_score": DIGEST_MIN_SCORE,
         "sync": False,
         "friday_cleanup": is_friday,
         "day_of_week": datetime.now(IST).strftime("%A")
@@ -562,12 +564,15 @@ def get_report_status(
         models.Article.emailed_at.isnot(None)
     ).count()
     pending_high_score = db.query(models.Article).filter(
-        models.Article.relevance_score >= 60,
+        models.Article.relevance_score >= DIGEST_MIN_SCORE,
         models.Article.emailed_at.is_(None)
     ).count()
     pending_low_score = db.query(models.Article).filter(
-        models.Article.relevance_score < 60,
+        models.Article.relevance_score < DIGEST_MIN_SCORE,
         models.Article.emailed_at.is_(None)
+    ).count()
+    pending_unscored = db.query(models.Article).filter(
+        models.Article.relevance_score.is_(None)
     ).count()
 
     return {
@@ -583,7 +588,8 @@ def get_report_status(
         "total_articles": total_articles,
         "emailed_articles": emailed_articles,
         "pending_high_score": pending_high_score,
-        "pending_low_score": pending_low_score
+        "pending_low_score": pending_low_score,
+        "pending_unscored": pending_unscored
     }
 
 

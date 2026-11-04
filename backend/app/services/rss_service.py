@@ -102,6 +102,7 @@ def fetch_rss_items(source_url: str, last_synced: Optional[datetime] = None, lim
         new_items.append({
             "title": entry.title,
             "summary": summary,
+            "raw_text": clean_html(summary_raw),
             "link": entry.link,
             "published": aware_pub_date,
             "guid": getattr(entry, "id", entry.link)

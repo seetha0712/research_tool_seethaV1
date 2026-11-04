@@ -4,6 +4,7 @@ import logging
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from typing import List
+from app.core.config import SCORE_HIGH_THRESHOLD
 
 logger = logging.getLogger(__name__)
 
@@ -88,7 +89,7 @@ def send_daily_report(articles: List[dict], report_type: str = "morning") -> boo
         </tr>
         """
 
-    high_score_count = len([a for a in articles if (a.get("relevance_score") or a.get("score") or 0) >= 8])
+    high_score_count = len([a for a in articles if (a.get("relevance_score") or a.get("score") or 0) >= SCORE_HIGH_THRESHOLD])
 
     html = f"""
     <!DOCTYPE html>
@@ -110,7 +111,7 @@ def send_daily_report(articles: List[dict], report_type: str = "morning") -> boo
           </div>
           <div style="text-align: center;">
             <div style="font-size: 28px; font-weight: bold; color: #1a73e8;">{high_score_count}</div>
-            <div style="font-size: 12px; color: #666; text-transform: uppercase;">High Score (8+)</div>
+            <div style="font-size: 12px; color: #666; text-transform: uppercase;">High Score ({SCORE_HIGH_THRESHOLD}+)</div>
           </div>
         </div>
         <div style="padding: 0;">
@@ -219,6 +220,8 @@ def send_run_summary(summary: dict) -> bool:
     rows += row(summary.get("candidate_label", "Articles matching score filter"),
                 summary.get("candidates", 0))
     rows += row("Already emailed (skipped)", summary.get("already_emailed", 0))
+    if summary.get("unscored"):
+        rows += row("Unscored (held for next sync)", summary["unscored"], ok=False)
     rows += row("Planned to email (new)", summary.get("to_email", 0))
 
     # Email outcome

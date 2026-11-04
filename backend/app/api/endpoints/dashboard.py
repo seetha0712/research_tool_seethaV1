@@ -5,13 +5,10 @@ from sqlalchemy import func, case
 from datetime import date, datetime, timedelta
 from app.dependencies import get_current_user
 from app import database, models
+from app.core.config import SCORE_HIGH_THRESHOLD
 from typing import Optional
 
 router = APIRouter()
-
-# Score tier thresholds (same as sync.py)
-SCORE_HIGH_THRESHOLD = 70
-SCORE_MEDIUM_THRESHOLD = 40
 
 @router.get("/metrics")
 def get_dashboard_metrics(
@@ -134,15 +131,15 @@ def get_source_analytics(
             continue
 
         total_articles = len(articles)
-        total_score = sum(a.relevance_score or 0 for a in articles)
-        avg_score = round(total_score / total_articles, 1) if total_articles > 0 else 0
+        scores = [a.relevance_score for a in articles if a.relevance_score is not None]
+        avg_score = round(sum(scores) / len(scores), 1) if scores else 0
 
         # Top score (highest individual score)
-        top_score = max((a.relevance_score or 0) for a in articles)
+        top_score = max(scores, default=0)
 
         # High score percentage
-        high_score_count = sum(1 for a in articles if (a.relevance_score or 0) >= SCORE_HIGH_THRESHOLD)
-        high_score_pct = round((high_score_count / total_articles) * 100, 1) if total_articles > 0 else 0
+        high_score_count = sum(1 for s in scores if s >= SCORE_HIGH_THRESHOLD)
+        high_score_pct = round((high_score_count / len(scores)) * 100, 1) if scores else 0
 
         # Top categories
         category_counts = {}
@@ -181,7 +178,8 @@ def get_source_analytics(
     # Overall stats
     all_articles = db.query(models.Article).all()
     total_all = len(all_articles)
-    overall_avg_score = round(sum(a.relevance_score or 0 for a in all_articles) / total_all, 1) if total_all > 0 else 0
+    all_scores = [a.relevance_score for a in all_articles if a.relevance_score is not None]
+    overall_avg_score = round(sum(all_scores) / len(all_scores), 1) if all_scores else 0
 
     total_syncs = db.query(models.SyncHistory).count()
 

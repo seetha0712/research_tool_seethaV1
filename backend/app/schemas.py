@@ -74,7 +74,7 @@ class ArticleOut(ArticleBase):
     user_id: int
     source_id: Optional[int]
     source_name: Optional[str] = None  
-    relevance_score: int = 0
+    relevance_score: Optional[int] = None
     category: str = ""
     source_name: Optional[str]  
     is_paid: bool = False
@@ -180,7 +180,7 @@ class SyncHistoryOut(BaseModel):
     duration_seconds: Optional[float] = None
     sources_breakdown: List[Dict]
     categories_breakdown: Dict[str, int]
-    scores_breakdown: Dict[str, int]  # {"high": 10, "medium": 3, "low": 2}
+    scores_breakdown: Dict[str, int]  # {"high": 10, "medium": 3, "low": 2, "unscored": 0}
     errors: List[Dict]
     sync_params: Dict
 
@@ -197,7 +197,7 @@ class SyncResultOut(BaseModel):
     duration_seconds: float
     by_source: List[Dict]
     by_category: Dict[str, int]
-    by_score_tier: Dict[str, int]  # {"high (70+)": N, "medium (40-69)": N, "low (<40)": N}
+    by_score_tier: Dict[str, int]  # keys are labelled with the cutoffs from core/config.py
     errors: List[Dict]
 
 
@@ -208,7 +208,7 @@ class SourceAnalytics(BaseModel):
     source_type: str
     total_articles: int
     avg_score: float
-    high_score_percentage: float  # % of articles with score >= 70
+    high_score_percentage: float  # % of scored articles in the High tier
     top_categories: List[Dict]  # [{"category": "AI & GenAI Trends", "count": 10}]
     last_synced: Optional[datetime] = None
     articles_last_30_days: int

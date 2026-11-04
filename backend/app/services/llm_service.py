@@ -1,13 +1,18 @@
 import openai
 from openai import OpenAI
+import re
 import time
-from app.core.config import OPENAI_API_KEY
+from typing import Optional
+from app.core.config import OPENAI_API_KEY, SCORE_HIGH_THRESHOLD, SCORE_MEDIUM_THRESHOLD
 import logging
 from app.core.config import CATEGORY_OPTIONS
 logger = logging.getLogger(__name__)
 
 
 client = OpenAI(api_key=OPENAI_API_KEY)
+
+# Below this the text is effectively a headline, so its score reflects the topic alone.
+MIN_SCORABLE_WORDS = 15
 
 # --- 1. Key Insights for Article Summary/Content ---
 def key_insights(text: str) -> list:
@@ -51,19 +56,27 @@ def key_insights(text: str) -> list:
             time.sleep(1 + 2 * attempt)
 
 # --- 2. Deep Insights for Full Article (on demand) ---
-def deep_insights_from_content(content: str) -> dict:
+def deep_insights_from_content(content: str, include_takeaways: bool = True) -> dict:
     """
     Given scraped article content, generate a summary (2-3 sentences) and 2 actionable takeaways.
+    Pass include_takeaways=False when only the summary is needed.
     """
-    prompt = (
-        "Given the article content below, respond in exactly the following format:\n"
-        "\n"
-        "1. First, write a concise summary of the article in 2-4 plain sentences. Ensure your summary includes all key data points, facts, statistics, organization and product names, and any important figures or trends mentioned in the article. Do NOT number, bullet, or prefix this summary—just write the summary as plain sentences. Do not add any section headings or extra explanation.\n"
-        "2. Then, write exactly TWO actionable takeaways for financial leaders. Each takeaway should start with '1.' and '2.' on its own line. Do not add any extra text or commentary.\n"
-        "\n"
-        "Begin your response immediately with the summary, followed by the two actionable takeaways on separate lines.\n\n"
-        f"Article:\n{content}"
-   )
+    content = content[:4000]
+    if include_takeaways:
+        prompt = (
+            "Given the article content below, respond in exactly the following format:\n"
+            "\n"
+            "1. First, write a concise summary of the article in 2-4 plain sentences. Ensure your summary includes all key data points, facts, statistics, organization and product names, and any important figures or trends mentioned in the article. Do NOT number, bullet, or prefix this summary—just write the summary as plain sentences. Do not add any section headings or extra explanation.\n"
+            "2. Then, write exactly TWO actionable takeaways for financial leaders. Each takeaway should start with '1.' and '2.' on its own line. Do not add any extra text or commentary.\n"
+            "\n"
+            "Begin your response immediately with the summary, followed by the two actionable takeaways on separate lines.\n\n"
+            f"Article:\n{content}"
+        )
+    else:
+        prompt = (
+            "Write a concise summary of the article below in 2-4 plain sentences. Ensure your summary includes all key data points, facts, statistics, organization and product names, and any important figures or trends mentioned in the article. Do not add any section headings or extra explanation.\n\n"
+            f"Article:\n{content}"
+        )
     for attempt in range(3):
         try:
             response = client.chat.completions.create(
@@ -79,6 +92,8 @@ def deep_insights_from_content(content: str) -> dict:
             msg = response.choices[0].message.content.strip()
             # --- DEBUG: Always log/show what the LLM gave us ---
             logger.info(f"[DeepInsights LLM Raw Output]\n{msg}")
+            if not include_takeaways:
+                return {"summary": msg or "No summary available.", "takeaways": []}
 
              # Split on lines starting with "1."
             lines = msg.splitlines()
@@ -103,23 +118,41 @@ def deep_insights_from_content(content: str) -> dict:
 
 
 # --- 3. (Optional) Relevance & Category - if you still need these downstream ---
-def score_article(text: str) -> int:
+def classification_text(title: str, text: str) -> str:
+    """Title plus source text. Scoring and categorizing read this, not the generated summary."""
+    if text and text != title:
+        return f"{title}\n\n{text}"
+    return title or text or ""
+
+
+def parse_score(reply: str) -> Optional[int]:
+    """Read the first whole number in the reply. None if there isn't one on the 0-100 scale."""
+    match = re.search(r"\d+(\.\d+)?", reply or "")
+    if not match or match.group(1):
+        return None
+    score = int(match.group())
+    return score if score <= 100 else None
+
+
+def score_article(text: str) -> Optional[int]:
+    """Score 0-100 for senior leaders. None means scoring failed, which is not the same as a 0."""
     prompt = (
     "You are a senior research analyst at a global financial institution (e.g., JPMorgan, Morgan Stanley).\n"
     "You must score the following article (0 to 100) for its value and actionable insight to senior financial or technology leaders (CIO, CTO, CEO, Heads of Digital, Wealth, Investment, or IT).\n"
     "\n"
     "SCORING RULES:\n"
-    "- Assign a HIGH score (80–100) **if the article provides ANY of the following**:\n"
+    f"- Assign a HIGH score ({SCORE_HIGH_THRESHOLD}–100) **if the article provides ANY of the following**:\n"
     "    • Strategic, actionable, or in-depth insights for leaders in banking, investment, wealth/asset management, or institutional finance—especially about AI, GenAI, LLMs, agentic AI, security, governance, or digital transformation.\n"
     "    • Practical recommendations or frameworks for decision-making, operations, or tech strategy in enterprise/financial services—even if NO specific companies are named.\n"
     "    • Analysis of emerging tech (e.g., MCP, A2A protocols, agentic AI, enterprise security/governance, interoperability) with clear implications for business/IT leadership.\n"
-    "- Assign a MODERATE score (40–79) for general tech, AI/LLM news, or trends that might be useful for senior financial/IT leaders, but are less direct, less actionable, or generic.\n"
-    "- Assign a LOW score (0–39) ONLY if the article is irrelevant, speculative, consumer-focused, or provides little to no value for enterprise, financial, or technology leaders.\n"
+    f"- Assign a MODERATE score ({SCORE_MEDIUM_THRESHOLD}–{SCORE_HIGH_THRESHOLD - 1}) for general tech, AI/LLM news, or trends that might be useful for senior financial/IT leaders, but are less direct, less actionable, or generic.\n"
+    f"- Assign a LOW score (0–{SCORE_MEDIUM_THRESHOLD - 1}) ONLY if the article is irrelevant, speculative, consumer-focused, or provides little to no value for enterprise, financial, or technology leaders.\n"
     "\n"
     "TIPS:\n"
     "- REWARD any article that helps senior leaders (CIO, CTO, CEO, Head of Digital/IT/Wealth) understand, adopt, or respond to technology, governance, operational, or competitive challenges in large organizations—even if it is conceptual or about enabling frameworks/protocols.\n"
     "- DO NOT give high scores to content that is purely generic, speculative, or irrelevant to enterprise/finance/tech leadership.\n"
     "- If in doubt, score **higher** for insightful, practical, or strategic content that enterprise financial/technology leaders would value, and **lower** only for clearly generic or non-actionable news.\n"
+    "- Judge only what the text states. If it is only a headline or one vague sentence with no concrete facts, treat it as LOW, however relevant the topic sounds.\n"
     "\n"
     "Return ONLY a single number (0 to 100) as the score. Do NOT provide explanations.\n"
     f"\nArticle:\n{text[:3000]}"
@@ -130,19 +163,23 @@ def score_article(text: str) -> int:
                 #model="gpt-3.5-turbo",
                 model="gpt-4o",
                 messages=[
-                    {"role": "system", "content": "Strict relevance grader for banking, investment, and wealth management executives."},
+                    {"role": "system", "content": "You grade article relevance for banking, investment, and wealth management executives."},
                     {"role": "user", "content": prompt}
                 ],
                 max_tokens=5,
                 temperature=0
             )
             msg = response.choices[0].message.content.strip()
-            digits = ''.join(filter(str.isdigit, msg))
-            score = int(digits) if digits else 0
-            return min(max(score, 0), 100)
+            score = parse_score(msg)
+            if score is None:
+                raise ValueError(f"Unusable score reply: {msg!r}")
+            if len(text.split()) < MIN_SCORABLE_WORDS:
+                return min(score, SCORE_MEDIUM_THRESHOLD - 1)
+            return score
         except Exception as e:
             if attempt == 2:
-                return 0
+                logger.warning(f"OpenAI score_article failed: {e}")
+                return None
             time.sleep(1 + 2 * attempt)
 
 from difflib import get_close_matches
@@ -168,7 +205,7 @@ def categorize_article(text: str, category_options=None) -> str:
         "Broader AI Topics": "AI research, ethics, policy, general AI topics beyond agents.",
         "Tech Corner": "Engineering, architectures, APIs, SDKs, developer-focused how-tos.",
         "AI Beyond Finance": "AI in other industries (healthcare, retail, manufacturing, etc.).",
-        "Uncategorized": "Doesn’t clearly fit any above category."
+        "Uncategorized": "No meaningful connection to AI."
     }
 
     # Build labeled list (only for categories that exist in options)
@@ -218,7 +255,8 @@ You are an expert AI content classifier.
 TASK
 - Choose EXACTLY ONE category from the list.
 - Respond with ONLY the category name (must match one from the list).
-- If unsure, respond with "Uncategorized".
+- Use "Uncategorized" only if the article has no meaningful connection to AI.
+- An AI-related article that fits no specific category belongs in "Broader AI Topics".
 - If multiple seem plausible, pick the MOST RELEVANT primary theme.
 
 CATEGORIES

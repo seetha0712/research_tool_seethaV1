@@ -10,17 +10,13 @@ import time
 from app.services.api_service import API_SOURCE_HANDLERS
 from pydantic import BaseModel
 from datetime import datetime, timedelta
-from app.core.config import CATEGORY_OPTIONS
+from app.core.config import CATEGORY_OPTIONS, SCORE_HIGH_THRESHOLD, SCORE_MEDIUM_THRESHOLD
 from typing import Optional, List
 
 router = APIRouter()
 
 import logging
 logger = logging.getLogger(__name__)
-
-# Score tier thresholds
-SCORE_HIGH_THRESHOLD = 70
-SCORE_MEDIUM_THRESHOLD = 40
 
 # In-memory sync state tracking (per user)
 # Structure: {user_id: {"running": bool, "cancel_requested": bool, "current_source": str, "progress": int, "total": int}}
@@ -75,8 +71,10 @@ def cancel_sync(user=Depends(get_current_user)):
     return {"message": "Cancellation requested", "cancelled": True}
 
 
-def _get_score_tier(score: int) -> str:
-    """Classify score into tier: high, medium, or low."""
+def _get_score_tier(score: Optional[int]) -> str:
+    """Classify score into tier: high, medium, low, or unscored."""
+    if score is None:
+        return "unscored"
     if score >= SCORE_HIGH_THRESHOLD:
         return "high"
     elif score >= SCORE_MEDIUM_THRESHOLD:
@@ -85,7 +83,7 @@ def _get_score_tier(score: int) -> str:
 
 
 def _update_source_stats(source_stats: dict, source_id: int, source_name: str, source_type: str,
-                         score: int, category: str):
+                         score: Optional[int], category: str):
     """Update source statistics with a new article."""
     if source_id not in source_stats:
         source_stats[source_id] = {
@@ -93,14 +91,31 @@ def _update_source_stats(source_stats: dict, source_id: int, source_name: str, s
             "source_name": source_name,
             "source_type": source_type,
             "count": 0,
+            "scored_count": 0,
             "total_score": 0,
             "categories": {}
         }
 
     stats = source_stats[source_id]
     stats["count"] += 1
-    stats["total_score"] += score
+    if score is not None:
+        stats["scored_count"] += 1
+        stats["total_score"] += score
     stats["categories"][category] = stats["categories"].get(category, 0) + 1
+
+
+def _rescore_unscored(db: Session) -> int:
+    """Retry articles whose scoring failed earlier; until scored they reach neither digest."""
+    unscored = db.query(models.Article).filter(models.Article.relevance_score.is_(None)).limit(50).all()
+    rescored = 0
+    for article in unscored:
+        text = llm_service.classification_text(article.title, article.content or article.summary)
+        score = llm_service.score_article(text)
+        if score is not None:
+            article.relevance_score = score
+            rescored += 1
+    db.commit()
+    return rescored
 
 
 @router.post("/")
@@ -137,7 +152,7 @@ def sync_all_sources(
     # === NEW: Tracking variables ===
     source_stats = {}  # {source_id: {source_name, source_type, count, total_score, categories: {}}}
     categories_breakdown = {}  # {category: count}
-    scores_breakdown = {"high": 0, "medium": 0, "low": 0}
+    scores_breakdown = {"high": 0, "medium": 0, "low": 0, "unscored": 0}
     sync_errors = []  # [{source_id, source_name, error}]
     sources_synced_set = set()
 
@@ -150,6 +165,10 @@ def sync_all_sources(
     sync_state["current_source"] = ""
 
     was_cancelled = False
+
+    rescored = _rescore_unscored(db)
+    if rescored:
+        logger.info(f"Rescored {rescored} previously unscored articles")
 
     for idx, src in enumerate(sources):
         # Check for cancellation before each source
@@ -182,6 +201,8 @@ def sync_all_sources(
 
                     # Use best available summary (do not paraphrase at this stage)
                     summary = item['summary'] or item['title']
+                    raw_text = item.get('raw_text') or summary
+                    source_text = llm_service.classification_text(item['title'], raw_text)
 
                     # 2 Key insights from summary/title
                     try:
@@ -192,13 +213,13 @@ def sync_all_sources(
 
                     # --- NEW: Add relevance scoring and category ---
                     try:
-                        relevance_score = llm_service.score_article(summary)
+                        relevance_score = llm_service.score_article(source_text)
                     except Exception as e:
                         print(f"[LLM Error] Scoring RSS article '{item['title']}': {e}")
-                        relevance_score = 0
+                        relevance_score = None
 
                     try:
-                        category = llm_service.categorize_article(summary)
+                        category = llm_service.categorize_article(source_text)
                     except Exception as e:
                         print(f"[LLM Error] Categorizing RSS article '{item['title']}': {e}")
                         category = "Tech Corner"
@@ -216,7 +237,7 @@ def sync_all_sources(
                         title=item['title'],
                         summary=summary,
                         key_insights=key_insights,
-                        content=item.get('summary', ''),
+                        content=raw_text,
                         date=item.get('published'),
                         meta_data={"link": item.get('link'), "guid": item.get('guid')},
                         status="new",
@@ -267,12 +288,13 @@ def sync_all_sources(
                     logger.warning(f"[Embedding Error] for PDF '{src.name}': {e}")
 
                 # Score and categorize PDF
+                source_text = llm_service.classification_text(src.name, text)
                 try:
-                    relevance_score = llm_service.score_article(summary)
+                    relevance_score = llm_service.score_article(source_text)
                 except Exception:
-                    relevance_score = 0
+                    relevance_score = None
                 try:
-                    category = llm_service.categorize_article(summary)
+                    category = llm_service.categorize_article(source_text)
                 except Exception:
                     category = "Tech Corner"
 
@@ -334,7 +356,7 @@ def sync_all_sources(
     # Build sources breakdown for storage
     sources_breakdown_list = []
     for source_id, stats in source_stats.items():
-        avg_score = round(stats["total_score"] / stats["count"], 1) if stats["count"] > 0 else 0
+        avg_score = round(stats["total_score"] / stats["scored_count"], 1) if stats["scored_count"] > 0 else 0
         sources_breakdown_list.append({
             "source_id": stats["source_id"],
             "source_name": stats["source_name"],
@@ -387,9 +409,10 @@ def sync_all_sources(
         "by_source": sources_breakdown_list,
         "by_category": categories_breakdown,
         "by_score_tier": {
-            "high (70+)": scores_breakdown["high"],
-            "medium (40-69)": scores_breakdown["medium"],
-            "low (<40)": scores_breakdown["low"]
+            f"high ({SCORE_HIGH_THRESHOLD}+)": scores_breakdown["high"],
+            f"medium ({SCORE_MEDIUM_THRESHOLD}-{SCORE_HIGH_THRESHOLD - 1})": scores_breakdown["medium"],
+            f"low (<{SCORE_MEDIUM_THRESHOLD})": scores_breakdown["low"],
+            "unscored": scores_breakdown["unscored"]
         },
         "errors": sync_errors,
         "was_cancelled": was_cancelled
@@ -433,12 +456,13 @@ def sync_api_articles_with_stats(source, db, user):
             logger.warning(f"[Embedding Error] for API article '{item['title']}': {e}")
 
         # Score and categorize
+        source_text = llm_service.classification_text(item['title'], item.get('summary') or item.get('title'))
         try:
-            relevance_score = llm_service.score_article(summary)
+            relevance_score = llm_service.score_article(source_text)
         except Exception:
-            relevance_score = 0
+            relevance_score = None
         try:
-            category = llm_service.categorize_article(summary)
+            category = llm_service.categorize_article(source_text)
         except Exception:
             category = "Tech Corner"
 

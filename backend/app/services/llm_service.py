@@ -205,7 +205,11 @@ def categorize_article(text: str, category_options=None) -> str:
         "Broader AI Topics": "AI research, ethics, policy, general AI topics beyond agents.",
         "Tech Corner": "Engineering, architectures, APIs, SDKs, developer-focused how-tos.",
         "AI Beyond Finance": "AI in other industries (healthcare, retail, manufacturing, etc.).",
-        "Uncategorized": "No meaningful connection to AI."
+        "AI Markets & Investment": "Stocks, earnings, cash flow, valuations, funding, IPOs, mergers of AI and big tech companies.",
+        "Cybersecurity & Financial Crime": "Cyberattacks, major hacks, scams, fraud, with or without an AI angle.",
+        "AI Infrastructure & Energy": "Data centres, power supply, chip supply, and the public response to them.",
+        "AI, Jobs & Society": "AI's effects on employment, skills, daily life, and communities.",
+        "Uncategorized": "No meaningful connection to AI, cybersecurity, or financial crime."
     }
 
     # Build labeled list (only for categories that exist in options)
@@ -240,6 +244,22 @@ def categorize_article(text: str, category_options=None) -> str:
             "title": "AI cuts hospital readmissions by 12%",
             "category": "AI Beyond Finance",
         },
+        {
+            "title": "Nvidia shares fall after data-centre revenue misses forecasts",
+            "category": "AI Markets & Investment",
+        },
+        {
+            "title": "Hackers steal $400 million from exchange using fake recruiters",
+            "category": "Cybersecurity & Financial Crime",
+        },
+        {
+            "title": "Utility delays grid upgrades as data-centre demand surges",
+            "category": "AI Infrastructure & Energy",
+        },
+        {
+            "title": "Graduate hiring falls as employers automate entry-level work",
+            "category": "AI, Jobs & Society",
+        },
     ]
 
     examples_str = "\n".join(
@@ -255,8 +275,10 @@ You are an expert AI content classifier.
 TASK
 - Choose EXACTLY ONE category from the list.
 - Respond with ONLY the category name (must match one from the list).
-- Use "Uncategorized" only if the article has no meaningful connection to AI.
+- Use "Uncategorized" only if the article has no meaningful connection to AI, cybersecurity, or financial crime.
 - An AI-related article that fits no specific category belongs in "Broader AI Topics".
+- AI use at a bank, insurer, or asset manager belongs in "AI in Financial Institutions", even if another category also fits.
+- A tech company's financial results, valuation, funding, IPO, or deal belongs in "AI Markets & Investment", not "Leading AI Innovators".
 - If multiple seem plausible, pick the MOST RELEVANT primary theme.
 
 CATEGORIES

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import {
-  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check, Shield, Activity, StopCircle
+  FolderOpen, BarChart3,Globe,TrendingUp, Building2, Cpu, Users, FileText, RefreshCw, Download, Brain, AlertCircle, Clock, Star, Check, Shield, Activity, StopCircle, DollarSign, Zap, Briefcase
 } from "lucide-react";
 
 import Login from "./components/Login";
@@ -26,7 +26,11 @@ const categories = [
   { id: "agentic", name: "Agentic AI", icon: Brain },
   { id: "broader-ai", name: "Broader AI Topics", icon: TrendingUp },
   { id: "tech-corner", name: "Tech Corner", icon: Cpu },
-  { id: "beyond-finance", name: "AI Beyond Finance", icon: Globe }
+  { id: "beyond-finance", name: "AI Beyond Finance", icon: Globe },
+  { id: "ai-markets", name: "AI Markets & Investment", icon: DollarSign },
+  { id: "cyber-crime", name: "Cybersecurity & Financial Crime", icon: Shield },
+  { id: "ai-infrastructure", name: "AI Infrastructure & Energy", icon: Zap },
+  { id: "jobs-society", name: "AI, Jobs & Society", icon: Briefcase }
 ];
 
 

@@ -29,7 +29,7 @@ CORS_ORIGINS_LIST = [origin.strip() for origin in CORS_ORIGINS_STR.split(",")]
 # --------- Relevance score cutoffs (mirrored in src/constants/scores.js) ----------
 SCORE_HIGH_THRESHOLD = 80    # High tier and the HIGH band in the scoring prompt
 SCORE_MEDIUM_THRESHOLD = 40  # Medium tier and the MODERATE band in the scoring prompt
-DIGEST_MIN_SCORE = 60        # At or above: morning digest. Below: evening digest.
+DIGEST_MIN_SCORE = 70        # At or above: morning digest. Below: evening digest.
 
 # --------- Category options (backend default display names) ----------
 CATEGORY_OPTIONS = [

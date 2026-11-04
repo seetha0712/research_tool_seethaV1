@@ -40,5 +40,9 @@ CATEGORY_OPTIONS = [
     "Broader AI Topics",
     "Tech Corner",
     "AI Beyond Finance",
+    "AI Markets & Investment",
+    "Cybersecurity & Financial Crime",
+    "AI Infrastructure & Energy",
+    "AI, Jobs & Society",
     "Uncategorized",
 ]

@@ -4,7 +4,7 @@ from sqlalchemy import func
 from app import models, database
 from app.dependencies import get_current_user
 from app.services import rss_service, pdf_utils, llm_service
-from app.services import embedding_service, audit_service
+from app.services import embedding_service, audit_service, web_scrape_service
 import os
 import time
 from app.services.api_service import API_SOURCE_HANDLERS
@@ -17,6 +17,11 @@ router = APIRouter()
 
 import logging
 logger = logging.getLogger(__name__)
+
+# Shorter scraped pages are usually paywall or cookie notices, not the article
+MIN_FULL_TEXT_WORDS = 80
+# Stop scraping a source for the rest of a sync after this many failures in a row
+MAX_SCRAPE_FAILURES = 2
 
 # In-memory sync state tracking (per user)
 # Structure: {user_id: {"running": bool, "cancel_requested": bool, "current_source": str, "progress": int, "total": int}}
@@ -104,6 +109,18 @@ def _update_source_stats(source_stats: dict, source_id: int, source_name: str, s
     stats["categories"][category] = stats["categories"].get(category, 0) + 1
 
 
+def _fetch_article_text(link: str, fallback: str, source_id: int, scrape_failures: dict) -> str:
+    """Full article text if it can be scraped, otherwise the text the source provided."""
+    if not link or scrape_failures.get(source_id, 0) >= MAX_SCRAPE_FAILURES:
+        return fallback
+    text = web_scrape_service.get_full_text(link, timeout=8)
+    if text and len(text.split()) >= MIN_FULL_TEXT_WORDS:
+        scrape_failures[source_id] = 0
+        return text
+    scrape_failures[source_id] = scrape_failures.get(source_id, 0) + 1
+    return fallback
+
+
 def _rescore_unscored(db: Session) -> int:
     """Retry articles whose scoring failed earlier; until scored they reach neither digest."""
     unscored = db.query(models.Article).filter(models.Article.relevance_score.is_(None)).limit(50).all()
@@ -155,6 +172,7 @@ def sync_all_sources(
     scores_breakdown = {"high": 0, "medium": 0, "low": 0, "unscored": 0}
     sync_errors = []  # [{source_id, source_name, error}]
     sources_synced_set = set()
+    scrape_failures = {}  # {source_id: consecutive failed scrapes}
 
     # Initialize sync state
     sync_state = _get_sync_state(user.id)
@@ -201,7 +219,7 @@ def sync_all_sources(
 
                     # Use best available summary (do not paraphrase at this stage)
                     summary = item['summary'] or item['title']
-                    raw_text = item.get('raw_text') or summary
+                    raw_text = _fetch_article_text(item.get('link'), item.get('raw_text') or summary, src.id, scrape_failures)
                     source_text = llm_service.classification_text(item['title'], raw_text)
 
                     # 2 Key insights from summary/title
@@ -324,7 +342,7 @@ def sync_all_sources(
             elif src.type == "api":
                 try:
                     sources_synced_set.add(src.id)
-                    synced_articles_data = sync_api_articles_with_stats(src, db, user)
+                    synced_articles_data = sync_api_articles_with_stats(src, db, user, scrape_failures)
                     synced.extend(synced_articles_data["titles"])
 
                     # === Track stats from API sync ===
@@ -419,7 +437,7 @@ def sync_all_sources(
     }
 
 
-def sync_api_articles_with_stats(source, db, user):
+def sync_api_articles_with_stats(source, db, user, scrape_failures=None):
     """Sync API articles and return stats for tracking."""
     provider = source.provider or "tavily"
     query = source.query or source.name   # fallback if query is blank
@@ -436,6 +454,7 @@ def sync_api_articles_with_stats(source, db, user):
 
     synced_titles = []
     synced_articles_data = []
+    scrape_failures = {} if scrape_failures is None else scrape_failures
 
     for item in articles:
         # Deduplication: check by title within source (fast, reliable)
@@ -456,7 +475,8 @@ def sync_api_articles_with_stats(source, db, user):
             logger.warning(f"[Embedding Error] for API article '{item['title']}': {e}")
 
         # Score and categorize
-        source_text = llm_service.classification_text(item['title'], item.get('summary') or item.get('title'))
+        raw_text = _fetch_article_text(item.get('link'), item.get('summary') or item.get('title'), source.id, scrape_failures)
+        source_text = llm_service.classification_text(item['title'], raw_text)
         try:
             relevance_score = llm_service.score_article(source_text)
         except Exception:
@@ -471,7 +491,7 @@ def sync_api_articles_with_stats(source, db, user):
             source_id=source.id,
             title=item['title'],
             summary=summary,
-            content=item.get('content', ''),
+            content=raw_text,
             date=item.get('published'),
             meta_data=item.get('meta_data', {}),
             status="new",

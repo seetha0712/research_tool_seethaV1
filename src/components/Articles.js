@@ -214,7 +214,7 @@ const Articles = ({
                       {/* Score */}
                       <span>•</span>
                       <span className="text-blue-600 font-medium">
-                        Score: {article.relevance_score ?? "—"}%
+                        Score: {article.relevance_score != null ? `${article.relevance_score}%` : "Unscored"}
                       </span>
                     </div>
                     {/* Summary */}

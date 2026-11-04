@@ -63,7 +63,7 @@ def fetch_or_scrape_summary(session, url: str, summary: str = None):
             if not getattr(article_text, 'summary', None) or not article_text.summary.strip():
                 logger.info("Summary missing or empty. Generating summary using LLM...")
                 try:
-                    summary_llm = deep_insights_from_content(article_text.full_text)
+                    summary_llm = deep_insights_from_content(article_text.full_text, include_takeaways=False)
                     summary_text = summary_llm["summary"] if isinstance(summary_llm, dict) else str(summary_llm)
                     article_text.summary = summary_text
                     session.commit()
@@ -90,7 +90,7 @@ def fetch_or_scrape_summary(session, url: str, summary: str = None):
     if scraped:
         logger.info("Successfully scraped full text. Generating summary...")
         try:
-            summary_llm = deep_insights_from_content(scraped)
+            summary_llm = deep_insights_from_content(scraped, include_takeaways=False)
             summary_text = summary_llm["summary"] if isinstance(summary_llm, dict) else str(summary_llm)
         except Exception as e:
             logger.error(f"Failed to generate summary from scraped content: {e}")

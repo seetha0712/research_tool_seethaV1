@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { FileText, Star, Check, Calendar, Bookmark, TrendingUp, Database, Trash2, ChevronDown, ChevronUp, AlertCircle, Clock } from "lucide-react";
 import api from "../api";
 import { getSourceAnalytics, getSyncHistory, deleteSyncHistory, deleteOldSyncHistory } from "../api";
+import { SCORE_HIGH, SCORE_MEDIUM } from "../constants/scores";
 
 const fmtDDMonYYYY = (iso) => {
   if (!iso) return "";
@@ -276,7 +277,7 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0, isAdmin = false }) =
                       <th className="px-4 py-3 font-semibold text-right">Total</th>
                       <th className="px-4 py-3 font-semibold text-right">Avg Score</th>
                       <th className="px-4 py-3 font-semibold text-right">Top Score</th>
-                      <th className="px-4 py-3 font-semibold text-right" title="% of articles with score >= 70">High %</th>
+                      <th className="px-4 py-3 font-semibold text-right" title={`% of scored articles at ${SCORE_HIGH} or above`}>High %</th>
                       <th className="px-4 py-3 font-semibold">Top Categories</th>
                       <th className="px-4 py-3 font-semibold">Last Synced</th>
                     </tr>
@@ -297,8 +298,8 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0, isAdmin = false }) =
                         <td className="px-4 py-3 text-right">{src.total_articles}</td>
                         <td className="px-4 py-3 text-right">
                           <span className={`font-bold ${
-                            src.avg_score >= 70 ? 'text-green-600' :
-                            src.avg_score >= 40 ? 'text-yellow-600' :
+                            src.avg_score >= SCORE_HIGH ? 'text-green-600' :
+                            src.avg_score >= SCORE_MEDIUM ? 'text-yellow-600' :
                             'text-red-600'
                           }`}>
                             {src.avg_score}
@@ -306,8 +307,8 @@ const Dashboard = ({ token, getStatusColor, refreshKey = 0, isAdmin = false }) =
                         </td>
                         <td className="px-4 py-3 text-right">
                           <span className={`font-bold ${
-                            src.top_score >= 70 ? 'text-green-600' :
-                            src.top_score >= 40 ? 'text-yellow-600' :
+                            src.top_score >= SCORE_HIGH ? 'text-green-600' :
+                            src.top_score >= SCORE_MEDIUM ? 'text-yellow-600' :
                             'text-red-600'
                           }`}>
                             {src.top_score || 0}
@@ -443,15 +444,20 @@ const SyncHistoryRow = ({ sync, expanded, onToggle, onDelete }) => {
         </div>
         <div className="flex items-center gap-3">
           <div className="flex gap-2 text-xs">
-            <span className="px-2 py-1 bg-green-100 text-green-700 rounded" title="High (70+)">
+            <span className="px-2 py-1 bg-green-100 text-green-700 rounded" title={`High (${SCORE_HIGH}+)`}>
               H: {scores.high || 0}
             </span>
-            <span className="px-2 py-1 bg-yellow-100 text-yellow-700 rounded" title="Medium (40-69)">
+            <span className="px-2 py-1 bg-yellow-100 text-yellow-700 rounded" title={`Medium (${SCORE_MEDIUM}-${SCORE_HIGH - 1})`}>
               M: {scores.medium || 0}
             </span>
-            <span className="px-2 py-1 bg-red-100 text-red-700 rounded" title="Low (<40)">
+            <span className="px-2 py-1 bg-red-100 text-red-700 rounded" title={`Low (<${SCORE_MEDIUM})`}>
               L: {scores.low || 0}
             </span>
+            {scores.unscored > 0 && (
+              <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded" title="Scoring failed; retried on the next sync">
+                U: {scores.unscored}
+              </span>
+            )}
           </div>
           <span className="text-xs text-gray-500">{sync.duration_seconds}s</span>
           {onDelete && (

@@ -52,9 +52,9 @@ def paid_api_search(
                 if text:
                     try:
                         article["summary"] = llm_service.summarize_article(text)
-                        article["relevance_score"] = llm_service.score_article(text)
+                        article["relevance_score"] = llm_service.score_article(llm_service.classification_text(article.get("title"), text))
                         article["source"] = provider.capitalize()  # "Tavily or Serp"
-                        article["score"] = article.get("score") or article.get("relevance_score") or 0
+                        article["score"] = article.get("relevance_score")
                         article["url"] = article.get("link")  # for safety
                     except Exception as e:
                         logger.warning(f"LLM error summarizing/scoring article: {e}")

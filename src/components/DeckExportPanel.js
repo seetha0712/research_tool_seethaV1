@@ -31,7 +31,10 @@ function buildSourceUrlArray(articlesByCategory) {
 }
 
 
-async function fetchFullTextForArticles(selectedArticles) {
+async function fetchFullTextForArticles(selectedArticles, generateSummaries) {
+  if (!generateSummaries) {
+    return selectedArticles.map((article) => ({ ...article, full_text: article.summary || "" }));
+  }
   return Promise.all(selectedArticles.map(async (article) => {
     const link = getArticleLink(article);
     if (!link || link === "N/A") {
@@ -61,26 +64,27 @@ function buildSlidesGPTPrompt(title, template, contentOptions, articlesByCategor
     prompt += "Include an executive summary slide summarizing key trends across all articles.\n";
   if (contentOptions.addCharts)
     prompt += "Add trend analysis charts if relevant.\n";
-  prompt += `Generate a PowerPoint titled "Gen AI & LLM Trends - 2025" using the "Standard Research Template".
-
-            Include an executive summary slide summarizing key trends across all articles.
-            Add trend analysis charts if relevant.
-
-            For each article below, generate one slide per article. For each slide, you MUST include these 4 elements:
+  const { sourceCitations } = contentOptions;
+  prompt += `
+            For each article below, generate one slide per article. For each slide, you MUST include these ${sourceCitations ? 4 : 3} elements:
             1. Main Slide Title: Create a concise, human-friendly title as the slide heading, based on the article's "Original Article Title"
             2. Subtitle: Display the "Original Article Title" as a subtitle on the slide
             3. Body Content: Use the provided "Summary" as the main body content on the slide, including all key data points, facts, statistics, organization and product names, and any important figures or trends mentioned in the summary. Do not omit any such details.
-            4. Source Footer: **MANDATORY - Place the "Source" URL at the bottom of every slide as a footer. The source MUST be visible on the slide. Missing the source is an ERROR.**
+            `;
+  if (sourceCitations) {
+    prompt += `4. Source Footer: **MANDATORY - Place the "Source" URL at the bottom of every slide as a footer. The source MUST be visible on the slide. Missing the source is an ERROR.**
 
             CRITICAL: Each slide MUST have all 4 elements above. The Source URL must appear at the bottom of EVERY content slide.
-
-            Do not summarize, paraphrase, or omit any part of the provided Summary or Source.
+            `;
+  }
+  prompt += `
+            Do not summarize, paraphrase, or omit any part of the provided Summary${sourceCitations ? " or Source" : ""}.
             Do not generate your own content. Only use the provided fields.
 
             Organize the slides by the categories as shown below.
 
             `;
-    
+
   Object.entries(articlesByCategory).forEach(([category, articles]) => {
     if (!articles.length) return;
     prompt += `## ${category}\n`;
@@ -89,9 +93,9 @@ function buildSlidesGPTPrompt(title, template, contentOptions, articlesByCategor
       const sanitizedSource = curr_link
         ? curr_link.replace(/^https?:\/\//, '').replace(/^www\./, '')
         : '';
-      prompt += `Original Article Title: "${art.title}" [Score: ${art.score ?? art.relevance_score ?? '--'}]\n`;
+      prompt += `Original Article Title: "${art.title}"\n`;
       prompt += `Summary: ${art.full_text}\n`;
-      if (sanitizedSource) {
+      if (sanitizedSource && sourceCitations) {
         prompt += `Source: ${sanitizedSource}\n`;
       }
       prompt += "\n";
@@ -122,7 +126,7 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
     includeSummary: true,
     generateSummaries: true,
     addCharts: true,
-    sourceCitations: false,
+    sourceCitations: true,
   });
 
   // DEBUG: Print selectedArticles at every render
@@ -135,7 +139,7 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
 
     console.log("selectedArticles passed to fetchFullTextForArticles:", selectedArticles);
     // Fetch full text for all selected articles FIRST!
-    const enrichedArticles = await fetchFullTextForArticles(selectedArticles);
+    const enrichedArticles = await fetchFullTextForArticles(selectedArticles, contentOptions.generateSummaries);
     console.log("enRICHED ARTICLES:", enrichedArticles);
     setEnrichedArticles(enrichedArticles); // Save for later URL extraction
 
@@ -184,7 +188,9 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
       acc[cat.name] = articles.filter(a => (a.category || "") === cat.id);
       return acc;
     }, {});
-    const sourceUrlList = buildSourceUrlArray(byCat);
+    const sourceUrlList = contentOptions.sourceCitations
+      ? buildSourceUrlArray(byCat)
+      : buildSourceUrlArray(byCat).map(() => "");
 
     try {
       const blob = await patchPPTXLinks(slidesgptLinks.id, sourceUrlList);
@@ -214,7 +220,7 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
 
     try {
       // ✅ NEW: Enrich FIRST (same as SlidesGPT path)
-      const enriched = await fetchFullTextForArticles(selectedArticles); // ✅ NEW
+      const enriched = await fetchFullTextForArticles(selectedArticles, contentOptions.generateSummaries); // ✅ NEW
       setEnrichedArticles(enriched); // ✅ NEW
 
 // ✅ CHANGED: Build sections from *enriched* articles so we use full_text
@@ -226,12 +232,9 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
             main_title: a.title,
             original_title: a.title || "",
             summary: a.full_text || a.summary || "", // ✅ CHANGED (prefer full_text)
-            source:
-              a.link ||
-              a?.meta_data?.link ||
-              a.url ||
-              a.source_url ||
-              "",
+            source: contentOptions.sourceCitations
+              ? a.link || a?.meta_data?.link || a.url || a.source_url || ""
+              : "",
           })),
       }));
 
@@ -239,7 +242,7 @@ const DeckExportPanel = ({ token, categories, selectedArticles }) => {
         title,
         subtitle: "Draft deck",
         template: template,  // Pass selected template to backend
-        include_summary: true,
+        include_summary: contentOptions.includeSummary,
         sections,
       };
 

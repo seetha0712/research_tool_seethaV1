@@ -61,7 +61,7 @@ class Article(Base):
     tags = Column(JSON, default=[])  # List of strings
     meta_data = Column(JSON, default={})  # Extra info, not "metadata"
     note = Column(Text, nullable=True)
-    relevance_score = Column(Integer, default=0)
+    relevance_score = Column(Integer, nullable=True)  # NULL until scoring succeeds; held out of digests
     is_archived = Column(Boolean, default=False)
     category = Column(String, default="")
     emailed_at = Column(DateTime, nullable=True, default=None)  # Tracks when article was sent in daily report
@@ -158,7 +158,7 @@ class SyncHistory(Base):
     # Format: {"AI & GenAI Trends": 5, "Tech Corner": 3, ...}
     categories_breakdown = Column(JSON, default={})
 
-    # Format: {"high": 10, "medium": 3, "low": 2} where high=70+, medium=40-69, low=<40
+    # Format: {"high": 10, "medium": 3, "low": 2} plus "unscored"; tiers use the cutoffs in core/config.py
     scores_breakdown = Column(JSON, default={})
 
     # Format: [{"source_id": 1, "source_name": "...", "error": "403 Forbidden"}]

@@ -214,7 +214,7 @@ def deep_insights(
         raise HTTPException(status_code=400, detail="Unable to scrape article: site may have blocked automated access.")
 
     # Use unified deep insights function
-    result = deep_insights_from_content(full_text[:4000])
+    result = deep_insights_from_content(full_text)
 
     return schemas.ArticleDeepInsights(
         summary=result["summary"],
